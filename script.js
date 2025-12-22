@@ -3,7 +3,7 @@ async function loadMarkdownContent(section) {
     try {
         let markdownText = '';
 
-        // Special handling for FAQ section to include both faq.md and faq2.md
+        // Special handling for different sections
         if (section === 'faq') {
             // Load both FAQ files and concatenate them
             const response1 = await fetch('content/faq.md');
@@ -20,6 +20,13 @@ async function loadMarkdownContent(section) {
 
             // Concatenate both FAQ contents, removing duplicate headers
             markdownText = text1 + '\n\n' + removeHeaderFromMarkdown(text2);
+        } else if (section === 'latest_checkpoints' || section === 'latest_technical' || section === 'latest_additional') {
+            // Handle the new latest sections
+            const response = await fetch(`content/${section}.md`);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            markdownText = await response.text();
         } else {
             // Load single file for other sections
             const response = await fetch(`content/${section}.md`);
@@ -49,10 +56,42 @@ async function loadMarkdownContent(section) {
             link.classList.remove('active');
         });
         document.querySelector(`.nav-link[data-section="${section}"]`)?.classList.add('active');
+
+        // Set up click handlers for internal links in the latest section
+        if (section === 'latest') {
+            setupLatestLinks();
+        }
     } catch (error) {
         console.error('Error loading markdown content:', error);
         document.getElementById('content-container').innerHTML = `<p>콘텐츠를 불러오는 중 오류가 발생했습니다: ${error.message}</p>`;
     }
+}
+
+// Function to set up click handlers for links in the latest section
+function setupLatestLinks() {
+    // Wait for the content to be rendered
+    setTimeout(() => {
+        const links = document.querySelectorAll('#content-container a');
+        links.forEach(link => {
+            const href = link.getAttribute('href');
+            if (href === '#latest_checkpoints') {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    loadMarkdownContent('latest_checkpoints');
+                });
+            } else if (href === '#latest_technical') {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    loadMarkdownContent('latest_technical');
+                });
+            } else if (href === '#latest_additional') {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    loadMarkdownContent('latest_additional');
+                });
+            }
+        });
+    }, 200); // Wait a bit for content to render
 }
 
 // Function to add separators between FAQ items
