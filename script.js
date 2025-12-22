@@ -102,7 +102,7 @@ async function performSearch(searchTerm) {
     }
 
     // Search in all markdown files including the new field_audit section
-    const sections = ['introduction', 'preparation', 'procedures', 'field_audit', 'reporting', 'resources'];
+    const sections = ['introduction', 'preparation', 'procedures', 'field_audit', 'reporting', 'latest', 'resources'];
     let found = false;
 
     for (const section of sections) {
