@@ -20,13 +20,23 @@ async function loadMarkdownContent(section) {
 
             // Concatenate both FAQ contents, removing duplicate headers
             markdownText = text1 + '\n\n' + removeHeaderFromMarkdown(text2);
-        } else if (section === 'latest_checkpoints' || section === 'latest_technical' || section === 'latest_additional') {
-            // Handle the new latest sections
-            const response = await fetch(`content/${section}.md`);
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
+        } else if (section === 'audit_checkpoints' || section === 'latest_checkpoints' || section === 'latest_technical' || section === 'latest_additional') {
+            // Handle the audit checkpoints sections
+            if (section === 'audit_checkpoints') {
+                // Load the main audit checkpoints page which links to sub-sections
+                const response = await fetch('content/audit_checkpoints.md'); // Main audit checkpoints page
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                markdownText = await response.text();
+            } else {
+                // Handle the sub-sections
+                const response = await fetch(`content/${section}.md`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                markdownText = await response.text();
             }
-            markdownText = await response.text();
         } else {
             // Load single file for other sections
             const response = await fetch(`content/${section}.md`);
@@ -57,9 +67,9 @@ async function loadMarkdownContent(section) {
         });
         document.querySelector(`.nav-link[data-section="${section}"]`)?.classList.add('active');
 
-        // Set up click handlers for internal links in the latest section
-        if (section === 'latest') {
-            setupLatestLinks();
+        // Set up click handlers for internal links in the audit checkpoints section
+        if (section === 'audit_checkpoints') {
+            setupAuditCheckpointsLinks();
         }
     } catch (error) {
         console.error('Error loading markdown content:', error);
@@ -67,8 +77,8 @@ async function loadMarkdownContent(section) {
     }
 }
 
-// Function to set up click handlers for links in the latest section
-function setupLatestLinks() {
+// Function to set up click handlers for links in the audit checkpoints section
+function setupAuditCheckpointsLinks() {
     // Wait for the content to be rendered
     setTimeout(() => {
         const links = document.querySelectorAll('#content-container a');
@@ -141,7 +151,7 @@ async function performSearch(searchTerm) {
     }
 
     // Search in all markdown files including the new field_audit section
-    const sections = ['introduction', 'preparation', 'procedures', 'field_audit', 'reporting', 'latest', 'resources'];
+    const sections = ['introduction', 'preparation', 'procedures', 'field_audit', 'reporting', 'audit_checkpoints', 'resources'];
     let found = false;
 
     for (const section of sections) {

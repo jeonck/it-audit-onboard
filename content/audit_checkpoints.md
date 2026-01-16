@@ -1,12 +1,12 @@
-# 최신
+# 감리 체크포인트
 
 ## 최신 감리 자료
 
 다음은 최신 정보시스템 감리와 관련된 자료입니다. 각 항목을 클릭하여 자세한 내용을 확인할 수 있습니다.
 
-- [최신 사업별 감리 점검 포인트](#latest_checkpoints)
-- [기술적 점검 방법 및 결과 기록 양식](#latest_technical)
-- [기타 기술적 점검 방법](#latest_additional)
+- [클라우드/AI/DB/DX 등 주요사업 감리 체크리스트](#latest_checkpoints)
+- [현장 기술 점검 매뉴얼 및 양식 템플릿](#latest_technical)
+- [명령어 기반 기술 검증 가이드](#latest_additional)
 
 <br>
 
