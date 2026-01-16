@@ -71,6 +71,9 @@ async function loadMarkdownContent(section) {
         if (section === 'audit_checkpoints') {
             setupAuditCheckpointsLinks();
         }
+
+        // Set external links to open in a new tab
+        setExternalLinksToNewTab();
     } catch (error) {
         console.error('Error loading markdown content:', error);
         document.getElementById('content-container').innerHTML = `<p>콘텐츠를 불러오는 중 오류가 발생했습니다: ${error.message}</p>`;
@@ -265,4 +268,22 @@ function highlightInElement(element, searchTerm) {
             textNode.parentNode.replaceChild(fragment, textNode);
         }
     });
+}
+// Function to set external links to open in a new tab
+function setExternalLinksToNewTab() {
+    // Wait for content to be rendered
+    setTimeout(() => {
+        const links = document.querySelectorAll('#content-container a');
+        links.forEach(link => {
+            const href = link.getAttribute('href');
+            // Check if the link is external (starts with http:// or https://)
+            if (href && (href.startsWith('http://') || href.startsWith('https://'))) {
+                // Check if it's not our own domain to avoid opening internal anchor links in new tab
+                if (!href.includes(window.location.hostname)) {
+                    link.setAttribute('target', '_blank');
+                    link.setAttribute('rel', 'noopener noreferrer');
+                }
+            }
+        });
+    }, 100); // Wait a bit for content to render
 }

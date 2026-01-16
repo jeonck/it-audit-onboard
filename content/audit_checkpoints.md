@@ -8,6 +8,7 @@
 - [현장 기술 점검 매뉴얼 및 양식 템플릿](#latest_technical)
 - [명령어 기반 기술 검증 가이드](#latest_additional)
 - [ISO 27001 보안 통제 체계 - 감리 현장 적용 가이드](#security_iso27001)
+- [정보시스템 감리 산출물 가이드](https://jeonck.github.io/deliverables-guide/#/)
 
 <br>
 
