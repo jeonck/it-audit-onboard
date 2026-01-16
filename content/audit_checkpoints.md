@@ -7,6 +7,7 @@
 - [클라우드/AI/DB/DX 등 주요사업 감리 체크리스트](#latest_checkpoints)
 - [현장 기술 점검 매뉴얼 및 양식 템플릿](#latest_technical)
 - [명령어 기반 기술 검증 가이드](#latest_additional)
+- [ISO 27001 보안 통제 체계 - 감리 현장 적용 가이드](#security_iso27001)
 
 <br>
 
