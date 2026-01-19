@@ -20,7 +20,7 @@ async function loadMarkdownContent(section) {
 
             // Concatenate both FAQ contents, removing duplicate headers
             markdownText = text1 + '\n\n' + removeHeaderFromMarkdown(text2);
-        } else if (section === 'audit_checkpoints' || section === 'latest_checkpoints' || section === 'latest_technical' || section === 'latest_additional' || section === 'security_iso27001') {
+        } else if (section === 'audit_checkpoints' || section === 'latest_checkpoints' || section === 'latest_technical' || section === 'latest_additional' || section === 'security_iso27001' || section === 'gov_quality_manual') {
             // Handle the audit checkpoints sections
             if (section === 'audit_checkpoints') {
                 // Load the main audit checkpoints page which links to sub-sections
@@ -107,6 +107,11 @@ function setupAuditCheckpointsLinks() {
                     e.preventDefault();
                     loadMarkdownContent('security_iso27001');
                 });
+            } else if (href === '#gov_quality_manual') {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    loadMarkdownContent('gov_quality_manual');
+                });
             }
         });
     }, 200); // Wait a bit for content to render
@@ -159,7 +164,7 @@ async function performSearch(searchTerm) {
     }
 
     // Search in all markdown files including the new field_audit section
-    const sections = ['introduction', 'preparation', 'procedures', 'field_audit', 'reporting', 'audit_checkpoints', 'resources', 'security_iso27001'];
+    const sections = ['introduction', 'preparation', 'procedures', 'field_audit', 'reporting', 'audit_checkpoints', 'resources', 'security_iso27001', 'gov_quality_manual'];
     let found = false;
 
     for (const section of sections) {
