@@ -20,7 +20,7 @@ async function loadMarkdownContent(section) {
 
             // Concatenate both FAQ contents, removing duplicate headers
             markdownText = text1 + '\n\n' + removeHeaderFromMarkdown(text2);
-        } else if (section === 'audit_checkpoints' || section === 'latest_checkpoints' || section === 'latest_technical' || section === 'latest_additional' || section === 'security_iso27001' || section === 'gov_quality_manual' || section === 'data_quality_assessment') {
+        } else if (section === 'audit_checkpoints' || section === 'latest_checkpoints' || section === 'latest_technical' || section === 'latest_additional' || section === 'security_iso27001' || section === 'gov_quality_manual' || section === 'data_quality_assessment' || section === 'proposal_management') {
             // Handle the audit checkpoints sections
             if (section === 'audit_checkpoints') {
                 // Load the main audit checkpoints page which links to sub-sections
@@ -117,6 +117,11 @@ function setupAuditCheckpointsLinks() {
                     e.preventDefault();
                     loadMarkdownContent('data_quality_assessment');
                 });
+            } else if (href === '#proposal_management') {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    loadMarkdownContent('proposal_management');
+                });
             }
         });
     }, 200); // Wait a bit for content to render
@@ -169,7 +174,7 @@ async function performSearch(searchTerm) {
     }
 
     // Search in all markdown files including the new field_audit section
-    const sections = ['introduction', 'preparation', 'procedures', 'field_audit', 'reporting', 'audit_checkpoints', 'resources', 'security_iso27001', 'gov_quality_manual', 'data_quality_assessment'];
+    const sections = ['introduction', 'preparation', 'procedures', 'field_audit', 'reporting', 'audit_checkpoints', 'resources', 'security_iso27001', 'gov_quality_manual', 'data_quality_assessment', 'proposal_management'];
     let found = false;
 
     for (const section of sections) {

@@ -10,6 +10,7 @@
 - [ISO 27001 보안 통제 체계 - 감리 현장 적용 가이드](#security_iso27001)
 - [전자정부 품질관리 매뉴얼 - 감리 적용 가이드](#gov_quality_manual)
 - [데이터 품질 진단 - 감리 적용 가이드](#data_quality_assessment)
+- [감리업무 수주 제안서 작성 및 관리 가이드](#proposal_management)
 - [정보시스템 감리 산출물 가이드](https://jeonck.github.io/deliverables-guide/#/)
 
 <br>
