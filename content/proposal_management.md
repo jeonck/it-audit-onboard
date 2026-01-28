@@ -151,7 +151,7 @@
 
 ## 10. 참고자료
 
-- [감리업무 제안서 작성 가이드](https://www.pps.go.kr/web/contract/guide_01.jsp)
-- [공공조달 제안서 작성 요령](https://www.g2b.go.kr/e_suggest/suggestGuide.do)
-- [감리업계 표준 제안서 템플릿](https://www.koreaexim.go.kr/site/contents/cont_view.do?contSeq=304&menuNo=267)
-- [과거 제안 성공/실패 사례 분석](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01682456)
+- **감리업무 제안서 작성 가이드**: 감리업무 제안서 작성 시 고려해야 할 요소와 구성, 평가 기준 등에 대한 가이드라인
+- **공공조달 제안서 작성 요령**: 공공기관 대상 제안서 작성 시 준수해야 할 형식, 내용, 제출 요건 등에 대한 안내
+- **감리업계 표준 제안서 템플릿**: 감리업계에서 일반적으로 사용하는 제안서 구성 및 서식에 대한 표준 템플릿
+- **과거 제안 성공/실패 사례 분석**: 실제 제안 과정에서의 성공 및 실패 사례를 분석하여 얻은 교훈 및 인사이트
