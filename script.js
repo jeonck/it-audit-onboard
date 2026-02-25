@@ -5,14 +5,14 @@ async function loadMarkdownContent(section) {
 
         // Special handling for different sections
         if (section === 'faq') {
-            // Load both FAQ files and concatenate them
-            const response1 = await fetch('content/faq.md');
+            // Load both FAQ files and concatenate them (with cache-busting)
+            const response1 = await fetch('content/faq.md?t=' + Date.now());
             if (!response1.ok) {
                 throw new Error(`HTTP error! status: ${response1.status}`);
             }
             const text1 = await response1.text();
 
-            const response2 = await fetch('content/faq2.md');
+            const response2 = await fetch('content/faq2.md?t=' + Date.now());
             if (!response2.ok) {
                 throw new Error(`HTTP error! status: ${response2.status}`);
             }
