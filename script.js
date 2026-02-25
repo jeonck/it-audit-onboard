@@ -173,8 +173,8 @@ async function performSearch(searchTerm) {
         return;
     }
 
-    // Search in all markdown files including the new field_audit section
-    const sections = ['introduction', 'preparation', 'procedures', 'field_audit', 'reporting', 'audit_checkpoints', 'resources', 'security_iso27001', 'gov_quality_manual', 'data_quality_assessment', 'proposal_management'];
+    // Search in all markdown files including FAQ
+    const sections = ['introduction', 'preparation', 'procedures', 'field_audit', 'reporting', 'audit_checkpoints', 'resources', 'security_iso27001', 'gov_quality_manual', 'data_quality_assessment', 'proposal_management', 'faq'];
     let found = false;
 
     for (const section of sections) {
