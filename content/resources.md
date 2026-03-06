@@ -37,6 +37,14 @@
 | 성능/장애 | JMeter, LoadRunner | k6, Locust, Gremlin |
 | 감리 관리 | Excel, 한글 | AuditBoard, Hyperproof (GRC 자동화) |
 
+## 데이터 품질 진단 도구
+
+데이터 품질 진단을 위한 온라인 도구입니다.
+
+- **데이터 품질 진단 도구**: [https://data-quality-tool.streamlit.app/](https://data-quality-tool.streamlit.app/)
+- **데이터 품질 진단 도구 (고급)**: [https://dq-diag.streamlit.app/](https://dq-diag.streamlit.app/)
+  - 상세 진단 기능과 고급 분석 옵션을 제공하는 확장 버전
+
 ### 1. 정적 분석 (Static Analysis & AI Review)
 
 기존의 규칙 기반 분석을 넘어, AI가 코드의 맥락을 이해하고 수정 제안까지 제공하는 도구들이 부상하고 있습니다.
