@@ -65,7 +65,22 @@ async function loadMarkdownContent(section) {
         document.querySelectorAll('.main-nav a').forEach(link => {
             link.classList.remove('active');
         });
-        document.querySelector(`.nav-link[data-section="${section}"]`)?.classList.add('active');
+        // Also remove active class from dropdown menu links
+        document.querySelectorAll('.dropdown-menu a').forEach(link => {
+            link.classList.remove('active');
+        });
+        
+        // Add active class to the clicked link
+        const activeLink = document.querySelector(`.nav-link[data-section="${section}"]`);
+        if (activeLink) {
+            activeLink.classList.add('active');
+        } else {
+            // For dropdown items, find the link in dropdown menu
+            const dropdownLink = document.querySelector(`.dropdown-menu a[data-section="${section}"]`);
+            if (dropdownLink) {
+                dropdownLink.classList.add('active');
+            }
+        }
 
         // Set up click handlers for internal links in the audit checkpoints section
         if (section === 'audit_checkpoints') {
@@ -155,12 +170,12 @@ function removeHeaderFromMarkdown(text) {
 
 
 // Direct jump scrolling for navigation links (no smooth scrolling)
-document.querySelectorAll('.nav-link').forEach(anchor => {
+document.querySelectorAll('.nav-link, .dropdown-menu a').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
-        
+
         const section = this.getAttribute('data-section');
-        
+
         // Load the markdown content
         loadMarkdownContent(section);
     });
