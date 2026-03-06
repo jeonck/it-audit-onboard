@@ -69,4 +69,6 @@
 
 ### 데이터 품질 진단 툴 링크
 
-[https://data-quality-tool.streamlit.app/](https://data-quality-tool.streamlit.app/)
+- **데이터 품질 진단 도구**: [https://data-quality-tool.streamlit.app/](https://data-quality-tool.streamlit.app/)
+- **데이터 품질 진단 도구 (고급)**: [https://dq-diag.streamlit.app/](https://dq-diag.streamlit.app/)
+  - 상세 진단 기능과 고급 분석 옵션을 제공하는 확장 버전
