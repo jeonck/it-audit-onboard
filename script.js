@@ -189,7 +189,7 @@ async function performSearch(searchTerm) {
     }
 
     // Search in all markdown files including FAQ
-    const sections = ['introduction', 'preparation', 'procedures', 'field_audit', 'reporting', 'audit_checkpoints', 'resources', 'security_iso27001', 'gov_quality_manual', 'data_quality_assessment', 'proposal_management', 'faq'];
+    const sections = ['introduction', 'preparation', 'procedures', 'field_audit', 'reporting', 'proposal_management', 'audit_checkpoints', 'resources', 'security_iso27001', 'gov_quality_manual', 'data_quality_assessment', 'faq'];
     let found = false;
 
     for (const section of sections) {
