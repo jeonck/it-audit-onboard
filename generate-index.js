@@ -32,6 +32,8 @@ const SECTION_LABELS = {
     security_iso27001:      'ISO27001 보안',
     gov_quality_manual:     '전자정부 품질관리',
     data_quality_assessment:'데이터 품질 진단',
+    learning_growth:        '학습과성장',
+    social_identity_auth:   '소셜 인증 vs 본인 인증',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };

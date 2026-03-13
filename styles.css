@@ -53,26 +53,29 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    gap: 1rem;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: 0;
     padding: 0;
 }
 
 .main-nav li {
     margin: 0;
+    white-space: nowrap;
 }
 
 .main-nav a {
     display: block;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1rem;
     text-decoration: none;
     color: #2d3748;
     font-weight: 500;
+    font-size: 0.95rem;
     transition: all 0.3s ease;
     border-bottom: 3px solid transparent;
 }
@@ -138,6 +141,7 @@ body {
     display: flex;
     align-items: stretch;
     position: relative;
+    flex-shrink: 0;
 }
 
 /* 색인 결과 드롭다운 */
