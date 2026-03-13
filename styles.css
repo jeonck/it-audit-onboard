@@ -151,6 +151,7 @@ body {
     top: calc(100% + 4px);
     right: 0;
     width: 420px;
+    max-width: calc(100vw - 2rem);
     max-height: 400px;
     overflow-y: auto;
     background: #fff;
@@ -589,6 +590,14 @@ body {
     .container {
         padding: 0 15px;
     }
+
+    /* Search results mobile optimization */
+    #search-results {
+        width: calc(100vw - 2rem);
+        max-width: 420px;
+        right: 0;
+        max-height: 50vh;
+    }
 }
 
 /* Extra small screens */
@@ -622,6 +631,14 @@ body {
 
     .nav-links {
         flex-wrap: wrap;
+    }
+
+    /* Search results mobile optimization */
+    #search-results {
+        width: 100vw;
+        max-width: calc(100vw - 1rem);
+        right: -0.5rem;
+        max-height: 50vh;
     }
 }
 
