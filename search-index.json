@@ -4549,7 +4549,15 @@
     "label": "학습과성장",
     "type": "heading",
     "context": "학습과성장",
-    "preview": "- [소셜 인증 vs 본인 인증](#social_identity_auth) - 소셜 로그인과 본인인증의 비교 및 아키텍처 설계 가이드"
+    "preview": "- [자세히 보기](#social_identity_auth) - 소셜 로그인과 본인인증의 비교 및 아키텍처 설계 가이드"
+  },
+  {
+    "term": "소셜 인증 vs 본인 인증",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "인증 기술 자료",
+    "preview": "- [자세히 보기](#social_identity_auth) - 소셜 로그인과 본인인증의 비교 및 아키텍처 설계 가이드"
   },
   {
     "term": "소셜 인증 vs 본인 인증",
@@ -5158,6 +5166,158 @@
     "type": "keyword",
     "context": "1 인 1 계정 원칙을 위한 아키텍처 전략",
     "preview": "- 비용 최적화: 본인인증은 실행 시마다 비용이 발생하므로, 가입 완료 직전이나 특정 권한이 필요한 시점에 단 한 번만 실행되도록 설계하는 것이 경제적입니다."
+  },
+  {
+    "term": "간편 인증과의 관계",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "heading",
+    "context": "소셜 인증 vs 본인 인증",
+    "preview": "소셜 인증과 본인 인증은 '간편 인증'이라는 범주 안에 포함되기도 하지만, 기술적·법적 정의에서는 차이가 있습니다."
+  },
+  {
+    "term": "1. 기술적·개념적 구분",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "heading",
+    "context": "간편 인증과의 관계",
+    "preview": ""
+  },
+  {
+    "term": "핵심 기능",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "keyword",
+    "context": "간편 인증과의 관계",
+    "preview": "핵심 기능 서비스 가입 및 로그인 실제 신원 (성명/번호) 확인 공인인증서를 대체하는 인증"
+  },
+  {
+    "term": "인증 수단",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "keyword",
+    "context": "간편 인증과의 관계",
+    "preview": "인증 수단 카카오, 구글, 네이버 등 통신사 (PASS), 신용카드 등 Toss, 카카오인증, 네이버인증 등"
+  },
+  {
+    "term": "법적 효력",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "keyword",
+    "context": "간편 인증과의 관계",
+    "preview": "법적 효력 없음 (단순 식별) 있음 (본인확인기관) 있음 (전자서명법)"
+  },
+  {
+    "term": "2. '간편 인증'의 정확한 정의와 위치",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "heading",
+    "context": "간편 인증과의 관계",
+    "preview": "한국에서 흔히 말하는 '간편 인증'은 과거의 복잡한 공인인증서 (현 공동인증서) 를 대체하기 위해 등장한 민간 전자서명 서비스를 의미하는 경우가 많습니다."
+  },
+  {
+    "term": "'간편 인증'",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "keyword",
+    "context": "간편 인증과의 관계",
+    "preview": "한국에서 흔히 말하는 '간편 인증'은 과거의 복잡한 공인인증서 (현 공동인증서) 를 대체하기 위해 등장한 민간 전자서명 서비스를 의미하는 경우가 많습니다."
+  },
+  {
+    "term": "소셜 인증과의 관계",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "keyword",
+    "context": "간편 인증과의 관계",
+    "preview": "- 소셜 인증과의 관계: 소셜 인증은 OAuth 2.0 프로토콜을 이용해 \"나는 이 소셜 계정의 주인이다\"를 증명하는 로그인 편의 서비스입니다. 반면, 간편 인증…"
+  },
+  {
+    "term": "본인 인증과의 관계",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "keyword",
+    "context": "간편 인증과의 관계",
+    "preview": "- 본인 인증과의 관계: 본인 인증은 방송통신위원회로부터 지정받은 '본인확인기관'만 수행할 수 있습니다. 최근에는 PASS, 카카오, 토스 등이 이 자격을 얻어 …"
+  },
+  {
+    "term": "3. 결론: 포함 관계의 이해",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "heading",
+    "context": "간편 인증과의 관계",
+    "preview": "이를 벤다이어그램처럼 이해하면 다음과 같습니다."
+  },
+  {
+    "term": "소셜 인증",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "keyword",
+    "context": "간편 인증과의 관계",
+    "preview": "- 소셜 인증: \"내가 누구 (Nickname/Email) 인지 알려주는\" 편리한 로그인 수단. (본인 확인 기능은 약함)"
+  },
+  {
+    "term": "본인 인증",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "keyword",
+    "context": "간편 인증과의 관계",
+    "preview": "- 본인 인증: \"내가 실제 그 사람 (주민번호 기반) 임을 증명하는\" 행위. (법적 강제성)"
+  },
+  {
+    "term": "간편 인증",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "keyword",
+    "context": "간편 인증과의 관계",
+    "preview": "- 간편 인증: 공인인증서 대신 간편한 방식 (PIN/생체)으로 본인 인증이나 전자서명을 수행하는 기술적 범주."
+  },
+  {
+    "term": "간편한 방식 (PIN/생체)",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "keyword",
+    "context": "간편 인증과의 관계",
+    "preview": "- 간편 인증: 공인인증서 대신 간편한 방식 (PIN/생체)으로 본인 인증이나 전자서명을 수행하는 기술적 범주."
+  },
+  {
+    "term": "정리하자면",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "keyword",
+    "context": "간편 인증과의 관계",
+    "preview": "정리하자면: 모든 소셜 인증이 본인 인증은 아니며, 모든 본인 인증이 간편 인증 방식인 것도 아닙니다. 하지만 최근 카카오나 네이버 같은 플랫폼이 '소셜 계정'을…"
+  },
+  {
+    "term": "'소셜 계정'",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "keyword",
+    "context": "간편 인증과의 관계",
+    "preview": "정리하자면: 모든 소셜 인증이 본인 인증은 아니며, 모든 본인 인증이 간편 인증 방식인 것도 아닙니다. 하지만 최근 카카오나 네이버 같은 플랫폼이 '소셜 계정'을…"
+  },
+  {
+    "term": "4. 1 인 1 계정 시스템 설계를 위한 제언",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "heading",
+    "context": "간편 인증과의 관계",
+    "preview": "1 인 1 계정 원칙을 준수해야 하는 시스템을 설계 중이시라면, 단순히 '소셜 로그인'만 구현해서는 안 되며, 반드시 '본인확인기관의 API(간편인증 또는 SMS…"
+  },
+  {
+    "term": "'소셜 로그인'",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "keyword",
+    "context": "간편 인증과의 관계",
+    "preview": "1 인 1 계정 원칙을 준수해야 하는 시스템을 설계 중이시라면, 단순히 '소셜 로그인'만 구현해서는 안 되며, 반드시 '본인확인기관의 API(간편인증 또는 SMS…"
+  },
+  {
+    "term": "'본인확인기관의 API(간편인증 또는 SMS 인증) '",
+    "section": "social_identity_auth",
+    "label": "소셜 인증 vs 본인 인증",
+    "type": "keyword",
+    "context": "간편 인증과의 관계",
+    "preview": "1 인 1 계정 원칙을 준수해야 하는 시스템을 설계 중이시라면, 단순히 '소셜 로그인'만 구현해서는 안 되며, 반드시 '본인확인기관의 API(간편인증 또는 SMS…"
   },
   {
     "term": "자주 묻는 질문 (FAQ)",
