@@ -72,6 +72,7 @@ const SECTION_LABELS = {
     vercel_agent_browser:   'Vercel agent-browser',
     mcp_vs_a2a:             'MCP vs A2A',
     agent_card:             'Agent Card',
+    claude_skills_vs_mcp:   'Claude Skills vs MCP',
     python_uv:              'Python uv 패키지매니저',
     faq:                    'FAQ',
     faq2:                   'FAQ',

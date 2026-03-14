@@ -131,6 +131,9 @@
 ### Agent Card
 - [자세히 보기](#agent_card) - A2A 에이전트 디지털 신분증
 
+### Claude Skills vs MCP
+- [자세히 보기](#claude_skills_vs_mcp) - 컨텍스트 효율화 전략
+
 ## AI 실습 자료
 
 ### AI 소프트웨어 아키텍처 실습
