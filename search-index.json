@@ -4592,6 +4592,14 @@
     "preview": "- [자세히 보기](#compound_ai) - Compound AI 핵심 구성 요소, 오케스트레이션"
   },
   {
+    "term": "RAG (검색 증강 생성)",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#rag) - RAG 핵심 3 단계, 구성 요소, 실무 가이드"
+  },
+  {
     "term": "AI 기술 및 하드웨어",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -7270,6 +7278,358 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "6. 추적성: Multi-agent 시스템에서 의사결정 경로와 책임 소재 추적 가능성"
+  },
+  {
+    "term": "RAG (Retrieval-Augmented Generation, 검색 증강 생성)",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "heading",
+    "context": "",
+    "preview": "RAG(Retrieval-Augmented Generation) 의 가장 본질적이고 핵심적인 아이디어는 바로 이것입니다."
+  },
+  {
+    "term": "왜 이게 핵심인가? (LLM 의 근본 약점 해결)",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "heading",
+    "context": "RAG (Retrieval-Augmented Generation, 검색 증강 생성)",
+    "preview": "LLM 단독으로는 아래 문제들이 필연적입니다:"
+  },
+  {
+    "term": "지식 cutoff",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "왜 이게 핵심인가? (LLM 의 근본 약점 해결)",
+    "preview": "- 지식 cutoff → 2024 년 이후 정보 모름"
+  },
+  {
+    "term": "기업/도메인 내부 지식",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "왜 이게 핵심인가? (LLM 의 근본 약점 해결)",
+    "preview": "- 기업/도메인 내부 지식 → 훈련 데이터에 없음"
+  },
+  {
+    "term": "환각 (hallucination)",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "왜 이게 핵심인가? (LLM 의 근본 약점 해결)",
+    "preview": "- 환각 (hallucination) → 모르는 걸 지어냄"
+  },
+  {
+    "term": "최신성/정확성 부족",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "왜 이게 핵심인가? (LLM 의 근본 약점 해결)",
+    "preview": "- 최신성/정확성 부족 → 파인튜닝 비용 폭발"
+  },
+  {
+    "term": "\"모델을 다시 가르치지 않고\"",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "왜 이게 핵심인가? (LLM 의 근본 약점 해결)",
+    "preview": "→ RAG 는 \"모델을 다시 가르치지 않고\" 외부 지식을 동적으로 빌려오는 방식으로 이 모든 문제를 저비용·고효율로 해결합니다."
+  },
+  {
+    "term": "아주 간단한 한 줄 비유 (2026 년 실무에서 가장 많이 쓰이는 표현)",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "heading",
+    "context": "왜 이게 핵심인가? (LLM 의 근본 약점 해결)",
+    "preview": "결국 \"검색 → 컨텍스트 제공\"이 조수의 핵심 역할이고, 그 덕분에 LLM 이 훨씬 덜 헛소리하고, 최신·정확·근거 있는 답변을 하게 됩니다."
+  },
+  {
+    "term": "LLM 단독",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "왜 이게 핵심인가? (LLM 의 근본 약점 해결)",
+    "preview": "LLM 단독 똑똑하지만 기억이 짧은 사람 (훈련된 지식만 앎)"
+  },
+  {
+    "term": "RAG",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "왜 이게 핵심인가? (LLM 의 근본 약점 해결)",
+    "preview": "RAG 필요할 때마다 책상 위 서랍·구글·내부 위키를 뒤져서 정확한 자료를 꺼내 보여주는 조수를 붙여준 사람"
+  },
+  {
+    "term": "\"검색 → 컨텍스트 제공\"",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "왜 이게 핵심인가? (LLM 의 근본 약점 해결)",
+    "preview": "결국 \"검색 → 컨텍스트 제공\"이 조수의 핵심 역할이고, 그 덕분에 LLM 이 훨씬 덜 헛소리하고, 최신·정확·근거 있는 답변을 하게 됩니다."
+  },
+  {
+    "term": "2026 년 관점에서 조금 더 세밀하게 보면",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "heading",
+    "context": "왜 이게 핵심인가? (LLM 의 근본 약점 해결)",
+    "preview": "- 기본 RAG → 외부 지식을 검색해서 컨텍스트로 주는 것"
+  },
+  {
+    "term": "기본 RAG",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "왜 이게 핵심인가? (LLM 의 근본 약점 해결)",
+    "preview": "- 기본 RAG → 외부 지식을 검색해서 컨텍스트로 주는 것"
+  },
+  {
+    "term": "Advanced/Agentic RAG",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "왜 이게 핵심인가? (LLM 의 근본 약점 해결)",
+    "preview": "- Advanced/Agentic RAG → 검색 자체를 LLM 이 여러 번 반복하거나, 그래프·온톨로지·멀티홉으로 더 똑똑하게 함"
+  },
+  {
+    "term": "GraphRAG / Knowledge Graph RAG",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "왜 이게 핵심인가? (LLM 의 근본 약점 해결)",
+    "preview": "- GraphRAG / Knowledge Graph RAG → 단순 텍스트 검색이 아니라 관계 (relationship) 까지 이해해서 컨텍스트 제공"
+  },
+  {
+    "term": "\"외부 지식 검색 → LLM 컨텍스트 증강\"",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "왜 이게 핵심인가? (LLM 의 근본 약점 해결)",
+    "preview": "하지만 모든 변형의 뿌리는 여전히 \"외부 지식 검색 → LLM 컨텍스트 증강\"입니다."
+  },
+  {
+    "term": "RAG 의 핵심 3 단계 (가장 중요한 흐름)",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "heading",
+    "context": "RAG (Retrieval-Augmented Generation, 검색 증강 생성)",
+    "preview": ""
+  },
+  {
+    "term": "\"Retrieve → Augment → Generate\"",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "RAG 의 핵심 3 단계 (가장 중요한 흐름)",
+    "preview": "→ 이 3 단계가 하나의 루프로 작동 → \"Retrieve → Augment → Generate\""
+  },
+  {
+    "term": "RAG 가 왜 필요한가? (핵심 문제 해결)",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "heading",
+    "context": "RAG (Retrieval-Augmented Generation, 검색 증강 생성)",
+    "preview": ""
+  },
+  {
+    "term": "2026 년 현재 RAG 의 핵심 구성 요소 (실무에서 가장 중요한 것들)",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "heading",
+    "context": "RAG (Retrieval-Augmented Generation, 검색 증강 생성)",
+    "preview": "질문과 문서를 같은 벡터 공간으로 변환"
+  },
+  {
+    "term": "1. 임베딩 모델 (Embedding Model)",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "heading",
+    "context": "2026 년 현재 RAG 의 핵심 구성 요소 (실무에서 가장 중요한 것들)",
+    "preview": "질문과 문서를 같은 벡터 공간으로 변환"
+  },
+  {
+    "term": "2026 년 표준",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "2026 년 현재 RAG 의 핵심 구성 요소 (실무에서 가장 중요한 것들)",
+    "preview": "- 2026 년 표준: OpenAI text-embedding-3-large, Cohere Embed v3, Voyage AI, BGE-M3, Korean fin…"
+  },
+  {
+    "term": "2. 벡터 데이터베이스 (Vector DB)",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "heading",
+    "context": "2026 년 현재 RAG 의 핵심 구성 요소 (실무에서 가장 중요한 것들)",
+    "preview": "- 주요 제품: Pinecone, Weaviate, Qdrant, Milvus, Chroma, PGVector 등"
+  },
+  {
+    "term": "주요 제품",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "2026 년 현재 RAG 의 핵심 구성 요소 (실무에서 가장 중요한 것들)",
+    "preview": "- 주요 제품: Pinecone, Weaviate, Qdrant, Milvus, Chroma, PGVector 등"
+  },
+  {
+    "term": "핵심 기능",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "2026 년 현재 RAG 의 핵심 구성 요소 (실무에서 가장 중요한 것들)",
+    "preview": "- 핵심 기능: 하이브리드 검색 (키워드 + 벡터) + 메타데이터 필터링 필수"
+  },
+  {
+    "term": "3. 청킹 (Chunking) & 인덱싱 전략",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "heading",
+    "context": "2026 년 현재 RAG 의 핵심 구성 요소 (실무에서 가장 중요한 것들)",
+    "preview": "- 문서를 의미 단위로 자르기 (Semantic chunking, Hierarchical, Sentence-window 등)"
+  },
+  {
+    "term": "2026 년 트렌드",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "2026 년 현재 RAG 의 핵심 구성 요소 (실무에서 가장 중요한 것들)",
+    "preview": "- 2026 년 트렌드: Fixed-size 보다 의미 기반 청킹 + Metadata enrichment 가 성능 크게 좌우"
+  },
+  {
+    "term": "4. 리트리버 최적화 (Retriever Enhancement)",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "heading",
+    "context": "2026 년 현재 RAG 의 핵심 구성 요소 (실무에서 가장 중요한 것들)",
+    "preview": "- Query Rewrite / HyDE / Multi-query"
+  },
+  {
+    "term": "Query Rewrite / HyDE / Multi-query",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "2026 년 현재 RAG 의 핵심 구성 요소 (실무에서 가장 중요한 것들)",
+    "preview": "- Query Rewrite / HyDE / Multi-query"
+  },
+  {
+    "term": "Re-ranking",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "2026 년 현재 RAG 의 핵심 구성 요소 (실무에서 가장 중요한 것들)",
+    "preview": "- Re-ranking: Cohere Rerank, bge-reranker, RankGPT 등"
+  },
+  {
+    "term": "Multi-hop / Agentic Retrieval",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "2026 년 현재 RAG 의 핵심 구성 요소 (실무에서 가장 중요한 것들)",
+    "preview": "- Multi-hop / Agentic Retrieval: 복잡 질문 → 여러 번 검색"
+  },
+  {
+    "term": "5. 생성 단계 강화",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "heading",
+    "context": "2026 년 현재 RAG 의 핵심 구성 요소 (실무에서 가장 중요한 것들)",
+    "preview": "- Grounding 프롬프트: \"주어진 문서만 보고 답변\", \"출처 명시 필수\""
+  },
+  {
+    "term": "Grounding 프롬프트",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "2026 년 현재 RAG 의 핵심 구성 요소 (실무에서 가장 중요한 것들)",
+    "preview": "- Grounding 프롬프트: \"주어진 문서만 보고 답변\", \"출처 명시 필수\""
+  },
+  {
+    "term": "Self-Reflection / Corrective RAG",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "2026 년 현재 RAG 의 핵심 구성 요소 (실무에서 가장 중요한 것들)",
+    "preview": "- Self-Reflection / Corrective RAG: 답변 후 검증 루프"
+  },
+  {
+    "term": "요약: RAG 한 줄 정의 (2026 년 가장 명쾌한 버전)",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "heading",
+    "context": "RAG (Retrieval-Augmented Generation, 검색 증강 생성)",
+    "preview": "> \"LLM 이 답변 전에 '모르는 건 검색해서' 알려주고, 그걸 보고 정확하게 말하게 하는 아키텍처\""
+  },
+  {
+    "term": "RAG 없이 LLM 쓰는 건",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "요약: RAG 한 줄 정의 (2026 년 가장 명쾌한 버전)",
+    "preview": "> RAG 없이 LLM 쓰는 건 → \"기억력 좋은 사람에게 아무 책도 안 주고 질문하는 것\""
+  },
+  {
+    "term": "RAG 있이",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "요약: RAG 한 줄 정의 (2026 년 가장 명쾌한 버전)",
+    "preview": "> RAG 있이 → \"필요한 책만 쏙쏙 뽑아서 보여주고 질문하는 것\""
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "heading",
+    "context": "RAG (Retrieval-Augmented Generation, 검색 증강 생성)",
+    "preview": "정보시스템 감리 관점에서 RAG 시스템 도입 시 고려사항:"
+  },
+  {
+    "term": "검색 품질 검증",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 검색 품질 검증: Retrieval 단계의 정확도 (Precision/Recall) 측정 및 모니터링"
+  },
+  {
+    "term": "환각 감소 효과",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 환각 감소 효과: RAG 적용 전후 hallucination 발생률 비교 검증"
+  },
+  {
+    "term": "보안·접근제어",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 보안·접근제어: Private 데이터 검색 시 권한 기반 필터링 적절성 검토"
+  },
+  {
+    "term": "성능·비용 분석",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 성능·비용 분석: 벡터 DB 운영 비용 vs Fine-tuning 비용 비교 분석"
+  },
+  {
+    "term": "최신성 유지 관리",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 최신성 유지 관리: 지식 베이스 업데이트 주기와 프로세스 검증"
+  },
+  {
+    "term": "근거 추적성",
+    "section": "rag",
+    "label": "RAG (검색 증강 생성)",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 근거 추적성: 답변의 출처 (citation) 명확성과 검증 가능성 확인"
   },
   {
     "term": "자주 묻는 질문 (FAQ)",

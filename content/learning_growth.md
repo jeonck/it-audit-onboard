@@ -73,6 +73,9 @@
 ### Compound AI 시스템
 - [자세히 보기](#compound_ai) - Compound AI 핵심 구성 요소, 오케스트레이션
 
+### RAG (검색 증강 생성)
+- [자세히 보기](#rag) - RAG 핵심 3 단계, 구성 요소, 실무 가이드
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례

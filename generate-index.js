@@ -39,6 +39,7 @@ const SECTION_LABELS = {
     diffusion_llm:          'Diffusion LLM',
     ai_dlc:                 'AI-DLC 개발방법론',
     compound_ai:            'Compound AI 시스템',
+    rag:                    'RAG (검색 증강 생성)',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };
