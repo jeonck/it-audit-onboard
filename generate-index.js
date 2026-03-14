@@ -37,6 +37,7 @@ const SECTION_LABELS = {
     ai_development_methodology: 'AI 시대 개발방법론',
     cerebras_ai:            'Cerebras AI 서비스',
     diffusion_llm:          'Diffusion LLM',
+    ai_dlc:                 'AI-DLC 개발방법론',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };

@@ -67,6 +67,9 @@
 ### 2025~2026 AI 시대 개발 방법론
 - [자세히 보기](#ai_development_methodology) - AI 증강 개발, 에이전틱 개발, SDLC 진화
 
+### AI-DLC (AI-Driven Development Lifecycle)
+- [자세히 보기](#ai_dlc) - AWS 제안 AI 네이티브 개발 방법론, 3 단계 lifecycle
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례

@@ -4576,6 +4576,14 @@
     "preview": "- [자세히 보기](#ai_development_methodology) - AI 증강 개발, 에이전틱 개발, SDLC 진화"
   },
   {
+    "term": "AI-DLC (AI-Driven Development Lifecycle)",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#ai_dlc) - AWS 제안 AI 네이티브 개발 방법론, 3 단계 lifecycle"
+  },
+  {
     "term": "AI 기술 및 하드웨어",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -6478,6 +6486,382 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "6. 사용 사례 적합성: 실시간 AI(보이스, 에이전트, 코드 완성) 에 최적화되어 있으므로 목적에 맞는 활용"
+  },
+  {
+    "term": "AI-DLC (AI-Driven Development Lifecycle) 3 단계",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "heading",
+    "context": "",
+    "preview": "AI-DLC (AI-Driven Development Lifecycle) 의 3 단계는 AWS 가 주도적으로 제안한 AI 네이티브 개발 방법론의 핵심 구조입니다."
+  },
+  {
+    "term": "AI 네이티브 개발 방법론",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "AI-DLC (AI-Driven Development Lifecycle) 3 단계",
+    "preview": "AI-DLC (AI-Driven Development Lifecycle) 의 3 단계는 AWS 가 주도적으로 제안한 AI 네이티브 개발 방법론의 핵심 구조입니다."
+  },
+  {
+    "term": "AI-DLC 의 3 단계 개요",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "heading",
+    "context": "AI-DLC (AI-Driven Development Lifecycle) 3 단계",
+    "preview": ""
+  },
+  {
+    "term": "1 단계",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "AI-DLC 의 3 단계 개요",
+    "preview": "1 단계 Inception 착수 / 인셉션 / 기획 무엇을 만들고 왜 만드는가? 비즈니스 의도 → 요구사항 분석, 명확화 질문, 사용자 스토리 자동 생성, Uni…"
+  },
+  {
+    "term": "무엇을 만들고 왜 만드는가?",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "AI-DLC 의 3 단계 개요",
+    "preview": "1 단계 Inception 착수 / 인셉션 / 기획 무엇을 만들고 왜 만드는가? 비즈니스 의도 → 요구사항 분석, 명확화 질문, 사용자 스토리 자동 생성, Uni…"
+  },
+  {
+    "term": "2 단계",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "AI-DLC 의 3 단계 개요",
+    "preview": "2 단계 Construction 구축 / 구성 어떻게 만들 것인가? 검증된 맥락 기반으로 도메인 모델, 논리 아키텍처, API 설계, 코드·테스트 자동 생성·제안…"
+  },
+  {
+    "term": "어떻게 만들 것인가?",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "AI-DLC 의 3 단계 개요",
+    "preview": "2 단계 Construction 구축 / 구성 어떻게 만들 것인가? 검증된 맥락 기반으로 도메인 모델, 논리 아키텍처, API 설계, 코드·테스트 자동 생성·제안…"
+  },
+  {
+    "term": "3 단계",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "AI-DLC 의 3 단계 개요",
+    "preview": "3 단계 Operations 운영 / 오퍼레이션 어떻게 운영·유지할 것인가? IaC(코드형 인프라), 배포 자동화, 모니터링·관찰 가능성 설정, Telemetry…"
+  },
+  {
+    "term": "어떻게 운영·유지할 것인가?",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "AI-DLC 의 3 단계 개요",
+    "preview": "3 단계 Operations 운영 / 오퍼레이션 어떻게 운영·유지할 것인가? IaC(코드형 인프라), 배포 자동화, 모니터링·관찰 가능성 설정, Telemetry…"
+  },
+  {
+    "term": "각 단계의 세부 특징 (2026 년 실무 기준)",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "heading",
+    "context": "AI-DLC (AI-Driven Development Lifecycle) 3 단계",
+    "preview": "- AI 가 먼저 \"이 프로젝트의 목표는 무엇인가?\"부터 시작해 질문을 던짐 (Plan-Execute 패턴)."
+  },
+  {
+    "term": "1 단계: Inception (착수/기획)",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "heading",
+    "context": "각 단계의 세부 특징 (2026 년 실무 기준)",
+    "preview": "- AI 가 먼저 \"이 프로젝트의 목표는 무엇인가?\"부터 시작해 질문을 던짐 (Plan-Execute 패턴)."
+  },
+  {
+    "term": "AI 가 먼저 \"이 프로젝트의 목표는 무엇인가?\"부터 시작해 질문을 던짐",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "각 단계의 세부 특징 (2026 년 실무 기준)",
+    "preview": "- AI 가 먼저 \"이 프로젝트의 목표는 무엇인가?\"부터 시작해 질문을 던짐 (Plan-Execute 패턴)."
+  },
+  {
+    "term": "Mob Elaboration (몹 정교화)",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "각 단계의 세부 특징 (2026 년 실무 기준)",
+    "preview": "- Mob Elaboration (몹 정교화): 팀 전체가 AI 와 실시간 대화하며 요구사항을 구체화."
+  },
+  {
+    "term": "70~80% 를 AI 가 대체",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "각 단계의 세부 특징 (2026 년 실무 기준)",
+    "preview": "- 전통 기획 회의의 70~80% 를 AI 가 대체 → 1~2 일 만에 검증된 백로그/유닛 완성 사례 다수."
+  },
+  {
+    "term": "2 단계: Construction (구축/구현)",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "heading",
+    "context": "각 단계의 세부 특징 (2026 년 실무 기준)",
+    "preview": "- 가장 많은 시간이 투입되는 단계지만, AI 가 multi-file 수정·리팩토링·TDD 자동 생성까지 주도."
+  },
+  {
+    "term": "AI 가 multi-file 수정·리팩토링·TDD 자동 생성까지 주도",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "각 단계의 세부 특징 (2026 년 실무 기준)",
+    "preview": "- 가장 많은 시간이 투입되는 단계지만, AI 가 multi-file 수정·리팩토링·TDD 자동 생성까지 주도."
+  },
+  {
+    "term": "Mob Construction (몹 구축)",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "각 단계의 세부 특징 (2026 년 실무 기준)",
+    "preview": "- Mob Construction (몹 구축): 개발자·아키텍트가 AI 제안을 실시간으로 리뷰·수정."
+  },
+  {
+    "term": "DDD(도메인 주도 설계), BDD, TDD 가 자연스럽게 통합됨",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "각 단계의 세부 특징 (2026 년 실무 기준)",
+    "preview": "- DDD(도메인 주도 설계), BDD, TDD 가 자연스럽게 통합됨."
+  },
+  {
+    "term": "코드·테스트 커버리지 80%+ 자동 생성",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "각 단계의 세부 특징 (2026 년 실무 기준)",
+    "preview": "- 결과: 코드·테스트 커버리지 80%+ 자동 생성 후 인간이 핵심 부분만 손봄."
+  },
+  {
+    "term": "3 단계: Operations (운영)",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "heading",
+    "context": "각 단계의 세부 특징 (2026 년 실무 기준)",
+    "preview": "- 배포·IaC·모니터링까지 AI 가 제안·관리."
+  },
+  {
+    "term": "배포·IaC·모니터링까지 AI 가 제안·관리",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "각 단계의 세부 특징 (2026 년 실무 기준)",
+    "preview": "- 배포·IaC·모니터링까지 AI 가 제안·관리."
+  },
+  {
+    "term": "AWS·Kiro 등 도구에서 빠르게 진화 중",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "각 단계의 세부 특징 (2026 년 실무 기준)",
+    "preview": "- 아직 (2026 년) 가장 성숙도가 낮은 단계지만, AWS·Kiro 등 도구에서 빠르게 진화 중."
+  },
+  {
+    "term": "왜 3 단계인가? (핵심 철학)",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "heading",
+    "context": "AI-DLC (AI-Driven Development Lifecycle) 3 단계",
+    "preview": "- 전통 SDLC 의 많은 handover(인수인계) 를 제거 → AI 가 persistent context(지속 맥락) 를 유지."
+  },
+  {
+    "term": "1. 단계 최소화 + 흐름 최대화",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "heading",
+    "context": "왜 3 단계인가? (핵심 철학)",
+    "preview": "- 전통 SDLC 의 많은 handover(인수인계) 를 제거 → AI 가 persistent context(지속 맥락) 를 유지."
+  },
+  {
+    "term": "handover(인수인계) 를 제거",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "왜 3 단계인가? (핵심 철학)",
+    "preview": "- 전통 SDLC 의 많은 handover(인수인계) 를 제거 → AI 가 persistent context(지속 맥락) 를 유지."
+  },
+  {
+    "term": "persistent context(지속 맥락) 를 유지",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "왜 3 단계인가? (핵심 철학)",
+    "preview": "- 전통 SDLC 의 많은 handover(인수인계) 를 제거 → AI 가 persistent context(지속 맥락) 를 유지."
+  },
+  {
+    "term": "2. Human-in-the-loop 최소화 but 필수",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "heading",
+    "context": "왜 3 단계인가? (핵심 철학)",
+    "preview": "- AI 주도 → 인간은 \"핵심 Gate\"에서만 개입 (품질·보안·비즈니스 판단)."
+  },
+  {
+    "term": "AI 주도",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "왜 3 단계인가? (핵심 철학)",
+    "preview": "- AI 주도 → 인간은 \"핵심 Gate\"에서만 개입 (품질·보안·비즈니스 판단)."
+  },
+  {
+    "term": "\"핵심 Gate\"에서만 개입",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "왜 3 단계인가? (핵심 철학)",
+    "preview": "- AI 주도 → 인간은 \"핵심 Gate\"에서만 개입 (품질·보안·비즈니스 판단)."
+  },
+  {
+    "term": "3. 모든 개발 경로 호환",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "heading",
+    "context": "왜 3 단계인가? (핵심 철학)",
+    "preview": "- 신규 개발·리팩토링·버그 픽스·마이그레이션 등에 독단적이지 않음."
+  },
+  {
+    "term": "실무 적용 팁 (한국 기업 사례 기반)",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "heading",
+    "context": "AI-DLC (AI-Driven Development Lifecycle) 3 단계",
+    "preview": "- 웅진씽크빅 북큐레이터 AI 에이전트처럼 Inception 에서 요구사항 → Construction 에서 코드 → Operations 에서 배포까지 7 주 만에…"
+  },
+  {
+    "term": "성공 사례",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "heading",
+    "context": "실무 적용 팁 (한국 기업 사례 기반)",
+    "preview": "- 웅진씽크빅 북큐레이터 AI 에이전트처럼 Inception 에서 요구사항 → Construction 에서 코드 → Operations 에서 배포까지 7 주 만에…"
+  },
+  {
+    "term": "웅진씽크빅 북큐레이터 AI 에이전트",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "실무 적용 팁 (한국 기업 사례 기반)",
+    "preview": "- 웅진씽크빅 북큐레이터 AI 에이전트처럼 Inception 에서 요구사항 → Construction 에서 코드 → Operations 에서 배포까지 7 주 만에…"
+  },
+  {
+    "term": "7 주 만에 완성",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "실무 적용 팁 (한국 기업 사례 기반)",
+    "preview": "- 웅진씽크빅 북큐레이터 AI 에이전트처럼 Inception 에서 요구사항 → Construction 에서 코드 → Operations 에서 배포까지 7 주 만에…"
+  },
+  {
+    "term": "도구 조합",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "heading",
+    "context": "실무 적용 팁 (한국 기업 사례 기반)",
+    "preview": "- AWS Bedrock + Claude Code + Kiro + Linear + GitHub Actions 등."
+  },
+  {
+    "term": "2026 년 트렌드",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "heading",
+    "context": "실무 적용 팁 (한국 기업 사례 기반)",
+    "preview": "- Inception 을 1~3 일로 압축 → Construction 에서 60~80% 자동화 → Operations 자동화 강화."
+  },
+  {
+    "term": "Inception 을 1~3 일로 압축",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "실무 적용 팁 (한국 기업 사례 기반)",
+    "preview": "- Inception 을 1~3 일로 압축 → Construction 에서 60~80% 자동화 → Operations 자동화 강화."
+  },
+  {
+    "term": "Construction 에서 60~80% 자동화",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "실무 적용 팁 (한국 기업 사례 기반)",
+    "preview": "- Inception 을 1~3 일로 압축 → Construction 에서 60~80% 자동화 → Operations 자동화 강화."
+  },
+  {
+    "term": "Operations 자동화 강화",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "실무 적용 팁 (한국 기업 사례 기반)",
+    "preview": "- Inception 을 1~3 일로 압축 → Construction 에서 60~80% 자동화 → Operations 자동화 강화."
+  },
+  {
+    "term": "요약",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "heading",
+    "context": "AI-DLC (AI-Driven Development Lifecycle) 3 단계",
+    "preview": "> AI-DLC 의 3 단계는 아직 실험·적용 초기지만, \"AI 가 계획을 세우고, 인간이 검증한다\"는 멘탈 모델로 가장 현실적인 전환 로드맵으로 평가받고 있습니…"
+  },
+  {
+    "term": "\"AI 가 계획을 세우고, 인간이 검증한다\"",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "요약",
+    "preview": "> AI-DLC 의 3 단계는 아직 실험·적용 초기지만, \"AI 가 계획을 세우고, 인간이 검증한다\"는 멘탈 모델로 가장 현실적인 전환 로드맵으로 평가받고 있습니…"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "heading",
+    "context": "AI-DLC (AI-Driven Development Lifecycle) 3 단계",
+    "preview": "정보시스템 감리 관점에서 AI-DLC 도입 시 고려사항:"
+  },
+  {
+    "term": "요구사항 검증",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 요구사항 검증: AI 가 생성한 사용자 스토리와 NFR 의 적절성 검토"
+  },
+  {
+    "term": "코드 품질 게이트",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 코드 품질 게이트: 자동 생성 코드의 보안·성능·유지보수성 검증 프로세스"
+  },
+  {
+    "term": "인간 개입 포인트",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 인간 개입 포인트: 핵심 의사결정 시점 (Gate) 의 명확한 정의와 문서화"
+  },
+  {
+    "term": "추적성",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 추적성: AI 제안 → 인간 승인 → 적용 이력의端到端 추적 가능성"
+  },
+  {
+    "term": "위험 관리",
+    "section": "ai_dlc",
+    "label": "AI-DLC 개발방법론",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 위험 관리: AI 오토메이션 실패 시 대비책 (Fallback) 수립 여부"
   },
   {
     "term": "자주 묻는 질문 (FAQ)",
