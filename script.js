@@ -83,7 +83,7 @@ async function loadMarkdownContent(section) {
         }
 
         // Set up click handlers for internal links in the audit checkpoints section
-        if (section === 'audit_checkpoints') {
+        if (section === 'audit_checkpoints' || section === 'learning_growth') {
             setupAuditCheckpointsLinks();
         }
 
