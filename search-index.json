@@ -4656,6 +4656,14 @@
     "preview": "- [자세히 보기](#ai_msa_eda) - 마이크로서비스와 이벤트 기반 AI 인프라"
   },
   {
+    "term": "모놀리스 아키텍처 한계",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#monolith_limitations) - 장애전파/기술종속/스케일링 비효율"
+  },
+  {
     "term": "AI 기술 및 하드웨어",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -13686,6 +13694,422 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "6. 운영 자동화: AAR 자동 생성 파이프라인과 지속적 개선 사이클 운영"
+  },
+  {
+    "term": "모놀리스 아키텍처의 한계와 현대화",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "heading",
+    "context": "",
+    "preview": "거대 시스템이 주는 안정성 뒤에 숨겨진 모놀리스 (Monolith) 아키텍처의 한계를 누구보다 깊이 체감하고 계실 것입니다."
+  },
+  {
+    "term": "모놀리스 (Monolith) 아키텍처의 한계",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "모놀리스 아키텍처의 한계와 현대화",
+    "preview": "거대 시스템이 주는 안정성 뒤에 숨겨진 모놀리스 (Monolith) 아키텍처의 한계를 누구보다 깊이 체감하고 계실 것입니다."
+  },
+  {
+    "term": "1. 장애 전파 (Blast Radius & Cascading Failure)",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "heading",
+    "context": "모놀리스 아키텍처의 한계와 현대화",
+    "preview": "모놀리스 아키텍처에서는 모든 기능이 하나의 프로세스 내에서 실행되므로, 작은 결함이 시스템 전체의 마비로 이어집니다."
+  },
+  {
+    "term": "하나의 프로세스 내에서 실행",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "1. 장애 전파 (Blast Radius & Cascading Failure)",
+    "preview": "모놀리스 아키텍처에서는 모든 기능이 하나의 프로세스 내에서 실행되므로, 작은 결함이 시스템 전체의 마비로 이어집니다."
+  },
+  {
+    "term": "현상",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "heading",
+    "context": "1. 장애 전파 (Blast Radius & Cascading Failure)",
+    "preview": ""
+  },
+  {
+    "term": "AI 시스템 적용 시",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "heading",
+    "context": "1. 장애 전파 (Blast Radius & Cascading Failure)",
+    "preview": "> 가드레일 레이어에서 과도한 연산으로 인해 타임아웃이 발생하면, 전체 AI 파이프라인의 API 호출이 차단되어 서비스 불능 상태에 빠집니다."
+  },
+  {
+    "term": "가드레일 레이어",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "1. 장애 전파 (Blast Radius & Cascading Failure)",
+    "preview": "> 가드레일 레이어에서 과도한 연산으로 인해 타임아웃이 발생하면, 전체 AI 파이프라인의 API 호출이 차단되어 서비스 불능 상태에 빠집니다."
+  },
+  {
+    "term": "전체 AI 파이프라인의 API 호출이 차단",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "1. 장애 전파 (Blast Radius & Cascading Failure)",
+    "preview": "> 가드레일 레이어에서 과도한 연산으로 인해 타임아웃이 발생하면, 전체 AI 파이프라인의 API 호출이 차단되어 서비스 불능 상태에 빠집니다."
+  },
+  {
+    "term": "인프라 관점",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "heading",
+    "context": "1. 장애 전파 (Blast Radius & Cascading Failure)",
+    "preview": "> 장애의 폭발 반경 (Blast Radius)을 제어할 격벽이 없다는 것이 가장 큰 리스크입니다."
+  },
+  {
+    "term": "폭발 반경",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "1. 장애 전파 (Blast Radius & Cascading Failure)",
+    "preview": "> 장애의 폭발 반경 (Blast Radius)을 제어할 격벽이 없다는 것이 가장 큰 리스크입니다."
+  },
+  {
+    "term": "2. 기술 종속 (Technology Lock-in & Rigidity)",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "heading",
+    "context": "모놀리스 아키텍처의 한계와 현대화",
+    "preview": "초기에 선택한 언어와 프레임워크가 시스템 전체를 지배하게 되어, 혁신적인 기술 도입을 가로막습니다."
+  },
+  {
+    "term": "시스템 전체를 지배",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "2. 기술 종속 (Technology Lock-in & Rigidity)",
+    "preview": "초기에 선택한 언어와 프레임워크가 시스템 전체를 지배하게 되어, 혁신적인 기술 도입을 가로막습니다."
+  },
+  {
+    "term": "Python 기반",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "2. 기술 종속 (Technology Lock-in & Rigidity)",
+    "preview": "> 최신 AI 에이전트 프레임워크는 주로 Python 기반인데, 기존 모놀리스 시스템이 C# 이나 Java 중심이라면 이를 통합하기 위해 복잡한 브릿지 코드를 양…"
+  },
+  {
+    "term": "C# 이나 Java 중심",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "2. 기술 종속 (Technology Lock-in & Rigidity)",
+    "preview": "> 최신 AI 에이전트 프레임워크는 주로 Python 기반인데, 기존 모놀리스 시스템이 C# 이나 Java 중심이라면 이를 통합하기 위해 복잡한 브릿지 코드를 양…"
+  },
+  {
+    "term": "복잡한 브릿지 코드를 양산",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "2. 기술 종속 (Technology Lock-in & Rigidity)",
+    "preview": "> 최신 AI 에이전트 프레임워크는 주로 Python 기반인데, 기존 모놀리스 시스템이 C# 이나 Java 중심이라면 이를 통합하기 위해 복잡한 브릿지 코드를 양…"
+  },
+  {
+    "term": "'기술적 부채'",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "2. 기술 종속 (Technology Lock-in & Rigidity)",
+    "preview": "> '기술적 부채'가 누적되어 인재 채용과 유지보수 효율이 급격히 떨어집니다."
+  },
+  {
+    "term": "3. 스케일링 비효율 (Inefficient Scaling)",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "heading",
+    "context": "모놀리스 아키텍처의 한계와 현대화",
+    "preview": "특정 모듈만 자원이 부족하더라도 시스템 전체를 복제해야 하므로 자원 낭비가 심각합니다."
+  },
+  {
+    "term": "시스템 전체를 복제",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "3. 스케일링 비효율 (Inefficient Scaling)",
+    "preview": "특정 모듈만 자원이 부족하더라도 시스템 전체를 복제해야 하므로 자원 낭비가 심각합니다."
+  },
+  {
+    "term": "RAG 파이프라인",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "3. 스케일링 비효율 (Inefficient Scaling)",
+    "preview": "> RAG 파이프라인에서 임베딩 (GPU 집약적) 작업과 단순 텍스트 검색 (I/O 집약적) 작업은 필요한 자원이 다릅니다."
+  },
+  {
+    "term": "임베딩",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "3. 스케일링 비효율 (Inefficient Scaling)",
+    "preview": "> RAG 파이프라인에서 임베딩 (GPU 집약적) 작업과 단순 텍스트 검색 (I/O 집약적) 작업은 필요한 자원이 다릅니다."
+  },
+  {
+    "term": "단순 텍스트 검색",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "3. 스케일링 비효율 (Inefficient Scaling)",
+    "preview": "> RAG 파이프라인에서 임베딩 (GPU 집약적) 작업과 단순 텍스트 검색 (I/O 집약적) 작업은 필요한 자원이 다릅니다."
+  },
+  {
+    "term": "GPU 자원을 비효율적으로 점유",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "3. 스케일링 비효율 (Inefficient Scaling)",
+    "preview": "> 모놀리스에서는 이 둘을 분리하여 확장할 수 없어 GPU 자원을 비효율적으로 점유하게 됩니다."
+  },
+  {
+    "term": "클라우드 비용",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "3. 스케일링 비효율 (Inefficient Scaling)",
+    "preview": "> 클라우드 비용 (OPEX)하는 구조입니다."
+  },
+  {
+    "term": "📊 모놀리스 vs MSA 비교",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "heading",
+    "context": "모놀리스 아키텍처의 한계와 현대화",
+    "preview": ""
+  },
+  {
+    "term": "장애 격리",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "📊 모놀리스 vs MSA 비교",
+    "preview": "장애 격리 전체 시스템 마비 서비스 단위 격리"
+  },
+  {
+    "term": "기술 스택",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "📊 모놀리스 vs MSA 비교",
+    "preview": "기술 스택 단일 언어/프레임워크 다양성 가능"
+  },
+  {
+    "term": "스케일링",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "📊 모놀리스 vs MSA 비교",
+    "preview": "스케일링 전체 복제 (비효율) 서비스 단위 확장"
+  },
+  {
+    "term": "초기 복잡도",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "📊 모놀리스 vs MSA 비교",
+    "preview": "초기 복잡도 낮음 높음"
+  },
+  {
+    "term": "장기 유지보수",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "📊 모놀리스 vs MSA 비교",
+    "preview": "장기 유지보수 어려움 용이"
+  },
+  {
+    "term": "💡 전환을 위한 전략적 제언",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "heading",
+    "context": "모놀리스 아키텍처의 한계와 현대화",
+    "preview": "이러한 한계를 극복하기 위해 앞서 논의한 MSA 와 이벤트 기반 아키텍처로의 점진적 전환이 필요합니다."
+  },
+  {
+    "term": "MSA 와 이벤트 기반 아키텍처",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "💡 전환을 위한 전략적 제언",
+    "preview": "이러한 한계를 극복하기 위해 앞서 논의한 MSA 와 이벤트 기반 아키텍처로의 점진적 전환이 필요합니다."
+  },
+  {
+    "term": "Strangler Fig Pattern",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "heading",
+    "context": "💡 전환을 위한 전략적 제언",
+    "preview": "> 모놀리스의 기능을 하나씩 떼어내어 마이크로서비스로 전환하며 점진적으로 교체하는 전략을 추천드립니다."
+  },
+  {
+    "term": "마이크로서비스로 전환",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "💡 전환을 위한 전략적 제언",
+    "preview": "> 모놀리스의 기능을 하나씩 떼어내어 마이크로서비스로 전환하며 점진적으로 교체하는 전략을 추천드립니다."
+  },
+  {
+    "term": "PDCA 적용",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "heading",
+    "context": "💡 전환을 위한 전략적 제언",
+    "preview": "> 각 모듈을 분리할 때마다 AAR (After Action Report)을 통해 장애 격리 효과와 자원 효율성을 측정하여 아키텍처의 유효성을 검증해야 합니다."
+  },
+  {
+    "term": "AAR",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "💡 전환을 위한 전략적 제언",
+    "preview": "> 각 모듈을 분리할 때마다 AAR (After Action Report)을 통해 장애 격리 효과와 자원 효율성을 측정하여 아키텍처의 유효성을 검증해야 합니다."
+  },
+  {
+    "term": "장애 격리 효과",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "💡 전환을 위한 전략적 제언",
+    "preview": "> 각 모듈을 분리할 때마다 AAR (After Action Report)을 통해 장애 격리 효과와 자원 효율성을 측정하여 아키텍처의 유효성을 검증해야 합니다."
+  },
+  {
+    "term": "자원 효율성",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "💡 전환을 위한 전략적 제언",
+    "preview": "> 각 모듈을 분리할 때마다 AAR (After Action Report)을 통해 장애 격리 효과와 자원 효율성을 측정하여 아키텍처의 유효성을 검증해야 합니다."
+  },
+  {
+    "term": "Plan",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "💡 전환을 위한 전략적 제언",
+    "preview": "Plan 분리할 모듈 선정, 목표 지표 설정 (MTTR, 비용 등)"
+  },
+  {
+    "term": "Check",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "💡 전환을 위한 전략적 제언",
+    "preview": "Check AAR 작성, 장애 격리 효과, 자원 효율성 측정"
+  },
+  {
+    "term": "Act",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "💡 전환을 위한 전략적 제언",
+    "preview": "Act 개선 사항 반영, 다음 모듈 분리 계획"
+  },
+  {
+    "term": "🎯 우선순위 결정 가이드",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "heading",
+    "context": "모놀리스 아키텍처의 한계와 현대화",
+    "preview": "어떤 모듈부터 분리해야 할지 우선순위 결정을 위한 가이드입니다."
+  },
+  {
+    "term": "1 순위",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "🎯 우선순위 결정 가이드",
+    "preview": "1 순위 자원 집약적, 독립적 GPU 추론 서비스, 임베딩 파이프라인"
+  },
+  {
+    "term": "2 순위",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "🎯 우선순위 결정 가이드",
+    "preview": "2 순위 장애 영향도 큼 가드레일, 인증/인가 서비스"
+  },
+  {
+    "term": "3 순위",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "🎯 우선순위 결정 가이드",
+    "preview": "3 순위 빈번한 변경 RAG 데이터 업데이트, 프롬프트 관리"
+  },
+  {
+    "term": "4 순위",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "🎯 우선순위 결정 가이드",
+    "preview": "4 순위 안정적, 변경 적음 감사 로깅, 기본 CRUD"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "heading",
+    "context": "모놀리스 아키텍처의 한계와 현대화",
+    "preview": "정보시스템 감리 관점에서 모놀리스 현대화 검토 시 고려사항:"
+  },
+  {
+    "term": "위험 관리",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 위험 관리: Strangler Fig Pattern 을 통한 점진적 전환의 위험 완화 효과"
+  },
+  {
+    "term": "비용 효율성",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 비용 효율성: 서비스 단위 스케일링으로 인한 클라우드 비용 최적화"
+  },
+  {
+    "term": "기술 부채",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 기술 부채: 기술 종속 해소를 위한 로드맵과 투자 계획"
+  },
+  {
+    "term": "장애 대응",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 장애 대응: Blast Radius 축소를 통한 MTTR (Mean Time To Recovery) 개선"
+  },
+  {
+    "term": "인재 전략",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 인재 전략: 다양한 기술 스택 활용을 위한 인재 채용 및 육성 계획"
+  },
+  {
+    "term": "전환 성과",
+    "section": "monolith_limitations",
+    "label": "모놀리스 아키텍처 한계",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 전환 성과: PDCA 사이클 기반의 현대화 효과 측정과 지속적 개선"
   },
   {
     "term": "자주 묻는 질문 (FAQ)",
