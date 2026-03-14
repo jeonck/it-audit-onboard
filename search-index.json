@@ -4664,6 +4664,14 @@
     "preview": "- [자세히 보기](#ai_cost_optimization) - 토큰 효율화, 모델 계층화, 캐싱"
   },
   {
+    "term": "AI 품질 보장 전략",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#ai_quality_assurance) - 가드레일, 환각 방지, 검증 루프"
+  },
+  {
     "term": "AI 기술 및 하드웨어",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -10414,6 +10422,478 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "6. 지속적 최적화: PDCA 사이클 운영, 정기적 AAR 검토 프로세스 수립 여부"
+  },
+  {
+    "term": "AI 아키텍처 품질 보장 (Quality Assurance) 전략",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "",
+    "preview": "AI 아키텍처 설계에서 비용 최적화가 '효율'을 담당한다면, 품질 보장 (Quality Assurance)은 시스템의 '신뢰성'을 결정합니다."
+  },
+  {
+    "term": "비용 최적화",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "AI 아키텍처 품질 보장 (Quality Assurance) 전략",
+    "preview": "AI 아키텍처 설계에서 비용 최적화가 '효율'을 담당한다면, 품질 보장 (Quality Assurance)은 시스템의 '신뢰성'을 결정합니다."
+  },
+  {
+    "term": "품질 보장 (Quality Assurance)",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "AI 아키텍처 품질 보장 (Quality Assurance) 전략",
+    "preview": "AI 아키텍처 설계에서 비용 최적화가 '효율'을 담당한다면, 품질 보장 (Quality Assurance)은 시스템의 '신뢰성'을 결정합니다."
+  },
+  {
+    "term": "비즈니스 크리티컬한 환경",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "AI 아키텍처 품질 보장 (Quality Assurance) 전략",
+    "preview": "특히 비즈니스 크리티컬한 환경에서는 모델의 자유도를 제어하고 출력을 검증하는 다중 방어 체계가 필수적입니다."
+  },
+  {
+    "term": "다중 방어 체계",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "AI 아키텍처 품질 보장 (Quality Assurance) 전략",
+    "preview": "특히 비즈니스 크리티컬한 환경에서는 모델의 자유도를 제어하고 출력을 검증하는 다중 방어 체계가 필수적입니다."
+  },
+  {
+    "term": "1. 가드레일 (Guardrails): 안전 및 정책 준수",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "AI 아키텍처 품질 보장 (Quality Assurance) 전략",
+    "preview": "사용자의 입력 (Prompt Injection) 과 모델의 출력 (Bias, Toxicity) 이 정의된 정책을 벗어나지 않도록 하는 실시간 필터링 계층입니다."
+  },
+  {
+    "term": "실시간 필터링 계층",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "1. 가드레일 (Guardrails): 안전 및 정책 준수",
+    "preview": "사용자의 입력 (Prompt Injection) 과 모델의 출력 (Bias, Toxicity) 이 정의된 정책을 벗어나지 않도록 하는 실시간 필터링 계층입니다."
+  },
+  {
+    "term": "PII(개인정보) 마스킹",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "1. 가드레일 (Guardrails): 안전 및 정책 준수",
+    "preview": "- 입력 단계에서 주민번호, 전화번호 등 민감 정보를 감지하고 마스킹하여 모델로 전송되는 것을 차단합니다."
+  },
+  {
+    "term": "주민번호, 전화번호 등 민감 정보를 감지하고 마스킹",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "1. 가드레일 (Guardrails): 안전 및 정책 준수",
+    "preview": "- 입력 단계에서 주민번호, 전화번호 등 민감 정보를 감지하고 마스킹하여 모델로 전송되는 것을 차단합니다."
+  },
+  {
+    "term": "주제 이탈 방지 (Topical Rail)",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "1. 가드레일 (Guardrails): 안전 및 정책 준수",
+    "preview": "- 챗봇이 허용된 범위를 벗어난 질문 (예: 정치, 경쟁사 비교) 에 답변하지 않도록 강제합니다."
+  },
+  {
+    "term": "챗봇이 허용된 범위를 벗어난 질문 (예",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "1. 가드레일 (Guardrails): 안전 및 정책 준수",
+    "preview": "챗봇이 허용된 범위를 벗어난 질문 (예: 정치, 경쟁사 비교) 에 답변하지 않도록 강제합니다."
+  },
+  {
+    "term": "NeMo Guardrails / Llama Guard",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "1. 가드레일 (Guardrails): 안전 및 정책 준수",
+    "preview": "- 오픈소스 프레임워크를 활용하여 입력과 출력을 병렬로 검사하는 독립적인 가드레일 레이어를 구성합니다."
+  },
+  {
+    "term": "입력과 출력을 병렬로 검사",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "1. 가드레일 (Guardrails): 안전 및 정책 준수",
+    "preview": "- 오픈소스 프레임워크를 활용하여 입력과 출력을 병렬로 검사하는 독립적인 가드레일 레이어를 구성합니다."
+  },
+  {
+    "term": "2. 환각 방지 (Hallucination Mitigation)",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "AI 아키텍처 품질 보장 (Quality Assurance) 전략",
+    "preview": "LLM 이 사실이 아닌 내용을 그럴듯하게 지어내는 현상을 억제하기 위한 '근거 중심' 설계입니다."
+  },
+  {
+    "term": "'근거 중심' 설계",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "2. 환각 방지 (Hallucination Mitigation)",
+    "preview": "LLM 이 사실이 아닌 내용을 그럴듯하게 지어내는 현상을 억제하기 위한 '근거 중심' 설계입니다."
+  },
+  {
+    "term": "RAG (Retrieval-Augmented Generation)",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "2. 환각 방지 (Hallucination Mitigation)",
+    "preview": "- 모델의 내부 지식에만 의존하지 않고, 신뢰할 수 있는 외부 지식베이스 (Vector DB, GraphRAG) 에서 검색된 사실만을 바탕으로 답변하게 합니다."
+  },
+  {
+    "term": "신뢰할 수 있는 외부 지식베이스",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "2. 환각 방지 (Hallucination Mitigation)",
+    "preview": "- 모델의 내부 지식에만 의존하지 않고, 신뢰할 수 있는 외부 지식베이스 (Vector DB, GraphRAG) 에서 검색된 사실만을 바탕으로 답변하게 합니다."
+  },
+  {
+    "term": "Context Grounding",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "2. 환각 방지 (Hallucination Mitigation)",
+    "preview": "- 프롬프트에 \"제공된 문서에 없는 내용은 모른다고 답하라\"는 제약을 명시하여 추측을 방지합니다."
+  },
+  {
+    "term": "\"제공된 문서에 없는 내용은 모른다고 답하라\"",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "2. 환각 방지 (Hallucination Mitigation)",
+    "preview": "- 프롬프트에 \"제공된 문서에 없는 내용은 모른다고 답하라\"는 제약을 명시하여 추측을 방지합니다."
+  },
+  {
+    "term": "Citations (출처 표기)",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "2. 환각 방지 (Hallucination Mitigation)",
+    "preview": "- 응답에 참고한 문서의 구절이나 링크를 포함하도록 설계하여 사용자가 직접 사실 여부를 교차 검증할 수 있게 합니다."
+  },
+  {
+    "term": "참고한 문서의 구절이나 링크를 포함",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "2. 환각 방지 (Hallucination Mitigation)",
+    "preview": "- 응답에 참고한 문서의 구절이나 링크를 포함하도록 설계하여 사용자가 직접 사실 여부를 교차 검증할 수 있게 합니다."
+  },
+  {
+    "term": "3. 일관성 확보 (Consistency & Determinism)",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "AI 아키텍처 품질 보장 (Quality Assurance) 전략",
+    "preview": "동일하거나 유사한 질문에 대해 매번 다른 답변이 나오는 불확실성을 최소화합니다."
+  },
+  {
+    "term": "불확실성을 최소화",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "3. 일관성 확보 (Consistency & Determinism)",
+    "preview": "동일하거나 유사한 질문에 대해 매번 다른 답변이 나오는 불확실성을 최소화합니다."
+  },
+  {
+    "term": "Temperature 제어",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "3. 일관성 확보 (Consistency & Determinism)",
+    "preview": "- 창의성이 필요 없는 업무 (데이터 추출, 요약) 에서는 Temperature 값을 0 에 가깝게 설정하여 결과의 결정론적 성격을 강화합니다."
+  },
+  {
+    "term": "Temperature 값을 0 에 가깝게 설정",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "3. 일관성 확보 (Consistency & Determinism)",
+    "preview": "- 창의성이 필요 없는 업무 (데이터 추출, 요약) 에서는 Temperature 값을 0 에 가깝게 설정하여 결과의 결정론적 성격을 강화합니다."
+  },
+  {
+    "term": "Self-Consistency (자기 일관성)",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "3. 일관성 확보 (Consistency & Determinism)",
+    "preview": "- 동일한 질문을 여러 번 던지거나 다수의 경로로 추론하게 한 뒤, 가장 많이 도출된 결론을 최종 답변으로 채택 (Majority Voting) 합니다."
+  },
+  {
+    "term": "가장 많이 도출된 결론을 최종 답변으로 채택",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "3. 일관성 확보 (Consistency & Determinism)",
+    "preview": "- 동일한 질문을 여러 번 던지거나 다수의 경로로 추론하게 한 뒤, 가장 많이 도출된 결론을 최종 답변으로 채택 (Majority Voting) 합니다."
+  },
+  {
+    "term": "N-shot Prompting",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "3. 일관성 확보 (Consistency & Determinism)",
+    "preview": "- 고정된 예시 (Few-shot)하여 모델이 따라야 할 응답의 톤앤매너와 논리 구조를 학습시킵니다."
+  },
+  {
+    "term": "고정된 예시",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "3. 일관성 확보 (Consistency & Determinism)",
+    "preview": "- 고정된 예시 (Few-shot)하여 모델이 따라야 할 응답의 톤앤매너와 논리 구조를 학습시킵니다."
+  },
+  {
+    "term": "4. 구조화 출력 (Structured Output)",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "AI 아키텍처 품질 보장 (Quality Assurance) 전략",
+    "preview": "후속 시스템 (DB, API, App) 과의 연동을 위해 모델의 응답을 정형화된 데이터 형식으로 강제합니다."
+  },
+  {
+    "term": "정형화된 데이터 형식으로 강제",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "4. 구조화 출력 (Structured Output)",
+    "preview": "후속 시스템 (DB, API, App) 과의 연동을 위해 모델의 응답을 정형화된 데이터 형식으로 강제합니다."
+  },
+  {
+    "term": "JSON Mode & Schema Enforcing",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "4. 구조화 출력 (Structured Output)",
+    "preview": "- Pydantic 이나 JSON Schema 를 정의하고, 모델이 이 규격에 맞지 않는 답변을 내보내지 못하도록 강제 (Grammar-based sampling…"
+  },
+  {
+    "term": "Pydantic 이나 JSON Schema 를 정의",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "4. 구조화 출력 (Structured Output)",
+    "preview": "- Pydantic 이나 JSON Schema 를 정의하고, 모델이 이 규격에 맞지 않는 답변을 내보내지 못하도록 강제 (Grammar-based sampling…"
+  },
+  {
+    "term": "Function Calling",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "4. 구조화 출력 (Structured Output)",
+    "preview": "- 모델이 직접 자연어로 답하는 대신, 정의된 함수의 파라미터를 채우는 방식으로 작동하게 하여 로직의 정확도를 높입니다."
+  },
+  {
+    "term": "정의된 함수의 파라미터를 채우는 방식",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "4. 구조화 출력 (Structured Output)",
+    "preview": "- 모델이 직접 자연어로 답하는 대신, 정의된 함수의 파라미터를 채우는 방식으로 작동하게 하여 로직의 정확도를 높입니다."
+  },
+  {
+    "term": "5. 검증 루프 (Validation Loop & Feedback)",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "AI 아키텍처 품질 보장 (Quality Assurance) 전략",
+    "preview": "출력된 결과물이 비즈니스 요구사항을 충족하는지 자동으로 검사하고 수정하는 '자기 교정' 프로세스입니다."
+  },
+  {
+    "term": "자동으로 검사하고 수정",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "5. 검증 루프 (Validation Loop & Feedback)",
+    "preview": "출력된 결과물이 비즈니스 요구사항을 충족하는지 자동으로 검사하고 수정하는 '자기 교정' 프로세스입니다."
+  },
+  {
+    "term": "LLM-as-a-Judge",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "5. 검증 루프 (Validation Loop & Feedback)",
+    "preview": "- 상위 모델 (예: GPT-4o)하여, 기준 미달 시 재생성을 요청합니다."
+  },
+  {
+    "term": "상위 모델",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "5. 검증 루프 (Validation Loop & Feedback)",
+    "preview": "- 상위 모델 (예: GPT-4o)하여, 기준 미달 시 재생성을 요청합니다."
+  },
+  {
+    "term": "상위 모델 (예",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "5. 검증 루프 (Validation Loop & Feedback)",
+    "preview": "상위 모델 (예: GPT-4o)하여, 기준 미달 시 재생성을 요청합니다."
+  },
+  {
+    "term": "Code Execution Unit",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "5. 검증 루프 (Validation Loop & Feedback)",
+    "preview": "- 코드를 생성하는 경우, 실제로 샌드박스 환경에서 실행해보고 에러가 발생하면 에러 로그를 다시 모델에게 전달하여 수정을 유도합니다."
+  },
+  {
+    "term": "Human-in-the-loop (HITL)",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "5. 검증 루프 (Validation Loop & Feedback)",
+    "preview": "- 자동 검증이 어려운 모호한 케이스는 운영자의 승인을 거치도록 설계하여 품질의 최종 보루를 마련합니다."
+  },
+  {
+    "term": "운영자의 승인을 거치도록 설계",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "5. 검증 루프 (Validation Loop & Feedback)",
+    "preview": "- 자동 검증이 어려운 모호한 케이스는 운영자의 승인을 거치도록 설계하여 품질의 최종 보루를 마련합니다."
+  },
+  {
+    "term": "🛠️ 품질 보장 아키텍처 요약 (Checklist)",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "AI 아키텍처 품질 보장 (Quality Assurance) 전략",
+    "preview": ""
+  },
+  {
+    "term": "Pre-process",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "🛠️ 품질 보장 아키텍처 요약 (Checklist)",
+    "preview": "Pre-process 가드레일, PII 필터링 부적절한 입력 차단 유저 입력 직후"
+  },
+  {
+    "term": "Generation",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "🛠️ 품질 보장 아키텍처 요약 (Checklist)",
+    "preview": "Generation RAG, Low Temp 사실 근거 답변 생성 모델 추론 시"
+  },
+  {
+    "term": "Post-process",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "🛠️ 품질 보장 아키텍처 요약 (Checklist)",
+    "preview": "Post-process 구조화 검증, 코드 실행 데이터 형식 및 실행력 확인 응답 생성 직후"
+  },
+  {
+    "term": "Optimization",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "🛠️ 품질 보장 아키텍처 요약 (Checklist)",
+    "preview": "Optimization 검증 루프, AAR 지속적인 품질 개선 운영 및 고도화 단계"
+  },
+  {
+    "term": "품질 보장과 PDCA 사이클",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "AI 아키텍처 품질 보장 (Quality Assurance) 전략",
+    "preview": "> 이러한 품질 보장 원리들은 앞서 논의한 PDCA(Plan-Do-Check-Act)와 결합될 때 더욱 강력해집니다."
+  },
+  {
+    "term": "PDCA",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "품질 보장과 PDCA 사이클",
+    "preview": "> 이러한 품질 보장 원리들은 앞서 논의한 PDCA(Plan-Do-Check-Act)와 결합될 때 더욱 강력해집니다."
+  },
+  {
+    "term": "8D 리포트 형식",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "품질 보장과 PDCA 사이클",
+    "preview": "> 설계하신 아키텍처에 대해 8D 리포트 형식으로 품질 결함 (환각 발생 등) 의 근본 원인을 분석하고 개선하는 프로세스를 도입해 보시는 건 어떨까요?"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "heading",
+    "context": "AI 아키텍처 품질 보장 (Quality Assurance) 전략",
+    "preview": "정보시스템 감리 관점에서 AI 품질 보장 도입 시 고려사항:"
+  },
+  {
+    "term": "가드레일 정책 검증",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 가드레일 정책 검증: 입력/출력 필터링 규칙의 완전성과 최신성 유지 메커니즘"
+  },
+  {
+    "term": "환각 감소 효과 측정",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 환각 감소 효과 측정: RAG 적용 전후 hallucination 발생률 비교 및 출처 표기 정확도"
+  },
+  {
+    "term": "일관성 검증",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 일관성 검증: 동일 질문 반복 시 응답 일관성 (Temperature, Self-Consistency) 측정"
+  },
+  {
+    "term": "구조화 출력 검증",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 구조화 출력 검증: JSON Schema 준수율, Function Calling 정확도 모니터링"
+  },
+  {
+    "term": "검증 루프 효과성",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 검증 루프 효과성: LLM-as-a-Judge 평가 지표와 재생성 성공률 분석"
+  },
+  {
+    "term": "Human-in-the-loop 운영",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. Human-in-the-loop 운영: HITL 에스컬레이션 기준, 승인 프로세스, 응답 지연 시간 관리"
+  },
+  {
+    "term": "품질 결함 관리",
+    "section": "ai_quality_assurance",
+    "label": "AI 품질 보장",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "7. 품질 결함 관리: 8D 리포트 기반 근본 원인 분석과 재발 방지 대책 수립"
   },
   {
     "term": "자주 묻는 질문 (FAQ)",

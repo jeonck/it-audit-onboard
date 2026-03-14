@@ -100,6 +100,9 @@
 ### AI 비용 최적화 전략
 - [자세히 보기](#ai_cost_optimization) - 토큰 효율화, 모델 계층화, 캐싱
 
+### AI 품질 보장 전략
+- [자세히 보기](#ai_quality_assurance) - 가드레일, 환각 방지, 검증 루프
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례
