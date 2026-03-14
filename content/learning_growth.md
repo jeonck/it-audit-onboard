@@ -82,6 +82,9 @@
 ### MCP 컨텍스트 최적화
 - [자세히 보기](#mcp_context) - MCP 컨텍스트 과소비 해결 방안
 
+### ReAct 패턴
+- [자세히 보기](#react_pattern) - AI 에이전트 제어 패턴, Reasoning + Acting
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례

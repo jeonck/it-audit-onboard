@@ -42,6 +42,7 @@ const SECTION_LABELS = {
     compound_ai:            'Compound AI 시스템',
     rag:                    'RAG (검색 증강 생성)',
     mcp_context:            'MCP 컨텍스트 최적화',
+    react_pattern:          'ReAct 패턴',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };

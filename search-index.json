@@ -4616,6 +4616,14 @@
     "preview": "- [자세히 보기](#mcp_context) - MCP 컨텍스트 과소비 해결 방안"
   },
   {
+    "term": "ReAct 패턴",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#react_pattern) - AI 에이전트 제어 패턴, Reasoning + Acting"
+  },
+  {
     "term": "AI 기술 및 하드웨어",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -8462,6 +8470,254 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "6. 확장성: 수백 개 도구 노출 시나리오에서의 시스템 안정성 검증"
+  },
+  {
+    "term": "ReAct 패턴 (Reasoning + Acting)",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "heading",
+    "context": "",
+    "preview": "ReAct 패턴 (Reasoning + Acting) 은 2022 년 Yao et al. 논문에서 제안된 AI 에이전트의 가장 대표적인 제어 패턴 중 하나입니다."
+  },
+  {
+    "term": "AI 에이전트의 가장 대표적인 제어 패턴",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "ReAct 패턴 (Reasoning + Acting)",
+    "preview": "ReAct 패턴 (Reasoning + Acting) 은 2022 년 Yao et al. 논문에서 제안된 AI 에이전트의 가장 대표적인 제어 패턴 중 하나입니다."
+  },
+  {
+    "term": "ReAct 의 핵심 아이디어 (한 줄 요약)",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "heading",
+    "context": "ReAct 패턴 (Reasoning + Acting)",
+    "preview": "> LLM 이 \"생각 (Reasoning)\"과 \"행동 (Acting)\"을 번갈아 반복하면서 외부 환경과 상호작용하며 문제를 점진적으로 해결한다."
+  },
+  {
+    "term": "단순 CoT (Chain-of-Thought)",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "ReAct 의 핵심 아이디어 (한 줄 요약)",
+    "preview": "단순 CoT (Chain-of-Thought) 생각만 함 (환각·오류 누적 쉬움)"
+  },
+  {
+    "term": "단순 Tool Use",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "ReAct 의 핵심 아이디어 (한 줄 요약)",
+    "preview": "단순 Tool Use 행동만 함 (계획 없이 무작정 호출)"
+  },
+  {
+    "term": "ReAct",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "ReAct 의 핵심 아이디어 (한 줄 요약)",
+    "preview": "ReAct 생각 → 행동 → 관찰 → 다시 생각 → … (인간처럼 동적·피드백 기반)"
+  },
+  {
+    "term": "생각 → 행동 → 관찰 → 다시 생각 → …",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "ReAct 의 핵심 아이디어 (한 줄 요약)",
+    "preview": "ReAct 생각 → 행동 → 관찰 → 다시 생각 → … (인간처럼 동적·피드백 기반)"
+  },
+  {
+    "term": "ReAct 의 동작 흐름 (단계별 상세 설명)",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "heading",
+    "context": "ReAct 패턴 (Reasoning + Acting)",
+    "preview": "ReAct 은 반복 루프 (Loop) 로 작동하며, 보통 아래 4 단계가 사이클을 이룹니다."
+  },
+  {
+    "term": "종료 조건",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "ReAct 의 동작 흐름 (단계별 상세 설명)",
+    "preview": "이 루프는 종료 조건 (Final Answer 출력, 최대 스텝 도달, 목표 달성 등) 이 될 때까지 반복됩니다."
+  },
+  {
+    "term": "전체 흐름 예시 (HotpotQA 스타일 다단계 질문 해결)",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "heading",
+    "context": "ReAct 패턴 (Reasoning + Acting)",
+    "preview": "Thought: \"질문: '아이언맨' 배우 로버트 다우니 주니어의 데뷔작은?"
+  },
+  {
+    "term": "ReAct 의 프롬프트 템플릿 (실무에서 가장 많이 쓰이는 기본 형식)",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "heading",
+    "context": "ReAct 패턴 (Reasoning + Acting)",
+    "preview": "You are a helpful AI agent. Solve the task using this format ONLY:"
+  },
+  {
+    "term": "Few-shot 예시 1~3 개 넣으면 성능 크게 올라감",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "ReAct 의 프롬프트 템플릿 (실무에서 가장 많이 쓰이는 기본 형식)",
+    "preview": "> Few-shot 예시 1~3 개 넣으면 성능 크게 올라감 (HotPotQA, ALFWorld 등에서 검증됨)"
+  },
+  {
+    "term": "ReAct 의 강점 (2026 년 관점)",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "heading",
+    "context": "ReAct 패턴 (Reasoning + Acting)",
+    "preview": ""
+  },
+  {
+    "term": "환각·오류 전파 크게 감소",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "ReAct 의 강점 (2026 년 관점)",
+    "preview": "환각·오류 전파 크게 감소 외부 grounding 으로 사실 기반 응답"
+  },
+  {
+    "term": "인간처럼 traceable & interpretable",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "ReAct 의 강점 (2026 년 관점)",
+    "preview": "인간처럼 traceable & interpretable Thought 가 자연어로 남음 → 의사결정 경로 추적 가능"
+  },
+  {
+    "term": "동적 계획 조정 가능",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "ReAct 의 강점 (2026 년 관점)",
+    "preview": "동적 계획 조정 가능 고정 플랜 없이 실시간 적응"
+  },
+  {
+    "term": "Tool 사용 + Reasoning 시너지",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "ReAct 의 강점 (2026 년 관점)",
+    "preview": "Tool 사용 + Reasoning 시너지 복잡 multi-hop·long-horizon 작업에 강함"
+  },
+  {
+    "term": "약점 & 개선 방향 (현실적)",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "heading",
+    "context": "ReAct 패턴 (Reasoning + Acting)",
+    "preview": ""
+  },
+  {
+    "term": "컨텍스트 길이 폭발",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "약점 & 개선 방향 (현실적)",
+    "preview": "컨텍스트 길이 폭발 MCP 처럼 dynamic tool loading + 요약 필요"
+  },
+  {
+    "term": "불필요한 루프 반복",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "약점 & 개선 방향 (현실적)",
+    "preview": "불필요한 루프 반복 Verifier / Reflection 추가 (Reflexion, Self-Refine)"
+  },
+  {
+    "term": "2026 년 트렌드",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "약점 & 개선 방향 (현실적)",
+    "preview": "2026 년 트렌드 ReAct + ReWOO / Plan-and-Execute / Multi-agent 조합"
+  },
+  {
+    "term": "요약",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "heading",
+    "context": "ReAct 패턴 (Reasoning + Acting)",
+    "preview": "> ReAct 은 이제 \"에이전트 기본 동작 방식\"이라고 해도 과언이 아닙니다."
+  },
+  {
+    "term": "ReAct 은 이제 \"에이전트 기본 동작 방식\"",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "요약",
+    "preview": "> ReAct 은 이제 \"에이전트 기본 동작 방식\"이라고 해도 과언이 아닙니다."
+  },
+  {
+    "term": "인간과 유사한 문제 해결 접근",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "요약",
+    "preview": "> 생각 (Reasoning) 과 행동 (Acting) 의 번갈아 반복으로 인간과 유사한 문제 해결 접근을 가능하게 하는 핵심 패턴입니다."
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "heading",
+    "context": "ReAct 패턴 (Reasoning + Acting)",
+    "preview": "정보시스템 감리 관점에서 ReAct 패턴 도입 시 고려사항:"
+  },
+  {
+    "term": "의사결정 추적성",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 의사결정 추적성: Thought 로그의 완전성과 검증 가능성 확인"
+  },
+  {
+    "term": "루프 종료 조건",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 루프 종료 조건: 무한 루프 방지를 위한 최대 스텝, 타임아웃 설정 적절성 검토"
+  },
+  {
+    "term": "도구 호출 검증",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 도구 호출 검증: Action 호출 전 권한·보안·입력 유효성 검증 프로세스"
+  },
+  {
+    "term": "환각 감소 효과",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 환각 감소 효과: ReAct 적용 전후 hallucination 발생률 비교 검증"
+  },
+  {
+    "term": "성능 모니터링",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 성능 모니터링: Thought-Action 반복 횟수, 응답 시간, 토큰 사용량 모니터링"
+  },
+  {
+    "term": "인간 개입 포인트",
+    "section": "react_pattern",
+    "label": "ReAct 패턴",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 인간 개입 포인트: 중요 의사결정 시 인간 승인 (Human-in-the-loop) 여부"
   },
   {
     "term": "자주 묻는 질문 (FAQ)",
