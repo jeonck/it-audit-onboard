@@ -76,6 +76,9 @@
 ### Compound AI 시스템
 - [자세히 보기](#compound_ai) - Compound AI 핵심 구성 요소, 오케스트레이션
 
+### Compound AI 아키텍처
+- [자세히 보기](#compound_ai_architecture) - 상세 아키텍처 설계, 5 단계 보안/품질 보장
+
 ### RAG (검색 증강 생성)
 - [자세히 보기](#rag) - RAG 핵심 3 단계, 구성 요소, 실무 가이드
 

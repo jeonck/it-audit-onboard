@@ -20,7 +20,7 @@ async function loadMarkdownContent(section) {
 
             // Concatenate both FAQ contents, removing duplicate headers
             markdownText = text1 + '\n\n' + removeHeaderFromMarkdown(text2);
-        } else if (section === 'audit_checkpoints' || section === 'latest_checkpoints' || section === 'latest_technical' || section === 'latest_additional' || section === 'security_iso27001' || section === 'gov_quality_manual' || section === 'data_quality_assessment' || section === 'proposal_management' || section === 'learning_growth' || section === 'social_identity_auth' || section === 'ai_development_methodology' || section === 'cerebras_ai' || section === 'diffusion_llm' || section === 'ai_dlc' || section === 'compound_ai' || section === 'rag' || section === 'ai_dlc_bolt_mob' || section === 'mcp_context' || section === 'react_pattern' || section === 'coderabbit_guide' || section === 'ai_native_architecture' || section === 'ai_architecture_tradeoffs' || section === 'ai_latency_optimization' || section === 'ai_cost_optimization' || section === 'ai_quality_assurance' || section === 'ai_architecture_decision_tree') {
+        } else if (section === 'audit_checkpoints' || section === 'latest_checkpoints' || section === 'latest_technical' || section === 'latest_additional' || section === 'security_iso27001' || section === 'gov_quality_manual' || section === 'data_quality_assessment' || section === 'proposal_management' || section === 'learning_growth' || section === 'social_identity_auth' || section === 'ai_development_methodology' || section === 'cerebras_ai' || section === 'diffusion_llm' || section === 'ai_dlc' || section === 'compound_ai' || section === 'rag' || section === 'ai_dlc_bolt_mob' || section === 'mcp_context' || section === 'react_pattern' || section === 'coderabbit_guide' || section === 'ai_native_architecture' || section === 'ai_architecture_tradeoffs' || section === 'ai_latency_optimization' || section === 'ai_cost_optimization' || section === 'ai_quality_assurance' || section === 'ai_architecture_decision_tree' || section === 'compound_ai_architecture') {
             // Handle the audit checkpoints sections
             if (section === 'audit_checkpoints') {
                 // Load the main audit checkpoints page which links to sub-sections
@@ -224,6 +224,11 @@ function setupInternalLinks() {
                 link.addEventListener('click', function(e) {
                     e.preventDefault();
                     loadMarkdownContent('ai_architecture_decision_tree');
+                });
+            } else if (href === '#compound_ai_architecture') {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    loadMarkdownContent('compound_ai_architecture');
                 });
             }
         });
