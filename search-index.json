@@ -4712,6 +4712,14 @@
     "preview": "- [자세히 보기](#msa_core_patterns) - API GW/서비스디스커버리/서킷브레이커"
   },
   {
+    "term": "AI 서비스 MSA 분해",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#ai_service_decomposition) - 비즈니스/모델/운영 기반 분해 전략"
+  },
+  {
     "term": "AI 실습 자료",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -17118,6 +17126,526 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "6. PDCA 사이클: 모니터링 기반 자동 복구와 지속적 개선 메커니즘"
+  },
+  {
+    "term": "AI 서비스 MSA 분해 전략",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "",
+    "preview": "AI 서비스를 마이크로서비스 (MSA) 로 분해할 때는 일반적인 소프트웨어 공학의 원칙에 AI 특유의 인프라 및 모델 운영 (MLOps) 특성을 결합해야 합니다."
+  },
+  {
+    "term": "AI 특유의 인프라 및 모델 운영 (MLOps) 특성",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "AI 서비스 MSA 분해 전략",
+    "preview": "AI 서비스를 마이크로서비스 (MSA) 로 분해할 때는 일반적인 소프트웨어 공학의 원칙에 AI 특유의 인프라 및 모델 운영 (MLOps) 특성을 결합해야 합니다."
+  },
+  {
+    "term": "비용, 리소스, 레이턴시",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "AI 서비스 MSA 분해 전략",
+    "preview": "특히 엔지니어님께서 언급하신 비용, 리소스, 레이턴시 등의 항목은 인프라 효율성을 결정짓는 결정적 요인입니다."
+  },
+  {
+    "term": "1. 비즈니스 및 조직 기반 분해 (Organizational Context)",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "AI 서비스 MSA 분해 전략",
+    "preview": "시스템의 복잡도를 관리하고 팀 간의 협업 효율을 높이는 소프트웨어 설계의 근본 기준입니다."
+  },
+  {
+    "term": "소프트웨어 설계의 근본 기준",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "1. 비즈니스 및 조직 기반 분해 (Organizational Context)",
+    "preview": "시스템의 복잡도를 관리하고 팀 간의 협업 효율을 높이는 소프트웨어 설계의 근본 기준입니다."
+  },
+  {
+    "term": "비즈니스 도메인 경계 (Bounded Context)",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "1. 비즈니스 및 조직 기반 분해 (Organizational Context)",
+    "preview": "> 서로 다른 비즈니스 로직 (예: 고객 지원 vs. 내부 분석) 이 섞이지 않도록 경계를 나눕니다."
+  },
+  {
+    "term": "고객 지원 BC",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "1. 비즈니스 및 조직 기반 분해 (Organizational Context)",
+    "preview": "고객 지원 BC 챗봇, FAQ, 티켓팅"
+  },
+  {
+    "term": "내부 분석 BC",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "1. 비즈니스 및 조직 기반 분해 (Organizational Context)",
+    "preview": "내부 분석 BC 리포트 생성, 데이터 마이닝"
+  },
+  {
+    "term": "팀 경계 (Conway's Law)",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "1. 비즈니스 및 조직 기반 분해 (Organizational Context)",
+    "preview": "> 서비스 구조는 개발 조직의 구조를 따를 때 가장 효율적입니다."
+  },
+  {
+    "term": "개발 조직의 구조를 따를 때 가장 효율적",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "1. 비즈니스 및 조직 기반 분해 (Organizational Context)",
+    "preview": "> 서비스 구조는 개발 조직의 구조를 따를 때 가장 효율적입니다."
+  },
+  {
+    "term": "모델 개발 팀",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "1. 비즈니스 및 조직 기반 분해 (Organizational Context)",
+    "preview": "모델 개발 팀 모델 서빙, 프롬프트 엔진"
+  },
+  {
+    "term": "플랫폼 엔지니어링 팀",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "1. 비즈니스 및 조직 기반 분해 (Organizational Context)",
+    "preview": "플랫폼 엔지니어링 팀 API GW, 인증, 로깅"
+  },
+  {
+    "term": "RAG 데이터 소스 소유권",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "1. 비즈니스 및 조직 기반 분해 (Organizational Context)",
+    "preview": "> 데이터의 출처가 보안 (HR, 재무)이나 기술적 특성 (실시간 로그 vs. 정적 문서)에 따라 나뉜다면, 해당 데이터를 관리하는 서비스도 분리하는 것이 데이터…"
+  },
+  {
+    "term": "기술적 특성",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "1. 비즈니스 및 조직 기반 분해 (Organizational Context)",
+    "preview": "> 데이터의 출처가 보안 (HR, 재무)이나 기술적 특성 (실시간 로그 vs. 정적 문서)에 따라 나뉜다면, 해당 데이터를 관리하는 서비스도 분리하는 것이 데이터…"
+  },
+  {
+    "term": "데이터 거버넌스",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "1. 비즈니스 및 조직 기반 분해 (Organizational Context)",
+    "preview": "> 데이터의 출처가 보안 (HR, 재무)이나 기술적 특성 (실시간 로그 vs. 정적 문서)에 따라 나뉜다면, 해당 데이터를 관리하는 서비스도 분리하는 것이 데이터…"
+  },
+  {
+    "term": "HR/재무 데이터",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "1. 비즈니스 및 조직 기반 분해 (Organizational Context)",
+    "preview": "HR/재무 데이터 고보안, 접근제한 별도 보안 컨텍스트"
+  },
+  {
+    "term": "실시간 로그",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "1. 비즈니스 및 조직 기반 분해 (Organizational Context)",
+    "preview": "실시간 로그 고빈도 업데이트 스트리밍 파이프라인"
+  },
+  {
+    "term": "정적 문서",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "1. 비즈니스 및 조직 기반 분해 (Organizational Context)",
+    "preview": "정적 문서 低频度 업데이트 배치 인덱싱"
+  },
+  {
+    "term": "2. 모델 및 리소스 특성 기반 분해 (Model & Resource Context)",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "AI 서비스 MSA 분해 전략",
+    "preview": "AI 서비스의 운영 비용 (OPEX)과 하드웨어 자원의 효율성을 극대화하기 위한 기준입니다."
+  },
+  {
+    "term": "운영 비용",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "2. 모델 및 리소스 특성 기반 분해 (Model & Resource Context)",
+    "preview": "AI 서비스의 운영 비용 (OPEX)과 하드웨어 자원의 효율성을 극대화하기 위한 기준입니다."
+  },
+  {
+    "term": "하드웨어 자원의 효율성",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "2. 모델 및 리소스 특성 기반 분해 (Model & Resource Context)",
+    "preview": "AI 서비스의 운영 비용 (OPEX)과 하드웨어 자원의 효율성을 극대화하기 위한 기준입니다."
+  },
+  {
+    "term": "모델 서빙 리소스 (Compute Heterogeneity)",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "2. 모델 및 리소스 특성 기반 분해 (Model & Resource Context)",
+    "preview": ""
+  },
+  {
+    "term": "GPU 집약적 서비스",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "2. 모델 및 리소스 특성 기반 분해 (Model & Resource Context)",
+    "preview": "GPU 집약적 서비스 LLM 추론, 이미지 생성 등 고사양 GPU 필요 쿠버네티스 노드 셀렉터 등으로 최적화된 하드웨어에 배치"
+  },
+  {
+    "term": "CPU/IO 집약적 서비스",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "2. 모델 및 리소스 특성 기반 분해 (Model & Resource Context)",
+    "preview": "CPU/IO 집약적 서비스 전처리, 텍스트 파싱, 일반 API 로직 저비용 CPU 인스턴스 활용"
+  },
+  {
+    "term": "LLM 호출 빈도와 비용",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "2. 모델 및 리소스 특성 기반 분해 (Model & Resource Context)",
+    "preview": ""
+  },
+  {
+    "term": "확장 요구사항 (Scalability)",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "2. 모델 및 리소스 특성 기반 분해 (Model & Resource Context)",
+    "preview": "> 트래픽 변동이 심한 '사용자 인터페이스 레이어'와 상대적으로 일정한 '데이터 인덱싱 레이어'를 분리하여 독립적으로 오토스케일링합니다."
+  },
+  {
+    "term": "'사용자 인터페이스 레이어'",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "2. 모델 및 리소스 특성 기반 분해 (Model & Resource Context)",
+    "preview": "> 트래픽 변동이 심한 '사용자 인터페이스 레이어'와 상대적으로 일정한 '데이터 인덱싱 레이어'를 분리하여 독립적으로 오토스케일링합니다."
+  },
+  {
+    "term": "'데이터 인덱싱 레이어'",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "2. 모델 및 리소스 특성 기반 분해 (Model & Resource Context)",
+    "preview": "> 트래픽 변동이 심한 '사용자 인터페이스 레이어'와 상대적으로 일정한 '데이터 인덱싱 레이어'를 분리하여 독립적으로 오토스케일링합니다."
+  },
+  {
+    "term": "독립적으로 오토스케일링",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "2. 모델 및 리소스 특성 기반 분해 (Model & Resource Context)",
+    "preview": "> 트래픽 변동이 심한 '사용자 인터페이스 레이어'와 상대적으로 일정한 '데이터 인덱싱 레이어'를 분리하여 독립적으로 오토스케일링합니다."
+  },
+  {
+    "term": "3. 운영 및 성능 기반 분해 (Operational Context)",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "AI 서비스 MSA 분해 전략",
+    "preview": "사용자 경험 (UX)과 시스템의 진화 속도를 관리하기 위한 기준입니다."
+  },
+  {
+    "term": "사용자 경험",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "3. 운영 및 성능 기반 분해 (Operational Context)",
+    "preview": "사용자 경험 (UX)과 시스템의 진화 속도를 관리하기 위한 기준입니다."
+  },
+  {
+    "term": "시스템의 진화 속도",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "3. 운영 및 성능 기반 분해 (Operational Context)",
+    "preview": "사용자 경험 (UX)과 시스템의 진화 속도를 관리하기 위한 기준입니다."
+  },
+  {
+    "term": "변경 빈도 및 모델 업데이트 주기",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "3. 운영 및 성능 기반 분해 (Operational Context)",
+    "preview": "> 모델 업데이트가 잦은 경우, 서비스 전체를 재배포하지 않고 모델 서빙 레이어만 교체할 수 있도록 설계합니다."
+  },
+  {
+    "term": "비즈니스 로직",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "3. 운영 및 성능 기반 분해 (Operational Context)",
+    "preview": "비즈니스 로직 자주 변경 독립적 배포로 민첩성 확보"
+  },
+  {
+    "term": "핵심 추론 모델",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "3. 운영 및 성능 기반 분해 (Operational Context)",
+    "preview": "핵심 추론 모델 가끔 변경 안정성 유지"
+  },
+  {
+    "term": "서비스 전체를 재배포하지 않고 모델 서빙 레이어만 교체",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "3. 운영 및 성능 기반 분해 (Operational Context)",
+    "preview": "> 모델 업데이트가 잦은 경우, 서비스 전체를 재배포하지 않고 모델 서빙 레이어만 교체할 수 있도록 설계합니다."
+  },
+  {
+    "term": "추론 레이턴시 요구사항 (SLA)",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "3. 운영 및 성능 기반 분해 (Operational Context)",
+    "preview": ""
+  },
+  {
+    "term": "실시간",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "3. 운영 및 성능 기반 분해 (Operational Context)",
+    "preview": "실시간 (Real-time) 채팅, 자동 완성 동기 방식"
+  },
+  {
+    "term": "비실시간",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "3. 운영 및 성능 기반 분해 (Operational Context)",
+    "preview": "비실시간 (Batch/Async) 대량 리포트 요약, 데이터 분석 비동기 방식"
+  },
+  {
+    "term": "분리 효과",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "3. 운영 및 성능 기반 분해 (Operational Context)",
+    "preview": "> 지연 시간에 민감한 서비스가 비실시간 작업에 의해 병목 현상을 겪지 않도록 격리 (Bulkhead)합니다."
+  },
+  {
+    "term": "🔄 AI 서비스 분해 가이드 요약 표",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "AI 서비스 MSA 분해 전략",
+    "preview": ""
+  },
+  {
+    "term": "데이터 소유권",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "🔄 AI 서비스 분해 가이드 요약 표",
+    "preview": "데이터 소유권 벡터 DB(RAG) vs. 관계형 DB(Session) 분리 데이터 무결성 및 보안 강화"
+  },
+  {
+    "term": "모델 리소스",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "🔄 AI 서비스 분해 가이드 요약 표",
+    "preview": "모델 리소스 GPU 전용 서비스 vs. CPU 일반 서비스 분리 인프라 비용 최적화"
+  },
+  {
+    "term": "변경 속도",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "🔄 AI 서비스 분해 가이드 요약 표",
+    "preview": "변경 속도 프롬프트 최적화 모듈 vs. 인프라 게이트웨이 분리 배포 민첩성 향상 (CI/CD 최적화)"
+  },
+  {
+    "term": "레이턴시",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "🔄 AI 서비스 분해 가이드 요약 표",
+    "preview": "레이턴시 스트리밍 응답 서비스 vs. 배치 처리 서비스 분리 사용자 체감 속도 개선 및 장애 격리"
+  },
+  {
+    "term": "💡 엔지니어링 실무 인사이트: AI 파이프라인의 '격벽' 설계",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "AI 서비스 MSA 분해 전략",
+    "preview": "20 년 경력의 인프라 전문가 관점에서 가장 중요한 것은 '장애 격리'입니다."
+  },
+  {
+    "term": "'장애 격리'",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "💡 엔지니어링 실무 인사이트: AI 파이프라인의 '격벽' 설계",
+    "preview": "20 년 경력의 인프라 전문가 관점에서 가장 중요한 것은 '장애 격리'입니다."
+  },
+  {
+    "term": "모델 라우팅 서비스",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "💡 엔지니어링 실무 인사이트: AI 파이프라인의 '격벽' 설계",
+    "preview": "> 가장 가볍고 견고하게 유지하여, 하류의 LLM API 장애가 시스템 전체의 중단으로 이어지지 않게 해야 합니다."
+  },
+  {
+    "term": "가장 가볍고 견고하게 유지",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "💡 엔지니어링 실무 인사이트: AI 파이프라인의 '격벽' 설계",
+    "preview": "> 가장 가볍고 견고하게 유지하여, 하류의 LLM API 장애가 시스템 전체의 중단으로 이어지지 않게 해야 합니다."
+  },
+  {
+    "term": "RAG 데이터 소스 다중화",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "💡 엔지니어링 실무 인사이트: AI 파이프라인의 '격벽' 설계",
+    "preview": "> 특정 소스 (예: 외부 뉴스 API) 의 지연이 전체 추론 레이턴시를 갉아먹지 않도록 비동기 또는 폴백 전략을 반드시 포함해야 합니다."
+  },
+  {
+    "term": "전체 추론 레이턴시를 갉아먹지 않도록 비동기 또는 폴백 전략",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "💡 엔지니어링 실무 인사이트: AI 파이프라인의 '격벽' 설계",
+    "preview": "> 특정 소스 (예: 외부 뉴스 API) 의 지연이 전체 추론 레이턴시를 갉아먹지 않도록 비동기 또는 폴백 전략을 반드시 포함해야 합니다."
+  },
+  {
+    "term": "AAR 기반 지속적 최적화",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "💡 엔지니어링 실무 인사이트: AI 파이프라인의 '격벽' 설계",
+    "preview": "> 이 모든 지표 (비용, 레이턴시, 호출 빈도) 를 AAR (After Action Report)으로 설정하여, 분해된 서비스 간의 통신 비용 (Network …"
+  },
+  {
+    "term": "비용, 레이턴시, 호출 빈도",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "💡 엔지니어링 실무 인사이트: AI 파이프라인의 '격벽' 설계",
+    "preview": "> 이 모든 지표 (비용, 레이턴시, 호출 빈도) 를 AAR (After Action Report)으로 설정하여, 분해된 서비스 간의 통신 비용 (Network …"
+  },
+  {
+    "term": "AAR",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "💡 엔지니어링 실무 인사이트: AI 파이프라인의 '격벽' 설계",
+    "preview": "> 이 모든 지표 (비용, 레이턴시, 호출 빈도) 를 AAR (After Action Report)으로 설정하여, 분해된 서비스 간의 통신 비용 (Network …"
+  },
+  {
+    "term": "통신 비용",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "💡 엔지니어링 실무 인사이트: AI 파이프라인의 '격벽' 설계",
+    "preview": "> 이 모든 지표 (비용, 레이턴시, 호출 빈도) 를 AAR (After Action Report)으로 설정하여, 분해된 서비스 간의 통신 비용 (Network …"
+  },
+  {
+    "term": "레이턴시",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "💡 엔지니어링 실무 인사이트: AI 파이프라인의 '격벽' 설계",
+    "preview": "레이턴시 p95 응답시간 실시간"
+  },
+  {
+    "term": "호출 빈도",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "💡 엔지니어링 실무 인사이트: AI 파이프라인의 '격벽' 설계",
+    "preview": "호출 빈도 RPM/QPM 실시간"
+  },
+  {
+    "term": "통신 오버헤드",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "💡 엔지니어링 실무 인사이트: AI 파이프라인의 '격벽' 설계",
+    "preview": "통신 오버헤드 서비스 간 네트워크 지연 주간"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "heading",
+    "context": "AI 서비스 MSA 분해 전략",
+    "preview": "정보시스템 감리 관점에서 AI 서비스 MSA 분해 검토 시 고려사항:"
+  },
+  {
+    "term": "조직 - 아키텍처 정렬",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 조직 - 아키텍처 정렬: Conway's Law 기반 팀 경계와 서비스 경계 일치성"
+  },
+  {
+    "term": "리소스 격리",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 리소스 격리: GPU/CPU 리소스 분리와 비용 최적화 효과"
+  },
+  {
+    "term": "데이터 거버넌스",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 데이터 거버넌스: RAG 데이터 소스별 보안등급과 접근통제 적절성"
+  },
+  {
+    "term": "SLA 관리",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. SLA 관리: 실시간/비실시간 서비스 분리와 레이턴시 보장"
+  },
+  {
+    "term": "장애 격리",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 장애 격리: 모델 라우팅 서비스의 견고성과 폴백 메커니즘"
+  },
+  {
+    "term": "지속적 최적화",
+    "section": "ai_service_decomposition",
+    "label": "AI 서비스 MSA 분해",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 지속적 최적화: AAR 지표 기반 통신 오버헤드 모니터링과 개선"
   },
   {
     "term": "uv: 초고속 Python 패키지 매니저",

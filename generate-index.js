@@ -63,6 +63,7 @@ const SECTION_LABELS = {
     bounded_context_msa:    'Bounded Context 설계',
     ddd_core_concepts:      'DDD 핵심 개념',
     msa_core_patterns:      'MSA 핵심 패턴',
+    ai_service_decomposition: 'AI 서비스 MSA 분해',
     python_uv:              'Python uv 패키지매니저',
     faq:                    'FAQ',
     faq2:                   'FAQ',

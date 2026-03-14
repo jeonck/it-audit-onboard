@@ -104,6 +104,9 @@
 ### MSA 핵심 패턴
 - [자세히 보기](#msa_core_patterns) - API GW/서비스디스커버리/서킷브레이커
 
+### AI 서비스 MSA 분해
+- [자세히 보기](#ai_service_decomposition) - 비즈니스/모델/운영 기반 분해 전략
+
 ## AI 실습 자료
 
 ### AI 소프트웨어 아키텍처 실습
