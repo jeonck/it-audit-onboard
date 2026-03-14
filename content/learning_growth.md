@@ -70,6 +70,9 @@
 ### AI-DLC (AI-Driven Development Lifecycle)
 - [자세히 보기](#ai_dlc) - AWS 제안 AI 네이티브 개발 방법론, 3 단계 lifecycle
 
+### Compound AI 시스템
+- [자세히 보기](#compound_ai) - Compound AI 핵심 구성 요소, 오케스트레이션
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례
