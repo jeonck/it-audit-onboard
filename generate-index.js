@@ -67,6 +67,7 @@ const SECTION_LABELS = {
     ai_infrastructure_challenges: 'AI 인프라 설계 이슈',
     vllm_serving:           'vLLM 모델서빙',
     mcp_vs_rest:            'MCP vs REST API',
+    mcp_fundamentals:       'MCP 기초',
     python_uv:              'Python uv 패키지매니저',
     faq:                    'FAQ',
     faq2:                   'FAQ',

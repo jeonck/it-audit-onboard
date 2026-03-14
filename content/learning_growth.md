@@ -116,6 +116,9 @@
 ### MCP vs REST API
 - [자세히 보기](#mcp_vs_rest) - AI 통신 프로토콜 비교 분석
 
+### MCP 기초
+- [자세히 보기](#mcp_fundamentals) - Model Context Protocol 핵심 개념
+
 ## AI 실습 자료
 
 ### AI 소프트웨어 아키텍처 실습
