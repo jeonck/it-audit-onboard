@@ -122,6 +122,9 @@
 ### REST vs MCP 유연성
 - [자세히 보기](#rest_vs_mcp_flexibility) - 결정론적 vs 비결정론적 접근
 
+### Vercel agent-browser
+- [자세히 보기](#vercel_agent_browser) - 컨텍스트 효율화 브라우징 도구
+
 ## AI 실습 자료
 
 ### AI 소프트웨어 아키텍처 실습

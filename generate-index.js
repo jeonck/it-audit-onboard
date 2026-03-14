@@ -69,6 +69,7 @@ const SECTION_LABELS = {
     mcp_vs_rest:            'MCP vs REST API',
     mcp_fundamentals:       'MCP 기초',
     rest_vs_mcp_flexibility: 'REST vs MCP 유연성',
+    vercel_agent_browser:   'Vercel agent-browser',
     python_uv:              'Python uv 패키지매니저',
     faq:                    'FAQ',
     faq2:                   'FAQ',
