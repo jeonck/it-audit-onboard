@@ -4592,6 +4592,14 @@
     "preview": "- [자세히 보기](#cerebras_ai) - AI 전용 하드웨어, Wafer-Scale Engine, 추론 가속화"
   },
   {
+    "term": "Diffusion LLM",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 기술 및 하드웨어",
+    "preview": "- [자세히 보기](#diffusion_llm) - Diffusion LLM, Inception Labs, 초고속 추론"
+  },
+  {
     "term": "소셜 인증 vs 본인 인증",
     "section": "social_identity_auth",
     "label": "소셜 인증 vs 본인 인증",
@@ -6070,6 +6078,406 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "5. 확장성: 향후 서비스 성장에 따른 확장 계획 수립 여부"
+  },
+  {
+    "term": "Diffusion LLM (dLLM) 과 Inception Labs",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "heading",
+    "context": "",
+    "preview": "Diffusion LLM 과 대표 회사 Inception Labs 에 대해 2026 년 3 월 기준으로 최신 정보를 정리했습니다."
+  },
+  {
+    "term": "Diffusion LLM 이란? (dLLM = diffusion Large Language Model)",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "heading",
+    "context": "Diffusion LLM (dLLM) 과 Inception Labs",
+    "preview": "기존 대부분의 LLM(ChatGPT, Claude, Gemini, Llama 등) 은 autoregressive(자기회귀) 방식으로 작동합니다."
+  },
+  {
+    "term": "autoregressive(자기회귀)",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "Diffusion LLM 이란? (dLLM = diffusion Large Language Model)",
+    "preview": "기존 대부분의 LLM(ChatGPT, Claude, Gemini, Llama 등) 은 autoregressive(자기회귀) 방식으로 작동합니다."
+  },
+  {
+    "term": "순차적으로 예측",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "Diffusion LLM 이란? (dLLM = diffusion Large Language Model)",
+    "preview": "→ 한 토큰씩 왼쪽에서 오른쪽으로 순차적으로 예측 (next token prediction) → 구조적으로 병렬화가 어렵고, 긴 응답일수록 지연 (latency)…"
+  },
+  {
+    "term": "Diffusion LLM",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "Diffusion LLM 이란? (dLLM = diffusion Large Language Model)",
+    "preview": "Diffusion LLM은 이미지 생성 모델 (Stable Diffusion, Midjourney, Sora 등) 에서 쓰던 diffusion(확산) 기법을 텍스…"
+  },
+  {
+    "term": "diffusion(확산) 기법",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "Diffusion LLM 이란? (dLLM = diffusion Large Language Model)",
+    "preview": "Diffusion LLM은 이미지 생성 모델 (Stable Diffusion, Midjourney, Sora 등) 에서 쓰던 diffusion(확산) 기법을 텍스…"
+  },
+  {
+    "term": "Autoregressive LLM vs Diffusion LLM 비교",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "heading",
+    "context": "Diffusion LLM 이란? (dLLM = diffusion Large Language Model)",
+    "preview": ""
+  },
+  {
+    "term": "생성 방식",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "Diffusion LLM 이란? (dLLM = diffusion Large Language Model)",
+    "preview": "생성 방식 한 토큰씩 순차 예측 (left-to-right) 노이즈 → 점진적 정제 (denoising) → 전체 병렬 생성"
+  },
+  {
+    "term": "병렬화 가능 여부",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "Diffusion LLM 이란? (dLLM = diffusion Large Language Model)",
+    "preview": "병렬화 가능 여부 제한적 (sequential bottleneck) 매우 강력 (여러 토큰/블록 동시에)"
+  },
+  {
+    "term": "속도 (tokens/sec)",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "Diffusion LLM 이란? (dLLM = diffusion Large Language Model)",
+    "preview": "속도 (tokens/sec) 보통 50~300 (고속 최적화 모델 기준) 1,000+ (상용 GPU 기준, 5~10 배 이상 빠름)"
+  },
+  {
+    "term": "지연 시간 (Latency)",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "Diffusion LLM 이란? (dLLM = diffusion Large Language Model)",
+    "preview": "지연 시간 (Latency) 응답 길이에 비례 거의 상수 수준 (몇 단계 refinement 만)"
+  },
+  {
+    "term": "초고속 추론",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "Diffusion LLM 이란? (dLLM = diffusion Large Language Model)",
+    "preview": "강점 안정적, 긴 컨텍스트 잘 다룸 초고속 추론, 실시간 에이전트/보이스/코드 완성에 최적"
+  },
+  {
+    "term": "약점 (현재)",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "Diffusion LLM 이란? (dLLM = diffusion Large Language Model)",
+    "preview": "약점 (현재) — 아직 초기 단계, 일부 복잡한 multi-turn reasoning 약함"
+  },
+  {
+    "term": "대표 사례",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "Diffusion LLM 이란? (dLLM = diffusion Large Language Model)",
+    "preview": "대표 사례 GPT 시리즈, Claude, Gemini, Llama Inception Mercury 시리즈, LLaDA, Gemini Diffusion (예정)"
+  },
+  {
+    "term": "Diffusion LLM 의 핵심 아이디어",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "heading",
+    "context": "Diffusion LLM 이란? (dLLM = diffusion Large Language Model)",
+    "preview": "1. 처음엔 \"노이즈 가득한 텍스트/코드\" 상태에서 시작"
+  },
+  {
+    "term": "\"노이즈 가득한 텍스트/코드\"",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "Diffusion LLM 이란? (dLLM = diffusion Large Language Model)",
+    "preview": "1. 처음엔 \"노이즈 가득한 텍스트/코드\" 상태에서 시작"
+  },
+  {
+    "term": "denoising(잡음 제거)",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "Diffusion LLM 이란? (dLLM = diffusion Large Language Model)",
+    "preview": "2. 여러 단계의 denoising(잡음 제거)을 통해 점점 선명한 정답으로 수렴"
+  },
+  {
+    "term": "대표 회사: Inception Labs",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "heading",
+    "context": "Diffusion LLM (dLLM) 과 Inception Labs",
+    "preview": "2025 년 초 스텔스 모드에서 등장해 세계 최초 상용 규모 diffusion LLM을 출시한 회사로, 현재 (2026 년 3 월) diffusion LLM 분야…"
+  },
+  {
+    "term": "세계 최초 상용 규모 diffusion LLM",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "대표 회사: Inception Labs",
+    "preview": "2025 년 초 스텔스 모드에서 등장해 세계 최초 상용 규모 diffusion LLM을 출시한 회사로, 현재 (2026 년 3 월) diffusion LLM 분야…"
+  },
+  {
+    "term": "창업자 & 팀",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "heading",
+    "context": "대표 회사: Inception Labs",
+    "preview": ""
+  },
+  {
+    "term": "CEO & Co-founder",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "대표 회사: Inception Labs",
+    "preview": "CEO & Co-founder Stefano Ermon 스탠포드 교수, diffusion 모델 공동 발명자 중 한 명"
+  },
+  {
+    "term": "공동 창업자",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "대표 회사: Inception Labs",
+    "preview": "공동 창업자 Aditya Grover UCLA"
+  },
+  {
+    "term": "팀 출신",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "대표 회사: Inception Labs",
+    "preview": "팀 출신 - Stanford, Google DeepMind, Meta AI, Microsoft AI, OpenAI 등 top-tier 연구자/엔지니어"
+  },
+  {
+    "term": "투자 현황",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "heading",
+    "context": "대표 회사: Inception Labs",
+    "preview": "- 투자자: Menlo Ventures, Mayfield, Microsoft M12, Snowflake, Databricks, NVentures"
+  },
+  {
+    "term": "투자자",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "대표 회사: Inception Labs",
+    "preview": "- 투자자: Menlo Ventures, Mayfield, Microsoft M12, Snowflake, Databricks, NVentures"
+  },
+  {
+    "term": "엔젤 투자자",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "대표 회사: Inception Labs",
+    "preview": "- 엔젤 투자자: Andrew Ng, Andrej Karpathy 등"
+  },
+  {
+    "term": "2025 년",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "대표 회사: Inception Labs",
+    "preview": "- 2025 년: $50M 시드 펀딩"
+  },
+  {
+    "term": "주요 모델: Mercury 시리즈 (dLLM 가족)",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "heading",
+    "context": "Diffusion LLM (dLLM) 과 Inception Labs",
+    "preview": "- 코드 생성 특화"
+  },
+  {
+    "term": "Mercury Coder (2025 년 2 월 최초 공개)",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "heading",
+    "context": "주요 모델: Mercury 시리즈 (dLLM 가족)",
+    "preview": "- 코드 생성 특화"
+  },
+  {
+    "term": "코드 생성 특화",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "주요 모델: Mercury 시리즈 (dLLM 가족)",
+    "preview": "- 코드 생성 특화"
+  },
+  {
+    "term": "Mercury 2 (2026 년 초 출시)",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "heading",
+    "context": "주요 모델: Mercury 시리즈 (dLLM 가족)",
+    "preview": "- 세계에서 가장 빠른 reasoning LLM(추론 중심)"
+  },
+  {
+    "term": "세계에서 가장 빠른 reasoning LLM",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "주요 모델: Mercury 시리즈 (dLLM 가족)",
+    "preview": "- 세계에서 가장 빠른 reasoning LLM(추론 중심)"
+  },
+  {
+    "term": "주요 주장 & 실적 (2026 년 3 월 기준)",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "heading",
+    "context": "Diffusion LLM (dLLM) 과 Inception Labs",
+    "preview": "✅ Claude / ChatGPT / Gemini 보다 5~10 배 빠름 (end-to-end latency 기준)"
+  },
+  {
+    "term": "Claude / ChatGPT / Gemini 보다 5~10 배 빠름",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "주요 주장 & 실적 (2026 년 3 월 기준)",
+    "preview": "✅ Claude / ChatGPT / Gemini 보다 5~10 배 빠름 (end-to-end latency 기준)"
+  },
+  {
+    "term": "Fortune 500 기업에 이미 배포 중",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "주요 주장 & 실적 (2026 년 3 월 기준)",
+    "preview": "✅ Fortune 500 기업에 이미 배포 중"
+  },
+  {
+    "term": "AWS Bedrock, Azure Foundry 지원",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "주요 주장 & 실적 (2026 년 3 월 기준)",
+    "preview": "✅ AWS Bedrock, Azure Foundry 지원 (OpenAI API 호환)"
+  },
+  {
+    "term": "다른 diffusion LLM 관련 플레이어 (2026 년 기준)",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "heading",
+    "context": "Diffusion LLM (dLLM) 과 Inception Labs",
+    "preview": ""
+  },
+  {
+    "term": "Inception Labs",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "다른 diffusion LLM 관련 플레이어 (2026 년 기준)",
+    "preview": "Inception Labs 상용화 1 위, 가장 성숙"
+  },
+  {
+    "term": "LLaDA",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "다른 diffusion LLM 관련 플레이어 (2026 년 기준)",
+    "preview": "LLaDA (Renmin University + Ant Group, 중국) 오픈 웨이트 연구 모델 (LLaDA 2.0 100B 등), reversal curse …"
+  },
+  {
+    "term": "Google DeepMind",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "다른 diffusion LLM 관련 플레이어 (2026 년 기준)",
+    "preview": "Google DeepMind Gemini Diffusion 공개 예정 (저지연 특화)"
+  },
+  {
+    "term": "결론",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "heading",
+    "context": "Diffusion LLM (dLLM) 과 Inception Labs",
+    "preview": "Diffusion LLM 은 2025~2026 년에 가장 핫한 대안 아키텍처 중 하나로 떠오르고 있으며, Inception Labs 가 현재 상용화·속도·실제 배…"
+  },
+  {
+    "term": "2025~2026 년에 가장 핫한 대안 아키텍처",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "결론",
+    "preview": "Diffusion LLM 은 2025~2026 년에 가장 핫한 대안 아키텍처 중 하나로 떠오르고 있으며, Inception Labs 가 현재 상용화·속도·실제 배…"
+  },
+  {
+    "term": "실시간 AI",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "결론",
+    "preview": "특히 실시간 AI(보이스, 에이전트, 코드 코파일럿, 실시간 검색 등) 에서 기존 autoregressive 모델을 대체하거나 보완할 가능성이 매우 높아 보입니다…"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "heading",
+    "context": "Diffusion LLM (dLLM) 과 Inception Labs",
+    "preview": "정보시스템 감리 관점에서 Diffusion LLM 도입 시 고려사항:"
+  },
+  {
+    "term": "성능 검증",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 성능 검증: 벤더 주장 속도 (tokens/sec) 에 대한 객관적 벤치마크 검증 필요"
+  },
+  {
+    "term": "품질 검증",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 품질 검증: 복잡한 multi-turn reasoning 에서의 정확도 평가"
+  },
+  {
+    "term": "비용 대비 효과",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 비용 대비 효과: 기존 LLM 대비 TCO(총소유비용) 비교 분석"
+  },
+  {
+    "term": "기술 성숙도",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 기술 성숙도: 아직 초기 단계이므로 기술 리스크 평가"
+  },
+  {
+    "term": "벤더 종속성",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 벤더 종속성: 특정 벤더 잠금 (Vendor Lock-in) 위험 평가"
+  },
+  {
+    "term": "사용 사례 적합성",
+    "section": "diffusion_llm",
+    "label": "Diffusion LLM",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 사용 사례 적합성: 실시간 AI(보이스, 에이전트, 코드 완성) 에 최적화되어 있으므로 목적에 맞는 활용"
   },
   {
     "term": "자주 묻는 질문 (FAQ)",

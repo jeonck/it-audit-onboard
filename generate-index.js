@@ -36,6 +36,7 @@ const SECTION_LABELS = {
     social_identity_auth:   '소셜 인증 vs 본인 인증',
     ai_development_methodology: 'AI 시대 개발방법론',
     cerebras_ai:            'Cerebras AI 서비스',
+    diffusion_llm:          'Diffusion LLM',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };
