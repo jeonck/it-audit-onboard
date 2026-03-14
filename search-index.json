@@ -4688,6 +4688,14 @@
     "preview": "- [자세히 보기](#eda_deep_dive) - 이벤트 드리븐 아키텍처 심화 가이드"
   },
   {
+    "term": "Bounded Context 설계",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#bounded_context_msa) - MSA 서비스 경계 설계 가이드"
+  },
+  {
     "term": "AI 기술 및 하드웨어",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -15630,6 +15638,526 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "6. 재처리 (Replay): 장애 시 이벤트 재처리를 통한 데이터 복구 절차"
+  },
+  {
+    "term": "Bounded Context 와 MSA 서비스 경계 설계",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "",
+    "preview": "마이크로서비스 아키텍처 (MSA) 를 설계할 때 Bounded Context는 시스템을 어떤 단위로 쪼갤 것인가를 결정하는 가장 중요한 전략적 설계 도구입니다."
+  },
+  {
+    "term": "Bounded Context",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "Bounded Context 와 MSA 서비스 경계 설계",
+    "preview": "마이크로서비스 아키텍처 (MSA) 를 설계할 때 Bounded Context는 시스템을 어떤 단위로 쪼갤 것인가를 결정하는 가장 중요한 전략적 설계 도구입니다."
+  },
+  {
+    "term": "도메인 주도 설계 (DDD, Domain-Driven Design)",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "Bounded Context 와 MSA 서비스 경계 설계",
+    "preview": "도메인 주도 설계 (DDD, Domain-Driven Design)에서 파생된 이 개념은 단순히 기술적인 분리가 아닌, 비즈니스 의미의 경계를 정의하는 데 중점을…"
+  },
+  {
+    "term": "비즈니스 의미의 경계",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "Bounded Context 와 MSA 서비스 경계 설계",
+    "preview": "도메인 주도 설계 (DDD, Domain-Driven Design)에서 파생된 이 개념은 단순히 기술적인 분리가 아닌, 비즈니스 의미의 경계를 정의하는 데 중점을…"
+  },
+  {
+    "term": "장애 전파 차단",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "Bounded Context 와 MSA 서비스 경계 설계",
+    "preview": "20 년 경력의 인프라 및 보안 전문가 관점에서 볼 때, Bounded Context 를 명확히 정의하는 것은 장애 전파 차단과 데이터 무결성 확보의 핵심입니다."
+  },
+  {
+    "term": "데이터 무결성 확보",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "Bounded Context 와 MSA 서비스 경계 설계",
+    "preview": "20 년 경력의 인프라 및 보안 전문가 관점에서 볼 때, Bounded Context 를 명확히 정의하는 것은 장애 전파 차단과 데이터 무결성 확보의 핵심입니다."
+  },
+  {
+    "term": "1. Bounded Context 란?",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "Bounded Context 와 MSA 서비스 경계 설계",
+    "preview": "> 특정 모델이 특정한 의미를 가지고 적용되는 제한된 경계를 의미합니다."
+  },
+  {
+    "term": "제한된 경계",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "1. Bounded Context 란?",
+    "preview": "> 특정 모델이 특정한 의미를 가지고 적용되는 제한된 경계를 의미합니다."
+  },
+  {
+    "term": "어느 컨텍스트에 있느냐에 따라 그 의미와 데이터 구조가 달라질 수 있음",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "1. Bounded Context 란?",
+    "preview": "같은 용어라도 어느 컨텍스트에 있느냐에 따라 그 의미와 데이터 구조가 달라질 수 있음을 인정하는 것이 핵심입니다."
+  },
+  {
+    "term": "예시: '상품 (Product)'이라는 단어",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "1. Bounded Context 란?",
+    "preview": ""
+  },
+  {
+    "term": "판매 컨텍스트",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "1. Bounded Context 란?",
+    "preview": "판매 컨텍스트 가격, 재고, 상품 설명, 카테고리"
+  },
+  {
+    "term": "배송 컨텍스트",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "1. Bounded Context 란?",
+    "preview": "배송 컨텍스트 무게, 부피, 출발지/도착지 주소, 배송 상태"
+  },
+  {
+    "term": "AS 컨텍스트",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "1. Bounded Context 란?",
+    "preview": "AS 컨텍스트 보증 기간, 수리 이력, 부품 호환성"
+  },
+  {
+    "term": "2. 서비스 경계를 나누는 4 가지 핵심 기준",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "Bounded Context 와 MSA 서비스 경계 설계",
+    "preview": "> 팀원들이 사용하는 용어가 달라지는 지점이 곧 경계입니다."
+  },
+  {
+    "term": "① 언어적 경계 (Ubiquitous Language)",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "2. 서비스 경계를 나누는 4 가지 핵심 기준",
+    "preview": "> 팀원들이 사용하는 용어가 달라지는 지점이 곧 경계입니다."
+  },
+  {
+    "term": "용어가 달라지는 지점",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "2. 서비스 경계를 나누는 4 가지 핵심 기준",
+    "preview": "> 팀원들이 사용하는 용어가 달라지는 지점이 곧 경계입니다."
+  },
+  {
+    "term": "질문 발생",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "2. 서비스 경계를 나누는 4 가지 핵심 기준",
+    "preview": "질문 발생 \"여기서 말하는 '사용자'가 결제자입니까, 아니면 실제 서비스를 이용하는 사람입니까?\""
+  },
+  {
+    "term": "② 업무 프로세스 및 조직 구조 (Conway's Law)",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "2. 서비스 경계를 나누는 4 가지 핵심 기준",
+    "preview": "> 실제 비즈니스를 수행하는 팀 단위로 경계를 나눕니다."
+  },
+  {
+    "term": "실제 비즈니스를 수행하는 팀 단위",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "2. 서비스 경계를 나누는 4 가지 핵심 기준",
+    "preview": "> 실제 비즈니스를 수행하는 팀 단위로 경계를 나눕니다."
+  },
+  {
+    "term": "③ 데이터 소유권 및 생명주기",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "2. 서비스 경계를 나누는 4 가지 핵심 기준",
+    "preview": "> 데이터가 생성되고 소멸되는 생명주기가 다른 경우 분리합니다."
+  },
+  {
+    "term": "생성되고 소멸되는 생명주기",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "2. 서비스 경계를 나누는 4 가지 핵심 기준",
+    "preview": "> 데이터가 생성되고 소멸되는 생명주기가 다른 경우 분리합니다."
+  },
+  {
+    "term": "주문 데이터",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "2. 서비스 경계를 나누는 4 가지 핵심 기준",
+    "preview": "주문 데이터 생성 → 결제 완료 → 상태 변화 트랜잭션 중심"
+  },
+  {
+    "term": "로그 데이터",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "2. 서비스 경계를 나누는 4 가지 핵심 기준",
+    "preview": "로그 데이터 생성 → 읽기 전용 → 일정 기간 후 삭제 이벤트 소싱"
+  },
+  {
+    "term": "데이터 관리 측면",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "2. 서비스 경계를 나누는 4 가지 핵심 기준",
+    "preview": "> 이 둘은 서로 다른 경계에 두는 것이 데이터 관리 측면에서 효율적입니다."
+  },
+  {
+    "term": "④ 변경의 속도와 이유 (Single Responsibility)",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "2. 서비스 경계를 나누는 4 가지 핵심 기준",
+    "preview": "> 변경되는 빈도나 이유가 다른 기능을 분리합니다."
+  },
+  {
+    "term": "변경되는 빈도나 이유가 다른 기능",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "2. 서비스 경계를 나누는 4 가지 핵심 기준",
+    "preview": "> 변경되는 빈도나 이유가 다른 기능을 분리합니다."
+  },
+  {
+    "term": "AI 추론 모듈",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "2. 서비스 경계를 나누는 4 가지 핵심 기준",
+    "preview": "AI 추론 모듈 프롬프트 자주 튜닝 빠른 배포 사이클"
+  },
+  {
+    "term": "보안 감사 모듈",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "2. 서비스 경계를 나누는 4 가지 핵심 기준",
+    "preview": "보안 감사 모듈 규정 준수 위해 엄격히 관리 느린 배포 사이클"
+  },
+  {
+    "term": "경계를 나누는 것이 좋습니다",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "2. 서비스 경계를 나누는 4 가지 핵심 기준",
+    "preview": "> 서로 다른 속도로 진화하므로 경계를 나누는 것이 좋습니다."
+  },
+  {
+    "term": "3. Bounded Context 간 통신 전략 (Context Mapping)",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "Bounded Context 와 MSA 서비스 경계 설계",
+    "preview": "경계를 나눈 후에는 이들 사이를 어떻게 연결할지가 인프라 설계의 핵심이 됩니다."
+  },
+  {
+    "term": "어떻게 연결할지",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "3. Bounded Context 간 통신 전략 (Context Mapping)",
+    "preview": "경계를 나눈 후에는 이들 사이를 어떻게 연결할지가 인프라 설계의 핵심이 됩니다."
+  },
+  {
+    "term": "Shared Kernel",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "3. Bounded Context 간 통신 전략 (Context Mapping)",
+    "preview": "> 두 컨텍스트가 공통 데이터 구조를 공유"
+  },
+  {
+    "term": "공통 데이터 구조를 공유",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "3. Bounded Context 간 통신 전략 (Context Mapping)",
+    "preview": "> 두 컨텍스트가 공통 데이터 구조를 공유"
+  },
+  {
+    "term": "Customer-Supplier",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "3. Bounded Context 간 통신 전략 (Context Mapping)",
+    "preview": "> 한쪽이 데이터를 제공하고 다른 쪽이 소비하는 관계"
+  },
+  {
+    "term": "Anticorruption Layer (ACL)",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "3. Bounded Context 간 통신 전략 (Context Mapping)",
+    "preview": "> 외부 시스템이나 레거시 시스템의 복잡한 모델이 내 도메인을 오염시키지 않도록 중간에 변환 계층을 두는 방식"
+  },
+  {
+    "term": "AI 파이프라인의 AI Gateway",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "3. Bounded Context 간 통신 전략 (Context Mapping)",
+    "preview": "> AI 파이프라인의 AI Gateway가 이 역할을 수행하기도 합니다."
+  },
+  {
+    "term": "💡 엔지니어링 실무 통찰: Bounded Context 와 보안/인프라",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "Bounded Context 와 MSA 서비스 경계 설계",
+    "preview": "보안 및 인프라 설계 시 Bounded Context 는 다음과 같은 가치를 제공합니다."
+  },
+  {
+    "term": "최소 권한 원칙 (Least Privilege)",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "💡 엔지니어링 실무 통찰: Bounded Context 와 보안/인프라",
+    "preview": ""
+  },
+  {
+    "term": "자원 제한",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "💡 엔지니어링 실무 통찰: Bounded Context 와 보안/인프라",
+    "preview": "자원 제한 각 컨텍스트 (서비스) 별로 접근할 수 있는 DB 와 인프라 자원을 엄격히 제한"
+  },
+  {
+    "term": "사고 격리",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "💡 엔지니어링 실무 통찰: Bounded Context 와 보안/인프라",
+    "preview": "사고 격리 보안 사고 발생 시 피해를 해당 경계 내로 격리"
+  },
+  {
+    "term": "데이터 독립성",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "💡 엔지니어링 실무 통찰: Bounded Context 와 보안/인프라",
+    "preview": "> 각 Bounded Context 는 자기만의 DB를 가집니다 (Database per Service)."
+  },
+  {
+    "term": "자기만의 DB",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "💡 엔지니어링 실무 통찰: Bounded Context 와 보안/인프라",
+    "preview": "> 각 Bounded Context 는 자기만의 DB를 가집니다 (Database per Service)."
+  },
+  {
+    "term": "Database per Service",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "💡 엔지니어링 실무 통찰: Bounded Context 와 보안/인프라",
+    "preview": "> 각 Bounded Context 는 자기만의 DB를 가집니다 (Database per Service)."
+  },
+  {
+    "term": "스키마 변경",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "💡 엔지니어링 실무 통찰: Bounded Context 와 보안/인프라",
+    "preview": "스키마 변경 데이터베이스 스키마 변경이 다른 서비스의 장애로 이어지는 상황 방지"
+  },
+  {
+    "term": "운영 안정성",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "💡 엔지니어링 실무 통찰: Bounded Context 와 보안/인프라",
+    "preview": "운영 안정성 서비스 간 영향도 최소화"
+  },
+  {
+    "term": "PDCA 기반 튜닝",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "💡 엔지니어링 실무 통찰: Bounded Context 와 보안/인프라",
+    "preview": ""
+  },
+  {
+    "term": "AAR 수행",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "💡 엔지니어링 실무 통찰: Bounded Context 와 보안/인프라",
+    "preview": "환각 현상 잦음 RAG 로직 등 해당 컨텍스트만 개선하는 AAR 수행"
+  },
+  {
+    "term": "🎯 Compound AI System 의 Bounded Context 예시",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "Bounded Context 와 MSA 서비스 경계 설계",
+    "preview": ""
+  },
+  {
+    "term": "입력 처리",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "🎯 Compound AI System 의 Bounded Context 예시",
+    "preview": "입력 처리 사용자 입력 검증, PII 마스킹 입력 가드레일, 의도 분류기"
+  },
+  {
+    "term": "추론 처리",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "🎯 Compound AI System 의 Bounded Context 예시",
+    "preview": "추론 처리 LLM 추론, 프롬프트 관리 모델 라우터, 프롬프트 엔진"
+  },
+  {
+    "term": "지식 처리",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "🎯 Compound AI System 의 Bounded Context 예시",
+    "preview": "지식 처리 RAG, 벡터 DB 관리 검색 서비스, 인덱싱 서비스"
+  },
+  {
+    "term": "출력 처리",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "🎯 Compound AI System 의 Bounded Context 예시",
+    "preview": "출력 처리 출력 검증, 구조화 출력 가드레일, 포맷팅 서비스"
+  },
+  {
+    "term": "감사/모니터링",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "🎯 Compound AI System 의 Bounded Context 예시",
+    "preview": "감사/모니터링 로깅, 분석, AAR 감사 로그, 성능 분석, AAR 생성"
+  },
+  {
+    "term": "🤔 설계 검토 질문",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "Bounded Context 와 MSA 서비스 경계 설계",
+    "preview": "> 설계하신 Compound AI System에서 '가드레일'과 'RAG'를 별도의 Bounded Context로 보시는지, 아니면 하나의 거대한 '신뢰 영역'으…"
+  },
+  {
+    "term": "Compound AI System",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "🤔 설계 검토 질문",
+    "preview": "> 설계하신 Compound AI System에서 '가드레일'과 'RAG'를 별도의 Bounded Context로 보시는지, 아니면 하나의 거대한 '신뢰 영역'으…"
+  },
+  {
+    "term": "별도의 Bounded Context",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "🤔 설계 검토 질문",
+    "preview": "> 설계하신 Compound AI System에서 '가드레일'과 'RAG'를 별도의 Bounded Context로 보시는지, 아니면 하나의 거대한 '신뢰 영역'으…"
+  },
+  {
+    "term": "'신뢰 영역'",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "🤔 설계 검토 질문",
+    "preview": "> 설계하신 Compound AI System에서 '가드레일'과 'RAG'를 별도의 Bounded Context로 보시는지, 아니면 하나의 거대한 '신뢰 영역'으…"
+  },
+  {
+    "term": "서비스 간 이벤트 설계의 복잡도",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "🤔 설계 검토 질문",
+    "preview": "이 경계를 어떻게 설정하느냐에 따라 서비스 간 이벤트 설계의 복잡도가 달라질 수 있습니다."
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "heading",
+    "context": "Bounded Context 와 MSA 서비스 경계 설계",
+    "preview": "정보시스템 감리 관점에서 Bounded Context 설계 검토 시 고려사항:"
+  },
+  {
+    "term": "경계 명확성",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 경계 명확성: 서비스 간 책임과 소유권이 명확히 분리되었는지"
+  },
+  {
+    "term": "용어 일관성",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 용어 일관성: 각 컨텍스트 내 Ubiquitous Language 가 일관되게 사용되고 있는지"
+  },
+  {
+    "term": "데이터 독립성",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 데이터 독립성: Database per Service 원칙 준수와 데이터 소유권 명확성"
+  },
+  {
+    "term": "ACL 운영",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. ACL 운영: 레거시/외부 시스템 연동 시 Anticorruption Layer 적절성"
+  },
+  {
+    "term": "보안 격리",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 보안 격리: 최소 권한 원칙과 컨텍스트 간 접근 통제 적절성"
+  },
+  {
+    "term": "변경 격리",
+    "section": "bounded_context_msa",
+    "label": "Bounded Context 설계",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 변경 격리: 변경 속도가 다른 모듈의 경계 분리와 독립적 배포 가능성"
   },
   {
     "term": "자주 묻는 질문 (FAQ)",

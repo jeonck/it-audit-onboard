@@ -95,6 +95,9 @@
 ### EDA 심화
 - [자세히 보기](#eda_deep_dive) - 이벤트 드리븐 아키텍처 심화 가이드
 
+### Bounded Context 설계
+- [자세히 보기](#bounded_context_msa) - MSA 서비스 경계 설계 가이드
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례

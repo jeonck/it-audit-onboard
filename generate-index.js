@@ -60,6 +60,7 @@ const SECTION_LABELS = {
     msa_core_principles:    'MSA 핵심 원칙',
     sync_vs_async_communication: '동기 vs 비동기 통신',
     eda_deep_dive:          'EDA 심화',
+    bounded_context_msa:    'Bounded Context 설계',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };
