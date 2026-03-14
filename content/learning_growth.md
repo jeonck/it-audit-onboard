@@ -113,6 +113,9 @@
 ### vLLM 모델 서빙
 - [자세히 보기](#vllm_serving) - 초고속 LLM 서빙 프레임워크
 
+### MCP vs REST API
+- [자세히 보기](#mcp_vs_rest) - AI 통신 프로토콜 비교 분석
+
 ## AI 실습 자료
 
 ### AI 소프트웨어 아키텍처 실습
