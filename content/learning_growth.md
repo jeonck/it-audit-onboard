@@ -74,6 +74,9 @@
 ### AI 폴백 전략
 - [자세히 보기](#ai_fallback_strategies) - 가용성/품질/속도/콘텐츠 폴백
 
+### 챗봇 vs AI 파이프라인
+- [자세히 보기](#chatbot_vs_pipeline) - 단순 챗봇과 Compound AI 시스템 비교
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례
