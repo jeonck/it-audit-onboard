@@ -41,6 +41,7 @@ const SECTION_LABELS = {
     ai_dlc_bolt_mob:        'Bolt 와 Mob 세션',
     compound_ai:            'Compound AI 시스템',
     rag:                    'RAG (검색 증강 생성)',
+    mcp_context:            'MCP 컨텍스트 최적화',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };

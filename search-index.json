@@ -4608,6 +4608,14 @@
     "preview": "- [자세히 보기](#rag) - RAG 핵심 3 단계, 구성 요소, 실무 가이드"
   },
   {
+    "term": "MCP 컨텍스트 최적화",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#mcp_context) - MCP 컨텍스트 과소비 해결 방안"
+  },
+  {
     "term": "AI 기술 및 하드웨어",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -8046,6 +8054,414 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "6. 근거 추적성: 답변의 출처 (citation) 명확성과 검증 가능성 확인"
+  },
+  {
+    "term": "MCP (Model Context Protocol) 컨텍스트 최적화",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "heading",
+    "context": "",
+    "preview": "MCP(Model Context Protocol) 에서 컨텍스트를 많이 소모하는 문제는 AI 에이전트가 여러 도구 (tool) 를 사용할 때 가장 두드러지는 고질…"
+  },
+  {
+    "term": "도구 정의 (JSON schema 등) 가 verbose",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "MCP (Model Context Protocol) 컨텍스트 최적화",
+    "preview": "주로 도구 정의 (JSON schema 등) 가 verbose하고, 중간 결과 (intermediate tool outputs) 가 컨텍스트에 쌓이며, 수십~수백…"
+  },
+  {
+    "term": "MCP 컨텍스트 과소비 주요 원인",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "heading",
+    "context": "MCP (Model Context Protocol) 컨텍스트 최적화",
+    "preview": ""
+  },
+  {
+    "term": "Static tool definitions",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "MCP 컨텍스트 과소비 주요 원인",
+    "preview": "Static tool definitions 모든 도구 스키마를 시스템 프롬프트에 미리 넣음 (수만~수십만 토큰)"
+  },
+  {
+    "term": "Intermediate results",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "MCP 컨텍스트 과소비 주요 원인",
+    "preview": "Intermediate results 도구 호출 결과 (큰 JSON, 문서 내용 등) 가 다음 턴에 그대로 컨텍스트로 누적"
+  },
+  {
+    "term": "File reading",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "MCP 컨텍스트 과소비 주요 원인",
+    "preview": "File reading 코딩 에이전트가 전체 파일을 읽어들이는 패턴 (500 줄 파일 하나당 수천 토큰)"
+  },
+  {
+    "term": "해결 사례 (실제 적용 순으로 정리)",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "heading",
+    "context": "MCP (Model Context Protocol) 컨텍스트 최적화",
+    "preview": "가장 보편적·효과적, 90~98% 감소 사례 다수"
+  },
+  {
+    "term": "1. Dynamic / Lazy Loading + Tool Discovery",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "heading",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "가장 보편적·효과적, 90~98% 감소 사례 다수"
+  },
+  {
+    "term": "가장 보편적·효과적, 90~98% 감소 사례 다수",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "가장 보편적·효과적, 90~98% 감소 사례 다수"
+  },
+  {
+    "term": "어떻게?",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "heading",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- 모든 도구 정의를 처음부터 주지 않고, 에이전트가 필요할 때만 발견 (discover) 하고 로드."
+  },
+  {
+    "term": "에이전트가 필요할 때만 발견 (discover) 하고 로드",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- 모든 도구 정의를 처음부터 주지 않고, 에이전트가 필요할 때만 발견 (discover) 하고 로드."
+  },
+  {
+    "term": "파일시스템 기반",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- 파일시스템 기반: ./tools/ 디렉토리 목록 → 필요한 파일만 읽기 (Anthropic 공식 예시)"
+  },
+  {
+    "term": "MCP 서버가 도구 목록을 동적으로 제공",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- MCP 서버가 도구 목록을 동적으로 제공 → 에이전트가 \"이 작업에 필요한 도구만 불러와\""
+  },
+  {
+    "term": "효과 사례",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "heading",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": ""
+  },
+  {
+    "term": "Anthropic 연구 (2025)",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "Anthropic 연구 (2025) 150,000 토큰 → 2,000 토큰 (98.7% 감소)"
+  },
+  {
+    "term": "98.7% 감소",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "Anthropic 연구 (2025) 150,000 토큰 → 2,000 토큰 (98.7% 감소)"
+  },
+  {
+    "term": "Speakeasy Dynamic Toolsets v2 (2025)",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "Speakeasy Dynamic Toolsets v2 (2025) 평균 96% 입력 토큰 감소, 복잡 작업에서도 90%+ 총 토큰 절감"
+  },
+  {
+    "term": "96% 입력 토큰 감소",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "Speakeasy Dynamic Toolsets v2 (2025) 평균 96% 입력 토큰 감소, 복잡 작업에서도 90%+ 총 토큰 절감"
+  },
+  {
+    "term": "강점",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "heading",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- 도구 100 개 + 노출 시에도 컨텍스트 오버헤드 거의 없음"
+  },
+  {
+    "term": "2. Code Execution 패턴으로 도구 대체 (Anthropic + Bedrock AgentCore 사례)",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "heading",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- verbose JSON schema 대신 Python 코드 형태로 도구를 표현 → 에이전트가 코드 작성 후 실행"
+  },
+  {
+    "term": "MCP 서버가 코드 실행 환경 제공",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- MCP 서버가 코드 실행 환경 제공 → 에이전트가 import 해서 사용"
+  },
+  {
+    "term": "Anthropic + AWS Bedrock",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "Anthropic + AWS Bedrock 114,078 토큰 → 28,776 토큰 (74.8% 감소), 비용 69.5% 절감"
+  },
+  {
+    "term": "74.8% 감소",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "Anthropic + AWS Bedrock 114,078 토큰 → 28,776 토큰 (74.8% 감소), 비용 69.5% 절감"
+  },
+  {
+    "term": "69.5% 절감",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "Anthropic + AWS Bedrock 114,078 토큰 → 28,776 토큰 (74.8% 감소), 비용 69.5% 절감"
+  },
+  {
+    "term": "GitHub 리포지토리 분석",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "GitHub 리포지토리 분석 전체 메타데이터 (star count 등) 정확히 추출 성공"
+  },
+  {
+    "term": "3. Tree-sitter 기반 구조화 접근 (코딩 에이전트 특화, ThinkyMiner codeTree 프로젝트)",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "heading",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- 전체 파일 읽기 대신 AST(Abstract Syntax Tree) 활용"
+  },
+  {
+    "term": "AST(Abstract Syntax Tree) 활용",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- 전체 파일 읽기 대신 AST(Abstract Syntax Tree) 활용"
+  },
+  {
+    "term": "파일 skeleton",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- 파일 skeleton(클래스/함수 목록) → 필요한 함수/심볼만 fetch"
+  },
+  {
+    "term": "도구 예시",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- 도구 예시: get_file_skeleton(), get_function_body(), symbol_lookup(), call_graph() 등"
+  },
+  {
+    "term": "Reddit / ClaudeCode 커뮤니티",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "Reddit / ClaudeCode 커뮤니티 500 줄 파일 전체 읽기 → skeleton + 특정 함수만 (토큰 80~95% 절감 추정)"
+  },
+  {
+    "term": "80~95% 절감",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "Reddit / ClaudeCode 커뮤니티 500 줄 파일 전체 읽기 → skeleton + 특정 함수만 (토큰 80~95% 절감 추정)"
+  },
+  {
+    "term": "다언어 지원",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "다언어 지원 Python/JS/Go/Rust 등"
+  },
+  {
+    "term": "4. Context Mode / Sandboxing + Intermediate Output 압축 (최근 MCP 마켓 사례)",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "heading",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- MCP 서버가 중간 결과를 sandbox 처리 → raw 데이터 대신 요약/참조 ID 만 반환"
+  },
+  {
+    "term": "MCP 서버가 중간 결과를 sandbox 처리",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- MCP 서버가 중간 결과를 sandbox 처리 → raw 데이터 대신 요약/참조 ID 만 반환"
+  },
+  {
+    "term": "Context Mode 서버",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- Context Mode 서버: raw 출력 차단 → 최대 98% 컨텍스트 절감"
+  },
+  {
+    "term": "5. Tool Filtering + Router 결합 (Tetrate, 기업용)",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "heading",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- 입력에 따라 관련 도구만 필터링 → MCP 서버가 동적으로 subset 제공"
+  },
+  {
+    "term": "MCP 서버가 동적으로 subset 제공",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- 입력에 따라 관련 도구만 필터링 → MCP 서버가 동적으로 subset 제공"
+  },
+  {
+    "term": "효과",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "heading",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- 요청당 토큰 30~70% 감소 (복잡 워크플로우 기준)"
+  },
+  {
+    "term": "30~70% 감소",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "해결 사례 (실제 적용 순으로 정리)",
+    "preview": "- 요청당 토큰 30~70% 감소 (복잡 워크플로우 기준)"
+  },
+  {
+    "term": "요약: 2026 년 가장 효과적인 조합 패턴",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "heading",
+    "context": "MCP (Model Context Protocol) 컨텍스트 최적화",
+    "preview": ""
+  },
+  {
+    "term": "코딩/개발 에이전트",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "요약: 2026 년 가장 효과적인 조합 패턴",
+    "preview": "코딩/개발 에이전트 Tree-sitter 구조화 + Code Execution"
+  },
+  {
+    "term": "대규모 도구 서버",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "요약: 2026 년 가장 효과적인 조합 패턴",
+    "preview": "대규모 도구 서버 Dynamic Toolsets + Context Mode sandboxing"
+  },
+  {
+    "term": "전체 원칙",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "요약: 2026 년 가장 효과적인 조합 패턴",
+    "preview": "전체 원칙 MCP 서버 설계 시 \"최초 컨텍스트 최소화\"를 최우선으로 → 필요 시점에만 로드"
+  },
+  {
+    "term": "\"최초 컨텍스트 최소화\"",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "요약: 2026 년 가장 효과적인 조합 패턴",
+    "preview": "전체 원칙 MCP 서버 설계 시 \"최초 컨텍스트 최소화\"를 최우선으로 → 필요 시점에만 로드"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "heading",
+    "context": "MCP (Model Context Protocol) 컨텍스트 최적화",
+    "preview": "정보시스템 감리 관점에서 MCP 컨텍스트 최적화 도입 시 고려사항:"
+  },
+  {
+    "term": "성능 검증",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 성능 검증: 컨텍스트 최적화 전후 토큰 사용량, 응답 시간, 비용 비교 분석"
+  },
+  {
+    "term": "정확도 검증",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 정확도 검증: Lazy Loading 으로 인한 도구 누락 또는 정확도 저하 여부 검증"
+  },
+  {
+    "term": "보안 검토",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 보안 검토: Code Execution 패턴에서의 코드 주입 (Injection) 위험 평가"
+  },
+  {
+    "term": "감사 추적성",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 감사 추적성: 동적 도구 로딩의 기록과 의사결정 근거 추적 가능성 확인"
+  },
+  {
+    "term": "비용 최적화",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 비용 최적화: 토큰 사용량 감소에 따른 실제 비용 절감 효과 분석"
+  },
+  {
+    "term": "확장성",
+    "section": "mcp_context",
+    "label": "MCP 컨텍스트 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 확장성: 수백 개 도구 노출 시나리오에서의 시스템 안정성 검증"
   },
   {
     "term": "자주 묻는 질문 (FAQ)",
