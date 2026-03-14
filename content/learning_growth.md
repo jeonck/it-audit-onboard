@@ -2,47 +2,6 @@
 
 정보시스템 감리 업무를 수행하면서 필요한 개발방법론과 기술정보에 대한 자료입니다.
 
-## 개발방법론
-
-### 애자일 (Agile)
-- 스크럼 (Scrum)
-- 칸반 (Kanban)
-- 익스트림 프로그래밍 (XP)
-
-### 전통적 방법론
-- 폭포수 모델 (Waterfall)
-- V-모델 (V-Model)
-- 나선형 모델 (Spiral Model)
-
-### 하이브리드 접근법
-- 워터폴 + 애자일 혼합
-- 단계별 애자일 적용
-
-## 기술정보
-
-### 클라우드 컴퓨팅
-- AWS (Amazon Web Services)
-- Azure (Microsoft)
-- GCP (Google Cloud Platform)
-- 클라우드 네이티브 아키텍처
-
-### DevOps 및 CI/CD
-- Jenkins
-- GitLab CI
-- GitHub Actions
-- Docker & Kubernetes
-
-### 보안 기술
-- OWASP Top 10
-- 시큐어 코딩
-- 암호화 기술
-- 인증 및 권한 부여
-
-### 데이터베이스
-- 관계형 데이터베이스 (RDBMS)
-- NoSQL 데이터베이스
-- 빅데이터 플랫폼
-
 ## 감리 역량 강화
 
 ### 전문 자격증
