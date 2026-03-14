@@ -4624,6 +4624,14 @@
     "preview": "- [자세히 보기](#react_pattern) - AI 에이전트 제어 패턴, Reasoning + Acting"
   },
   {
+    "term": "CodeRabbit 활용 가이드",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#coderabbit_guide) - AI 주도 개발 PR 리뷰, CodeRabbit 워크플로우"
+  },
+  {
     "term": "AI 기술 및 하드웨어",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -8718,6 +8726,462 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "6. 인간 개입 포인트: 중요 의사결정 시 인간 승인 (Human-in-the-loop) 여부"
+  },
+  {
+    "term": "AI 주도 개발에서 CodeRabbit 활용 가이드",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "",
+    "preview": "AI 주도 개발에서 PR 이 올라왔을 때 CodeRabbit을 활용하는 사례 중심 절차 흐름을 2026 년 실무 기준으로 설명하겠습니다."
+  },
+  {
+    "term": "CodeRabbit",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "AI 주도 개발에서 CodeRabbit 활용 가이드",
+    "preview": "AI 주도 개발에서 PR 이 올라왔을 때 CodeRabbit을 활용하는 사례 중심 절차 흐름을 2026 년 실무 기준으로 설명하겠습니다."
+  },
+  {
+    "term": "AI 코드 리뷰 도구",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "AI 주도 개발에서 CodeRabbit 활용 가이드",
+    "preview": "CodeRabbit은 현재 가장 널리 쓰이는 AI 코드 리뷰 도구 중 하나로, GitHub/GitLab PR 에 자동으로 컨텍스트 인식 (line-by-line)…"
+  },
+  {
+    "term": "AI 가 생성한 대량·고속 PR 을 처리할 때 병목을 크게 줄여줍니다",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "AI 주도 개발에서 CodeRabbit 활용 가이드",
+    "preview": "CodeRabbit은 현재 가장 널리 쓰이는 AI 코드 리뷰 도구 중 하나로, GitHub/GitLab PR 에 자동으로 컨텍스트 인식 (line-by-line)…"
+  },
+  {
+    "term": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "AI 주도 개발에서 CodeRabbit 활용 가이드",
+    "preview": "- Claude Code / GitHub Copilot Agent / Cursor / Jules / Codex Cloud 등이 작업 끝냄"
+  },
+  {
+    "term": "1. AI 에이전트가 코드 작업 완료 → PR 자동 생성",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- Claude Code / GitHub Copilot Agent / Cursor / Jules / Codex Cloud 등이 작업 끝냄"
+  },
+  {
+    "term": "PR open",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- 자동으로 새 브랜치 생성 → commit → PR open (draft 또는 바로 open)"
+  },
+  {
+    "term": "PR 제목/본문도 AI 가 요약해서 작성",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- PR 제목/본문도 AI 가 요약해서 작성 (변경 범위, 목적, 관련 이슈 링크 등)"
+  },
+  {
+    "term": "2. PR 생성 직후 CodeRabbit 자동 트리거 (Webhook 기반, 지연 거의 없음)",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- GitHub App 으로 설치된 CodeRabbit 이 PR 이벤트를 감지"
+  },
+  {
+    "term": "즉시 분석 시작",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- 즉시 분석 시작:"
+  },
+  {
+    "term": "Codegraph",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- Codegraph(코드베이스 맵) + 최근 커밋 히스토리 + 관련 파일 의존성 끌어옴"
+  },
+  {
+    "term": "3. CodeRabbit 의 다단계 리뷰 자동 게시 (보통 1~5 분 내 완료)",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- \"무엇을 바꿨는지\" 한눈에 보이게 AI 가 재작성"
+  },
+  {
+    "term": "PR 설명 상단에 요약 추가 (Summary & Release Notes)",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- \"무엇을 바꿨는지\" 한눈에 보이게 AI 가 재작성"
+  },
+  {
+    "term": "\"무엇을 바꿨는지\" 한눈에 보이게 AI 가 재작성",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- \"무엇을 바꿨는지\" 한눈에 보이게 AI 가 재작성"
+  },
+  {
+    "term": "복잡도 추정",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- 복잡도 추정 (Review complexity score)"
+  },
+  {
+    "term": "라인 바이 라인 코멘트 (주로 PR 탭의 \"Conversation\"에 달림)",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- 버그/논리 오류/엣지 케이스 지적"
+  },
+  {
+    "term": "버그/논리 오류/엣지 케이스 지적",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- 버그/논리 오류/엣지 케이스 지적"
+  },
+  {
+    "term": "성능·보안·코드 스멜 제안",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- 성능·보안·코드 스멜 제안"
+  },
+  {
+    "term": "더 나은 패턴/리팩토링 추천",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- 더 나은 패턴/리팩토링 추천 (대부분 diff 형태로 보여줌)"
+  },
+  {
+    "term": "\"Fix with AI\" 버튼",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- \"Fix with AI\" 버튼: 1 클릭으로 해당 수정 자동 커밋 생성 (PR 에 바로 적용 가능)"
+  },
+  {
+    "term": "전체 PR 수준 피드백",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- 아키텍처 영향, 테스트 누락, 문서화 제안 등"
+  },
+  {
+    "term": "Incremental review",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- 이후 push 마다 delta 만 다시 리뷰 (전체 재분석 아님)"
+  },
+  {
+    "term": "delta 만 다시 리뷰",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- 이후 push 마다 delta 만 다시 리뷰 (전체 재분석 아님)"
+  },
+  {
+    "term": "4. 개발자 (또는 AI 오케스트레이터) 의 Gate 역할 (최소 1~3 분 소요)",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "1. PR 페이지 열기 → CodeRabbit 코멘트 훑어보기"
+  },
+  {
+    "term": "PR 페이지 열기",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "1. PR 페이지 열기 → CodeRabbit 코멘트 훑어보기"
+  },
+  {
+    "term": "Resolve / Reply / Dismiss 처리",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "2. Resolve / Reply / Dismiss 처리:"
+  },
+  {
+    "term": "부분 동의",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- 부분 동의 → 직접 수정 후 push (CodeRabbit 이 incremental 로 다시 리뷰)"
+  },
+  {
+    "term": "필요 시 @CodeRabbitAI 태그해서 채팅",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "3. 필요 시 @CodeRabbitAI 태그해서 채팅:"
+  },
+  {
+    "term": "5. 필요 시 인간 리뷰어 추가 호출 (핵심 부분만)",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- CodeRabbit 이 \"High severity\" 또는 \"Security concern\" 플래그 달면"
+  },
+  {
+    "term": "\"High severity\"",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- CodeRabbit 이 \"High severity\" 또는 \"Security concern\" 플래그 달면"
+  },
+  {
+    "term": "\"Security concern\"",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- CodeRabbit 이 \"High severity\" 또는 \"Security concern\" 플래그 달면"
+  },
+  {
+    "term": "Slack/Linear 알림",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- 팀 Slack/Linear 알림 또는 @mention으로 특정 리뷰어 호출"
+  },
+  {
+    "term": "@mention",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- 팀 Slack/Linear 알림 또는 @mention으로 특정 리뷰어 호출"
+  },
+  {
+    "term": "보안·비즈니스 로직·도메인 지식 관련 부분은 사람이 최종 Gate",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- 보안·비즈니스 로직·도메인 지식 관련 부분은 사람이 최종 Gate"
+  },
+  {
+    "term": "80~90% 는 AI 가 커버",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- 나머지 80~90% 는 AI 가 커버 → 인간 리뷰 시간 대폭 감소"
+  },
+  {
+    "term": "6. Merge & 후속 자동화",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- 모든 critical 이슈 resolve + 인간 Approve → merge"
+  },
+  {
+    "term": "merge",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- 모든 critical 이슈 resolve + 인간 Approve → merge"
+  },
+  {
+    "term": "자동 Approve 가능",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- CodeRabbit 설정에 따라 자동 Approve 가능 (예: low-risk PR)"
+  },
+  {
+    "term": "CodeRabbit 설정에 따라 자동 Approve 가능 (예",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "CodeRabbit 설정에 따라 자동 Approve 가능 (예: low-risk PR)"
+  },
+  {
+    "term": "Merge 후",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "전형적인 AI 주도 개발 + CodeRabbit 워크플로우 (비동기 PR 중심)",
+    "preview": "- Merge 후:"
+  },
+  {
+    "term": "실제 사례 패턴 (2026 년 한국/글로벌 팀에서 자주 보이는 유형)",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "AI 주도 개발에서 CodeRabbit 활용 가이드",
+    "preview": "→ AI 가 10 개 기능 구현 → PR 10 개 동시에 open"
+  },
+  {
+    "term": "패턴 A: 초고속 AI-only PR",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "실제 사례 패턴 (2026 년 한국/글로벌 팀에서 자주 보이는 유형)",
+    "preview": "→ AI 가 10 개 기능 구현 → PR 10 개 동시에 open"
+  },
+  {
+    "term": "패턴 B: AI + 인간 하이브리드",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "실제 사례 패턴 (2026 년 한국/글로벌 팀에서 자주 보이는 유형)",
+    "preview": "→ AI 가 대부분 코드 작성"
+  },
+  {
+    "term": "패턴 C: .coderabbit.yaml 커스터마이징",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "실제 사례 패턴 (2026 년 한국/글로벌 팀에서 자주 보이는 유형)",
+    "preview": "language: \"ko\" # 한국어 리뷰"
+  },
+  {
+    "term": "팀 코딩 가이드라인 예시",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "",
+    "preview": "language: \"ko\" # 한국어 리뷰"
+  },
+  {
+    "term": "팀 코딩 가이드라인 (예",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "실제 사례 패턴 (2026 년 한국/글로벌 팀에서 자주 보이는 유형)",
+    "preview": "팀 코딩 가이드라인 (예: \"한국어 주석 필수\", \"DDD 원칙 준수\", \"특정 라이브러리 금지\") 을 yaml 에 넣음"
+  },
+  {
+    "term": "→ CodeRabbit 이 그 기준으로 더 날카롭게 리뷰",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "실제 사례 패턴 (2026 년 한국/글로벌 팀에서 자주 보이는 유형)",
+    "preview": "- → CodeRabbit 이 그 기준으로 더 날카롭게 리뷰"
+  },
+  {
+    "term": "요약: CodeRabbit 이 AI 주도 개발에서 빛나는 이유",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "팀 코딩 가이드라인 예시",
+    "preview": ""
+  },
+  {
+    "term": "2 차 방어선",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "요약: CodeRabbit 이 AI 주도 개발에서 빛나는 이유",
+    "preview": "2 차 방어선 AI 가 만든 PR 이 많아질수록 인간 리뷰 병목이 심해지는데, CodeRabbit 은 \"AI 가 AI 코드를 먼저 검증\"하는 역할"
+  },
+  {
+    "term": "초고속 피드백 루프",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "요약: CodeRabbit 이 AI 주도 개발에서 빛나는 이유",
+    "preview": "초고속 피드백 루프 1-click fix + 채팅 기능으로 피드백 → 수정 루프가 초고속"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "heading",
+    "context": "팀 코딩 가이드라인 예시",
+    "preview": "정보시스템 감리 관점에서 CodeRabbit 활용 시 고려사항:"
+  },
+  {
+    "term": "코드 리뷰 품질 검증",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 코드 리뷰 품질 검증: AI 리뷰의 정확도와 누락 여부 샘플 검증"
+  },
+  {
+    "term": "보안 취약점 발견율",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 보안 취약점 발견율: CodeRabbit 의 보안 관련 지적 사항과 실제 취약점 비교 분석"
+  },
+  {
+    "term": "인간 개입 포인트",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 인간 개입 포인트: High severity 이슈에 대한 인간 리뷰어 검토 여부 확인"
+  },
+  {
+    "term": "의사결정 추적성",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 의사결정 추적성: CodeRabbit 리뷰 이력과 수정 내역의 추적 가능성 확인"
+  },
+  {
+    "term": "팀 가이드라인 준수",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 팀 가이드라인 준수: .coderabbit.yaml 설정과 실제 리뷰 일관성 검증"
+  },
+  {
+    "term": "생산성 측정",
+    "section": "coderabbit_guide",
+    "label": "CodeRabbit 활용 가이드",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 생산성 측정: CodeRabbit 도입 전후 리뷰 시간, merge 속도, 버그 발생률 비교"
   },
   {
     "term": "자주 묻는 질문 (FAQ)",

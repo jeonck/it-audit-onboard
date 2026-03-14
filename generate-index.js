@@ -43,6 +43,7 @@ const SECTION_LABELS = {
     rag:                    'RAG (검색 증강 생성)',
     mcp_context:            'MCP 컨텍스트 최적화',
     react_pattern:          'ReAct 패턴',
+    coderabbit_guide:       'CodeRabbit 활용 가이드',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };

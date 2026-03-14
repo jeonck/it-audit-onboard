@@ -85,6 +85,9 @@
 ### ReAct 패턴
 - [자세히 보기](#react_pattern) - AI 에이전트 제어 패턴, Reasoning + Acting
 
+### CodeRabbit 활용 가이드
+- [자세히 보기](#coderabbit_guide) - AI 주도 개발 PR 리뷰, CodeRabbit 워크플로우
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례
