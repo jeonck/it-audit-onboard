@@ -34,6 +34,7 @@ const SECTION_LABELS = {
     data_quality_assessment:'데이터 품질 진단',
     learning_growth:        '학습과성장',
     social_identity_auth:   '소셜 인증 vs 본인 인증',
+    ai_development_methodology: 'AI 시대 개발방법론',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };
