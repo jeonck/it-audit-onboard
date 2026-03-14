@@ -68,6 +68,9 @@
 ### AI 아키텍처 선택 가이드
 - [자세히 보기](#ai_architecture_decision_tree) - 비용 -품질 균형 의사결정 트리
 
+### AI 모델 라우팅 전략
+- [자세히 보기](#ai_model_routing) - 규칙/의도/비용/케스케이드 라우팅
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례
