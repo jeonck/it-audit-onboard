@@ -49,6 +49,7 @@ const SECTION_LABELS = {
     ai_latency_optimization: 'AI Latency 최적화',
     ai_cost_optimization:   'AI 비용 최적화',
     ai_quality_assurance:   'AI 품질 보장',
+    ai_architecture_decision_tree: 'AI 아키텍처 선택 가이드',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };

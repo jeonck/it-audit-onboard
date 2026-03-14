@@ -103,6 +103,9 @@
 ### AI 품질 보장 전략
 - [자세히 보기](#ai_quality_assurance) - 가드레일, 환각 방지, 검증 루프
 
+### AI 아키텍처 선택 가이드
+- [자세히 보기](#ai_architecture_decision_tree) - 비용 -품질 균형 의사결정 트리
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례
