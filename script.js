@@ -89,6 +89,9 @@ async function loadMarkdownContent(section) {
 
         // Set external links to open in a new tab
         setExternalLinksToNewTab();
+
+        // Scroll to top after content loads
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     } catch (error) {
         console.error('Error loading markdown content:', error);
         document.getElementById('content-container').innerHTML = `<p>콘텐츠를 불러오는 중 오류가 발생했습니다: ${error.message}</p>`;
