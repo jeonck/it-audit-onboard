@@ -123,6 +123,7 @@
 | [AI 폴백 전략](#ai_fallback_strategies) | 가용성/품질/속도/콘텐츠 폴백 |
 | [챗봇 vs AI 파이프라인](#chatbot_vs_pipeline) | 단순 챗봇과 Compound AI 시스템 비교 |
 | [도메인별 AI 파이프라인](#domain_specific_ai) | 금융/기업/의료 도메인 적용 비교 |
+| [RAGAS 품질 평가](#ragas_evaluation) | RAG 품질 정량 평가 (Faithfulness/Relevance) |
 
 ---
 

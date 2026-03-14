@@ -24168,6 +24168,542 @@
     "preview": "> 관련 표준: OpenTelemetry, MLFlow, Arize AI, LangSmith"
   },
   {
+    "term": "RAGAS: RAG 품질 평가 프레임워크",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "",
+    "preview": "AI 서비스의 신뢰성을 정량적으로 평가하고 싶으실 때 가장 먼저 마주하게 되는 표준 프레임워크가 바로 RAGAS (RAG Assessment)입니다."
+  },
+  {
+    "term": "RAGAS",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "RAGAS: RAG 품질 평가 프레임워크",
+    "preview": "AI 서비스의 신뢰성을 정량적으로 평가하고 싶으실 때 가장 먼저 마주하게 되는 표준 프레임워크가 바로 RAGAS (RAG Assessment)입니다."
+  },
+  {
+    "term": "PDCA",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "RAGAS: RAG 품질 평가 프레임워크",
+    "preview": "엔지니어님께서 강조하신 PDCA (Plan-Do-Check-Act)에서 'Check(검증)를 자동화해 주는 핵심 엔진이라고 이해하시면 됩니다."
+  },
+  {
+    "term": "'Check",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "RAGAS: RAG 품질 평가 프레임워크",
+    "preview": "엔지니어님께서 강조하신 PDCA (Plan-Do-Check-Act)에서 'Check(검증)를 자동화해 주는 핵심 엔진이라고 이해하시면 됩니다."
+  },
+  {
+    "term": "1. RAGAS 의 핵심: \"RAG 의 3 요소 평가\"",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "RAGAS: RAG 품질 평가 프레임워크",
+    "preview": "RAGAS 는 단순한 정성적 평가를 넘어, RAG 파이프라인의 각 연결 고리를 수학적/논리적 지표로 점검합니다."
+  },
+  {
+    "term": "수학적/논리적 지표",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "1. RAGAS 의 핵심: \"RAG 의 3 요소 평가\"",
+    "preview": "RAGAS 는 단순한 정성적 평가를 넘어, RAG 파이프라인의 각 연결 고리를 수학적/논리적 지표로 점검합니다."
+  },
+  {
+    "term": "'RAG Triad'",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "1. RAGAS 의 핵심: \"RAG 의 3 요소 평가\"",
+    "preview": "이를 흔히 'RAG Triad'라고 부릅니다."
+  },
+  {
+    "term": "① Faithfulness (충실도)",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "1. RAGAS 의 핵심: \"RAG 의 3 요소 평가\"",
+    "preview": "> 질문: \"모델의 답변이 추출된 컨텍스트에만 근거하고 있는가?\""
+  },
+  {
+    "term": "측정 목적",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "1. RAGAS 의 핵심: \"RAG 의 3 요소 평가\"",
+    "preview": "측정 목적 환각 (Hallucination) 여부 체크"
+  },
+  {
+    "term": "판단 기준",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "1. RAGAS 의 핵심: \"RAG 의 3 요소 평가\"",
+    "preview": "판단 기준 컨텍스트에 없는 내용을 지어냈다면 점수 낮음"
+  },
+  {
+    "term": "점수 범위",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "1. RAGAS 의 핵심: \"RAG 의 3 요소 평가\"",
+    "preview": "점수 범위 0~1 (1 일수록 우수)"
+  },
+  {
+    "term": "보안 전문가의 시각",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "1. RAGAS 의 핵심: \"RAG 의 3 요소 평가\"",
+    "preview": "> 폐쇄형 AI 시스템에서 내부 규정에 없는 내용을 AI 가 임의로 답하지 않도록 통제하는 지표입니다."
+  },
+  {
+    "term": "내부 규정에 없는 내용을 AI 가 임의로 답하지 않도록 통제",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "1. RAGAS 의 핵심: \"RAG 의 3 요소 평가\"",
+    "preview": "> 폐쇄형 AI 시스템에서 내부 규정에 없는 내용을 AI 가 임의로 답하지 않도록 통제하는 지표입니다."
+  },
+  {
+    "term": "② Answer Relevance (답변 관련성)",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "1. RAGAS 의 핵심: \"RAG 의 3 요소 평가\"",
+    "preview": "> 질문: \"답변이 사용자의 원래 질문에 대해 얼마나 직접적인 해결책을 제시하는가?\""
+  },
+  {
+    "term": "③ Context Precision & Recall (컨텍스트 정확도 및 재현율)",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "1. RAGAS 의 핵심: \"RAG 의 3 요소 평가\"",
+    "preview": "> 질문: \"검색된 문서들이 질문에 답하는 데 정말 유용한 정보였는가?\""
+  },
+  {
+    "term": "세부 지표",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "1. RAGAS 의 핵심: \"RAG 의 3 요소 평가\"",
+    "preview": ""
+  },
+  {
+    "term": "Context Precision",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "1. RAGAS 의 핵심: \"RAG 의 3 요소 평가\"",
+    "preview": "Context Precision 관련 문서가 상위 순위로 잘 검색되었는가?"
+  },
+  {
+    "term": "Context Recall",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "1. RAGAS 의 핵심: \"RAG 의 3 요소 평가\"",
+    "preview": "Context Recall 필요한 문서가 누락 없이 모두 검색되었는가?"
+  },
+  {
+    "term": "2. RAGAS 평가 지표 요약",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "RAGAS: RAG 품질 평가 프레임워크",
+    "preview": ""
+  },
+  {
+    "term": "Faithfulness",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "2. RAGAS 평가 지표 요약",
+    "preview": "Faithfulness 모델 추론 컨텍스트 기반인가? > 0.8"
+  },
+  {
+    "term": "Answer Relevance",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "2. RAGAS 평가 지표 요약",
+    "preview": "Answer Relevance 답변 품질 질문 의도와 일치하는가? > 0.7"
+  },
+  {
+    "term": "Context Precision",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "2. RAGAS 평가 지표 요약",
+    "preview": "Context Precision 검색 순위 관련 문서가 상위에 있는가? > 0.7"
+  },
+  {
+    "term": "Context Recall",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "2. RAGAS 평가 지표 요약",
+    "preview": "Context Recall 검색 완전성 필요한 문서가 모두 검색되었는가? > 0.8"
+  },
+  {
+    "term": "Answer Similarity",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "2. RAGAS 평가 지표 요약",
+    "preview": "Answer Similarity 답변 일관성 기준 답변과 유사한가? > 0.7"
+  },
+  {
+    "term": "3. AI Observability 와의 결합: \"실시간 품질 감사\"",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "RAGAS: RAG 품질 평가 프레임워크",
+    "preview": "RAGAS 를 Observability 시스템 (예: Arize Phoenix, LangSmith)에 통합하면 다음과 같은 페인 포인트를 해결할 수 있습니다."
+  },
+  {
+    "term": "Observability 시스템",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "3. AI Observability 와의 결합: \"실시간 품질 감사\"",
+    "preview": "RAGAS 를 Observability 시스템 (예: Arize Phoenix, LangSmith)에 통합하면 다음과 같은 페인 포인트를 해결할 수 있습니다."
+  },
+  {
+    "term": "해결하고 싶은 사항 #1: 모델 업데이트 공포",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "3. AI Observability 와의 결합: \"실시간 품질 감사\"",
+    "preview": "┌─────────────────────────────────────────────────────────┐"
+  },
+  {
+    "term": "RAGAS 점수 변화",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "3. AI Observability 와의 결합: \"실시간 품질 감사\"",
+    "preview": "모델 교체 시 품질 저하 우려 모델 교체 (예: Claude 3 → 3.5) 할 때 RAGAS 점수 변화를 측정하여 회귀 테스트 (Regression Test)"
+  },
+  {
+    "term": "회귀 테스트",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "3. AI Observability 와의 결합: \"실시간 품질 감사\"",
+    "preview": "모델 교체 시 품질 저하 우려 모델 교체 (예: Claude 3 → 3.5) 할 때 RAGAS 점수 변화를 측정하여 회귀 테스트 (Regression Test)"
+  },
+  {
+    "term": "해결하고 싶은 사항 #2: 비용 최적화",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "3. AI Observability 와의 결합: \"실시간 품질 감사\"",
+    "preview": "┌─────────────────────────────────────────────────────────┐"
+  },
+  {
+    "term": "Context Precision",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "3. AI Observability 와의 결합: \"실시간 품질 감사\"",
+    "preview": "과도하게 긴 컨텍스트 주입 Context Precision을 체크하여, 불필요한 토큰 소모를 유발하는 문서 필터링"
+  },
+  {
+    "term": "해결하고 싶은 사항 #3: 품질 사고 대응 (AAR)",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "3. AI Observability 와의 결합: \"실시간 품질 감사\"",
+    "preview": "┌─────────────────────────────────────────────────────────┐"
+  },
+  {
+    "term": "'검색 실패'",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "3. AI Observability 와의 결합: \"실시간 품질 감사\"",
+    "preview": "특정 장애 발생 시 원인 불명 RAGAS 지표를 분석하여 원인이 '검색 실패'인지 '모델의 추론 실패'인지 명확히 판별"
+  },
+  {
+    "term": "'모델의 추론 실패'",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "3. AI Observability 와의 결합: \"실시간 품질 감사\"",
+    "preview": "특정 장애 발생 시 원인 불명 RAGAS 지표를 분석하여 원인이 '검색 실패'인지 '모델의 추론 실패'인지 명확히 판별"
+  },
+  {
+    "term": "4. 엔지니어님을 위한 실전 설계 노하우",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "RAGAS: RAG 품질 평가 프레임워크",
+    "preview": "품질 리더로서 RAGAS 를 운영 아키텍처에 녹여낼 때 고려하실 포인트입니다."
+  },
+  {
+    "term": "LLM-as-a-Judge",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "4. 엔지니어님을 위한 실전 설계 노하우",
+    "preview": "> RAGAS 는 평가를 위해 별도의 '판사 모델 (주로 GPT-4o 나 Claude 3.5)을 사용합니다."
+  },
+  {
+    "term": "'판사 모델",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "4. 엔지니어님을 위한 실전 설계 노하우",
+    "preview": "> RAGAS 는 평가를 위해 별도의 '판사 모델 (주로 GPT-4o 나 Claude 3.5)을 사용합니다."
+  },
+  {
+    "term": "폐쇄형 시스템 고려사항",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "4. 엔지니어님을 위한 실전 설계 노하우",
+    "preview": ""
+  },
+  {
+    "term": "보안 요구",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "4. 엔지니어님을 위한 실전 설계 노하우",
+    "preview": "보안 요구 사내 인프라 내에 평가 전용 SLM 구축"
+  },
+  {
+    "term": "비용 절감",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "4. 엔지니어님을 위한 실전 설계 노하우",
+    "preview": "비용 절감 작은 모델 (SLM) 로 평가하여 토큰 비용 절감"
+  },
+  {
+    "term": "추천 모델",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "4. 엔지니어님을 위한 실전 설계 노하우",
+    "preview": "추천 모델 Llama 3 8B, Mistral 7B (사내 배포 가능)"
+  },
+  {
+    "term": "Continuous Monitoring (지속적 모니터링)",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "4. 엔지니어님을 위한 실전 설계 노하우",
+    "preview": "> 운영 중인 MiroFish 에이전트가 답변을 내놓을 때마다 백그라운드에서 RAGAS 점수를 계산하고, 0.7 점 이하로 떨어지면 운영자에게 즉시 알람을 보내는…"
+  },
+  {
+    "term": "MiroFish 에이전트",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "4. 엔지니어님을 위한 실전 설계 노하우",
+    "preview": "> 운영 중인 MiroFish 에이전트가 답변을 내놓을 때마다 백그라운드에서 RAGAS 점수를 계산하고, 0.7 점 이하로 떨어지면 운영자에게 즉시 알람을 보내는…"
+  },
+  {
+    "term": "백그라운드에서 RAGAS 점수",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "4. 엔지니어님을 위한 실전 설계 노하우",
+    "preview": "> 운영 중인 MiroFish 에이전트가 답변을 내놓을 때마다 백그라운드에서 RAGAS 점수를 계산하고, 0.7 점 이하로 떨어지면 운영자에게 즉시 알람을 보내는…"
+  },
+  {
+    "term": "0.7 점 이하로 떨어지면 운영자에게 즉시 알람",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "4. 엔지니어님을 위한 실전 설계 노하우",
+    "preview": "> 운영 중인 MiroFish 에이전트가 답변을 내놓을 때마다 백그라운드에서 RAGAS 점수를 계산하고, 0.7 점 이하로 떨어지면 운영자에게 즉시 알람을 보내는…"
+  },
+  {
+    "term": "'품질 가드레일'",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "4. 엔지니어님을 위한 실전 설계 노하우",
+    "preview": "> 운영 중인 MiroFish 에이전트가 답변을 내놓을 때마다 백그라운드에서 RAGAS 점수를 계산하고, 0.7 점 이하로 떨어지면 운영자에게 즉시 알람을 보내는…"
+  },
+  {
+    "term": "알림 임계값 예시",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "4. 엔지니어님을 위한 실전 설계 노하우",
+    "preview": ""
+  },
+  {
+    "term": "Faithfulness",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "4. 엔지니어님을 위한 실전 설계 노하우",
+    "preview": "Faithfulness < 0.7 < 0.5"
+  },
+  {
+    "term": "Answer Relevance",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "4. 엔지니어님을 위한 실전 설계 노하우",
+    "preview": "Answer Relevance < 0.6 < 0.4"
+  },
+  {
+    "term": "Context Precision",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "4. 엔지니어님을 위한 실전 설계 노하우",
+    "preview": "Context Precision < 0.6 < 0.4"
+  },
+  {
+    "term": "5. RAGAS 구현 예시 (Python)",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "RAGAS: RAG 품질 평가 프레임워크",
+    "preview": "from ragas import evaluate"
+  },
+  {
+    "term": "평가 데이터셋",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "",
+    "preview": "eval_data = {"
+  },
+  {
+    "term": "평가 실행",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "",
+    "preview": "result = evaluate("
+  },
+  {
+    "term": "faithfulness: 0.95",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "",
+    "preview": ""
+  },
+  {
+    "term": "answer_relevancy: 0.88",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "",
+    "preview": ""
+  },
+  {
+    "term": "context_precision: 0.85",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "",
+    "preview": ""
+  },
+  {
+    "term": "context_recall: 0.90",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "",
+    "preview": ""
+  },
+  {
+    "term": "📊 RAGAS 대시보드 예시",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "context_recall: 0.90",
+    "preview": "┌─────────────────────────────────────────────────────────────────┐"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "heading",
+    "context": "context_recall: 0.90",
+    "preview": "정보시스템 감리 관점에서 RAGAS 도입 검토 시 고려사항:"
+  },
+  {
+    "term": "정량적 품질 지표",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 정량적 품질 지표: Faithfulness, Relevance 등 수치화된 품질 기준"
+  },
+  {
+    "term": "회귀 테스트 자동화",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 회귀 테스트 자동화: 모델 업데이트 시 품질 저하 방지"
+  },
+  {
+    "term": "근본 원인 분석",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 근본 원인 분석: 검색 실패 vs 모델 추론 실패 명확한 판별"
+  },
+  {
+    "term": "비용 최적화",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 비용 최적화: Context Precision 기반 불필요한 토큰 소모 방지"
+  },
+  {
+    "term": "실시간 모니터링",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 실시간 모니터링: 품질 가드레일과 자동 알림 시스템"
+  },
+  {
+    "term": "보안 고려",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 보안 고려: 폐쇄형 시스템용 사내 평가 모델 구축"
+  },
+  {
+    "term": "공식 문서",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "> 공식 문서: [https://docs.ragas.io/](https://docs.ragas.io/)"
+  },
+  {
+    "term": "관련 도구",
+    "section": "ragas_evaluation",
+    "label": "RAGAS 품질 평가",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "> 관련 도구: Arize Phoenix, LangSmith, TruLens"
+  },
+  {
     "term": "uv: 초고속 Python 패키지 매니저",
     "section": "python_uv",
     "label": "Python uv 패키지매니저",
