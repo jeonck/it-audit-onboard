@@ -71,6 +71,9 @@
 ### AI 모델 라우팅 전략
 - [자세히 보기](#ai_model_routing) - 규칙/의도/비용/케스케이드 라우팅
 
+### AI 폴백 전략
+- [자세히 보기](#ai_fallback_strategies) - 가용성/품질/속도/콘텐츠 폴백
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례

@@ -52,6 +52,7 @@ const SECTION_LABELS = {
     ai_quality_assurance:   'AI 품질 보장',
     ai_architecture_decision_tree: 'AI 아키텍처 선택 가이드',
     ai_model_routing:       'AI 모델 라우팅',
+    ai_fallback_strategies: 'AI 폴백 전략',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };
