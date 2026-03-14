@@ -4728,6 +4728,14 @@
     "preview": "- [자세히 보기](#ai_infrastructure_challenges) - GPU/토큰/버전/보안 고난도 이슈"
   },
   {
+    "term": "vLLM 모델 서빙",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#vllm_serving) - 초고속 LLM 서빙 프레임워크"
+  },
+  {
     "term": "AI 실습 자료",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -18286,6 +18294,526 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "7. 지속적 개선: PDCA 사이클 기반 AAR 운영과 최적화 조치"
+  },
+  {
+    "term": "vLLM: 초고속 LLM 모델 서빙 프레임워크",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "",
+    "preview": "vLLM은 UC Berkeley 에서 개발한 오픈소스 LLM 추론 및 서빙 프레임워크로, 기존 HuggingFace Transformers 보다 최대 24 배 빠…"
+  },
+  {
+    "term": "vLLM",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "vLLM: 초고속 LLM 모델 서빙 프레임워크",
+    "preview": "vLLM은 UC Berkeley 에서 개발한 오픈소스 LLM 추론 및 서빙 프레임워크로, 기존 HuggingFace Transformers 보다 최대 24 배 빠…"
+  },
+  {
+    "term": "오픈소스 LLM 추론 및 서빙 프레임워크",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "vLLM: 초고속 LLM 모델 서빙 프레임워크",
+    "preview": "vLLM은 UC Berkeley 에서 개발한 오픈소스 LLM 추론 및 서빙 프레임워크로, 기존 HuggingFace Transformers 보다 최대 24 배 빠…"
+  },
+  {
+    "term": "사실상의 표준 디팩토 스탠다드",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "vLLM: 초고속 LLM 모델 서빙 프레임워크",
+    "preview": "2023 년 출시 이후 AI 서비스 프로덕션 환경에서 사실상의 표준 디팩토 스탠다드로 자리잡았습니다."
+  },
+  {
+    "term": "vLLM 의 핵심 기술",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "vLLM: 초고속 LLM 모델 서빙 프레임워크",
+    "preview": "> OS 의 가상 메모리 페이징 기법을 어텐션 메커니즘에 적용하여 KV 캐시 메모리 단편화를 근본적으로 해결합니다."
+  },
+  {
+    "term": "1. PagedAttention (페이지 어텐션)",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "vLLM 의 핵심 기술",
+    "preview": "> OS 의 가상 메모리 페이징 기법을 어텐션 메커니즘에 적용하여 KV 캐시 메모리 단편화를 근본적으로 해결합니다."
+  },
+  {
+    "term": "OS 의 가상 메모리 페이징 기법을 어텐션 메커니즘에 적용",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "vLLM 의 핵심 기술",
+    "preview": "> OS 의 가상 메모리 페이징 기법을 어텐션 메커니즘에 적용하여 KV 캐시 메모리 단편화를 근본적으로 해결합니다."
+  },
+  {
+    "term": "연속 메모리 할당",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "vLLM 의 핵심 기술",
+    "preview": "연속 메모리 할당 블록 단위 비연속 할당"
+  },
+  {
+    "term": "블록 단위 비연속 할당",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "vLLM 의 핵심 기술",
+    "preview": "연속 메모리 할당 블록 단위 비연속 할당"
+  },
+  {
+    "term": "2. 주요 성능 특징",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "vLLM 의 핵심 기술",
+    "preview": ""
+  },
+  {
+    "term": "PagedAttention",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "vLLM 의 핵심 기술",
+    "preview": "PagedAttention KV 캐시 블록 단위 관리 메모리 효율 4 배↑"
+  },
+  {
+    "term": "Continuous Batching",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "vLLM 의 핵심 기술",
+    "preview": "Continuous Batching 요청 완료 시 즉시 새 요청 삽입 GPU 유휴시간 최소화"
+  },
+  {
+    "term": "CUDA Graph",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "vLLM 의 핵심 기술",
+    "preview": "CUDA Graph 커널 런타임 오버헤드 제거 추론 속도 20%↑"
+  },
+  {
+    "term": "Quantization",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "vLLM 의 핵심 기술",
+    "preview": "Quantization FP8, AWQ, GPTQ 지원 메모리 50%↓, 속도 2 배↑"
+  },
+  {
+    "term": "Distributed Inference",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "vLLM 의 핵심 기술",
+    "preview": "Distributed Inference 멀티 GPU, 텐서/파이프라인 병렬 대규모 모델 서빙 가능"
+  },
+  {
+    "term": "설치 및 기본 사용법",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "vLLM: 초고속 LLM 모델 서빙 프레임워크",
+    "preview": "pip install vllm"
+  },
+  {
+    "term": "설치",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "설치 및 기본 사용법",
+    "preview": "pip install vllm"
+  },
+  {
+    "term": "NVIDIA GPU 환경",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "",
+    "preview": "pip install vllm"
+  },
+  {
+    "term": "AMD ROCm 환경",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "",
+    "preview": "pip install vllm-rocm"
+  },
+  {
+    "term": "API 서버 실행",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "설치 및 기본 사용법",
+    "preview": "python -m vllm.entrypoints.api_server \\"
+  },
+  {
+    "term": "단일 GPU",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "",
+    "preview": "python -m vllm.entrypoints.api_server \\"
+  },
+  {
+    "term": "멀티 GPU (텐서 병렬)",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "",
+    "preview": "python -m vllm.entrypoints.api_server \\"
+  },
+  {
+    "term": "OpenAI 호환 API 사용",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "설치 및 기본 사용법",
+    "preview": "> vLLM 은 OpenAI API 스펙을 호환하여 기존 클라이언트 코드를 그대로 사용할 수 있습니다."
+  },
+  {
+    "term": "OpenAI API 스펙을 호환",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "설치 및 기본 사용법",
+    "preview": "> vLLM 은 OpenAI API 스펙을 호환하여 기존 클라이언트 코드를 그대로 사용할 수 있습니다."
+  },
+  {
+    "term": "vLLM 서버 연결",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "",
+    "preview": "client = OpenAI("
+  },
+  {
+    "term": "주요 설정 옵션",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "vLLM 서버 연결",
+    "preview": "python -m vllm.entrypoints.api_server \\"
+  },
+  {
+    "term": "메모리 및 배치 설정",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "주요 설정 옵션",
+    "preview": "python -m vllm.entrypoints.api_server \\"
+  },
+  {
+    "term": "양자화 (Quantization) 설정",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "주요 설정 옵션",
+    "preview": "python -m vllm.entrypoints.api_server \\"
+  },
+  {
+    "term": "AWQ 양자화 모델",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "",
+    "preview": "python -m vllm.entrypoints.api_server \\"
+  },
+  {
+    "term": "FP8 양자화 (H100 GPU)",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "",
+    "preview": "python -m vllm.entrypoints.api_server \\"
+  },
+  {
+    "term": "멀티 GPU 설정",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "주요 설정 옵션",
+    "preview": "python -m vllm.entrypoints.api_server \\"
+  },
+  {
+    "term": "텐서 병렬 (Tensor Parallelism)",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "",
+    "preview": "python -m vllm.entrypoints.api_server \\"
+  },
+  {
+    "term": "파이프라인 병렬 (Pipeline Parallelism)",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "",
+    "preview": "python -m vllm.entrypoints.api_server \\"
+  },
+  {
+    "term": "AI 서비스 아키텍처 통합",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "파이프라인 병렬 (Pipeline Parallelism)",
+    "preview": "apiVersion: apps/v1"
+  },
+  {
+    "term": "Kubernetes 배포 예시",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "AI 서비스 아키텍처 통합",
+    "preview": "apiVersion: apps/v1"
+  },
+  {
+    "term": "containerPort",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "AI 서비스 아키텍처 통합",
+    "preview": "containerPort: 8000"
+  },
+  {
+    "term": "성능 비교 (실무 벤치마크)",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "파이프라인 병렬 (Pipeline Parallelism)",
+    "preview": ""
+  },
+  {
+    "term": "HuggingFace Transformers vs vLLM",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "성능 비교 (실무 벤치마크)",
+    "preview": ""
+  },
+  {
+    "term": "Mistral-7B",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "성능 비교 (실무 벤치마크)",
+    "preview": "Mistral-7B 45 tokens/sec 180 tokens/sec 4 배"
+  },
+  {
+    "term": "4 배",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "성능 비교 (실무 벤치마크)",
+    "preview": "Mistral-7B 45 tokens/sec 180 tokens/sec 4 배"
+  },
+  {
+    "term": "Llama-2-70B",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "성능 비교 (실무 벤치마크)",
+    "preview": "Llama-2-70B (4 GPU) 12 tokens/sec 95 tokens/sec 8 배"
+  },
+  {
+    "term": "8 배",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "성능 비교 (실무 벤치마크)",
+    "preview": "Llama-2-70B (4 GPU) 12 tokens/sec 95 tokens/sec 8 배"
+  },
+  {
+    "term": "Llama-3-70B",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "성능 비교 (실무 벤치마크)",
+    "preview": "Llama-3-70B (8 GPU, FP8) 8 tokens/sec 190 tokens/sec 24 배"
+  },
+  {
+    "term": "24 배",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "성능 비교 (실무 벤치마크)",
+    "preview": "Llama-3-70B (8 GPU, FP8) 8 tokens/sec 190 tokens/sec 24 배"
+  },
+  {
+    "term": "메모리 효율성",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "성능 비교 (실무 벤치마크)",
+    "preview": ""
+  },
+  {
+    "term": "vLLM",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "성능 비교 (실무 벤치마크)",
+    "preview": "vLLM 6.4 GB (4% 낭비) 96%"
+  },
+  {
+    "term": "💡 실무 팁",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "파이프라인 병렬 (Pipeline Parallelism)",
+    "preview": "export VLLM_USE_MODELSCOPE=False"
+  },
+  {
+    "term": "1. 모델 로딩 시간 단축",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "💡 실무 팁",
+    "preview": "export VLLM_USE_MODELSCOPE=False"
+  },
+  {
+    "term": "이미 다운로드된 모델 재사용",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "",
+    "preview": "export VLLM_USE_MODELSCOPE=False"
+  },
+  {
+    "term": "프롬프트 캐싱 활성화",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "",
+    "preview": "python -m vllm.entrypoints.api_server \\"
+  },
+  {
+    "term": "2. 로깅 및 모니터링",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "💡 실무 팁",
+    "preview": "python -m vllm.entrypoints.api_server \\"
+  },
+  {
+    "term": "Prometheus 메트릭 활성화",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "",
+    "preview": "python -m vllm.entrypoints.api_server \\"
+  },
+  {
+    "term": "상세 로그 레벨",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "",
+    "preview": "export VLLM_LOGGING_LEVEL=DEBUG"
+  },
+  {
+    "term": "3. 배치 처리 최적화",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "💡 실무 팁",
+    "preview": "from vllm import LLM, SamplingParams"
+  },
+  {
+    "term": "비동기 배치 처리",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "",
+    "preview": "from vllm import LLM, SamplingParams"
+  },
+  {
+    "term": "... 수백 개 프롬프트",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "",
+    "preview": "sampling_params = SamplingParams(temperature=0.7, max_tokens=512)"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "heading",
+    "context": "... 수백 개 프롬프트",
+    "preview": "정보시스템 감리 관점에서 vLLM 도입 검토 시 고려사항:"
+  },
+  {
+    "term": "성능 효율성",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 성능 효율성: PagedAttention 기반 메모리 효율성과 추론 속도 개선 효과"
+  },
+  {
+    "term": "확장성",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 확장성: 멀티 GPU 병렬화와 Kubernetes 오토스케일링 연동"
+  },
+  {
+    "term": "호환성",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 호환성: OpenAI API 호환으로 기존 클라이언트 코드 재사용성"
+  },
+  {
+    "term": "모니터링",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 모니터링: Prometheus 메트릭과 분산 트레이싱 연동"
+  },
+  {
+    "term": "비용 최적화",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 비용 최적화: 양자화 (AWQ, FP8) 를 통한 GPU 리소스 절감 효과"
+  },
+  {
+    "term": "운영 안정성",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "7. 운영 안정성: 헬스체크, 재시도, 서킷브레이커 등 장애 대응 메커니즘"
+  },
+  {
+    "term": "공식 문서",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "> 공식 문서: [https://docs.vllm.ai/](https://docs.vllm.ai/)"
+  },
+  {
+    "term": "GitHub",
+    "section": "vllm_serving",
+    "label": "vLLM 모델서빙",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "> GitHub: [https://github.com/vllm-project/vllm](https://github.com/vllm-project/vllm)"
   },
   {
     "term": "uv: 초고속 Python 패키지 매니저",

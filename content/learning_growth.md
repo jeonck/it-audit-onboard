@@ -110,6 +110,9 @@
 ### AI 인프라 설계 이슈
 - [자세히 보기](#ai_infrastructure_challenges) - GPU/토큰/버전/보안 고난도 이슈
 
+### vLLM 모델 서빙
+- [자세히 보기](#vllm_serving) - 초고속 LLM 서빙 프레임워크
+
 ## AI 실습 자료
 
 ### AI 소프트웨어 아키텍처 실습
