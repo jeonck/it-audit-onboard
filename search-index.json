@@ -4448,12 +4448,20 @@
     "preview": "정보시스템 감리 업무를 수행하면서 필요한 개발방법론과 기술정보에 대한 자료입니다."
   },
   {
+    "term": "📊 빠른 링크 (Quick Links)",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "학습과성장",
+    "preview": ""
+  },
+  {
     "term": "감리 역량 강화",
     "section": "learning_growth",
     "label": "학습과성장",
     "type": "heading",
     "context": "학습과성장",
-    "preview": "- CISSP (Certified Information Systems Security Professional)"
+    "preview": ""
   },
   {
     "term": "전문 자격증",
@@ -4461,7 +4469,39 @@
     "label": "학습과성장",
     "type": "heading",
     "context": "감리 역량 강화",
-    "preview": "- CISSP (Certified Information Systems Security Professional)"
+    "preview": ""
+  },
+  {
+    "term": "정보시스템감리사",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "keyword",
+    "context": "감리 역량 강화",
+    "preview": "정보시스템감리사 국내 공인 감리 전문 자격"
+  },
+  {
+    "term": "CISSP",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "keyword",
+    "context": "감리 역량 강화",
+    "preview": "CISSP 국제 보안 전문가 인증"
+  },
+  {
+    "term": "PMP",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "keyword",
+    "context": "감리 역량 강화",
+    "preview": "PMP 프로젝트 관리 전문가"
+  },
+  {
+    "term": "AWS/Azure",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "keyword",
+    "context": "감리 역량 강화",
+    "preview": "AWS/Azure 클라우드 플랫폼 자격증"
   },
   {
     "term": "추천 학습 자료",
@@ -4493,311 +4533,39 @@
     "label": "학습과성장",
     "type": "heading",
     "context": "학습과성장",
-    "preview": "- [자세히 보기](#ai_development_methodology) - AI 증강 개발, 에이전틱 개발, SDLC 진화"
+    "preview": ""
   },
   {
-    "term": "2025~2026 AI 시대 개발 방법론",
+    "term": "MSA & 아키텍처",
     "section": "learning_growth",
     "label": "학습과성장",
     "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#ai_development_methodology) - AI 증강 개발, 에이전틱 개발, SDLC 진화"
+    "context": "학습과성장",
+    "preview": ""
   },
   {
-    "term": "AI-DLC (AI-Driven Development Lifecycle)",
+    "term": "MCP & A2A 프로토콜",
     "section": "learning_growth",
     "label": "학습과성장",
     "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#ai_dlc) - AWS 제안 AI 네이티브 개발 방법론, 3 단계 lifecycle"
+    "context": "학습과성장",
+    "preview": ""
   },
   {
-    "term": "Bolt 와 Mob 세션",
+    "term": "설계 & 최적화",
     "section": "learning_growth",
     "label": "학습과성장",
     "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#ai_dlc_bolt_mob) - AI-DLC 핵심 개념, 초고속 협업 리추얼"
+    "context": "학습과성장",
+    "preview": ""
   },
   {
-    "term": "Compound AI 시스템",
+    "term": "품질 & 보안",
     "section": "learning_growth",
     "label": "학습과성장",
     "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#compound_ai) - Compound AI 핵심 구성 요소, 오케스트레이션"
-  },
-  {
-    "term": "Compound AI 아키텍처",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#compound_ai_architecture) - 상세 아키텍처 설계, 5 단계 보안/품질 보장"
-  },
-  {
-    "term": "RAG (검색 증강 생성)",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#rag) - RAG 핵심 3 단계, 구성 요소, 실무 가이드"
-  },
-  {
-    "term": "MCP 컨텍스트 최적화",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#mcp_context) - MCP 컨텍스트 과소비 해결 방안"
-  },
-  {
-    "term": "ReAct 패턴",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#react_pattern) - AI 에이전트 제어 패턴, Reasoning + Acting"
-  },
-  {
-    "term": "CodeRabbit 활용 가이드",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#coderabbit_guide) - AI 주도 개발 PR 리뷰, CodeRabbit 워크플로우"
-  },
-  {
-    "term": "AI 네이티브 아키텍처",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#ai_native_architecture) - AI-Native/Agentic 아키텍처 5 계층"
-  },
-  {
-    "term": "AI 아키텍처 설계 원리",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#ai_architecture_tradeoffs) - Cost·Latency·Quality 트레이드오프 균형"
-  },
-  {
-    "term": "AI Latency 최적화 전략",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#ai_latency_optimization) - 지연 시간 최적화 10 가지 전략"
-  },
-  {
-    "term": "AI 비용 최적화 전략",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#ai_cost_optimization) - 토큰 효율화, 모델 계층화, 캐싱"
-  },
-  {
-    "term": "AI 품질 보장 전략",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#ai_quality_assurance) - 가드레일, 환각 방지, 검증 루프"
-  },
-  {
-    "term": "AI 아키텍처 선택 가이드",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#ai_architecture_decision_tree) - 비용 -품질 균형 의사결정 트리"
-  },
-  {
-    "term": "AI 모델 라우팅 전략",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#ai_model_routing) - 규칙/의도/비용/케스케이드 라우팅"
-  },
-  {
-    "term": "AI 폴백 전략",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#ai_fallback_strategies) - 가용성/품질/속도/콘텐츠 폴백"
-  },
-  {
-    "term": "챗봇 vs AI 파이프라인",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#chatbot_vs_pipeline) - 단순 챗봇과 Compound AI 시스템 비교"
-  },
-  {
-    "term": "도메인별 AI 파이프라인",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#domain_specific_ai) - 금융/기업/의료 도메인 적용 비교"
-  },
-  {
-    "term": "MSA & 이벤트 기반 아키텍처",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#ai_msa_eda) - 마이크로서비스와 이벤트 기반 AI 인프라"
-  },
-  {
-    "term": "모놀리스 아키텍처 한계",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#monolith_limitations) - 장애전파/기술종속/스케일링 비효율"
-  },
-  {
-    "term": "MSA 핵심 원칙",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#msa_core_principles) - 독립배포/장애격리/독립스케일링"
-  },
-  {
-    "term": "동기 vs 비동기 통신",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#sync_vs_async_communication) - REST 와 이벤트 기반 통신 비교"
-  },
-  {
-    "term": "EDA 심화",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#eda_deep_dive) - 이벤트 드리븐 아키텍처 심화 가이드"
-  },
-  {
-    "term": "Bounded Context 설계",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#bounded_context_msa) - MSA 서비스 경계 설계 가이드"
-  },
-  {
-    "term": "DDD 핵심 개념",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#ddd_core_concepts) - 도메인 주도 설계 핵심 개념"
-  },
-  {
-    "term": "MSA 핵심 패턴",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#msa_core_patterns) - API GW/서비스디스커버리/서킷브레이커"
-  },
-  {
-    "term": "AI 서비스 MSA 분해",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#ai_service_decomposition) - 비즈니스/모델/운영 기반 분해 전략"
-  },
-  {
-    "term": "AI 인프라 설계 이슈",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#ai_infrastructure_challenges) - GPU/토큰/버전/보안 고난도 이슈"
-  },
-  {
-    "term": "vLLM 모델 서빙",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#vllm_serving) - 초고속 LLM 서빙 프레임워크"
-  },
-  {
-    "term": "MCP vs REST API",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#mcp_vs_rest) - AI 통신 프로토콜 비교 분석"
-  },
-  {
-    "term": "MCP 기초",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#mcp_fundamentals) - Model Context Protocol 핵심 개념"
-  },
-  {
-    "term": "REST vs MCP 유연성",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#rest_vs_mcp_flexibility) - 결정론적 vs 비결정론적 접근"
-  },
-  {
-    "term": "Vercel agent-browser",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#vercel_agent_browser) - 컨텍스트 효율화 브라우징 도구"
-  },
-  {
-    "term": "MCP vs A2A",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#mcp_vs_a2a) - 도구연결 vs 협업지능 표준"
-  },
-  {
-    "term": "Agent Card",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#agent_card) - A2A 에이전트 디지털 신분증"
-  },
-  {
-    "term": "Claude Skills vs MCP",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#claude_skills_vs_mcp) - 컨텍스트 효율화 전략"
-  },
-  {
-    "term": "A2A 협업 패턴",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 시대 개발방법론",
-    "preview": "- [자세히 보기](#a2a_collaboration_patterns) - 오케스트레이터/파이프라인/P2P"
+    "context": "학습과성장",
+    "preview": ""
   },
   {
     "term": "AI 실습 자료",
@@ -4805,31 +4573,7 @@
     "label": "학습과성장",
     "type": "heading",
     "context": "학습과성장",
-    "preview": "- [GitHub 저장소](https://github.com/frentis-ai-study/ai-sw-architecture) - AI SW 아키텍처 실습 자료"
-  },
-  {
-    "term": "AI 소프트웨어 아키텍처 실습",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 실습 자료",
-    "preview": "- [GitHub 저장소](https://github.com/frentis-ai-study/ai-sw-architecture) - AI SW 아키텍처 실습 자료"
-  },
-  {
-    "term": "[GitHub 저장소](https",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "keyword",
-    "context": "AI 실습 자료",
-    "preview": "[GitHub 저장소](https://github.com/frentis-ai-study/ai-sw-architecture) - AI SW 아키텍처 실습 자료"
-  },
-  {
-    "term": "Python uv 패키지 매니저",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 실습 자료",
-    "preview": "- [자세히 보기](#python_uv) - 초고속 Python 패키지 매니저 uv 가이드"
+    "preview": ""
   },
   {
     "term": "AI 기술 및 하드웨어",
@@ -4837,23 +4581,7 @@
     "label": "학습과성장",
     "type": "heading",
     "context": "학습과성장",
-    "preview": "- [자세히 보기](#cerebras_ai) - AI 전용 하드웨어, Wafer-Scale Engine, 추론 가속화"
-  },
-  {
-    "term": "Cerebras AI 서비스 사례",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 기술 및 하드웨어",
-    "preview": "- [자세히 보기](#cerebras_ai) - AI 전용 하드웨어, Wafer-Scale Engine, 추론 가속화"
-  },
-  {
-    "term": "Diffusion LLM",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "AI 기술 및 하드웨어",
-    "preview": "- [자세히 보기](#diffusion_llm) - Diffusion LLM, Inception Labs, 초고속 추론"
+    "preview": ""
   },
   {
     "term": "소셜 인증 vs 본인 인증",
@@ -23686,6 +23414,758 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "> 관련 문서: [A2A Protocol](#mcp_vs_a2a), [Agent Card](#agent_card)"
+  },
+  {
+    "term": "AI Observability: AI 시스템 관측 가능성",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "",
+    "preview": "AI Observability(관측 가능성)는 기존 소프트웨어의 모니터링 (APM, Log) 과는 차원이 다른 도전 과제입니다."
+  },
+  {
+    "term": "AI Observability",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "AI Observability: AI 시스템 관측 가능성",
+    "preview": "AI Observability(관측 가능성)는 기존 소프트웨어의 모니터링 (APM, Log) 과는 차원이 다른 도전 과제입니다."
+  },
+  {
+    "term": "\"서버가 살아있는가?",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "AI Observability: AI 시스템 관측 가능성",
+    "preview": "전통적인 시스템이 \"서버가 살아있는가?(Availability)를 확인했다면, AI Observability 는 \"모델이 제정신인가?(Reliability & V…"
+  },
+  {
+    "term": "\"모델이 제정신인가?",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "AI Observability: AI 시스템 관측 가능성",
+    "preview": "전통적인 시스템이 \"서버가 살아있는가?(Availability)를 확인했다면, AI Observability 는 \"모델이 제정신인가?(Reliability & V…"
+  },
+  {
+    "term": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "AI Observability: AI 시스템 관측 가능성",
+    "preview": "AI 시스템은 결정론적이지 않기 때문에 다음 세 가지를 통합적으로 관측해야 합니다."
+  },
+  {
+    "term": "통합적으로 관측",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "AI 시스템은 결정론적이지 않기 때문에 다음 세 가지를 통합적으로 관측해야 합니다."
+  },
+  {
+    "term": "Inference Observability (추론 관측)",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "> 입력 (Prompt)을 기록하고, 모델이 왜 그런 답변을 내놓았는지 추론 과정을 추적합니다. (Traceability)"
+  },
+  {
+    "term": "추론 과정을 추적",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "> 입력 (Prompt)을 기록하고, 모델이 왜 그런 답변을 내놓았는지 추론 과정을 추적합니다. (Traceability)"
+  },
+  {
+    "term": "Prompt/Response 쌍",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "Prompt/Response 쌍 모든 입출력 기록 보존"
+  },
+  {
+    "term": "추론 과정",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "추론 과정 Chain-of-Thought, Tool Call 이력"
+  },
+  {
+    "term": "의사결정 근거",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "의사결정 근거 RAG 참조 문서, Agent 판단 이유"
+  },
+  {
+    "term": "Data & Model Drift (데이터 및 모델 변화)",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "> 학습 당시의 데이터 분포와 실제 유입되는 데이터의 차이를 감지합니다. 모델 업데이트 후 성능이 미세하게 저하되는 현상을 포착합니다."
+  },
+  {
+    "term": "학습 당시의 데이터 분포",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "> 학습 당시의 데이터 분포와 실제 유입되는 데이터의 차이를 감지합니다. 모델 업데이트 후 성능이 미세하게 저하되는 현상을 포착합니다."
+  },
+  {
+    "term": "실제 유입되는 데이터의 차이",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "> 학습 당시의 데이터 분포와 실제 유입되는 데이터의 차이를 감지합니다. 모델 업데이트 후 성능이 미세하게 저하되는 현상을 포착합니다."
+  },
+  {
+    "term": "Data Drift",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "Data Drift 입력 데이터 분포 변화 감지"
+  },
+  {
+    "term": "Model Drift",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "Model Drift 모델 업데이트 후 성능 변화"
+  },
+  {
+    "term": "Concept Drift",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "Concept Drift 비즈니스 맥락 변화로 인한 성능 저하"
+  },
+  {
+    "term": "System Performance (인프라 성능)",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "> 토큰 소모량, GPU VRAM 점유율, 콜드스타트 지연 시간, 그리고 가장 중요한 '토큰당 비용'을 모니터링합니다."
+  },
+  {
+    "term": "토큰 소모량, GPU VRAM 점유율, 콜드스타트 지연 시간",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "> 토큰 소모량, GPU VRAM 점유율, 콜드스타트 지연 시간, 그리고 가장 중요한 '토큰당 비용'을 모니터링합니다."
+  },
+  {
+    "term": "'토큰당 비용'",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "> 토큰 소모량, GPU VRAM 점유율, 콜드스타트 지연 시간, 그리고 가장 중요한 '토큰당 비용'을 모니터링합니다."
+  },
+  {
+    "term": "토큰 소모량",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "토큰 소모량 입력/출력 토큰 수, 세션별 누적"
+  },
+  {
+    "term": "GPU VRAM",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "GPU VRAM 메모리 점유율, OOM 위험 감지"
+  },
+  {
+    "term": "Latency",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "Latency 콜드스타트, TTFT(Time-to-First-Token)"
+  },
+  {
+    "term": "Cost",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "1. AI Observability 의 핵심 요소 (3 Pillars)",
+    "preview": "Cost 토큰당 비용, 세션별/에이전트별 비용"
+  },
+  {
+    "term": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "AI Observability: AI 시스템 관측 가능성",
+    "preview": "엔지니어님께서 설계하시는 폐쇄형 AI 시스템이나 멀티에이전트 (MiroFish) 환경에서 특히 해결해야 할 4 가지 사항입니다."
+  },
+  {
+    "term": "폐쇄형 AI 시스템",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "엔지니어님께서 설계하시는 폐쇄형 AI 시스템이나 멀티에이전트 (MiroFish) 환경에서 특히 해결해야 할 4 가지 사항입니다."
+  },
+  {
+    "term": "멀티에이전트",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "엔지니어님께서 설계하시는 폐쇄형 AI 시스템이나 멀티에이전트 (MiroFish) 환경에서 특히 해결해야 할 4 가지 사항입니다."
+  },
+  {
+    "term": "① 환각 (Hallucination) 및 품질 저하 감지",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> AI 가 그럴듯한 거짓말을 하거나, 어제까지 잘 되던 프롬프트가 모델 업데이트 후 엉뚱한 답을 내놓는 경우."
+  },
+  {
+    "term": "문제",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> AI 가 그럴듯한 거짓말을 하거나, 어제까지 잘 되던 프롬프트가 모델 업데이트 후 엉뚱한 답을 내놓는 경우."
+  },
+  {
+    "term": "해결",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> RAG 검수 (Retrieval Score)를 통해 모델이 참조한 문서와 답변의 일치도를 수치화 (Faithfulness)하고, 사용자 피드백 (Thumbs …"
+  },
+  {
+    "term": "RAG 검수",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> RAG 검수 (Retrieval Score)를 통해 모델이 참조한 문서와 답변의 일치도를 수치화 (Faithfulness)하고, 사용자 피드백 (Thumbs …"
+  },
+  {
+    "term": "일치도를 수치화",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> RAG 검수 (Retrieval Score)를 통해 모델이 참조한 문서와 답변의 일치도를 수치화 (Faithfulness)하고, 사용자 피드백 (Thumbs …"
+  },
+  {
+    "term": "실시간 품질 점수",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> RAG 검수 (Retrieval Score)를 통해 모델이 참조한 문서와 답변의 일치도를 수치화 (Faithfulness)하고, 사용자 피드백 (Thumbs …"
+  },
+  {
+    "term": "Faithfulness Score",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "Faithfulness Score 참조 문서 대비 답변 일치도 (0~100)"
+  },
+  {
+    "term": "Hallucination Rate",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "Hallucination Rate 환각 발생 빈도 (%)"
+  },
+  {
+    "term": "User Feedback Score",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "User Feedback Score 사용자 만족도 (👍/👎 비율)"
+  },
+  {
+    "term": "② 컨텍스트 위생 및 비용 제어 (Context Hygiene & Cost)",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> 에이전트가 무한 루프에 빠지거나, 불필요하게 긴 HTML 전체를 컨텍스트에 넣어 비용이 급증하는 경우."
+  },
+  {
+    "term": "무한 루프",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> 에이전트가 무한 루프에 빠지거나, 불필요하게 긴 HTML 전체를 컨텍스트에 넣어 비용이 급증하는 경우."
+  },
+  {
+    "term": "불필요하게 긴 HTML 전체",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> 에이전트가 무한 루프에 빠지거나, 불필요하게 긴 HTML 전체를 컨텍스트에 넣어 비용이 급증하는 경우."
+  },
+  {
+    "term": "agent-browser",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> agent-browser와 같은 툴의 효율성을 추적하고, 세션별 토큰 사용량에 쿼터 (Quota)를 설정하여 임계치 초과 시 알람을 발생시킵니다."
+  },
+  {
+    "term": "세션별 토큰 사용량에 쿼터",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> agent-browser와 같은 툴의 효율성을 추적하고, 세션별 토큰 사용량에 쿼터 (Quota)를 설정하여 임계치 초과 시 알람을 발생시킵니다."
+  },
+  {
+    "term": "Token Quota Usage",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "Token Quota Usage 세션별 토큰 사용량 (%)"
+  },
+  {
+    "term": "Context Bloat Rate",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "Context Bloat Rate 불필요한 컨텍스트 비율"
+  },
+  {
+    "term": "Cost per Session",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "Cost per Session 세션별 비용"
+  },
+  {
+    "term": "Infinite Loop Detection",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "Infinite Loop Detection 무한 루프 감지"
+  },
+  {
+    "term": "③ 에이전트 협업의 투명성 (Agent-to-Agent Tracing)",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> 멀티에이전트 시스템에서 \"누가 잘못해서 장애가 났는가?\"를 파악하기 어렵습니다. (A2A 통신의 블랙박스화)"
+  },
+  {
+    "term": "\"누가 잘못해서 장애가 났는가?\"",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> 멀티에이전트 시스템에서 \"누가 잘못해서 장애가 났는가?\"를 파악하기 어렵습니다. (A2A 통신의 블랙박스화)"
+  },
+  {
+    "term": "Agent Card 와 연동된 분산 트레이싱",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> Agent Card 와 연동된 분산 트레이싱을 통해 에이전트 간의 메시지 교환 흐름을 시각화합니다. 어떤 에이전트의 판단이 연쇄 오류를 일으켰는지 파악합니다."
+  },
+  {
+    "term": "Trace ID",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "Trace ID A2A 통신 종단 간 추적 ID"
+  },
+  {
+    "term": "Agent Handoff Count",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "Agent Handoff Count 에이전트 간 위임 횟수"
+  },
+  {
+    "term": "Error Propagation Path",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "Error Propagation Path 오류 전파 경로"
+  },
+  {
+    "term": "Root Cause Agent",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "Root Cause Agent 근본 원인 에이전트"
+  },
+  {
+    "term": "④ 보안 및 컴플라이언스 (Data Leakage)",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> 민감 정보 (PII)가 모델 외부로 유출되거나, 부적절한 프롬프트 주입 (Injection)이 시도되는 경우."
+  },
+  {
+    "term": "민감 정보",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> 민감 정보 (PII)가 모델 외부로 유출되거나, 부적절한 프롬프트 주입 (Injection)이 시도되는 경우."
+  },
+  {
+    "term": "부적절한 프롬프트 주입",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> 민감 정보 (PII)가 모델 외부로 유출되거나, 부적절한 프롬프트 주입 (Injection)이 시도되는 경우."
+  },
+  {
+    "term": "입력/출력 가드레일 통과 여부",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> 입력/출력 가드레일 통과 여부를 실시간 로그로 남기고, 보안 정책 위반 시 즉시 차단하는 '실시간 감사 로그 (Real-time Audit Trail)를 구축…"
+  },
+  {
+    "term": "'실시간 감사 로그",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "> 입력/출력 가드레일 통과 여부를 실시간 로그로 남기고, 보안 정책 위반 시 즉시 차단하는 '실시간 감사 로그 (Real-time Audit Trail)를 구축…"
+  },
+  {
+    "term": "PII Detection Rate",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "PII Detection Rate 민감 정보 감지 횟수"
+  },
+  {
+    "term": "Prompt Injection Attempts",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "Prompt Injection Attempts 프롬프트 인젝션 시도 횟수"
+  },
+  {
+    "term": "Guardrail Violations",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "Guardrail Violations 가드레일 위반 횟수"
+  },
+  {
+    "term": "Audit Trail Completeness",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "2. 해결하고 싶은 핵심 페인 포인트 (Pain Points)",
+    "preview": "Audit Trail Completeness 감사 로그 완전성"
+  },
+  {
+    "term": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "AI Observability: AI 시스템 관측 가능성",
+    "preview": "AI Observability 는 단순히 대시보드를 보는 것이 아니라, 품질 개선의 선순환을 만드는 도구가 되어야 합니다."
+  },
+  {
+    "term": "품질 개선의 선순환",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "AI Observability 는 단순히 대시보드를 보는 것이 아니라, 품질 개선의 선순환을 만드는 도구가 되어야 합니다."
+  },
+  {
+    "term": "Plan",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "> 각 에이전트와 모델의 기대 성능 지표 (SLA)를 정의합니다."
+  },
+  {
+    "term": "기대 성능 지표",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "> 각 에이전트와 모델의 기대 성능 지표 (SLA)를 정의합니다."
+  },
+  {
+    "term": "Latency SLA",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "Latency SLA p95 < 2 초"
+  },
+  {
+    "term": "Faithfulness",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "Faithfulness > 90 점"
+  },
+  {
+    "term": "Token Budget",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "Token Budget 일일 100,000 tokens/에이전트"
+  },
+  {
+    "term": "Hallucination Rate",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "Hallucination Rate < 1%"
+  },
+  {
+    "term": "Do",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "> OpenTelemetry와 같은 표준을 활용하여 AI 로그를 수집합니다."
+  },
+  {
+    "term": "OpenTelemetry",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "> OpenTelemetry와 같은 표준을 활용하여 AI 로그를 수집합니다."
+  },
+  {
+    "term": "OpenTelemetry AI 로그 수집 설정",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "",
+    "preview": "processors:"
+  },
+  {
+    "term": "Check",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "> AAR (After Action Report)를 통해 AI 의 답변 실패 사례를 분석합니다."
+  },
+  {
+    "term": "AAR",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "> AAR (After Action Report)를 통해 AI 의 답변 실패 사례를 분석합니다."
+  },
+  {
+    "term": "실패 사례 분류",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "실패 사례 분류 환각, 컨텍스트오염, 에이전트오류, 보안위반"
+  },
+  {
+    "term": "근본 원인 분석",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "근본 원인 분석 5 Why 분석"
+  },
+  {
+    "term": "영향도 평가",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "영향도 평가 사용자 영향, 비용 영향, 보안 영향"
+  },
+  {
+    "term": "재발 방지 대책",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "재발 방지 대책 프롬프트수정, 모델교체, 가드레일강화"
+  },
+  {
+    "term": "Act",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "> 분석 결과를 바탕으로 프롬프트를 수정하거나, 더 작은 모델 (SLM)하여 비용을 최적화합니다."
+  },
+  {
+    "term": "프롬프트를 수정",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "> 분석 결과를 바탕으로 프롬프트를 수정하거나, 더 작은 모델 (SLM)하여 비용을 최적화합니다."
+  },
+  {
+    "term": "더 작은 모델",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "> 분석 결과를 바탕으로 프롬프트를 수정하거나, 더 작은 모델 (SLM)하여 비용을 최적화합니다."
+  },
+  {
+    "term": "프롬프트 수정",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "프롬프트 수정 실패 사례 기반 프롬프트 개선"
+  },
+  {
+    "term": "모델 교체",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "모델 교체 고비용 모델 → SLM (비용 90% 절감)"
+  },
+  {
+    "term": "가드레일 강화",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "가드레일 강화 새로운 위반 패턴 반영"
+  },
+  {
+    "term": "에이전트 재구성",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "3. 인프라 전문가를 위한 설계 제언: PDCA 기반 운영",
+    "preview": "에이전트 재구성 협업 패턴 최적화"
+  },
+  {
+    "term": "📊 AI Observability 대시보드 예시",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "OpenTelemetry AI 로그 수집 설정",
+    "preview": "┌─────────────────────────────────────────────────────────────────┐"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "heading",
+    "context": "OpenTelemetry AI 로그 수집 설정",
+    "preview": "정보시스템 감리 관점에서 AI Observability 도입 검토 시 고려사항:"
+  },
+  {
+    "term": "추적 가능성",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 추적 가능성: Prompt/Response 쌍과 추론 과정의 완전한 기록 보존"
+  },
+  {
+    "term": "품질 지표",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 품질 지표: Faithfulness, Hallucination Rate 등 AI 특화 지표 정의"
+  },
+  {
+    "term": "비용 통제",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 비용 통제: 토큰 쿼터, 세션별 비용, 에이전트별 예산 관리"
+  },
+  {
+    "term": "보안 감사",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 보안 감사: PII 감지, 프롬프트인젝션, 가드레일 위반 실시간 로그"
+  },
+  {
+    "term": "A2A 투명성",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. A2A 투명성: 멀티에이전트 간 분산 트레이싱과 근본 원인 분석"
+  },
+  {
+    "term": "PDCA 사이클",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. PDCA 사이클: AAR 자동화와 지속적 개선 프로세스 운영"
+  },
+  {
+    "term": "관련 표준",
+    "section": "ai_observability",
+    "label": "AI Observability",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "> 관련 표준: OpenTelemetry, MLFlow, Arize AI, LangSmith"
   },
   {
     "term": "uv: 초고속 Python 패키지 매니저",

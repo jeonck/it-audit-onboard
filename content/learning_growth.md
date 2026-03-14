@@ -110,6 +110,7 @@
 | [AI 모델 라우팅 전략](#ai_model_routing) | 규칙/의도/비용/케스케이드 라우팅 |
 | [AI 아키텍처 선택 가이드](#ai_architecture_decision_tree) | 비용 -품질 균형 의사결정 트리 |
 | [AI 인프라 설계 이슈](#ai_infrastructure_challenges) | GPU/토큰/버전/보안 고난도 이슈 |
+| [AI Observability](#ai_observability) | AI 시스템 관측 가능성 (환각/비용/보안) |
 | [vLLM 모델 서빙](#vllm_serving) | 초고속 LLM 서빙 프레임워크 |
 
 ---

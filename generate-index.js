@@ -74,6 +74,7 @@ const SECTION_LABELS = {
     agent_card:             'Agent Card',
     claude_skills_vs_mcp:   'Claude Skills vs MCP',
     a2a_collaboration_patterns: 'A2A 협업 패턴',
+    ai_observability:       'AI Observability',
     python_uv:              'Python uv 패키지매니저',
     faq:                    'FAQ',
     faq2:                   'FAQ',
