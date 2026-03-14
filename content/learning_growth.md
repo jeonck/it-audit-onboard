@@ -109,6 +109,9 @@
 ### AI 소프트웨어 아키텍처 실습
 - [GitHub 저장소](https://github.com/frentis-ai-study/ai-sw-architecture) - AI SW 아키텍처 실습 자료
 
+### Python uv 패키지 매니저
+- [자세히 보기](#python_uv) - 초고속 Python 패키지 매니저 uv 가이드
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례
