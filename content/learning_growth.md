@@ -67,6 +67,11 @@
 ### 2025~2026 AI 시대 개발 방법론
 - [자세히 보기](#ai_development_methodology) - AI 증강 개발, 에이전틱 개발, SDLC 진화
 
+## AI 기술 및 하드웨어
+
+### Cerebras AI 서비스 사례
+- [자세히 보기](#cerebras_ai) - AI 전용 하드웨어, Wafer-Scale Engine, 추론 가속화
+
 ---
 
 > **참고**: 본 섹션은 정보시스템 감리인의 지속적인 학습과 역량 강화를 위한 자료입니다.  
