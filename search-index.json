@@ -4792,6 +4792,14 @@
     "preview": "- [자세히 보기](#claude_skills_vs_mcp) - 컨텍스트 효율화 전략"
   },
   {
+    "term": "A2A 협업 패턴",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#a2a_collaboration_patterns) - 오케스트레이터/파이프라인/P2P"
+  },
+  {
     "term": "AI 실습 자료",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -22584,11 +22592,387 @@
     "preview": "- python-infrastructure"
   },
   {
-    "term": "3. MCP vs Skills 비교표",
+    "term": "3. Skills 생태계: skills.sh 플랫폼",
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "heading",
     "context": "CLAUDE.md 예시",
+    "preview": "Skills 는 AI 에이전트를 위한 재사용 가능한 능력 (reusable capabilities)입니다."
+  },
+  {
+    "term": "Skills 는 AI 에이전트를 위한 재사용 가능한 능력",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "Skills 는 AI 에이전트를 위한 재사용 가능한 능력 (reusable capabilities)입니다."
+  },
+  {
+    "term": "https://skills.sh/",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "[https://skills.sh/](https://skills.sh/) 는 이러한 Skills 를 검색하고 설치할 수 있는 중앙 허브 역할을 합니다."
+  },
+  {
+    "term": "Skills 플랫폼 특징",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": ""
+  },
+  {
+    "term": "원클릭 설치",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "원클릭 설치 skills install <skill-name> 명령어로 즉시 설치"
+  },
+  {
+    "term": "절차적 지식",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "절차적 지식 (Procedural Knowledge) 단순 도구가 아닌 '작업 수행 방법'을 인코딩"
+  },
+  {
+    "term": "커뮤니티 기반",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "커뮤니티 기반 88,378+ 개 Skills, 전 세계 개발자 기여"
+  },
+  {
+    "term": "재사용성",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "재사용성 한 번 만든 Skills 를 여러 프로젝트에서 공유"
+  },
+  {
+    "term": "인기 Skills 예시 (Top 15)",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": ""
+  },
+  {
+    "term": "svg logo designer",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "1 svg logo designer 1.2K rknall/claude-skills"
+  },
+  {
+    "term": "remotion",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "2 remotion 8.0K google-labs-code/stitch-skills"
+  },
+  {
+    "term": "baoyu-markdown-to-html",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "3 baoyu-markdown-to-html 7.9K jimliu/baoyu-skills"
+  },
+  {
+    "term": "neon-postgres",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "4 neon-postgres 7.8K neondatabase/agent-skills"
+  },
+  {
+    "term": "baoyu-format-markdown",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "5 baoyu-format-markdown 7.8K jimliu/baoyu-skills"
+  },
+  {
+    "term": "chrome-devtools",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "6 chrome-devtools 7.7K github/awesome-copilot"
+  },
+  {
+    "term": "github-issues",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "7 github-issues 7.7K github/awesome-copilot"
+  },
+  {
+    "term": "frontend-design-system",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "8 frontend-design-system 7.7K supercent-io/skills-template"
+  },
+  {
+    "term": "code-review-excellence",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "9 code-review-excellence 7.7K wshobson/agents"
+  },
+  {
+    "term": "humanizer-zh",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "10 humanizer-zh 7.6K op7418/humanizer-zh"
+  },
+  {
+    "term": "proactive-agent",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "11 proactive-agent 7.6K halthelobster/proactive-agent"
+  },
+  {
+    "term": "image-generation-mcp",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "12 image-generation-mcp 7.6K supercent-io/skills-template"
+  },
+  {
+    "term": "agentic-principles",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "13 agentic-principles 7.6K supercent-io/skills-template"
+  },
+  {
+    "term": "vercel-react-best-practices",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "14 vercel-react-best-practices 7.5K supercent-io/skills-template"
+  },
+  {
+    "term": "web-design-reviewer",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "15 web-design-reviewer 7.5K github/awesome-copilot"
+  },
+  {
+    "term": "Skills 카테고리별 예시",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "skills install aws-control"
+  },
+  {
+    "term": "인프라/DevOps",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "skills install aws-control"
+  },
+  {
+    "term": "AWS 인프라 제어",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "",
+    "preview": "skills install aws-control"
+  },
+  {
+    "term": "데이터베이스",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "",
+    "preview": "skills install duckdb-query"
+  },
+  {
+    "term": "코드 품질",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "skills install code-review-excellence"
+  },
+  {
+    "term": "코드 리뷰",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "",
+    "preview": "skills install code-review-excellence"
+  },
+  {
+    "term": "테스트 생성",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "",
+    "preview": "skills install playwright-generate-test"
+  },
+  {
+    "term": "프론트엔드",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "skills install vercel-react-best-practices"
+  },
+  {
+    "term": "React 모범 사례",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "",
+    "preview": "skills install vercel-react-best-practices"
+  },
+  {
+    "term": "디자인 시스템",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "",
+    "preview": "skills install frontend-design-system"
+  },
+  {
+    "term": "에이전트 원칙",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "skills install agentic-principles"
+  },
+  {
+    "term": "에이전트 행동 원칙",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "",
+    "preview": "skills install agentic-principles"
+  },
+  {
+    "term": "사전 대응 에이전트",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "",
+    "preview": "skills install proactive-agent"
+  },
+  {
+    "term": "Skills 설치 및 사용",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "skills search logo"
+  },
+  {
+    "term": "Skills 검색",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "",
+    "preview": "skills search logo"
+  },
+  {
+    "term": "Skills 설치",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "",
+    "preview": "skills install svg-logo-designer"
+  },
+  {
+    "term": "Skills 목록 확인",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "",
+    "preview": "skills list"
+  },
+  {
+    "term": "Skills 업데이트",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "",
+    "preview": "skills update"
+  },
+  {
+    "term": "skills.sh 의 전략적 의미",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": ""
+  },
+  {
+    "term": "생태계 확장",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "생태계 확장 단일 조직이 아닌 커뮤니티 기반 Skills 진화"
+  },
+  {
+    "term": "지식 축적",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "지식 축적 절차적 지식 (Procedural Knowledge) 의 표준화 및 공유"
+  },
+  {
+    "term": "생산성 향상",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "생산성 향상 매번 새로 만들지 않고 검증된 Skills 재사용"
+  },
+  {
+    "term": "표준화",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "keyword",
+    "context": "3. Skills 생태계: skills.sh 플랫폼",
+    "preview": "표준화 암묵적 노하우가 형식적 Skills 로 문서화"
+  },
+  {
+    "term": "4. MCP vs Skills 비교표",
+    "section": "claude_skills_vs_mcp",
+    "label": "Claude Skills vs MCP",
+    "type": "heading",
+    "context": "Skills 업데이트",
     "preview": ""
   },
   {
@@ -22596,7 +22980,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "keyword",
-    "context": "3. MCP vs Skills 비교표",
+    "context": "4. MCP vs Skills 비교표",
     "preview": "유연성 타 모델 (GPT 등) 과 공유 가능 Claude 생태계에 종속적"
   },
   {
@@ -22604,7 +22988,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "keyword",
-    "context": "3. MCP vs Skills 비교표",
+    "context": "4. MCP vs Skills 비교표",
     "preview": "복잡도 N×M 문제 해결에 유리 특정 프로젝트 생산성에 유리"
   },
   {
@@ -22612,15 +22996,15 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "keyword",
-    "context": "3. MCP vs Skills 비교표",
+    "context": "4. MCP vs Skills 비교표",
     "preview": "컨텍스트 모든 도구 스키마 전달 최소한 인터페이스만"
   },
   {
-    "term": "4. 인프라 엔지니어링 리더를 위한 실무 인사이트",
+    "term": "5. 인프라 엔지니어링 리더를 위한 실무 인사이트",
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "heading",
-    "context": "CLAUDE.md 예시",
+    "context": "Skills 업데이트",
     "preview": "> MCP 는 '전사적 도구 표준화'에 적합하고, Skills 는 '엔지니어 개인 및 프로젝트 생산성'에 적합합니다."
   },
   {
@@ -22628,7 +23012,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "heading",
-    "context": "4. 인프라 엔지니어링 리더를 위한 실무 인사이트",
+    "context": "5. 인프라 엔지니어링 리더를 위한 실무 인사이트",
     "preview": "> MCP 는 '전사적 도구 표준화'에 적합하고, Skills 는 '엔지니어 개인 및 프로젝트 생산성'에 적합합니다."
   },
   {
@@ -22636,7 +23020,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "keyword",
-    "context": "4. 인프라 엔지니어링 리더를 위한 실무 인사이트",
+    "context": "5. 인프라 엔지니어링 리더를 위한 실무 인사이트",
     "preview": "> MCP 는 '전사적 도구 표준화'에 적합하고, Skills 는 '엔지니어 개인 및 프로젝트 생산성'에 적합합니다."
   },
   {
@@ -22644,7 +23028,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "keyword",
-    "context": "4. 인프라 엔지니어링 리더를 위한 실무 인사이트",
+    "context": "5. 인프라 엔지니어링 리더를 위한 실무 인사이트",
     "preview": "> MCP 는 '전사적 도구 표준화'에 적합하고, Skills 는 '엔지니어 개인 및 프로젝트 생산성'에 적합합니다."
   },
   {
@@ -22652,7 +23036,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "heading",
-    "context": "4. 인프라 엔지니어링 리더를 위한 실무 인사이트",
+    "context": "5. 인프라 엔지니어링 리더를 위한 실무 인사이트",
     "preview": "엔지니어님께서 구축 중인 MiroFish나 BettaFish 프레임워크에서는 다음과 같은 하이브리드 전략이 가장 효율적일 수 있습니다."
   },
   {
@@ -22660,7 +23044,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "keyword",
-    "context": "4. 인프라 엔지니어링 리더를 위한 실무 인사이트",
+    "context": "5. 인프라 엔지니어링 리더를 위한 실무 인사이트",
     "preview": "엔지니어님께서 구축 중인 MiroFish나 BettaFish 프레임워크에서는 다음과 같은 하이브리드 전략이 가장 효율적일 수 있습니다."
   },
   {
@@ -22668,7 +23052,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "keyword",
-    "context": "4. 인프라 엔지니어링 리더를 위한 실무 인사이트",
+    "context": "5. 인프라 엔지니어링 리더를 위한 실무 인사이트",
     "preview": "엔지니어님께서 구축 중인 MiroFish나 BettaFish 프레임워크에서는 다음과 같은 하이브리드 전략이 가장 효율적일 수 있습니다."
   },
   {
@@ -22676,7 +23060,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "heading",
-    "context": "4. 인프라 엔지니어링 리더를 위한 실무 인사이트",
+    "context": "5. 인프라 엔지니어링 리더를 위한 실무 인사이트",
     "preview": "> DuckDB 조회, AWS 인프라 제어 등 범용적인 도구는 MCP 서버로 유지하여 재사용성을 높입니다."
   },
   {
@@ -22684,7 +23068,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "keyword",
-    "context": "4. 인프라 엔지니어링 리더를 위한 실무 인사이트",
+    "context": "5. 인프라 엔지니어링 리더를 위한 실무 인사이트",
     "preview": "> DuckDB 조회, AWS 인프라 제어 등 범용적인 도구는 MCP 서버로 유지하여 재사용성을 높입니다."
   },
   {
@@ -22692,7 +23076,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "keyword",
-    "context": "4. 인프라 엔지니어링 리더를 위한 실무 인사이트",
+    "context": "5. 인프라 엔지니어링 리더를 위한 실무 인사이트",
     "preview": "> DuckDB 조회, AWS 인프라 제어 등 범용적인 도구는 MCP 서버로 유지하여 재사용성을 높입니다."
   },
   {
@@ -22700,7 +23084,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "heading",
-    "context": "4. 인프라 엔지니어링 리더를 위한 실무 인사이트",
+    "context": "5. 인프라 엔지니어링 리더를 위한 실무 인사이트",
     "preview": "> agent-browser 를 이용한 특정 UI 조작이나, 8D 보고서 자동 생성 같은 고유한 비즈니스 로직은 Claude Skill 형태로 정의하여 컨텍스트 …"
   },
   {
@@ -22708,7 +23092,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "keyword",
-    "context": "4. 인프라 엔지니어링 리더를 위한 실무 인사이트",
+    "context": "5. 인프라 엔지니어링 리더를 위한 실무 인사이트",
     "preview": "> agent-browser 를 이용한 특정 UI 조작이나, 8D 보고서 자동 생성 같은 고유한 비즈니스 로직은 Claude Skill 형태로 정의하여 컨텍스트 …"
   },
   {
@@ -22716,7 +23100,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "keyword",
-    "context": "4. 인프라 엔지니어링 리더를 위한 실무 인사이트",
+    "context": "5. 인프라 엔지니어링 리더를 위한 실무 인사이트",
     "preview": "> agent-browser 를 이용한 특정 UI 조작이나, 8D 보고서 자동 생성 같은 고유한 비즈니스 로직은 Claude Skill 형태로 정의하여 컨텍스트 …"
   },
   {
@@ -22724,7 +23108,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "keyword",
-    "context": "4. 인프라 엔지니어링 리더를 위한 실무 인사이트",
+    "context": "5. 인프라 엔지니어링 리더를 위한 실무 인사이트",
     "preview": "> agent-browser 를 이용한 특정 UI 조작이나, 8D 보고서 자동 생성 같은 고유한 비즈니스 로직은 Claude Skill 형태로 정의하여 컨텍스트 …"
   },
   {
@@ -22732,7 +23116,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "keyword",
-    "context": "4. 인프라 엔지니어링 리더를 위한 실무 인사이트",
+    "context": "5. 인프라 엔지니어링 리더를 위한 실무 인사이트",
     "preview": "> agent-browser 를 이용한 특정 UI 조작이나, 8D 보고서 자동 생성 같은 고유한 비즈니스 로직은 Claude Skill 형태로 정의하여 컨텍스트 …"
   },
   {
@@ -22740,7 +23124,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "heading",
-    "context": "4. 인프라 엔지니어링 리더를 위한 실무 인사이트",
+    "context": "5. 인프라 엔지니어링 리더를 위한 실무 인사이트",
     "preview": "┌─────────────────────────────────────────────────────────┐"
   },
   {
@@ -22748,7 +23132,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "heading",
-    "context": "CLAUDE.md 예시",
+    "context": "Skills 업데이트",
     "preview": ""
   },
   {
@@ -22804,7 +23188,7 @@
     "section": "claude_skills_vs_mcp",
     "label": "Claude Skills vs MCP",
     "type": "heading",
-    "context": "CLAUDE.md 예시",
+    "context": "Skills 업데이트",
     "preview": "정보시스템 감리 관점에서 MCP vs Skills 검토 시 고려사항:"
   },
   {
@@ -22862,6 +23246,446 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "> 관련 문서: [MCP 공식 문서](https://modelcontextprotocol.io/), [Claude Skills](https://claude.ai/…"
+  },
+  {
+    "term": "A2A 협업 패턴: 오케스트레이터/파이프라인/P2P",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "heading",
+    "context": "",
+    "preview": "멀티 에이전트 시스템에서 에이전트들이 어떻게 협업하는지는 시스템의 성능과 확장성을 결정하는 핵심 요소입니다."
+  },
+  {
+    "term": "확장성과 안정성",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "A2A 협업 패턴: 오케스트레이터/파이프라인/P2P",
+    "preview": "20 년 경력의 인프라 전문가 관점에서 확장성과 안정성을 고려할 때 참고하실 수 있는 3 가지 주요 패턴을 정리해 드립니다."
+  },
+  {
+    "term": "1. 오케스트레이터 패턴 (Orchestrator Pattern)",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "heading",
+    "context": "A2A 협업 패턴: 오케스트레이터/파이프라인/P2P",
+    "preview": "중앙 집중식 제어 방식으로, 하나의 '매니저' 에이전트가 전체 작업을 분해하고 적절한 에이전트에게 할당하는 방식입니다."
+  },
+  {
+    "term": "'매니저' 에이전트",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "1. 오케스트레이터 패턴 (Orchestrator Pattern)",
+    "preview": "중앙 집중식 제어 방식으로, 하나의 '매니저' 에이전트가 전체 작업을 분해하고 적절한 에이전트에게 할당하는 방식입니다."
+  },
+  {
+    "term": "작동 방식",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "heading",
+    "context": "1. 오케스트레이터 패턴 (Orchestrator Pattern)",
+    "preview": "┌─────────────────────────────────────────────────────────┐"
+  },
+  {
+    "term": "오케스트레이터가 Agent Card 를 참조",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "1. 오케스트레이터 패턴 (Orchestrator Pattern)",
+    "preview": "> 사용자의 요청이 들어오면 오케스트레이터가 Agent Card 를 참조하여 작업을 나눕니다. 각 에이전트의 결과를 취합하여 최종 응답을 만듭니다."
+  },
+  {
+    "term": "특징",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "heading",
+    "context": "1. 오케스트레이터 패턴 (Orchestrator Pattern)",
+    "preview": ""
+  },
+  {
+    "term": "적합한 사례",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "heading",
+    "context": "1. 오케스트레이터 패턴 (Orchestrator Pattern)",
+    "preview": ""
+  },
+  {
+    "term": "인프라 장애 대응",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "1. 오케스트레이터 패턴 (Orchestrator Pattern)",
+    "preview": "인프라 장애 대응 복잡한 의사결정이 필요하거나, 작업의 우선순위를 실시간으로 조정해야 하는 경우"
+  },
+  {
+    "term": "다단계 워크플로우",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "1. 오케스트레이터 패턴 (Orchestrator Pattern)",
+    "preview": "다단계 워크플로우 순서와 의존성이 명확한 작업"
+  },
+  {
+    "term": "권한 관리 중요",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "1. 오케스트레이터 패턴 (Orchestrator Pattern)",
+    "preview": "권한 관리 중요 중앙에서 권한과 접근을 통제해야 하는 경우"
+  },
+  {
+    "term": "2. 파이프라인 패턴 (Pipeline Pattern)",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "heading",
+    "context": "A2A 협업 패턴: 오케스트레이터/파이프라인/P2P",
+    "preview": "작업이 순차적으로 진행되는 선형 구조로, 한 에이전트의 출력이 다음 에이전트의 입력이 되는 방식입니다."
+  },
+  {
+    "term": "순차적으로 진행되는 선형 구조",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "2. 파이프라인 패턴 (Pipeline Pattern)",
+    "preview": "작업이 순차적으로 진행되는 선형 구조로, 한 에이전트의 출력이 다음 에이전트의 입력이 되는 방식입니다."
+  },
+  {
+    "term": "인프라 점검 리포트",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "2. 파이프라인 패턴 (Pipeline Pattern)",
+    "preview": "인프라 점검 리포트 매일 아침 수행하는 정기적인 작업"
+  },
+  {
+    "term": "보안 스캔 워크플로",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "2. 파이프라인 패턴 (Pipeline Pattern)",
+    "preview": "보안 스캔 워크플로 정해진 순서대로 진행되는 스캔"
+  },
+  {
+    "term": "데이터 처리 파이프라인",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "2. 파이프라인 패턴 (Pipeline Pattern)",
+    "preview": "데이터 처리 파이프라인 ETL(추출·변환·적재) 작업"
+  },
+  {
+    "term": "3. 피어투피어 패턴 (Peer-to-Peer / Choreography)",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "heading",
+    "context": "A2A 협업 패턴: 오케스트레이터/파이프라인/P2P",
+    "preview": "중앙 통제 없이 에이전트들이 직접 소통하며 자율적으로 협업하는 방식입니다."
+  },
+  {
+    "term": "중앙 통제 없이 에이전트들이 직접 소통",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "3. 피어투피어 패턴 (Peer-to-Peer / Choreography)",
+    "preview": "중앙 통제 없이 에이전트들이 직접 소통하며 자율적으로 협업하는 방식입니다."
+  },
+  {
+    "term": "A2A 프로토콜을 사용하여 서로의 상태를 공유",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "3. 피어투피어 패턴 (Peer-to-Peer / Choreography)",
+    "preview": "> 에이전트들이 A2A 프로토콜을 사용하여 서로의 상태를 공유하고, 필요한 경우 직접 작업을 위임하거나 도움을 요청합니다."
+  },
+  {
+    "term": "마이크로서비스 자동 복구",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "3. 피어투피어 패턴 (Peer-to-Peer / Choreography)",
+    "preview": "마이크로서비스 자동 복구 동적으로 변화하는 환경의 자동 복구 시스템"
+  },
+  {
+    "term": "Vibe Coding 환경",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "3. 피어투피어 패턴 (Peer-to-Peer / Choreography)",
+    "preview": "Vibe Coding 환경 다각도의 창의적 문제 해결이 필요한 경우"
+  },
+  {
+    "term": "분산 분석 시스템",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "3. 피어투피어 패턴 (Peer-to-Peer / Choreography)",
+    "preview": "분산 분석 시스템 여러 에이전트가 협력하여 복잡한 문제 해결"
+  },
+  {
+    "term": "4. 협업 패턴 비교표",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "heading",
+    "context": "A2A 협업 패턴: 오케스트레이터/파이프라인/P2P",
+    "preview": "20 년 경력의 인프라 전문가로서 시스템의 확장성과 안정성을 고려할 때 참고하실 수 있는 비교 지표입니다."
+  },
+  {
+    "term": "제어 방식",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "4. 협업 패턴 비교표",
+    "preview": "제어 방식 중앙 집중형 (Top-down) 순차형 (Linear) 분산형 (Decentralized)"
+  },
+  {
+    "term": "복잡도",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "4. 협업 패턴 비교표",
+    "preview": "복잡도 중간 낮음 높음"
+  },
+  {
+    "term": "유연성",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "4. 협업 패턴 비교표",
+    "preview": "유연성 중간 (매니저 로직에 종속) 낮음 매우 높음"
+  },
+  {
+    "term": "확장성",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "4. 협업 패턴 비교표",
+    "preview": "확장성 중간 중간 높음"
+  },
+  {
+    "term": "주요 통신 표준",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "4. 협업 패턴 비교표",
+    "preview": "주요 통신 표준 MCP / Task Delegation State Handoff A2A / Agent Card"
+  },
+  {
+    "term": "SPOF 리스크",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "4. 협업 패턴 비교표",
+    "preview": "SPOF 리스크 높음 (오케스트레이터) 중간 (각 단계) 낮음"
+  },
+  {
+    "term": "디버깅",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "4. 협업 패턴 비교표",
+    "preview": "디버깅 쉬움 매우 쉬움 어려움"
+  },
+  {
+    "term": "장애 허용",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "4. 협업 패턴 비교표",
+    "preview": "장애 허용 낮음 낮음 높음"
+  },
+  {
+    "term": "💡 엔지니어링 제언: 하이브리드 접근법",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "heading",
+    "context": "A2A 협업 패턴: 오케스트레이터/파이프라인/P2P",
+    "preview": "현실적인 고성능 시스템은 보통 이 패턴들을 혼합하여 사용합니다."
+  },
+  {
+    "term": "이 패턴들을 혼합",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "💡 엔지니어링 제언: 하이브리드 접근법",
+    "preview": "현실적인 고성능 시스템은 보통 이 패턴들을 혼합하여 사용합니다."
+  },
+  {
+    "term": "전략",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "heading",
+    "context": "💡 엔지니어링 제언: 하이브리드 접근법",
+    "preview": "┌─────────────────────────────────────────────────────────┐"
+  },
+  {
+    "term": "하이브리드 아키텍처 예시: 인프라 장애 대응",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "heading",
+    "context": "💡 엔지니어링 제언: 하이브리드 접근법",
+    "preview": ""
+  },
+  {
+    "term": "1. 장애 감지",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "💡 엔지니어링 제언: 하이브리드 접근법",
+    "preview": "1. 장애 감지 파이프라인 모니터링 → 알림 → 로그 수집 (순차)"
+  },
+  {
+    "term": "2. 원인 분석",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "💡 엔지니어링 제언: 하이브리드 접근법",
+    "preview": "2. 원인 분석 P2P 로그 에이전트 ↔ 메트릭 에이전트 ↔ 설정 에이전트 협업"
+  },
+  {
+    "term": "3. 대응 결정",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "💡 엔지니어링 제언: 하이브리드 접근법",
+    "preview": "3. 대응 결정 오케스트레이터 우선순위 결정, 자원 할당"
+  },
+  {
+    "term": "4. 복구 실행",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "💡 엔지니어링 제언: 하이브리드 접근법",
+    "preview": "4. 복구 실행 파이프라인 백업 → 재배포 → 검증 (순차)"
+  },
+  {
+    "term": "5. 사후 분석",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "💡 엔지니어링 제언: 하이브리드 접근법",
+    "preview": "5. 사후 분석 P2P 여러 에이전트가 협력하여 8D 보고서 생성"
+  },
+  {
+    "term": "📋 패턴 선택 가이드",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "heading",
+    "context": "A2A 협업 패턴: 오케스트레이터/파이프라인/P2P",
+    "preview": ""
+  },
+  {
+    "term": "명확한 워크플로우",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "📋 패턴 선택 가이드",
+    "preview": "명확한 워크플로우 파이프라인 단순하고 예측 가능"
+  },
+  {
+    "term": "중앙 통제 필요",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "📋 패턴 선택 가이드",
+    "preview": "중앙 통제 필요 오케스트레이터 권한 관리, 우선순위 조정"
+  },
+  {
+    "term": "창의적 문제 해결",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "📋 패턴 선택 가이드",
+    "preview": "창의적 문제 해결 P2P 유연성과 자율성 중요"
+  },
+  {
+    "term": "대규모 시스템",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "📋 패턴 선택 가이드",
+    "preview": "대규모 시스템 하이브리드 각 패턴의 장점 활용"
+  },
+  {
+    "term": "고가용성 요구",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "📋 패턴 선택 가이드",
+    "preview": "고가용성 요구 P2P 장애 허용 (Fault Tolerance)"
+  },
+  {
+    "term": "감사 추적 중요",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "📋 패턴 선택 가이드",
+    "preview": "감사 추적 중요 오케스트레이터 중앙 집중식 로그"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "heading",
+    "context": "A2A 협업 패턴: 오케스트레이터/파이프라인/P2P",
+    "preview": "정보시스템 감리 관점에서 A2A 협업 패턴 검토 시 고려사항:"
+  },
+  {
+    "term": "제어 구조 명확성",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 제어 구조 명확성: 오케스트레이터의 권한과 책임 범위 정의"
+  },
+  {
+    "term": "단일 장애점 (SPOF)",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 단일 장애점 (SPOF): 오케스트레이터 장애 시 페일오버 메커니즘"
+  },
+  {
+    "term": "감사 추적성",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 감사 추적성: P2P 패턴에서 분산 로그의 통합과 추적 가능성"
+  },
+  {
+    "term": "확장성 계획",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 확장성 계획: 에이전트 추가 시 패턴별 확장 전략"
+  },
+  {
+    "term": "디버깅 용이성",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 디버깅 용이성: 파이프라인은 단계별 로그, P2P 는 분산 트레이싱"
+  },
+  {
+    "term": "하이브리드 복잡도",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 하이브리드 복잡도: 패턴 혼합 시 인터페이스와 경계 명확화"
+  },
+  {
+    "term": "관련 문서",
+    "section": "a2a_collaboration_patterns",
+    "label": "A2A 협업 패턴",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "> 관련 문서: [A2A Protocol](#mcp_vs_a2a), [Agent Card](#agent_card)"
   },
   {
     "term": "uv: 초고속 Python 패키지 매니저",

@@ -134,6 +134,9 @@
 ### Claude Skills vs MCP
 - [자세히 보기](#claude_skills_vs_mcp) - 컨텍스트 효율화 전략
 
+### A2A 협업 패턴
+- [자세히 보기](#a2a_collaboration_patterns) - 오케스트레이터/파이프라인/P2P
+
 ## AI 실습 자료
 
 ### AI 소프트웨어 아키텍처 실습
