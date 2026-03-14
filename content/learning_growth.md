@@ -125,6 +125,12 @@
 ### Vercel agent-browser
 - [자세히 보기](#vercel_agent_browser) - 컨텍스트 효율화 브라우징 도구
 
+### MCP vs A2A
+- [자세히 보기](#mcp_vs_a2a) - 도구연결 vs 협업지능 표준
+
+### Agent Card
+- [자세히 보기](#agent_card) - A2A 에이전트 디지털 신분증
+
 ## AI 실습 자료
 
 ### AI 소프트웨어 아키텍처 실습

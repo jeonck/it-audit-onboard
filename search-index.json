@@ -4768,6 +4768,22 @@
     "preview": "- [자세히 보기](#vercel_agent_browser) - 컨텍스트 효율화 브라우징 도구"
   },
   {
+    "term": "MCP vs A2A",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#mcp_vs_a2a) - 도구연결 vs 협업지능 표준"
+  },
+  {
+    "term": "Agent Card",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#agent_card) - A2A 에이전트 디지털 신분증"
+  },
+  {
     "term": "AI 실습 자료",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -21142,6 +21158,1070 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "> GitHub: [https://github.com/vercel-labs/agent-browser](https://github.com/vercel-labs/ag…"
+  },
+  {
+    "term": "MCP vs A2A: AI 프로토콜 비교 분석",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "",
+    "preview": "MCP (Model Context Protocol)와 A2A (Agent-to-Agent)는 각각 '도구 연결의 표준'과 '협업 지능의 표준'으로 구분할 수 있습…"
+  },
+  {
+    "term": "MCP",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "MCP vs A2A: AI 프로토콜 비교 분석",
+    "preview": "MCP (Model Context Protocol)와 A2A (Agent-to-Agent)는 각각 '도구 연결의 표준'과 '협업 지능의 표준'으로 구분할 수 있습…"
+  },
+  {
+    "term": "A2A",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "MCP vs A2A: AI 프로토콜 비교 분석",
+    "preview": "MCP (Model Context Protocol)와 A2A (Agent-to-Agent)는 각각 '도구 연결의 표준'과 '협업 지능의 표준'으로 구분할 수 있습…"
+  },
+  {
+    "term": "'도구 연결의 표준'",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "MCP vs A2A: AI 프로토콜 비교 분석",
+    "preview": "MCP (Model Context Protocol)와 A2A (Agent-to-Agent)는 각각 '도구 연결의 표준'과 '협업 지능의 표준'으로 구분할 수 있습…"
+  },
+  {
+    "term": "'협업 지능의 표준'",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "MCP vs A2A: AI 프로토콜 비교 분석",
+    "preview": "MCP (Model Context Protocol)와 A2A (Agent-to-Agent)는 각각 '도구 연결의 표준'과 '협업 지능의 표준'으로 구분할 수 있습…"
+  },
+  {
+    "term": "📊 MCP vs A2A 비교 분석",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "MCP vs A2A: AI 프로토콜 비교 분석",
+    "preview": ""
+  },
+  {
+    "term": "핵심 목적",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "📊 MCP vs A2A 비교 분석",
+    "preview": "핵심 목적 도구/데이터 연결 표준화 (N×M 문제 해결) 에이전트 간 협업/위임 표준화"
+  },
+  {
+    "term": "통신 대상",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "📊 MCP vs A2A 비교 분석",
+    "preview": "통신 대상 AI 모델 ↔ 외부 도구/데이터 (Server) AI 에이전트 ↔ AI 에이전트"
+  },
+  {
+    "term": "핵심 가치",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "📊 MCP vs A2A 비교 분석",
+    "preview": "핵심 가치 Context 주입 & Tool 실행 Intent 전달 & Task 위임"
+  },
+  {
+    "term": "주요 요소",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "📊 MCP vs A2A 비교 분석",
+    "preview": "주요 요소 Resources, Tools, Prompts Handoff, Negotiation, Goal Sharing"
+  },
+  {
+    "term": "보안 초점",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "📊 MCP vs A2A 비교 분석",
+    "preview": "보안 초점 최소 권한 (ACL), 데이터 샌드박싱 신뢰 체인 (Trust), 권한 대행 (Delegation)"
+  },
+  {
+    "term": "인프라 비유",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "📊 MCP vs A2A 비교 분석",
+    "preview": "인프라 비유 USB-C 표준 (하드웨어 연결) HTTP/gRPC (서비스 간 통신/통신 규약)"
+  },
+  {
+    "term": "1. 관계의 정의: \"개인기 vs 팀워크\"",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "MCP vs A2A: AI 프로토콜 비교 분석",
+    "preview": "> 에이전트 개인이 얼마나 많은 정보에 접근하고 도구를 다룰 수 있는지 결정합니다."
+  },
+  {
+    "term": "MCP (개인기)",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "1. 관계의 정의: \"개인기 vs 팀워크\"",
+    "preview": "> 에이전트 개인이 얼마나 많은 정보에 접근하고 도구를 다룰 수 있는지 결정합니다."
+  },
+  {
+    "term": "에이전트 개인이 얼마나 많은 정보에 접근하고 도구를 다룰 수 있는지 결정",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "1. 관계의 정의: \"개인기 vs 팀워크\"",
+    "preview": "> 에이전트 개인이 얼마나 많은 정보에 접근하고 도구를 다룰 수 있는지 결정합니다."
+  },
+  {
+    "term": "agent-browser 를 다루는 능력",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "1. 관계의 정의: \"개인기 vs 팀워크\"",
+    "preview": "예를 들어, agent-browser 를 다루는 능력은 MCP 서버를 통해 부여됩니다."
+  },
+  {
+    "term": "A2A (팀워크)",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "1. 관계의 정의: \"개인기 vs 팀워크\"",
+    "preview": "> 에이전트가 자기가 못하는 일을 누구에게 맡길지, 그리고 그 결과를 어떻게 받을지 결정합니다."
+  },
+  {
+    "term": "\"나는 브라우징",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "1. 관계의 정의: \"개인기 vs 팀워크\"",
+    "preview": "예를 들어, \"나는 브라우징 (MCP)라고 소통하는 규칙입니다."
+  },
+  {
+    "term": "2. 상세 비교",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "MCP vs A2A: AI 프로토콜 비교 분석",
+    "preview": ""
+  },
+  {
+    "term": "통신 패턴",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "2. 상세 비교",
+    "preview": ""
+  },
+  {
+    "term": "단방향",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "2. 상세 비교",
+    "preview": "단방향: Agent → Server 양방향: Agent ↔ Agent"
+  },
+  {
+    "term": "양방향",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "2. 상세 비교",
+    "preview": "단방향: Agent → Server 양방향: Agent ↔ Agent"
+  },
+  {
+    "term": "요청 -응답",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "2. 상세 비교",
+    "preview": "요청 -응답: Tool Call → Result 협상: Proposal → Counter → Agreement"
+  },
+  {
+    "term": "수동 실행",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "2. 상세 비교",
+    "preview": "수동 실행: 에이전트가 도구 호출 자율 위임: 에이전트가 작업 양도"
+  },
+  {
+    "term": "자율 위임",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "2. 상세 비교",
+    "preview": "수동 실행: 에이전트가 도구 호출 자율 위임: 에이전트가 작업 양도"
+  },
+  {
+    "term": "워크플로우 예시",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "2. 상세 비교",
+    "preview": "1. User: \"이 버그 수정해줘\""
+  },
+  {
+    "term": "MCP 워크플로우 (단일 에이전트)",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "2. 상세 비교",
+    "preview": "1. User: \"이 버그 수정해줘\""
+  },
+  {
+    "term": "A2A 워크플로우 (다중 에이전트 협업)",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "2. 상세 비교",
+    "preview": "1. User: \"이 서비스 배포해줘\""
+  },
+  {
+    "term": "A2A → Coder Agent",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "2. 상세 비교",
+    "preview": "A2A → Coder Agent: \"코드 빌드해줘\""
+  },
+  {
+    "term": "A2A → Tester Agent",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "2. 상세 비교",
+    "preview": "A2A → Tester Agent: \"테스트 실행해줘\""
+  },
+  {
+    "term": "A2A → Deploy Agent",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "2. 상세 비교",
+    "preview": "A2A → Deploy Agent: \"프로덕션에 배포해줘\""
+  },
+  {
+    "term": "3. 보안 모델 비교",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "MCP vs A2A: AI 프로토콜 비교 분석",
+    "preview": ""
+  },
+  {
+    "term": "MCP 보안 (수직적 통제)",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "3. 보안 모델 비교",
+    "preview": ""
+  },
+  {
+    "term": "최소 권한",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "3. 보안 모델 비교",
+    "preview": "최소 권한 (ACL) 각 MCP Server 는 허용된 Resource/Tool 만 노출"
+  },
+  {
+    "term": "데이터 샌드박싱",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "3. 보안 모델 비교",
+    "preview": "데이터 샌드박싱 파일시스템, DB 접근 범위 제한"
+  },
+  {
+    "term": "인증/인가",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "3. 보안 모델 비교",
+    "preview": "인증/인가 MCP Client-Server 간 인증 (API Key, OAuth 등)"
+  },
+  {
+    "term": "A2A 보안 (수평적 신뢰)",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "3. 보안 모델 비교",
+    "preview": ""
+  },
+  {
+    "term": "신뢰 체인",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "3. 보안 모델 비교",
+    "preview": "신뢰 체인 (Trust Chain) 에이전트 간 신원 검증과 신뢰 수준 계층화"
+  },
+  {
+    "term": "권한 대행",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "3. 보안 모델 비교",
+    "preview": "권한 대행 (Delegation) 사용자 권한의 제한적 위임과 추적"
+  },
+  {
+    "term": "감사 로그",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "3. 보안 모델 비교",
+    "preview": "감사 로그 에이전트 간 모든 대화와 위임 기록 보존"
+  },
+  {
+    "term": "4. 실무 적용 시나리오",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "MCP vs A2A: AI 프로토콜 비교 분석",
+    "preview": "> 간단한 작업은 MCP 로 충분합니다."
+  },
+  {
+    "term": "시나리오 1: 단일 에이전트 + MCP",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "4. 실무 적용 시나리오",
+    "preview": "> 간단한 작업은 MCP 로 충분합니다."
+  },
+  {
+    "term": "간단한 작업은 MCP 로 충분",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "4. 실무 적용 시나리오",
+    "preview": "> 간단한 작업은 MCP 로 충분합니다."
+  },
+  {
+    "term": "시나리오 2: 다중 에이전트 + MCP + A2A",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "4. 실무 적용 시나리오",
+    "preview": "> 복잡한 작업은 A2A 협업이 필요합니다."
+  },
+  {
+    "term": "복잡한 작업은 A2A 협업이 필요",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "4. 실무 적용 시나리오",
+    "preview": "> 복잡한 작업은 A2A 협업이 필요합니다."
+  },
+  {
+    "term": "📋 선택 가이드: MCP vs A2A",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "MCP vs A2A: AI 프로토콜 비교 분석",
+    "preview": ""
+  },
+  {
+    "term": "단일 에이전트 확장",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "📋 선택 가이드: MCP vs A2A",
+    "preview": "단일 에이전트 확장 MCP 도구/데이터 접근만 필요"
+  },
+  {
+    "term": "전문가 에이전트 협업",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "📋 선택 가이드: MCP vs A2A",
+    "preview": "전문가 에이전트 협업 A2A 각기 다른 전문성 결합 필요"
+  },
+  {
+    "term": "간단한 자동화",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "📋 선택 가이드: MCP vs A2A",
+    "preview": "간단한 자동화 MCP 오버헤드 최소화"
+  },
+  {
+    "term": "복잡한 워크플로우",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "📋 선택 가이드: MCP vs A2A",
+    "preview": "복잡한 워크플로우 A2A + MCP 협업 + 도구 접근 모두 필요"
+  },
+  {
+    "term": "보안 경계 명확화",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "📋 선택 가이드: MCP vs A2A",
+    "preview": "보안 경계 명확화 MCP 샌드박스 통제가 용이"
+  },
+  {
+    "term": "권한 위임 필요",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "📋 선택 가이드: MCP vs A2A",
+    "preview": "권한 위임 필요 A2A 신뢰 체인과 권한 대행 필요"
+  },
+  {
+    "term": "💡 엔지니어링 인사이트",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "MCP vs A2A: AI 프로토콜 비교 분석",
+    "preview": "> MCP 는 에이전트의 '손과 발'이고, A2A 는 에이전트 간의 '입과 귀'입니다."
+  },
+  {
+    "term": "MCP 는 에이전트의 '손과 발'",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "💡 엔지니어링 인사이트",
+    "preview": "> MCP 는 에이전트의 '손과 발'이고, A2A 는 에이전트 간의 '입과 귀'입니다."
+  },
+  {
+    "term": "A2A 는 에이전트 간의 '입과 귀'",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "💡 엔지니어링 인사이트",
+    "preview": "> MCP 는 에이전트의 '손과 발'이고, A2A 는 에이전트 간의 '입과 귀'입니다."
+  },
+  {
+    "term": "두 프로토콜을 모두 활용",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "💡 엔지니어링 인사이트",
+    "preview": "현실적인 AI 시스템 아키텍처는 두 프로토콜을 모두 활용하는 하이브리드 형태가 될 것입니다:"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "heading",
+    "context": "MCP vs A2A: AI 프로토콜 비교 분석",
+    "preview": "정보시스템 감리 관점에서 MCP vs A2A 검토 시 고려사항:"
+  },
+  {
+    "term": "프로토콜 성숙도",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 프로토콜 성숙도: MCP 는 Anthropic 주도 표준화 진행 중, A2A 는 초기 단계"
+  },
+  {
+    "term": "보안 경계",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 보안 경계: MCP 는 수직적 통제 (샌드박스), A2A 는 수평적 신뢰 (신원검증)"
+  },
+  {
+    "term": "감사 추적성",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 감사 추적성: MCP 는 Tool Call 로그, A2A 는 에이전트 간 대화 로그 모두 필요"
+  },
+  {
+    "term": "책임 소재",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 책임 소재: MCP 는 단일 에이전트 책임, A2A 는 다중 에이전트 책임 분산"
+  },
+  {
+    "term": "상호운용성",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 상호운용성: MCP 는 벤더 중립 지향, A2A 는 표준화 진행 중"
+  },
+  {
+    "term": "복잡도 관리",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 복잡도 관리: MCP 는 N+M 복잡도, A2A 는 에이전트 간 조정 오버헤드 추가"
+  },
+  {
+    "term": "MCP 공식 문서",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "> MCP 공식 문서: [https://modelcontextprotocol.io/](https://modelcontextprotocol.io/)"
+  },
+  {
+    "term": "A2A 표준화 논의",
+    "section": "mcp_vs_a2a",
+    "label": "MCP vs A2A",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "> A2A 표준화 논의: [https://github.com/agent-to-agent](https://github.com/agent-to-agent) (가상)"
+  },
+  {
+    "term": "Agent Card: A2A 에이전트의 디지털 신분증",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "",
+    "preview": "Agent Card는 A2A (Agent-to-Agent) 프로토콜에서 각 에이전트의 '디지털 신분증'이자 '기술 사양서 (Specification)와 같습니다."
+  },
+  {
+    "term": "Agent Card",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "Agent Card: A2A 에이전트의 디지털 신분증",
+    "preview": "Agent Card는 A2A (Agent-to-Agent) 프로토콜에서 각 에이전트의 '디지털 신분증'이자 '기술 사양서 (Specification)와 같습니다."
+  },
+  {
+    "term": "'디지털 신분증'",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "Agent Card: A2A 에이전트의 디지털 신분증",
+    "preview": "Agent Card는 A2A (Agent-to-Agent) 프로토콜에서 각 에이전트의 '디지털 신분증'이자 '기술 사양서 (Specification)와 같습니다."
+  },
+  {
+    "term": "'기술 사양서",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "Agent Card: A2A 에이전트의 디지털 신분증",
+    "preview": "Agent Card는 A2A (Agent-to-Agent) 프로토콜에서 각 에이전트의 '디지털 신분증'이자 '기술 사양서 (Specification)와 같습니다."
+  },
+  {
+    "term": "\"무엇을 할 수 있고",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "Agent Card: A2A 에이전트의 디지털 신분증",
+    "preview": "MSA 의 서비스 디스커버리 (Service Discovery) 가 서비스의 IP 와 포트를 알려준다면, Agent Card 는 해당 에이전트가 \"무엇을 할 수 …"
+  },
+  {
+    "term": "1. Agent Card 의 정의",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "Agent Card: A2A 에이전트의 디지털 신분증",
+    "preview": "Agent Card 는 멀티 에이전트 환경에서 특정 에이전트의 정체성과 능력을 표준화된 메타데이터 형식 (주로 JSON/YAML)으로 기술한 문서입니다."
+  },
+  {
+    "term": "정체성과 능력을 표준화된 메타데이터 형식",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "1. Agent Card 의 정의",
+    "preview": "Agent Card 는 멀티 에이전트 환경에서 특정 에이전트의 정체성과 능력을 표준화된 메타데이터 형식 (주로 JSON/YAML)으로 기술한 문서입니다."
+  },
+  {
+    "term": "2. Agent Card 의 핵심 구성 요소 (Schema)",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "Agent Card: A2A 에이전트의 디지털 신분증",
+    "preview": "보안과 인프라 운영 관점을 반영한 주요 필드는 다음과 같습니다."
+  },
+  {
+    "term": "Identity (신원)",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "2. Agent Card 의 핵심 구성 요소 (Schema)",
+    "preview": ""
+  },
+  {
+    "term": "Agent ID",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "2. Agent Card 의 핵심 구성 요소 (Schema)",
+    "preview": "Agent ID 시스템 내의 고유 식별자 agent-sec-audit-001"
+  },
+  {
+    "term": "Name",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "2. Agent Card 의 핵심 구성 요소 (Schema)",
+    "preview": "Name 에이전트 이름 SecurityAuditAgent"
+  },
+  {
+    "term": "Capability (능력)",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "2. Agent Card 의 핵심 구성 요소 (Schema)",
+    "preview": ""
+  },
+  {
+    "term": "Skills / Tools",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "2. Agent Card 의 핵심 구성 요소 (Schema)",
+    "preview": "Skills / Tools 에이전트가 가진 MCP 툴 목록 [\"web-browsing\", \"sql-query\", \"log-analysis\"]"
+  },
+  {
+    "term": "Domain / Bounded Context",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "2. Agent Card 의 핵심 구성 요소 (Schema)",
+    "preview": "Domain / Bounded Context 해당 에이전트가 전문성을 가진 비즈니스 영역 security-audit, finance-report"
+  },
+  {
+    "term": "Policy (정책)",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "2. Agent Card 의 핵심 구성 요소 (Schema)",
+    "preview": ""
+  },
+  {
+    "term": "Access Control",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "2. Agent Card 의 핵심 구성 요소 (Schema)",
+    "preview": "Access Control (ACL) 접근 가능한 리소스 범위 및 보안 등급 security-level-2, read-only"
+  },
+  {
+    "term": "Rate Limits",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "2. Agent Card 의 핵심 구성 요소 (Schema)",
+    "preview": "Rate Limits 초당/분당 요청 제한 100 req/min"
+  },
+  {
+    "term": "Interface (인터페이스)",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "2. Agent Card 의 핵심 구성 요소 (Schema)",
+    "preview": ""
+  },
+  {
+    "term": "Protocol",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "2. Agent Card 의 핵심 구성 요소 (Schema)",
+    "preview": "Protocol A2A 통신 규격 JSON-RPC 2.0, gRPC, HTTP/REST"
+  },
+  {
+    "term": "Endpoint",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "2. Agent Card 의 핵심 구성 요소 (Schema)",
+    "preview": "Endpoint 통신 주소 https://agent.example.com/api/v1"
+  },
+  {
+    "term": "Trust (신뢰)",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "2. Agent Card 의 핵심 구성 요소 (Schema)",
+    "preview": ""
+  },
+  {
+    "term": "Certificate / Sign",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "2. Agent Card 의 핵심 구성 요소 (Schema)",
+    "preview": "Certificate / Sign 신뢰할 수 있는 에이전트임을 증명하는 디지털 서명 SHA256:abc123..."
+  },
+  {
+    "term": "Issuer",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "2. Agent Card 의 핵심 구성 요소 (Schema)",
+    "preview": "Issuer 인증 기관 Internal-CA, DigiCert"
+  },
+  {
+    "term": "Agent Card 예시 (JSON)",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "2. Agent Card 의 핵심 구성 요소 (Schema)",
+    "preview": "\"agentCard\": {"
+  },
+  {
+    "term": "3. A2A 워크플로우에서의 역할",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "Agent Card: A2A 에이전트의 디지털 신분증",
+    "preview": "엔지니어님의 MiroFish 프레임워크 내에서 Agent Card 는 다음과 같은 프로세스를 거치며 작동합니다."
+  },
+  {
+    "term": "Registration (등록)",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "3. A2A 워크플로우에서의 역할",
+    "preview": "> 새로운 에이전트가 생성되면 자신의 Agent Card 를 중앙 Registry(전화번호부)에 등록합니다."
+  },
+  {
+    "term": "Registry",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "3. A2A 워크플로우에서의 역할",
+    "preview": "> 새로운 에이전트가 생성되면 자신의 Agent Card 를 중앙 Registry(전화번호부)에 등록합니다."
+  },
+  {
+    "term": "Discovery (발견)",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "3. A2A 워크플로우에서의 역할",
+    "preview": "> 오케스트레이터 (또는 다른 에이전트) 가 \"보안 로그 분석이 가능한 에이전트\"를 검색하면, Registry 는 해당 능력이 기재된 Agent Card 를 반환…"
+  },
+  {
+    "term": "\"보안 로그 분석이 가능한 에이전트\"",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "3. A2A 워크플로우에서의 역할",
+    "preview": "> 오케스트레이터 (또는 다른 에이전트) 가 \"보안 로그 분석이 가능한 에이전트\"를 검색하면, Registry 는 해당 능력이 기재된 Agent Card 를 반환…"
+  },
+  {
+    "term": "Negotiation (Handshake)",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "3. A2A 워크플로우에서의 역할",
+    "preview": "> 에이전트끼리 대화하기 전, 서로의 Agent Card 를 확인하여 \"너 나랑 같은 보안 등급이야?\", \"너 내가 사용하는 MCP 프로토콜 지원해?\"를 검증합니…"
+  },
+  {
+    "term": "AAR (After Action Report)",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "3. A2A 워크플로우에서의 역할",
+    "preview": "> 작업 완료 후, Agent Card 에 기재된 기대 성능 (SLA)과 실제 성과를 대조하여 에이전트의 품질을 평가합니다."
+  },
+  {
+    "term": "기대 성능",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "3. A2A 워크플로우에서의 역할",
+    "preview": "> 작업 완료 후, Agent Card 에 기재된 기대 성능 (SLA)과 실제 성과를 대조하여 에이전트의 품질을 평가합니다."
+  },
+  {
+    "term": "실제 성과",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "3. A2A 워크플로우에서의 역할",
+    "preview": "> 작업 완료 후, Agent Card 에 기재된 기대 성능 (SLA)과 실제 성과를 대조하여 에이전트의 품질을 평가합니다."
+  },
+  {
+    "term": "응답 시간",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "3. A2A 워크플로우에서의 역할",
+    "preview": "응답 시간 < 1 초 0.8 초 ✅ 우수"
+  },
+  {
+    "term": "정확도",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "3. A2A 워크플로우에서의 역할",
+    "preview": "정확도 > 95% 92% ⚠️ 개선필요"
+  },
+  {
+    "term": "토큰 사용",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "3. A2A 워크플로우에서의 역할",
+    "preview": "토큰 사용 < 50,000 45,000 ✅ 우수"
+  },
+  {
+    "term": "4. 인프라 전문가를 위한 설계 제언",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "Agent Card: A2A 에이전트의 디지털 신분증",
+    "preview": "20 년 경력의 노하우를 녹여 Agent Card 를 설계하신다면 다음 두 가지를 추가하는 것이 강력한 차별점이 될 것입니다."
+  },
+  {
+    "term": "Cost & Resource Limit",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "4. 인프라 전문가를 위한 설계 제언",
+    "preview": "> 에이전트가 사용할 수 있는 최대 토큰 예산이나 GPU 점유 시간을 Agent Card 에 명시하여 인프라 비용 폭주를 방지합니다."
+  },
+  {
+    "term": "최대 토큰 예산",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "4. 인프라 전문가를 위한 설계 제언",
+    "preview": "> 에이전트가 사용할 수 있는 최대 토큰 예산이나 GPU 점유 시간을 Agent Card 에 명시하여 인프라 비용 폭주를 방지합니다."
+  },
+  {
+    "term": "GPU 점유 시간",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "4. 인프라 전문가를 위한 설계 제언",
+    "preview": "> 에이전트가 사용할 수 있는 최대 토큰 예산이나 GPU 점유 시간을 Agent Card 에 명시하여 인프라 비용 폭주를 방지합니다."
+  },
+  {
+    "term": "비용 폭주 방지",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "4. 인프라 전문가를 위한 설계 제언",
+    "preview": "비용 폭주 방지 에이전트별 일일/월간 예산 제한"
+  },
+  {
+    "term": "리소스 공정 분배",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "4. 인프라 전문가를 위한 설계 제언",
+    "preview": "리소스 공정 분배 GPU/CPU 시간 할당량 관리"
+  },
+  {
+    "term": "과금 추적",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "4. 인프라 전문가를 위한 설계 제언",
+    "preview": "과금 추적 에이전트별 사용량 기반 과금"
+  },
+  {
+    "term": "Version Drift Control",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "4. 인프라 전문가를 위한 설계 제언",
+    "preview": "> 모델 업데이트 시 Agent Card 의 버전도 함께 관리하여, 모델 변경으로 인한 협업 로직의 붕괴 (Breaking Changes) 를 감지해야 합니다."
+  },
+  {
+    "term": "버전도 함께 관리",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "4. 인프라 전문가를 위한 설계 제언",
+    "preview": "> 모델 업데이트 시 Agent Card 의 버전도 함께 관리하여, 모델 변경으로 인한 협업 로직의 붕괴 (Breaking Changes) 를 감지해야 합니다."
+  },
+  {
+    "term": "호환성 보장",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "4. 인프라 전문가를 위한 설계 제언",
+    "preview": "호환성 보장 버전 불일치 시 사전 경고"
+  },
+  {
+    "term": "점진적 업데이트",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "4. 인프라 전문가를 위한 설계 제언",
+    "preview": "점진적 업데이트 구버전 에이전트와 공존 가능"
+  },
+  {
+    "term": "변경 이력 추적",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "4. 인프라 전문가를 위한 설계 제언",
+    "preview": "변경 이력 추적 어떤 변경이 있었는지 감사 가능"
+  },
+  {
+    "term": "📊 Agent Card vs MSA Service Discovery 비교",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "Agent Card: A2A 에이전트의 디지털 신분증",
+    "preview": ""
+  },
+  {
+    "term": "메타데이터",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "📊 Agent Card vs MSA Service Discovery 비교",
+    "preview": "메타데이터 엔드포인트, 헬스체크 Capability, Authority, Trust"
+  },
+  {
+    "term": "버전 관리",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "📊 Agent Card vs MSA Service Discovery 비교",
+    "preview": "버전 관리 제한적 명시적 버전 드리프트 제어"
+  },
+  {
+    "term": "비용 관리",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "📊 Agent Card vs MSA Service Discovery 비교",
+    "preview": "비용 관리 없음 토큰/GPU 예산 명시"
+  },
+  {
+    "term": "💡 실무 적용 가이드",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "Agent Card: A2A 에이전트의 디지털 신분증",
+    "preview": "// Registry API: 에이전트 검색"
+  },
+  {
+    "term": "Agent Registry 구현 예시",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "💡 실무 적용 가이드",
+    "preview": "// Registry API: 에이전트 검색"
+  },
+  {
+    "term": "Agent Card 검증 로직",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "💡 실무 적용 가이드",
+    "preview": "def verify_agent_card(card):"
+  },
+  {
+    "term": "1. 서명 검증",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "",
+    "preview": "if not verify_signature(card['trust']['certificate']):"
+  },
+  {
+    "term": "2. 유효기간 확인",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "",
+    "preview": "if datetime.now() > card['trust']['validUntil']:"
+  },
+  {
+    "term": "3. 버전 호환성 확인",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "",
+    "preview": "if not is_compatible_version(card['versioning']['protocolVersion']):"
+  },
+  {
+    "term": "4. 비용 제한 확인",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "",
+    "preview": "if card['costLimit']['maxTokens'] > MAX_ALLOWED_TOKENS:"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "heading",
+    "context": "4. 비용 제한 확인",
+    "preview": "정보시스템 감리 관점에서 Agent Card 도입 검토 시 고려사항:"
+  },
+  {
+    "term": "신원 검증",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 신원 검증: 디지털 서명과 인증서를 통한 에이전트 신원 보증"
+  },
+  {
+    "term": "권한 관리",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 권한 관리: ACL 기반 접근 통제와 최소 권한 원칙 준수"
+  },
+  {
+    "term": "감사 추적성",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 감사 추적성: Agent Card 등록/변경/폐기 이력 기록 보존"
+  },
+  {
+    "term": "버전 관리",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 버전 관리: Version Drift Control 을 통한 호환성 보장"
+  },
+  {
+    "term": "비용 통제",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 비용 통제: 토큰/GPU 예산 제한과 실제 사용량 모니터링"
+  },
+  {
+    "term": "신뢰 체인",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 신뢰 체인: 인증 기관 (Issuer) 과 신뢰 수준 계층화"
+  },
+  {
+    "term": "AAR 품질 평가",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "7. AAR 품질 평가: 명세 대비 실제 성과 비교와 지속적 개선"
+  },
+  {
+    "term": "관련 표준",
+    "section": "agent_card",
+    "label": "Agent Card",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "> 관련 표준: A2A Protocol (draft), Agent Card Schema (proposed)"
   },
   {
     "term": "uv: 초고속 Python 패키지 매니저",
