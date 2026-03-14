@@ -38,6 +38,7 @@ const SECTION_LABELS = {
     cerebras_ai:            'Cerebras AI 서비스',
     diffusion_llm:          'Diffusion LLM',
     ai_dlc:                 'AI-DLC 개발방법론',
+    ai_dlc_bolt_mob:        'Bolt 와 Mob 세션',
     compound_ai:            'Compound AI 시스템',
     rag:                    'RAG (검색 증강 생성)',
     faq:                    'FAQ',

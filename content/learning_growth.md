@@ -70,6 +70,9 @@
 ### AI-DLC (AI-Driven Development Lifecycle)
 - [자세히 보기](#ai_dlc) - AWS 제안 AI 네이티브 개발 방법론, 3 단계 lifecycle
 
+### Bolt 와 Mob 세션
+- [자세히 보기](#ai_dlc_bolt_mob) - AI-DLC 핵심 개념, 초고속 협업 리추얼
+
 ### Compound AI 시스템
 - [자세히 보기](#compound_ai) - Compound AI 핵심 구성 요소, 오케스트레이션
 

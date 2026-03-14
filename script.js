@@ -20,7 +20,7 @@ async function loadMarkdownContent(section) {
 
             // Concatenate both FAQ contents, removing duplicate headers
             markdownText = text1 + '\n\n' + removeHeaderFromMarkdown(text2);
-        } else if (section === 'audit_checkpoints' || section === 'latest_checkpoints' || section === 'latest_technical' || section === 'latest_additional' || section === 'security_iso27001' || section === 'gov_quality_manual' || section === 'data_quality_assessment' || section === 'proposal_management' || section === 'learning_growth' || section === 'social_identity_auth' || section === 'ai_development_methodology' || section === 'cerebras_ai' || section === 'diffusion_llm' || section === 'ai_dlc' || section === 'compound_ai' || section === 'rag') {
+        } else if (section === 'audit_checkpoints' || section === 'latest_checkpoints' || section === 'latest_technical' || section === 'latest_additional' || section === 'security_iso27001' || section === 'gov_quality_manual' || section === 'data_quality_assessment' || section === 'proposal_management' || section === 'learning_growth' || section === 'social_identity_auth' || section === 'ai_development_methodology' || section === 'cerebras_ai' || section === 'diffusion_llm' || section === 'ai_dlc' || section === 'compound_ai' || section === 'rag' || section === 'ai_dlc_bolt_mob') {
             // Handle the audit checkpoints sections
             if (section === 'audit_checkpoints') {
                 // Load the main audit checkpoints page which links to sub-sections
@@ -171,6 +171,11 @@ function setupInternalLinks() {
                 link.addEventListener('click', function(e) {
                     e.preventDefault();
                     loadMarkdownContent('rag');
+                });
+            } else if (href === '#ai_dlc_bolt_mob') {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    loadMarkdownContent('ai_dlc_bolt_mob');
                 });
             }
         });
