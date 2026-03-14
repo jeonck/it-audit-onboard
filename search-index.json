@@ -4672,6 +4672,14 @@
     "preview": "- [자세히 보기](#msa_core_principles) - 독립배포/장애격리/독립스케일링"
   },
   {
+    "term": "동기 vs 비동기 통신",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#sync_vs_async_communication) - REST 와 이벤트 기반 통신 비교"
+  },
+  {
     "term": "AI 기술 및 하드웨어",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -14534,6 +14542,478 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "6. AAR 운영: 3 대 원칙 준수 여부 지속적 점검과 개선 사이클"
+  },
+  {
+    "term": "AI 를 위한 동기 vs 비동기 통신",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "heading",
+    "context": "",
+    "preview": "AI 시스템과 마이크로서비스 아키텍처 (MSA) 를 설계할 때, 서비스 간 통신 방식을 동기 (Synchronous)로 할지 비동기 (Asynchronous)로 …"
+  },
+  {
+    "term": "동기 (Synchronous)",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "AI 를 위한 동기 vs 비동기 통신",
+    "preview": "AI 시스템과 마이크로서비스 아키텍처 (MSA) 를 설계할 때, 서비스 간 통신 방식을 동기 (Synchronous)로 할지 비동기 (Asynchronous)로 …"
+  },
+  {
+    "term": "비동기 (Asynchronous)",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "AI 를 위한 동기 vs 비동기 통신",
+    "preview": "AI 시스템과 마이크로서비스 아키텍처 (MSA) 를 설계할 때, 서비스 간 통신 방식을 동기 (Synchronous)로 할지 비동기 (Asynchronous)로 …"
+  },
+  {
+    "term": "1. 동기 통신 (REST / gRPC)",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "heading",
+    "context": "AI 를 위한 동기 vs 비동기 통신",
+    "preview": "요청을 보낸 서비스가 응답이 올 때까지 기다리는 (Blocking) 방식입니다."
+  },
+  {
+    "term": "응답이 올 때까지 기다리는",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "1. 동기 통신 (REST / gRPC)",
+    "preview": "요청을 보낸 서비스가 응답이 올 때까지 기다리는 (Blocking) 방식입니다."
+  },
+  {
+    "term": "HTTP/HTTPS 프로토콜 기반의 REST API",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "1. 동기 통신 (REST / gRPC)",
+    "preview": "주로 HTTP/HTTPS 프로토콜 기반의 REST API나 고성능 통신을 위한 gRPC가 사용됩니다."
+  },
+  {
+    "term": "고성능 통신을 위한 gRPC",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "1. 동기 통신 (REST / gRPC)",
+    "preview": "주로 HTTP/HTTPS 프로토콜 기반의 REST API나 고성능 통신을 위한 gRPC가 사용됩니다."
+  },
+  {
+    "term": "특징",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "heading",
+    "context": "1. 동기 통신 (REST / gRPC)",
+    "preview": "> 설계가 직관적이고 구현이 쉽습니다. 요청 -응답 (Request-Response)이 즉각적입니다."
+  },
+  {
+    "term": "요청 -응답",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "1. 동기 통신 (REST / gRPC)",
+    "preview": "> 설계가 직관적이고 구현이 쉽습니다. 요청 -응답 (Request-Response)이 즉각적입니다."
+  },
+  {
+    "term": "장점",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "heading",
+    "context": "1. 동기 통신 (REST / gRPC)",
+    "preview": ""
+  },
+  {
+    "term": "트랜잭션 완결성",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "1. 동기 통신 (REST / gRPC)",
+    "preview": "트랜잭션 완결성 요청의 성공/실패를 즉시 확인 가능"
+  },
+  {
+    "term": "실시간 응답",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "1. 동기 통신 (REST / gRPC)",
+    "preview": "실시간 응답 즉각적인 피드백이 필요한 서비스에 적합"
+  },
+  {
+    "term": "단점 (모놀리스의 한계와 연결)",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "heading",
+    "context": "1. 동기 통신 (REST / gRPC)",
+    "preview": "> 하류 (Downstream)하면, 상류 (Upstream)합니다."
+  },
+  {
+    "term": "AI 시스템 적용",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "heading",
+    "context": "1. 동기 통신 (REST / gRPC)",
+    "preview": ""
+  },
+  {
+    "term": "LLM 추론 결과 반환",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "1. 동기 통신 (REST / gRPC)",
+    "preview": "LLM 추론 결과 반환 사용자 질문에 대한 답변 생성"
+  },
+  {
+    "term": "실시간 가드레일 체크",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "1. 동기 통신 (REST / gRPC)",
+    "preview": "실시간 가드레일 체크 입력/출력의 즉각적인 검증"
+  },
+  {
+    "term": "2. 비동기 통신 (Event-Driven / Message Queue)",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "heading",
+    "context": "AI 를 위한 동기 vs 비동기 통신",
+    "preview": "요청을 메시지 브로커 (Kafka, RabbitMQ, SQS 등) 하고, 보낸 서비스는 자신의 할 일을 계속하는 (Non-blocking) 방식입니다."
+  },
+  {
+    "term": "메시지 브로커",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "2. 비동기 통신 (Event-Driven / Message Queue)",
+    "preview": "요청을 메시지 브로커 (Kafka, RabbitMQ, SQS 등) 하고, 보낸 서비스는 자신의 할 일을 계속하는 (Non-blocking) 방식입니다."
+  },
+  {
+    "term": "자신의 할 일을 계속하는",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "2. 비동기 통신 (Event-Driven / Message Queue)",
+    "preview": "요청을 메시지 브로커 (Kafka, RabbitMQ, SQS 등) 하고, 보낸 서비스는 자신의 할 일을 계속하는 (Non-blocking) 방식입니다."
+  },
+  {
+    "term": "느슨한 결합",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "2. 비동기 통신 (Event-Driven / Message Queue)",
+    "preview": "> 서비스 간의 직접적인 연결이 끊어지는 느슨한 결합 (Loose Coupling)을 지향합니다."
+  },
+  {
+    "term": "완충 작용",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "2. 비동기 통신 (Event-Driven / Message Queue)",
+    "preview": "완충 작용 (Buffering) 시스템 부하 급증 시 메시지 큐가 충격 흡수"
+  },
+  {
+    "term": "장애 내성",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "2. 비동기 통신 (Event-Driven / Message Queue)",
+    "preview": "장애 내성 특정 서비스 다운 시에도 메시지 보존, 나중에 처리 가능"
+  },
+  {
+    "term": "시스템 붕괴 방지",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "2. 비동기 통신 (Event-Driven / Message Queue)",
+    "preview": "시스템 붕괴 방지 캐스케이드 장애 전파 차단"
+  },
+  {
+    "term": "단점",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "heading",
+    "context": "2. 비동기 통신 (Event-Driven / Message Queue)",
+    "preview": ""
+  },
+  {
+    "term": "시스템 복잡도",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "2. 비동기 통신 (Event-Driven / Message Queue)",
+    "preview": "시스템 복잡도 메시지 브로커 관리 필요"
+  },
+  {
+    "term": "데이터 일관성",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "2. 비동기 통신 (Event-Driven / Message Queue)",
+    "preview": "데이터 일관성 최종 일관성 (Eventual Consistency) 관리 필요"
+  },
+  {
+    "term": "감사 로그",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "2. 비동기 통신 (Event-Driven / Message Queue)",
+    "preview": "감사 로그 (Audit Log) 응답 완료 이벤트 구독하여 기록"
+  },
+  {
+    "term": "벡터 DB 인덱싱 업데이트",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "2. 비동기 통신 (Event-Driven / Message Queue)",
+    "preview": "벡터 DB 인덱싱 업데이트 문서 변경 이벤트 기반 자동 업데이트"
+  },
+  {
+    "term": "대량 배치 요약 작업",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "2. 비동기 통신 (Event-Driven / Message Queue)",
+    "preview": "대량 배치 요약 작업 비실시간 대량 처리"
+  },
+  {
+    "term": "AAR 자동 생성 파이프라인",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "2. 비동기 통신 (Event-Driven / Message Queue)",
+    "preview": "AAR 자동 생성 파이프라인 로그 수집 및 분석"
+  },
+  {
+    "term": "3. 동기 vs 비동기 비교 요약",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "heading",
+    "context": "AI 를 위한 동기 vs 비동기 통신",
+    "preview": ""
+  },
+  {
+    "term": "통신 모델",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "3. 동기 vs 비동기 비교 요약",
+    "preview": "통신 모델 1:1 (Direct) 1:N (Pub/Sub) 또는 1:1 (Queue)"
+  },
+  {
+    "term": "결합도",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "3. 동기 vs 비동기 비교 요약",
+    "preview": "결합도 강한 결합 (Tight Coupling) 느슨한 결합 (Loose Coupling)"
+  },
+  {
+    "term": "응답성",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "3. 동기 vs 비동기 비교 요약",
+    "preview": "응답성 즉각적 (Blocking) 지연 가능 (Non-blocking)"
+  },
+  {
+    "term": "장애 영향",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "3. 동기 vs 비동기 비교 요약",
+    "preview": "장애 영향 장애가 상위로 전파됨 장애 격리 용이 (메시지 보존)"
+  },
+  {
+    "term": "복잡도",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "3. 동기 vs 비동기 비교 요약",
+    "preview": "복잡도 낮음 높음 (브로커 관리 필요)"
+  },
+  {
+    "term": "주요 사례",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "3. 동기 vs 비동기 비교 요약",
+    "preview": "주요 사례 사용자 인터페이스, 인증 로깅, 분석, 백그라운드 작업"
+  },
+  {
+    "term": "💡 엔지니어링 통찰: 하이브리드 아키텍처",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "heading",
+    "context": "AI 를 위한 동기 vs 비동기 통신",
+    "preview": "실제 견고한 Compound AI System에서는 이 두 방식을 혼합하여 사용합니다."
+  },
+  {
+    "term": "Compound AI System",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "💡 엔지니어링 통찰: 하이브리드 아키텍처",
+    "preview": "실제 견고한 Compound AI System에서는 이 두 방식을 혼합하여 사용합니다."
+  },
+  {
+    "term": "혼합하여 사용",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "💡 엔지니어링 통찰: 하이브리드 아키텍처",
+    "preview": "실제 견고한 Compound AI System에서는 이 두 방식을 혼합하여 사용합니다."
+  },
+  {
+    "term": "동기 구간",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "heading",
+    "context": "💡 엔지니어링 통찰: 하이브리드 아키텍처",
+    "preview": "입력 가드레일 (REST)"
+  },
+  {
+    "term": "사용자가 기다려야 하므로 REST 사용",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "💡 엔지니어링 통찰: 하이브리드 아키텍처",
+    "preview": "> 사용자가 기다려야 하므로 REST 사용"
+  },
+  {
+    "term": "비동기 구간",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "heading",
+    "context": "💡 엔지니어링 통찰: 하이브리드 아키텍처",
+    "preview": "응답 완료 이벤트 발행"
+  },
+  {
+    "term": "사용자가 기다릴 필요 없는 사후 처리",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "💡 엔지니어링 통찰: 하이브리드 아키텍처",
+    "preview": "> 사용자가 기다릴 필요 없는 사후 처리"
+  },
+  {
+    "term": "🎯 통신 방식 선택 가이드",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "heading",
+    "context": "AI 를 위한 동기 vs 비동기 통신",
+    "preview": ""
+  },
+  {
+    "term": "사용자 실시간 응답 필요",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "🎯 통신 방식 선택 가이드",
+    "preview": "사용자 실시간 응답 필요 동기 (REST) 즉각적인 피드백"
+  },
+  {
+    "term": "감사/로깅",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "🎯 통신 방식 선택 가이드",
+    "preview": "감사/로깅 비동기 (Event) 메인 흐름 방해 금지"
+  },
+  {
+    "term": "대량 데이터 처리",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "🎯 통신 방식 선택 가이드",
+    "preview": "대량 데이터 처리 비동기 (Queue) 부하 분산"
+  },
+  {
+    "term": "트랜잭션 원자성 필요",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "🎯 통신 방식 선택 가이드",
+    "preview": "트랜잭션 원자성 필요 동기 (REST) 즉시 성공/실패 확인"
+  },
+  {
+    "term": "장애 격리 중요",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "🎯 통신 방식 선택 가이드",
+    "preview": "장애 격리 중요 비동기 (Event) 캐스케이드 방지"
+  },
+  {
+    "term": "실시간 가드레일",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "🎯 통신 방식 선택 가이드",
+    "preview": "실시간 가드레일 동기 (REST) 즉시 차단 필요"
+  },
+  {
+    "term": "📊 AI 파이프라인 통신 아키텍처 예시",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "heading",
+    "context": "AI 를 위한 동기 vs 비동기 통신",
+    "preview": "┌─────────┐ ┌──────────┐ ┌─────────┐"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "heading",
+    "context": "AI 를 위한 동기 vs 비동기 통신",
+    "preview": "정보시스템 감리 관점에서 동기/비동기 통신 검토 시 고려사항:"
+  },
+  {
+    "term": "응답성 vs 견고함 트레이드오프",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 응답성 vs 견고함 트레이드오프: 실시간 응답 요구와 장애 격리 요구의 균형"
+  },
+  {
+    "term": "장애 전파 리스크",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 장애 전파 리스크: 동기 통신 구간에서의 캐스케이드 장애 방지 메커니즘"
+  },
+  {
+    "term": "데이터 일관성",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 데이터 일관성: 비동기 통신의 최종 일관성 (Eventual Consistency) 관리 정책"
+  },
+  {
+    "term": "메시지 브로커 운영",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 메시지 브로커 운영: Kafka, RabbitMQ 등 브로커의 가용성과 확장성"
+  },
+  {
+    "term": "트랜잭션 관리",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 트랜잭션 관리: 분산 트랜잭션과 사가 (Saga) 패턴 적용 여부"
+  },
+  {
+    "term": "모니터링",
+    "section": "sync_vs_async_communication",
+    "label": "동기 vs 비동기 통신",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 모니터링: 동기/비동기 구간 종단 간 추적성과 성능 모니터링"
   },
   {
     "term": "자주 묻는 질문 (FAQ)",

@@ -89,6 +89,9 @@
 ### MSA 핵심 원칙
 - [자세히 보기](#msa_core_principles) - 독립배포/장애격리/독립스케일링
 
+### 동기 vs 비동기 통신
+- [자세히 보기](#sync_vs_async_communication) - REST 와 이벤트 기반 통신 비교
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례
