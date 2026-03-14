@@ -101,6 +101,9 @@
 ### DDD 핵심 개념
 - [자세히 보기](#ddd_core_concepts) - 도메인 주도 설계 핵심 개념
 
+### MSA 핵심 패턴
+- [자세히 보기](#msa_core_patterns) - API GW/서비스디스커버리/서킷브레이커
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례

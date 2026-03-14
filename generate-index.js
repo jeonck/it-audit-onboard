@@ -62,6 +62,7 @@ const SECTION_LABELS = {
     eda_deep_dive:          'EDA 심화',
     bounded_context_msa:    'Bounded Context 설계',
     ddd_core_concepts:      'DDD 핵심 개념',
+    msa_core_patterns:      'MSA 핵심 패턴',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };
