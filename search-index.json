@@ -4720,6 +4720,14 @@
     "preview": "- [자세히 보기](#ai_service_decomposition) - 비즈니스/모델/운영 기반 분해 전략"
   },
   {
+    "term": "AI 인프라 설계 이슈",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#ai_infrastructure_challenges) - GPU/토큰/버전/보안 고난도 이슈"
+  },
+  {
     "term": "AI 실습 자료",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -17646,6 +17654,638 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "6. 지속적 최적화: AAR 지표 기반 통신 오버헤드 모니터링과 개선"
+  },
+  {
+    "term": "AI 서비스 고난도 설계 이슈 (인프라 관점)",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "",
+    "preview": "AI 서비스를 설계할 때 인프라 엔지니어링 관점에서 가장 까다로운 점은 소프트웨어 로직뿐만 아니라 '모델의 물리적/경제적 제약 사항'이 아키텍처의 핵심 변수가 된…"
+  },
+  {
+    "term": "'모델의 물리적/경제적 제약 사항'",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "AI 서비스 고난도 설계 이슈 (인프라 관점)",
+    "preview": "AI 서비스를 설계할 때 인프라 엔지니어링 관점에서 가장 까다로운 점은 소프트웨어 로직뿐만 아니라 '모델의 물리적/경제적 제약 사항'이 아키텍처의 핵심 변수가 된…"
+  },
+  {
+    "term": "고난도 설계 이슈들을 계층별",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "AI 서비스 고난도 설계 이슈 (인프라 관점)",
+    "preview": "사용자께서 언급하신 이슈들에 더해, 실무에서 마주하게 되는 고난도 설계 이슈들을 계층별로 정리해 드립니다."
+  },
+  {
+    "term": "1. 인프라 및 리소스 제어 이슈",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "AI 서비스 고난도 설계 이슈 (인프라 관점)",
+    "preview": "전통적인 서버 환경보다 훨씬 높은 비용과 물리적 자원 제약을 관리해야 합니다."
+  },
+  {
+    "term": "GPU 콜드스타트 (Cold Start)",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": "> 서버리스 환경이나 오토스케일링 시, 수 GB 에 달하는 모델 가중치 (Weight)합니다."
+  },
+  {
+    "term": "수 GB 에 달하는 모델 가중치",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": "> 서버리스 환경이나 오토스케일링 시, 수 GB 에 달하는 모델 가중치 (Weight)합니다."
+  },
+  {
+    "term": "로딩 시간",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": "로딩 시간 수 초에서 수 분 소요"
+  },
+  {
+    "term": "SLA 위협",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": "SLA 위협 실시간 서비스 응답 보장 불가"
+  },
+  {
+    "term": "해결 전략",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": ""
+  },
+  {
+    "term": "모델 캐싱",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": "모델 캐싱 자주 사용하는 모델은 메모리 상시 유지"
+  },
+  {
+    "term": "웜 풀",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": "웜 풀 (Warm Pool) 미리 인스턴스를 데워둔 상태 유지"
+  },
+  {
+    "term": "LoRA 어댑터",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": "LoRA 어댑터 가벼운 어댑터만 교체하여 로딩 시간 단축"
+  },
+  {
+    "term": "VRAM 파편화 및 부족",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": "> 여러 모델을 하나의 GPU 에서 서빙할 때 비디오 메모리 점유율을 예측하기 어렵습니다."
+  },
+  {
+    "term": "비디오 메모리 점유율을 예측하기 어렵습니다",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": "> 여러 모델을 하나의 GPU 에서 서빙할 때 비디오 메모리 점유율을 예측하기 어렵습니다."
+  },
+  {
+    "term": "해결",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": "> Triton Inference Server와 같은 전용 서빙 엔진을 통한 메모리 관리 및 멀티 인스턴스 배치"
+  },
+  {
+    "term": "Triton Inference Server",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": "> Triton Inference Server와 같은 전용 서빙 엔진을 통한 메모리 관리 및 멀티 인스턴스 배치"
+  },
+  {
+    "term": "컴퓨팅 이질성",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": "> CPU 중심의 전처리 로직과 GPU 중심의 추론 로직이 섞여 있어, 쿠버네티스 노드 설계 시 Taints & Tolerations를 통한 정교한 배치가 필요합…"
+  },
+  {
+    "term": "CPU 중심의 전처리 로직",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": "> CPU 중심의 전처리 로직과 GPU 중심의 추론 로직이 섞여 있어, 쿠버네티스 노드 설계 시 Taints & Tolerations를 통한 정교한 배치가 필요합…"
+  },
+  {
+    "term": "GPU 중심의 추론 로직",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": "> CPU 중심의 전처리 로직과 GPU 중심의 추론 로직이 섞여 있어, 쿠버네티스 노드 설계 시 Taints & Tolerations를 통한 정교한 배치가 필요합…"
+  },
+  {
+    "term": "Taints & Tolerations",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": "> CPU 중심의 전처리 로직과 GPU 중심의 추론 로직이 섞여 있어, 쿠버네티스 노드 설계 시 Taints & Tolerations를 통한 정교한 배치가 필요합…"
+  },
+  {
+    "term": "CPU 노드",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": "CPU 노드 전처리, 파싱, 일반 API Taint: cpu-only"
+  },
+  {
+    "term": "GPU 노드",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "1. 인프라 및 리소스 제어 이슈",
+    "preview": "GPU 노드 LLM 추론, 임베딩 Taint: gpu-only, Toleration: gpu-workload"
+  },
+  {
+    "term": "2. 데이터 및 추론 전략 이슈",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "AI 서비스 고난도 설계 이슈 (인프라 관점)",
+    "preview": "비용과 품질의 균형을 맞추기 위한 지능적인 라우팅이 필요합니다."
+  },
+  {
+    "term": "지능적인 라우팅",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "2. 데이터 및 추론 전략 이슈",
+    "preview": "비용과 품질의 균형을 맞추기 위한 지능적인 라우팅이 필요합니다."
+  },
+  {
+    "term": "토큰 비용의 비대칭성",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "2. 데이터 및 추론 전략 이슈",
+    "preview": "> 입력 (Prompt)하는 경우가 많습니다."
+  },
+  {
+    "term": "요약된 컨텍스트 제공",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "2. 데이터 및 추론 전략 이슈",
+    "preview": "요약된 컨텍스트 제공 불필요한 입력 토큰 제거"
+  },
+  {
+    "term": "출력 길이 제한",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "2. 데이터 및 추론 전략 이슈",
+    "preview": "출력 길이 제한 max_tokens 설정으로 비용 통제"
+  },
+  {
+    "term": "시맨틱 캐싱",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "2. 데이터 및 추론 전략 이슈",
+    "preview": "시맨틱 캐싱 중복 호출 방지로 비용 절감"
+  },
+  {
+    "term": "배치 (Batch) vs 실시간 (Stream) 트레이드오프",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "2. 데이터 및 추론 전략 이슈",
+    "preview": ""
+  },
+  {
+    "term": "실시간",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "2. 데이터 및 추론 전략 이슈",
+    "preview": "실시간 (Streaming) UX 개선 (즉시 응답) 서버 부하 높음"
+  },
+  {
+    "term": "컨텍스트 윈도우 관리 (Context Hygiene)",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "2. 데이터 및 추론 전략 이슈",
+    "preview": "> 대화가 길어질수록 입력 토큰이 늘어나 비용이 기하급수적으로 증가하고 모델의 집중력이 흐려집니다."
+  },
+  {
+    "term": "입력 토큰이 늘어나 비용이 기하급수적으로 증가",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "2. 데이터 및 추론 전략 이슈",
+    "preview": "> 대화가 길어질수록 입력 토큰이 늘어나 비용이 기하급수적으로 증가하고 모델의 집중력이 흐려집니다."
+  },
+  {
+    "term": "슬라이딩 윈도우",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "2. 데이터 및 추론 전략 이슈",
+    "preview": "슬라이딩 윈도우 최근 N 개 메시지만 유지"
+  },
+  {
+    "term": "요약본 주입",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "2. 데이터 및 추론 전략 이슈",
+    "preview": "요약본 주입 벡터 DB 를 활용한 과거 대화 요약본 주입"
+  },
+  {
+    "term": "중요도 기반 필터링",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "2. 데이터 및 추론 전략 이슈",
+    "preview": "중요도 기반 필터링 핵심 메시지만 선별 유지"
+  },
+  {
+    "term": "3. 운영 및 버전 관리 이슈 (MLOps)",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "AI 서비스 고난도 설계 이슈 (인프라 관점)",
+    "preview": "소프트웨어 버전뿐만 아니라 모델과 데이터의 버전을 동시에 관리해야 합니다."
+  },
+  {
+    "term": "모델과 데이터의 버전을 동시에 관리",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "3. 운영 및 버전 관리 이슈 (MLOps)",
+    "preview": "소프트웨어 버전뿐만 아니라 모델과 데이터의 버전을 동시에 관리해야 합니다."
+  },
+  {
+    "term": "모델 버전과 하위 호환성 (Model Drift)",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "3. 운영 및 버전 관리 이슈 (MLOps)",
+    "preview": "> 모델 버전을 업데이트했을 때, 이전 프롬프트가 동일한 품질의 결과를 내지 못할 수 있습니다."
+  },
+  {
+    "term": "이전 프롬프트가 동일한 품질의 결과를 내지 못할 수 있습니다",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "3. 운영 및 버전 관리 이슈 (MLOps)",
+    "preview": "> 모델 버전을 업데이트했을 때, 이전 프롬프트가 동일한 품질의 결과를 내지 못할 수 있습니다."
+  },
+  {
+    "term": "A/B 테스트 환경 구축",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "3. 운영 및 버전 관리 이슈 (MLOps)",
+    "preview": "> A/B 테스트 환경 구축 및 모델 버전별 응답 품질을 비교하는 검증 루프 필수"
+  },
+  {
+    "term": "모델 버전별 응답 품질을 비교하는 검증 루프 필수",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "3. 운영 및 버전 관리 이슈 (MLOps)",
+    "preview": "> A/B 테스트 환경 구축 및 모델 버전별 응답 품질을 비교하는 검증 루프 필수"
+  },
+  {
+    "term": "프롬프트 드리프트",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "3. 운영 및 버전 관리 이슈 (MLOps)",
+    "preview": "> 모델 업데이트 후 지시사항을 해석하는 방식이 미세하게 달라져 시스템 프롬프트가 오작동하는 현상입니다."
+  },
+  {
+    "term": "지시사항을 해석하는 방식이 미세하게 달라져 시스템 프롬프트가 오작동",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "3. 운영 및 버전 관리 이슈 (MLOps)",
+    "preview": "> 모델 업데이트 후 지시사항을 해석하는 방식이 미세하게 달라져 시스템 프롬프트가 오작동하는 현상입니다."
+  },
+  {
+    "term": "관측 가능성 (Observability)",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "3. 운영 및 버전 관리 이슈 (MLOps)",
+    "preview": "> 단순 서버 에러 (5xx) 뿐만 아니라, 답변의 '정확도'와 '환각률'을 실시간으로 모니터링해야 합니다."
+  },
+  {
+    "term": "답변의 '정확도'와 '환각률'을 실시간으로 모니터링",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "3. 운영 및 버전 관리 이슈 (MLOps)",
+    "preview": "> 단순 서버 에러 (5xx) 뿐만 아니라, 답변의 '정확도'와 '환각률'을 실시간으로 모니터링해야 합니다."
+  },
+  {
+    "term": "서버 메트릭",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "3. 운영 및 버전 관리 이슈 (MLOps)",
+    "preview": "서버 메트릭 Prometheus, Grafana"
+  },
+  {
+    "term": "토큰 사용량",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "3. 운영 및 버전 관리 이슈 (MLOps)",
+    "preview": "토큰 사용량 AI Gateway 로그"
+  },
+  {
+    "term": "정확도/환각률",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "3. 운영 및 버전 관리 이슈 (MLOps)",
+    "preview": "정확도/환각률 LLM-as-a-Judge, 수동검증"
+  },
+  {
+    "term": "레이턴시",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "3. 운영 및 버전 관리 이슈 (MLOps)",
+    "preview": "레이턴시 분산 트레이싱 (Jaeger)"
+  },
+  {
+    "term": "4. 추가로 고려해야 할 핵심 설계 이슈 (The \"Plus\")",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "AI 서비스 고난도 설계 이슈 (인프라 관점)",
+    "preview": "20 년 경력의 인프라 전문가로서 특히 주목해야 할 지점들입니다."
+  },
+  {
+    "term": "비결정론적 특성 (Non-determinism)",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "4. 추가로 고려해야 할 핵심 설계 이슈 (The \"Plus\")",
+    "preview": "> 같은 입력에도 다른 출력이 나올 수 있어, 보안 감사 (Audit) 나 금융 시스템 적용 시 재현성 확보가 매우 어렵습니다."
+  },
+  {
+    "term": "같은 입력에도 다른 출력이 나올 수 있어",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "4. 추가로 고려해야 할 핵심 설계 이슈 (The \"Plus\")",
+    "preview": "> 같은 입력에도 다른 출력이 나올 수 있어, 보안 감사 (Audit) 나 금융 시스템 적용 시 재현성 확보가 매우 어렵습니다."
+  },
+  {
+    "term": "재현성 확보가 매우 어렵습니다",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "4. 추가로 고려해야 할 핵심 설계 이슈 (The \"Plus\")",
+    "preview": "> 같은 입력에도 다른 출력이 나올 수 있어, 보안 감사 (Audit) 나 금융 시스템 적용 시 재현성 확보가 매우 어렵습니다."
+  },
+  {
+    "term": "Temperature=0 설정",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "4. 추가로 고려해야 할 핵심 설계 이슈 (The \"Plus\")",
+    "preview": "> Temperature=0 설정 및 불변 감사 로그에 입력값과 모델 파라미터를 함께 기록"
+  },
+  {
+    "term": "불변 감사 로그에 입력값과 모델 파라미터를 함께 기록",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "4. 추가로 고려해야 할 핵심 설계 이슈 (The \"Plus\")",
+    "preview": "> Temperature=0 설정 및 불변 감사 로그에 입력값과 모델 파라미터를 함께 기록"
+  },
+  {
+    "term": "감사 로그 예시",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "",
+    "preview": "\"timestamp\": \"2025-01-15T10:30:00Z\","
+  },
+  {
+    "term": "개인정보 유출 (Data Leakage)",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "4. 추가로 고려해야 할 핵심 설계 이슈 (The \"Plus\")",
+    "preview": "> 사용자의 입력 데이터가 모델의 학습 데이터로 재사용되거나 타 사용자에게 노출될 위험이 있습니다."
+  },
+  {
+    "term": "모델의 학습 데이터로 재사용",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "4. 추가로 고려해야 할 핵심 설계 이슈 (The \"Plus\")",
+    "preview": "> 사용자의 입력 데이터가 모델의 학습 데이터로 재사용되거나 타 사용자에게 노출될 위험이 있습니다."
+  },
+  {
+    "term": "타 사용자에게 노출",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "4. 추가로 고려해야 할 핵심 설계 이슈 (The \"Plus\")",
+    "preview": "> 사용자의 입력 데이터가 모델의 학습 데이터로 재사용되거나 타 사용자에게 노출될 위험이 있습니다."
+  },
+  {
+    "term": "PII 마스킹",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "4. 추가로 고려해야 할 핵심 설계 이슈 (The \"Plus\")",
+    "preview": "PII 마스킹 입력 가드레일 단계에서 주민번호, 전화번호 등 제거"
+  },
+  {
+    "term": "Zero Data Retention",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "4. 추가로 고려해야 할 핵심 설계 이슈 (The \"Plus\")",
+    "preview": "Zero Data Retention 엔터프라이즈 전용 API 사용 (학습 데이터 저장 안함)"
+  },
+  {
+    "term": "프라이빗 디플로이",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "4. 추가로 고려해야 할 핵심 설계 이슈 (The \"Plus\")",
+    "preview": "프라이빗 디플로이 사내 전용 모델 배포 (외부 전송 없음)"
+  },
+  {
+    "term": "상태 관리 (State Management)",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "4. 추가로 고려해야 할 핵심 설계 이슈 (The \"Plus\")",
+    "preview": "> 무상태 (Stateless)을 유지하기 위해 Redis 등의 외부 메모리 시스템과의 정교한 동기화가 필요합니다."
+  },
+  {
+    "term": "무상태",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "4. 추가로 고려해야 할 핵심 설계 이슈 (The \"Plus\")",
+    "preview": "> 무상태 (Stateless)을 유지하기 위해 Redis 등의 외부 메모리 시스템과의 정교한 동기화가 필요합니다."
+  },
+  {
+    "term": "Redis 등의 외부 메모리 시스템과의 정교한 동기화",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "4. 추가로 고려해야 할 핵심 설계 이슈 (The \"Plus\")",
+    "preview": "> 무상태 (Stateless)을 유지하기 위해 Redis 등의 외부 메모리 시스템과의 정교한 동기화가 필요합니다."
+  },
+  {
+    "term": "💡 엔지니어링 제언: PDCA 기반의 대응",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "감사 로그 예시",
+    "preview": "이러한 이슈들은 한 번에 해결되지 않으며, PDCA (Plan-Do-Check-Act)를 통한 지속적인 튜닝이 답입니다."
+  },
+  {
+    "term": "PDCA",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "💡 엔지니어링 제언: PDCA 기반의 대응",
+    "preview": "이러한 이슈들은 한 번에 해결되지 않으며, PDCA (Plan-Do-Check-Act)를 통한 지속적인 튜닝이 답입니다."
+  },
+  {
+    "term": "Plan",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "💡 엔지니어링 제언: PDCA 기반의 대응",
+    "preview": "Plan 비용과 레이턴시의 임계치 (SLA) 설정 SLA 문서, 모니터링 계획"
+  },
+  {
+    "term": "Check",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "💡 엔지니어링 제언: PDCA 기반의 대응",
+    "preview": "Check AAR (After Action Report)을 통해 실제 토큰 소모량과 콜드스타트 발생 빈도 분석 AAR 리포트"
+  },
+  {
+    "term": "AAR",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "💡 엔지니어링 제언: PDCA 기반의 대응",
+    "preview": "Check AAR (After Action Report)을 통해 실제 토큰 소모량과 콜드스타트 발생 빈도 분석 AAR 리포트"
+  },
+  {
+    "term": "Act",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "💡 엔지니어링 제언: PDCA 기반의 대응",
+    "preview": "Act 데이터가 쌓이면 시맨틱 캐싱 임계치 조정 또는 고비용 모델을 하위 모델 (SLM) 로 교체 개선 조치"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "heading",
+    "context": "감사 로그 예시",
+    "preview": "정보시스템 감리 관점에서 AI 서비스 인프라 검토 시 고려사항:"
+  },
+  {
+    "term": "리소스 관리",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 리소스 관리: GPU 콜드스타트, VRAM 파편화 대응 메커니즘 적절성"
+  },
+  {
+    "term": "비용 통제",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 비용 통제: 토큰 비용 비대칭성 완화 전략 (캐싱, 배치라우팅)"
+  },
+  {
+    "term": "버전 관리",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 버전 관리: 모델/프롬프트 드리프트 모니터링과 A/B 테스트 운영"
+  },
+  {
+    "term": "재현성 확보",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 재현성 확보: 비결정론적 특성 보완 (Temperature=0, 감사로그)"
+  },
+  {
+    "term": "데이터 보안",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 데이터 보안: PII 마스킹, Zero Data Retention 정책 준수"
+  },
+  {
+    "term": "상태 일관성",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 상태 일관성: 무상태 LLM 과 상태저장소 (Redis) 동기화 무결성"
+  },
+  {
+    "term": "지속적 개선",
+    "section": "ai_infrastructure_challenges",
+    "label": "AI 인프라 설계 이슈",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "7. 지속적 개선: PDCA 사이클 기반 AAR 운영과 최적화 조치"
   },
   {
     "term": "uv: 초고속 Python 패키지 매니저",

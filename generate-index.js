@@ -64,6 +64,7 @@ const SECTION_LABELS = {
     ddd_core_concepts:      'DDD 핵심 개념',
     msa_core_patterns:      'MSA 핵심 패턴',
     ai_service_decomposition: 'AI 서비스 MSA 분해',
+    ai_infrastructure_challenges: 'AI 인프라 설계 이슈',
     python_uv:              'Python uv 패키지매니저',
     faq:                    'FAQ',
     faq2:                   'FAQ',

@@ -107,6 +107,9 @@
 ### AI 서비스 MSA 분해
 - [자세히 보기](#ai_service_decomposition) - 비즈니스/모델/운영 기반 분해 전략
 
+### AI 인프라 설계 이슈
+- [자세히 보기](#ai_infrastructure_challenges) - GPU/토큰/버전/보안 고난도 이슈
+
 ## AI 실습 자료
 
 ### AI 소프트웨어 아키텍처 실습
