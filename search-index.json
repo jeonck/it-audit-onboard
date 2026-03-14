@@ -4632,6 +4632,14 @@
     "preview": "- [자세히 보기](#coderabbit_guide) - AI 주도 개발 PR 리뷰, CodeRabbit 워크플로우"
   },
   {
+    "term": "AI 네이티브 아키텍처",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#ai_native_architecture) - AI-Native/Agentic 아키텍처 5 계층"
+  },
+  {
     "term": "AI 기술 및 하드웨어",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -9182,6 +9190,182 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "6. 생산성 측정: CodeRabbit 도입 전후 리뷰 시간, merge 속도, 버그 발생률 비교"
+  },
+  {
+    "term": "AI 네이티브 아키텍처 (AI-Native / Agentic Architecture)",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "heading",
+    "context": "",
+    "preview": "AI 네이티브 아키텍처 (AI-Native / Agentic Architecture) 의 전체 구성도를 2026 년 3 월 기준 실무에서 가장 많이 참조되는 패턴…"
+  },
+  {
+    "term": "으로 삼고 있으며,",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "keyword",
+    "context": "AI 네이티브 아키텍처 (AI-Native / Agentic Architecture)",
+    "preview": "현재 대부분의 기업·프로젝트는 단일 LLM 중심이 아니라 Compound / Agentic 시스템을 표준으로 삼고 있으며, UI → Orchestration → …"
+  },
+  {
+    "term": "2026 년 표준 AI-Native / Agentic 아키텍처 개요 (5 대 계층 중심)",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "heading",
+    "context": "AI 네이티브 아키텍처 (AI-Native / Agentic Architecture)",
+    "preview": ""
+  },
+  {
+    "term": "전체 흐름도 텍스트 버전 (상→하 방향, 가장 흔한 패턴)",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "heading",
+    "context": "AI 네이티브 아키텍처 (AI-Native / Agentic Architecture)",
+    "preview": "↓ (질문 / Goal 입력)"
+  },
+  {
+    "term": "2026 년 실무 변형 패턴 요약",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "heading",
+    "context": "AI 네이티브 아키텍처 (AI-Native / Agentic Architecture)",
+    "preview": "Experience → Intelligence/Orchestration → Knowledge/Data → Infra"
+  },
+  {
+    "term": "5 계층 기본형",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "heading",
+    "context": "2026 년 실무 변형 패턴 요약",
+    "preview": "Experience → Intelligence/Orchestration → Knowledge/Data → Infra"
+  },
+  {
+    "term": "7~8 계층 확장형",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "heading",
+    "context": "2026 년 실무 변형 패턴 요약",
+    "preview": "Infrastructure → Runtime → Orchestration → Tools/Enrichment → Applications → Observability…"
+  },
+  {
+    "term": "AIMultiple, Aakash Gupta 등",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "keyword",
+    "context": "2026 년 실무 변형 패턴 요약",
+    "preview": "- AIMultiple, Aakash Gupta 등"
+  },
+  {
+    "term": "3 계층 간소형",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "heading",
+    "context": "2026 년 실무 변형 패턴 요약",
+    "preview": "Core Intelligence → Action/Execution → Governance/Human Oversight"
+  },
+  {
+    "term": "Unanimous Tech 등 신뢰성 중심",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "keyword",
+    "context": "2026 년 실무 변형 패턴 요약",
+    "preview": "- Unanimous Tech 등 신뢰성 중심"
+  },
+  {
+    "term": "가장 핫한 조합 (실제 배포 비중 높음)",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "heading",
+    "context": "2026 년 실무 변형 패턴 요약",
+    "preview": "LangGraph (Orchestration) + Pinecone/Qdrant (Data) + Claude/GPT (Core) + MCP/dynamic tools…"
+  },
+  {
+    "term": "요약",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "heading",
+    "context": "AI 네이티브 아키텍처 (AI-Native / Agentic Architecture)",
+    "preview": "> 이 구성은 단순 챗봇 → 진짜 일하는 Agentic 시스템으로 가는 길의 표준 청사진입니다."
+  },
+  {
+    "term": "단순 챗봇 → 진짜 일하는 Agentic 시스템",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "keyword",
+    "context": "요약",
+    "preview": "> 이 구성은 단순 챗봇 → 진짜 일하는 Agentic 시스템으로 가는 길의 표준 청사진입니다."
+  },
+  {
+    "term": "표준 청사진",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "keyword",
+    "context": "요약",
+    "preview": "> 이 구성은 단순 챗봇 → 진짜 일하는 Agentic 시스템으로 가는 길의 표준 청사진입니다."
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "heading",
+    "context": "AI 네이티브 아키텍처 (AI-Native / Agentic Architecture)",
+    "preview": "정보시스템 감리 관점에서 AI 네이티브 아키텍처 도입 시 고려사항:"
+  },
+  {
+    "term": "계층별 책임 분리",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 계층별 책임 분리: 각 계층의 역할과 책임이 명확히 분리되었는지 검증"
+  },
+  {
+    "term": "Orchestration 복잡도 관리",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. Orchestration 복잡도 관리: multi-agent 조정, workflow chaining 의 추적성과 디버깅 용이성 확인"
+  },
+  {
+    "term": "AI Core 모델 중립성",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. AI Core 모델 중립성: 특정 벤더 종속 (Lock-in) 위험과 multi-model routing 적절성 평가"
+  },
+  {
+    "term": "Tools & Data 보안",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. Tools & Data 보안: 외부 API 연동, RAG 파이프라인의 접근제어와 데이터 무결성 검증"
+  },
+  {
+    "term": "Infrastructure 확장성",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. Infrastructure 확장성: GPU/TPU 클러스터 스케일링, 비용 통제 (FinOps) 메커니즘 확인"
+  },
+  {
+    "term": "Observability",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. Observability: 전 계층에 걸친 로그·메트릭·추적 (Distributed Tracing) 수집 체계 검증"
+  },
+  {
+    "term": "Human-in-the-loop",
+    "section": "ai_native_architecture",
+    "label": "AI 네이티브 아키텍처",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "7. Human-in-the-loop: 중요 의사결정 시 인간 개입 포인트와 승인 프로세스 명확성 확인"
   },
   {
     "term": "자주 묻는 질문 (FAQ)",

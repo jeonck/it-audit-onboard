@@ -44,6 +44,7 @@ const SECTION_LABELS = {
     mcp_context:            'MCP 컨텍스트 최적화',
     react_pattern:          'ReAct 패턴',
     coderabbit_guide:       'CodeRabbit 활용 가이드',
+    ai_native_architecture: 'AI 네이티브 아키텍처',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };

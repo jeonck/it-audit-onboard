@@ -88,6 +88,9 @@
 ### CodeRabbit 활용 가이드
 - [자세히 보기](#coderabbit_guide) - AI 주도 개발 PR 리뷰, CodeRabbit 워크플로우
 
+### AI 네이티브 아키텍처
+- [자세히 보기](#ai_native_architecture) - AI-Native/Agentic 아키텍처 5 계층
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례
