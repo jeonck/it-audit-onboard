@@ -68,6 +68,7 @@ const SECTION_LABELS = {
     vllm_serving:           'vLLM 모델서빙',
     mcp_vs_rest:            'MCP vs REST API',
     mcp_fundamentals:       'MCP 기초',
+    rest_vs_mcp_flexibility: 'REST vs MCP 유연성',
     python_uv:              'Python uv 패키지매니저',
     faq:                    'FAQ',
     faq2:                   'FAQ',

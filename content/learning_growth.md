@@ -119,6 +119,9 @@
 ### MCP 기초
 - [자세히 보기](#mcp_fundamentals) - Model Context Protocol 핵심 개념
 
+### REST vs MCP 유연성
+- [자세히 보기](#rest_vs_mcp_flexibility) - 결정론적 vs 비결정론적 접근
+
 ## AI 실습 자료
 
 ### AI 소프트웨어 아키텍처 실습

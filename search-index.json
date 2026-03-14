@@ -4752,6 +4752,14 @@
     "preview": "- [자세히 보기](#mcp_fundamentals) - Model Context Protocol 핵심 개념"
   },
   {
+    "term": "REST vs MCP 유연성",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#rest_vs_mcp_flexibility) - 결정론적 vs 비결정론적 접근"
+  },
+  {
     "term": "AI 실습 자료",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -20134,6 +20142,494 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "> GitHub: [https://github.com/modelcontextprotocol](https://github.com/modelcontextprotoco…"
+  },
+  {
+    "term": "REST API vs MCP Tool Calling: 유연성의 차이",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "",
+    "preview": "기존 REST API 방식이 \"결정론적 하드코딩\"이라면, MCP 기반의 툴 호출은 \"비결정론적 자율 판단\"에 기반합니다."
+  },
+  {
+    "term": "\"결정론적 하드코딩\"",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "REST API vs MCP Tool Calling: 유연성의 차이",
+    "preview": "기존 REST API 방식이 \"결정론적 하드코딩\"이라면, MCP 기반의 툴 호출은 \"비결정론적 자율 판단\"에 기반합니다."
+  },
+  {
+    "term": "\"비결정론적 자율 판단\"",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "REST API vs MCP Tool Calling: 유연성의 차이",
+    "preview": "기존 REST API 방식이 \"결정론적 하드코딩\"이라면, MCP 기반의 툴 호출은 \"비결정론적 자율 판단\"에 기반합니다."
+  },
+  {
+    "term": "'인프라 보안 장애 대응'",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "REST API vs MCP Tool Calling: 유연성의 차이",
+    "preview": "이 차이가 가져오는 강력함을 '인프라 보안 장애 대응' 시나리오를 예시로 들어 설명해 드리겠습니다."
+  },
+  {
+    "term": "1. 기존 REST API 방식: \"고정된 시나리오\"",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "REST API vs MCP Tool Calling: 유연성의 차이",
+    "preview": "개발자가 발생 가능한 모든 상황을 예측하고 if-else 또는 switch-case 로 로직을 짜야 합니다."
+  },
+  {
+    "term": "if-else 또는 switch-case 로 로직을 짜야 합니다",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "1. 기존 REST API 방식: \"고정된 시나리오\"",
+    "preview": "개발자가 발생 가능한 모든 상황을 예측하고 if-else 또는 switch-case 로 로직을 짜야 합니다."
+  },
+  {
+    "term": "상황: 서버 CPU 부하 급증 발생",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "1. 기존 REST API 방식: \"고정된 시나리오\"",
+    "preview": "def handle_cpu_spike():"
+  },
+  {
+    "term": "기존 REST API 방식 - 하드코딩된 로직",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "",
+    "preview": "def handle_cpu_spike():"
+  },
+  {
+    "term": "1. GET /metrics 호출하여 임계치 확인",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "",
+    "preview": "metrics = requests.get(\"http://server/metrics\")"
+  },
+  {
+    "term": "2. CPU > 90% 이면 POST /restart-service 호출",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "",
+    "preview": "if cpu_usage > 90:"
+  },
+  {
+    "term": "한계",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "1. 기존 REST API 방식: \"고정된 시나리오\"",
+    "preview": "> 만약 부하의 원인이 '서비스 장애'가 아니라 '디도스 (DDoS) 공격'이거나 'DB 락' 때문이라면, 미리 짜놓은 '재시작' 로직은 오히려 상황을 악화시킬 …"
+  },
+  {
+    "term": "'서비스 장애'",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "1. 기존 REST API 방식: \"고정된 시나리오\"",
+    "preview": "> 만약 부하의 원인이 '서비스 장애'가 아니라 '디도스 (DDoS) 공격'이거나 'DB 락' 때문이라면, 미리 짜놓은 '재시작' 로직은 오히려 상황을 악화시킬 …"
+  },
+  {
+    "term": "'디도스 (DDoS) 공격'",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "1. 기존 REST API 방식: \"고정된 시나리오\"",
+    "preview": "> 만약 부하의 원인이 '서비스 장애'가 아니라 '디도스 (DDoS) 공격'이거나 'DB 락' 때문이라면, 미리 짜놓은 '재시작' 로직은 오히려 상황을 악화시킬 …"
+  },
+  {
+    "term": "'DB 락'",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "1. 기존 REST API 방식: \"고정된 시나리오\"",
+    "preview": "> 만약 부하의 원인이 '서비스 장애'가 아니라 '디도스 (DDoS) 공격'이거나 'DB 락' 때문이라면, 미리 짜놓은 '재시작' 로직은 오히려 상황을 악화시킬 …"
+  },
+  {
+    "term": "오히려 상황을 악화",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "1. 기존 REST API 방식: \"고정된 시나리오\"",
+    "preview": "> 만약 부하의 원인이 '서비스 장애'가 아니라 '디도스 (DDoS) 공격'이거나 'DB 락' 때문이라면, 미리 짜놓은 '재시작' 로직은 오히려 상황을 악화시킬 …"
+  },
+  {
+    "term": "예외 상황에 대한 유연성이 제로에 가깝습니다",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "1. 기존 REST API 방식: \"고정된 시나리오\"",
+    "preview": "즉, 예외 상황에 대한 유연성이 제로에 가깝습니다."
+  },
+  {
+    "term": "2. MCP 툴 호출 방식: \"맥락 기반의 도구 선택\"",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "2. CPU > 90% 이면 POST /restart-service 호출",
+    "preview": "MCP 는 LLM 에게 여러 가지 '도구 (Tools)를 던져주고, 현재 상황 (Context)에 가장 적합한 도구를 LLM 이 스스로 판단하여 조합하게 합니다."
+  },
+  {
+    "term": "'도구",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "2. MCP 툴 호출 방식: \"맥락 기반의 도구 선택\"",
+    "preview": "MCP 는 LLM 에게 여러 가지 '도구 (Tools)를 던져주고, 현재 상황 (Context)에 가장 적합한 도구를 LLM 이 스스로 판단하여 조합하게 합니다."
+  },
+  {
+    "term": "현재 상황",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "2. MCP 툴 호출 방식: \"맥락 기반의 도구 선택\"",
+    "preview": "MCP 는 LLM 에게 여러 가지 '도구 (Tools)를 던져주고, 현재 상황 (Context)에 가장 적합한 도구를 LLM 이 스스로 판단하여 조합하게 합니다."
+  },
+  {
+    "term": "LLM 이 스스로 판단하여 조합",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "2. MCP 툴 호출 방식: \"맥락 기반의 도구 선택\"",
+    "preview": "MCP 는 LLM 에게 여러 가지 '도구 (Tools)를 던져주고, 현재 상황 (Context)에 가장 적합한 도구를 LLM 이 스스로 판단하여 조합하게 합니다."
+  },
+  {
+    "term": "상황: 동일한 서버 CPU 부하 급증 발생",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "2. MCP 툴 호출 방식: \"맥락 기반의 도구 선택\"",
+    "preview": "┌─────────────────────────────────────────────────────────┐"
+  },
+  {
+    "term": "LLM 의 사고 과정 (MCP 환경)",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "2. MCP 툴 호출 방식: \"맥락 기반의 도구 선택\"",
+    "preview": "┌─────────────────────────────────────────────────────────┐"
+  },
+  {
+    "term": "MCP Tool Call 흐름",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "2. MCP 툴 호출 방식: \"맥락 기반의 도구 선택\"",
+    "preview": "// 1. 프로세스 목록 확인"
+  },
+  {
+    "term": "강력함의 핵심",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "2. MCP 툴 호출 방식: \"맥락 기반의 도구 선택\"",
+    "preview": "> 개발자가 \"IP 공격이면 A 를 하고, 설정 오류면 B 를 하라\"고 일일이 코딩하지 않았음에도, LLM 이 MCP 서버가 제공하는 Resources(로그)를 …"
+  },
+  {
+    "term": "\"IP 공격이면 A 를 하고, 설정 오류면 B 를 하라\"",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "2. MCP 툴 호출 방식: \"맥락 기반의 도구 선택\"",
+    "preview": "> 개발자가 \"IP 공격이면 A 를 하고, 설정 오류면 B 를 하라\"고 일일이 코딩하지 않았음에도, LLM 이 MCP 서버가 제공하는 Resources(로그)를 …"
+  },
+  {
+    "term": "MCP 서버가 제공하는 Resources",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "2. MCP 툴 호출 방식: \"맥락 기반의 도구 선택\"",
+    "preview": "> 개발자가 \"IP 공격이면 A 를 하고, 설정 오류면 B 를 하라\"고 일일이 코딩하지 않았음에도, LLM 이 MCP 서버가 제공하는 Resources(로그)를 …"
+  },
+  {
+    "term": "최적의 솔루션을 실시간으로 구성",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "2. MCP 툴 호출 방식: \"맥락 기반의 도구 선택\"",
+    "preview": "> 개발자가 \"IP 공격이면 A 를 하고, 설정 오류면 B 를 하라\"고 일일이 코딩하지 않았음에도, LLM 이 MCP 서버가 제공하는 Resources(로그)를 …"
+  },
+  {
+    "term": "3. MCP 의 유연성이 주는 3 가지 혁신",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "2. CPU > 90% 이면 POST /restart-service 호출",
+    "preview": ""
+  },
+  {
+    "term": "① 도구의 추상화 (N:M 해결)",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "3. MCP 의 유연성이 주는 3 가지 혁신",
+    "preview": "> MCP 환경에서는 자연어 한마디면 LLM 이 등록된 MCP 서버들 사이에서 필요한 툴을 알아서 골라 호출합니다."
+  },
+  {
+    "term": "기존 REST",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "3. MCP 의 유연성이 주는 3 가지 혁신",
+    "preview": "기존 REST Slack 에 알림 → Slack API 공부<br>Jira 티켓 → Jira API 공부<br>각각 별도 코딩 필요"
+  },
+  {
+    "term": "MCP",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "3. MCP 의 유연성이 주는 3 가지 혁신",
+    "preview": "MCP \"Slack 에 현재 상황 보고하고<br>Jira 티켓 생성해줘\""
+  },
+  {
+    "term": "자연어 한마디",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "3. MCP 의 유연성이 주는 3 가지 혁신",
+    "preview": "> MCP 환경에서는 자연어 한마디면 LLM 이 등록된 MCP 서버들 사이에서 필요한 툴을 알아서 골라 호출합니다."
+  },
+  {
+    "term": "② 다단계 추론 (Multi-step Reasoning)",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "3. MCP 의 유연성이 주는 3 가지 혁신",
+    "preview": "> 이는 엔지니어님께서 운영하시는 MiroFish/BettaFish 같은 에이전트가 \"생각하며 일하는\" 구조를 가능케 하는 핵심 엔진입니다."
+  },
+  {
+    "term": "REST API",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "3. MCP 의 유연성이 주는 3 가지 혁신",
+    "preview": "REST API 한 번의 호출로 끝나는 경우 많음"
+  },
+  {
+    "term": "호출 → 결과 확인 → 다음 도구 판단",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "3. MCP 의 유연성이 주는 3 가지 혁신",
+    "preview": "MCP 호출 → 결과 확인 → 다음 도구 판단 루프"
+  },
+  {
+    "term": "MiroFish/BettaFish 같은 에이전트",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "3. MCP 의 유연성이 주는 3 가지 혁신",
+    "preview": "> 이는 엔지니어님께서 운영하시는 MiroFish/BettaFish 같은 에이전트가 \"생각하며 일하는\" 구조를 가능케 하는 핵심 엔진입니다."
+  },
+  {
+    "term": "\"생각하며 일하는\"",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "3. MCP 의 유연성이 주는 3 가지 혁신",
+    "preview": "> 이는 엔지니어님께서 운영하시는 MiroFish/BettaFish 같은 에이전트가 \"생각하며 일하는\" 구조를 가능케 하는 핵심 엔진입니다."
+  },
+  {
+    "term": "③ 컨텍스트 주입의 용이성",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "3. MCP 의 유연성이 주는 3 가지 혁신",
+    "preview": "MCP 는 단순 툴 호출뿐만 아니라 Resources를 통해 모델이 \"공부할 자료\"를 실시간으로 넘겨줍니다."
+  },
+  {
+    "term": "Resources",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "3. MCP 의 유연성이 주는 3 가지 혁신",
+    "preview": "MCP 는 단순 툴 호출뿐만 아니라 Resources를 통해 모델이 \"공부할 자료\"를 실시간으로 넘겨줍니다."
+  },
+  {
+    "term": "\"공부할 자료\"",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "3. MCP 의 유연성이 주는 3 가지 혁신",
+    "preview": "MCP 는 단순 툴 호출뿐만 아니라 Resources를 통해 모델이 \"공부할 자료\"를 실시간으로 넘겨줍니다."
+  },
+  {
+    "term": "REST",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "3. MCP 의 유연성이 주는 3 가지 혁신",
+    "preview": "REST \"이 에러 메시지 해석해줘.\"<br>→ 지식 부족으로 환각 발생 가능"
+  },
+  {
+    "term": "📊 REST API vs MCP Tool Calling 비교",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "2. CPU > 90% 이면 POST /restart-service 호출",
+    "preview": ""
+  },
+  {
+    "term": "접근 방식",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "📊 REST API vs MCP Tool Calling 비교",
+    "preview": "접근 방식 결정론적 (하드코딩) 비결정론적 (자율판단)"
+  },
+  {
+    "term": "상황 대응",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "📊 REST API vs MCP Tool Calling 비교",
+    "preview": "상황 대응 미리 정의된 시나리오만 실시간 맥락 기반 최적화"
+  },
+  {
+    "term": "도구 통합",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "📊 REST API vs MCP Tool Calling 비교",
+    "preview": "도구 통합 별도 코딩 필요 자연어로 자동 조합"
+  },
+  {
+    "term": "다단계 처리",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "📊 REST API vs MCP Tool Calling 비교",
+    "preview": "다단계 처리 제한적 (체인 필요) 네이티브 루프 지원"
+  },
+  {
+    "term": "컨텍스트",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "📊 REST API vs MCP Tool Calling 비교",
+    "preview": "컨텍스트 수동 주입 Resources 자동 연동"
+  },
+  {
+    "term": "유지보수",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "📊 REST API vs MCP Tool Calling 비교",
+    "preview": "유지보수 시나리오 추가마다 코드 수정 Tool 추가만"
+  },
+  {
+    "term": "확장성",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "📊 REST API vs MCP Tool Calling 비교",
+    "preview": "확장성 복잡도 기하급수적 복잡도 선형적"
+  },
+  {
+    "term": "💡 인프라 전문가를 위한 한 줄 요약",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "2. CPU > 90% 이면 POST /restart-service 호출",
+    "preview": "> \"REST API 가 미리 정해진 길로만 가는 기차라면, MCP 는 지도와 도구 상자를 들고 상황에 맞춰 길을 개척하는 숙련된 엔지니어와 같습니다.\""
+  },
+  {
+    "term": "Vibe Coding",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "💡 인프라 전문가를 위한 한 줄 요약",
+    "preview": "이러한 유연성 덕분에 Vibe Coding이 가능해지는 것이죠."
+  },
+  {
+    "term": "🎯 실무 적용 가이드",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "2. CPU > 90% 이면 POST /restart-service 호출",
+    "preview": "현재 설계 중인 시스템에서 \"특정 상황 발생 시 LLM 이 스스로 판단해야 하는 가장 복잡한 시나리오\"는 무엇인가요?"
+  },
+  {
+    "term": "MCP 툴셋으로 정의",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "🎯 실무 적용 가이드",
+    "preview": "그 시나리오를 MCP 툴셋으로 정의하는 순간, 시스템의 지능이 한 단계 격상될 것입니다."
+  },
+  {
+    "term": "MCP 툴셋 정의 예시 (인프라 장애 대응)",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "🎯 실무 적용 가이드",
+    "preview": "\"name\": \"list_processes\","
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "heading",
+    "context": "2. CPU > 90% 이면 POST /restart-service 호출",
+    "preview": "정보시스템 감리 관점에서 REST API vs MCP Tool Calling 검토 시 고려사항:"
+  },
+  {
+    "term": "예측 가능성",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 예측 가능성: REST 는 결정론적 (감사 용이), MCP 는 비결정론적 (로그 필수)"
+  },
+  {
+    "term": "책임 소재",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 책임 소재: REST 는 개발자 책임 명확, MCP 는 LLM 판단 과정 기록 필요"
+  },
+  {
+    "term": "감사 추적성",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 감사 추적성: MCP Tool Call 의 다단계 루프 전체 로그 보존 필수"
+  },
+  {
+    "term": "보안 통제",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 보안 통제: MCP 자율 도구 호출의 권한 관리와 승인 프로세스"
+  },
+  {
+    "term": "테스트 전략",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 테스트 전략: REST 는 단위테스트, MCP 는 시나리오 기반 통합테스트"
+  },
+  {
+    "term": "장애 대응",
+    "section": "rest_vs_mcp_flexibility",
+    "label": "REST vs MCP 유연성",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 장애 대응: MCP 의 자율 판단이 오판할 경우의 수동 개입 (Human-in-the-loop) 메커니즘"
   },
   {
     "term": "uv: 초고속 Python 패키지 매니저",
