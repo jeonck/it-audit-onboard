@@ -4680,6 +4680,14 @@
     "preview": "- [자세히 보기](#sync_vs_async_communication) - REST 와 이벤트 기반 통신 비교"
   },
   {
+    "term": "EDA 심화",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#eda_deep_dive) - 이벤트 드리븐 아키텍처 심화 가이드"
+  },
+  {
     "term": "AI 기술 및 하드웨어",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -15014,6 +15022,614 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "6. 모니터링: 동기/비동기 구간 종단 간 추적성과 성능 모니터링"
+  },
+  {
+    "term": "이벤트 드리븐 아키텍처 (EDA) 심화",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "",
+    "preview": "이벤트 드리븐 아키텍처 (Event-Driven Architecture, EDA)는 시스템 내에서 발생하는 상태의 변화, 즉 '이벤트 (Event)를 중심으로 서…"
+  },
+  {
+    "term": "이벤트 드리븐 아키텍처",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "이벤트 드리븐 아키텍처 (EDA) 심화",
+    "preview": "이벤트 드리븐 아키텍처 (Event-Driven Architecture, EDA)는 시스템 내에서 발생하는 상태의 변화, 즉 '이벤트 (Event)를 중심으로 서…"
+  },
+  {
+    "term": "'이벤트",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "이벤트 드리븐 아키텍처 (EDA) 심화",
+    "preview": "이벤트 드리븐 아키텍처 (Event-Driven Architecture, EDA)는 시스템 내에서 발생하는 상태의 변화, 즉 '이벤트 (Event)를 중심으로 서…"
+  },
+  {
+    "term": "유연성과 확장성",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "이벤트 드리븐 아키텍처 (EDA) 심화",
+    "preview": "IT 인프라 보안 및 인프라 엔지니어링 관점에서 볼 때, EDA 는 시스템의 유연성과 확장성, 그리고 특히 비가역적인 감사 로그 (Audit Log)에 탁월한 선…"
+  },
+  {
+    "term": "비가역적인 감사 로그",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "이벤트 드리븐 아키텍처 (EDA) 심화",
+    "preview": "IT 인프라 보안 및 인프라 엔지니어링 관점에서 볼 때, EDA 는 시스템의 유연성과 확장성, 그리고 특히 비가역적인 감사 로그 (Audit Log)에 탁월한 선…"
+  },
+  {
+    "term": "1. EDA 의 핵심 구성 요소",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "이벤트 드리븐 아키텍처 (EDA) 심화",
+    "preview": "EDA 는 크게 세 가지 주체로 나뉩니다."
+  },
+  {
+    "term": "이벤트 생성자 (Event Producer)",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "1. EDA 의 핵심 구성 요소",
+    "preview": "> 상태 변화를 감지하고 이벤트를 발행합니다."
+  },
+  {
+    "term": "상태 변화를 감지하고 이벤트를 발행",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "1. EDA 의 핵심 구성 요소",
+    "preview": "> 상태 변화를 감지하고 이벤트를 발행합니다."
+  },
+  {
+    "term": "이벤트 브로커 (Event Broker)",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "1. EDA 의 핵심 구성 요소",
+    "preview": "> 생성된 이벤트를 수신하여 필요한 소비자들에게 전달하는 중간 관리자입니다."
+  },
+  {
+    "term": "생성된 이벤트를 수신하여 필요한 소비자들에게 전달",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "1. EDA 의 핵심 구성 요소",
+    "preview": "> 생성된 이벤트를 수신하여 필요한 소비자들에게 전달하는 중간 관리자입니다."
+  },
+  {
+    "term": "Kafka",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "1. EDA 의 핵심 구성 요소",
+    "preview": "Kafka 높은 처리량, 영구 저장"
+  },
+  {
+    "term": "RabbitMQ",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "1. EDA 의 핵심 구성 요소",
+    "preview": "RabbitMQ 복잡한 라우팅, 낮은 지연시간"
+  },
+  {
+    "term": "AWS EventBridge",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "1. EDA 의 핵심 구성 요소",
+    "preview": "AWS EventBridge 서버리스, AWS 네이티브"
+  },
+  {
+    "term": "이벤트 소비자 (Event Consumer)",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "1. EDA 의 핵심 구성 요소",
+    "preview": "> 브로커로부터 이벤트를 전달받아 실제 비즈니스 로직을 수행합니다."
+  },
+  {
+    "term": "브로커로부터 이벤트를 전달받아 실제 비즈니스 로직",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "1. EDA 의 핵심 구성 요소",
+    "preview": "> 브로커로부터 이벤트를 전달받아 실제 비즈니스 로직을 수행합니다."
+  },
+  {
+    "term": "로그 저장 서비스",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "1. EDA 의 핵심 구성 요소",
+    "preview": "로그 저장 서비스 감사 로그 기록"
+  },
+  {
+    "term": "RAG 인덱싱 서비스",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "1. EDA 의 핵심 구성 요소",
+    "preview": "RAG 인덱싱 서비스 벡터 DB 업데이트"
+  },
+  {
+    "term": "2. 주요 패턴 및 기술적 특징",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "이벤트 드리븐 아키텍처 (EDA) 심화",
+    "preview": "> 생성자는 이벤트를 브로커에 던지기만 할 뿐, 소비자가 이를 언제 처리하는지 기다리지 않습니다."
+  },
+  {
+    "term": "① 비동기 메시징 (Asynchronous Messaging)",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "2. 주요 패턴 및 기술적 특징",
+    "preview": "> 생성자는 이벤트를 브로커에 던지기만 할 뿐, 소비자가 이를 언제 처리하는지 기다리지 않습니다."
+  },
+  {
+    "term": "던지기만 할 뿐",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "2. 주요 패턴 및 기술적 특징",
+    "preview": "> 생성자는 이벤트를 브로커에 던지기만 할 뿐, 소비자가 이를 언제 처리하는지 기다리지 않습니다."
+  },
+  {
+    "term": "기다리지 않습니다",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "2. 주요 패턴 및 기술적 특징",
+    "preview": "> 생성자는 이벤트를 브로커에 던지기만 할 뿐, 소비자가 이를 언제 처리하는지 기다리지 않습니다."
+  },
+  {
+    "term": "느슨한 결합",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "2. 주요 패턴 및 기술적 특징",
+    "preview": "이는 시스템의 느슨한 결합 (Loose Coupling)을 가능하게 하여, 한 서비스의 장애가 전체로 번지는 것을 막아줍니다."
+  },
+  {
+    "term": "② 이벤트 소싱 (Event Sourcing)",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "2. 주요 패턴 및 기술적 특징",
+    "preview": "> 데이터의 현재 상태만 저장하는 것이 아니라, 발생한 모든 이벤트를 순서대로 저장하는 방식입니다."
+  },
+  {
+    "term": "현재 상태만 저장",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "2. 주요 패턴 및 기술적 특징",
+    "preview": "> 데이터의 현재 상태만 저장하는 것이 아니라, 발생한 모든 이벤트를 순서대로 저장하는 방식입니다."
+  },
+  {
+    "term": "발생한 모든 이벤트를 순서대로 저장",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "2. 주요 패턴 및 기술적 특징",
+    "preview": "> 데이터의 현재 상태만 저장하는 것이 아니라, 발생한 모든 이벤트를 순서대로 저장하는 방식입니다."
+  },
+  {
+    "term": "장점",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "2. 주요 패턴 및 기술적 특징",
+    "preview": ""
+  },
+  {
+    "term": "상태 복구",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "2. 주요 패턴 및 기술적 특징",
+    "preview": "상태 복구 과거 어느 시점으로든 상태 복구 가능"
+  },
+  {
+    "term": "불변 감사 추적",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "2. 주요 패턴 및 기술적 특징",
+    "preview": "불변 감사 추적 금융이나 의료 도메인에서 요구하는 Immutable 감사 로그"
+  },
+  {
+    "term": "③ CQRS (Command Query Responsibility Segregation)",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "2. 주요 패턴 및 기술적 특징",
+    "preview": "> 명령 (데이터 변경)과 조회 (데이터 읽기)를 분리하는 패턴입니다."
+  },
+  {
+    "term": "조회 전용 DB 를 따로 업데이트",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "2. 주요 패턴 및 기술적 특징",
+    "preview": "이벤트를 통해 조회 전용 DB 를 따로 업데이트함으로써, 복잡한 AI 쿼리 성능을 비약적으로 향상시킬 수 있습니다."
+  },
+  {
+    "term": "3. AI 파이프라인 시스템에서의 EDA 적용 사례",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "이벤트 드리븐 아키텍처 (EDA) 심화",
+    "preview": "엔지니어님께서 설계하신 Compound AI System에 EDA 를 적용하면 다음과 같은 고도화가 가능합니다."
+  },
+  {
+    "term": "Compound AI System",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "3. AI 파이프라인 시스템에서의 EDA 적용 사례",
+    "preview": "엔지니어님께서 설계하신 Compound AI System에 EDA 를 적용하면 다음과 같은 고도화가 가능합니다."
+  },
+  {
+    "term": "비동기 로깅",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "3. AI 파이프라인 시스템에서의 EDA 적용 사례",
+    "preview": "비동기 로깅 응답 반환 완료 감사 로그 서비스가 구독하여 불변 로그로 기록"
+  },
+  {
+    "term": "불변 로그",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "3. AI 파이프라인 시스템에서의 EDA 적용 사례",
+    "preview": "비동기 로깅 응답 반환 완료 감사 로그 서비스가 구독하여 불변 로그로 기록"
+  },
+  {
+    "term": "실시간 성능 분석",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "3. AI 파이프라인 시스템에서의 EDA 적용 사례",
+    "preview": "실시간 성능 분석 추론 시간 이벤트 모니터링 서비스가 구독하여 AAR (After Action Report) 계산"
+  },
+  {
+    "term": "AAR",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "3. AI 파이프라인 시스템에서의 EDA 적용 사례",
+    "preview": "실시간 성능 분석 추론 시간 이벤트 모니터링 서비스가 구독하여 AAR (After Action Report) 계산"
+  },
+  {
+    "term": "RAG 데이터 업데이트",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "3. AI 파이프라인 시스템에서의 EDA 적용 사례",
+    "preview": "RAG 데이터 업데이트 사내 문서 수정 인덱싱 서비스가 구독하여 벡터 DB 에 즉시 반영"
+  },
+  {
+    "term": "벡터 DB 에 즉시 반영",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "3. AI 파이프라인 시스템에서의 EDA 적용 사례",
+    "preview": "RAG 데이터 업데이트 사내 문서 수정 인덱싱 서비스가 구독하여 벡터 DB 에 즉시 반영"
+  },
+  {
+    "term": "보안 이상 감지",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "3. AI 파이프라인 시스템에서의 EDA 적용 사례",
+    "preview": "보안 이상 감지 입력 가드레일 위반 보안 알림 서비스가 구독하여 관리자에게 즉시 통보"
+  },
+  {
+    "term": "관리자에게 즉시 통보",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "3. AI 파이프라인 시스템에서의 EDA 적용 사례",
+    "preview": "보안 이상 감지 입력 가드레일 위반 보안 알림 서비스가 구독하여 관리자에게 즉시 통보"
+  },
+  {
+    "term": "4. EDA 도입 시 고려해야 할 인프라 리스크",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "이벤트 드리븐 아키텍처 (EDA) 심화",
+    "preview": "> 데이터가 모든 서비스에 즉시 동기화되지 않을 수 있습니다."
+  },
+  {
+    "term": "최종 일관성 (Eventual Consistency)",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "4. EDA 도입 시 고려해야 할 인프라 리스크",
+    "preview": "> 데이터가 모든 서비스에 즉시 동기화되지 않을 수 있습니다."
+  },
+  {
+    "term": "즉시 동기화되지 않을 수 있습니다",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "4. EDA 도입 시 고려해야 할 인프라 리스크",
+    "preview": "> 데이터가 모든 서비스에 즉시 동기화되지 않을 수 있습니다."
+  },
+  {
+    "term": "데이터 정합성",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "4. EDA 도입 시 고려해야 할 인프라 리스크",
+    "preview": "데이터 정합성 실시간 정합성이 중요한 금융 결제 등에서는 주의 필요"
+  },
+  {
+    "term": "일시적 불일치",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "4. EDA 도입 시 고려해야 할 인프라 리스크",
+    "preview": "일시적 불일치 짧은 시간 동안 서비스 간 데이터 불일치 발생 가능"
+  },
+  {
+    "term": "운영 복잡도",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "4. EDA 도입 시 고려해야 할 인프라 리스크",
+    "preview": ""
+  },
+  {
+    "term": "클러스터 관리",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "4. EDA 도입 시 고려해야 할 인프라 리스크",
+    "preview": "클러스터 관리 메시지 브로커 (Kafka 등) 의 클러스터 관리 비용 증가"
+  },
+  {
+    "term": "모니터링",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "4. EDA 도입 시 고려해야 할 인프라 리스크",
+    "preview": "모니터링 브로커 상태, 메시지 지연 (Lag), 처리량 모니터링 필요"
+  },
+  {
+    "term": "추적의 어려움",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "4. EDA 도입 시 고려해야 할 인프라 리스크",
+    "preview": "> 요청이 비동기로 흐르기 때문에, 분산 트레이싱 도구 (Jaeger 등)입니다."
+  },
+  {
+    "term": "비동기로 흐르기 때문에",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "4. EDA 도입 시 고려해야 할 인프라 리스크",
+    "preview": "> 요청이 비동기로 흐르기 때문에, 분산 트레이싱 도구 (Jaeger 등)입니다."
+  },
+  {
+    "term": "분산 트레이싱 도구",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "4. EDA 도입 시 고려해야 할 인프라 리스크",
+    "preview": "> 요청이 비동기로 흐르기 때문에, 분산 트레이싱 도구 (Jaeger 등)입니다."
+  },
+  {
+    "term": "분산 트레이싱",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "4. EDA 도입 시 고려해야 할 인프라 리스크",
+    "preview": "분산 트레이싱 Jaeger, Zipkin 등 도구 도입 필수"
+  },
+  {
+    "term": "상관 ID",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "4. EDA 도입 시 고려해야 할 인프라 리스크",
+    "preview": "상관 ID 이벤트 간 상관 관계 추적을 위한 Correlation ID 활용"
+  },
+  {
+    "term": "💡 엔지니어링 제언: PDCA 기반의 EDA 구축",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "이벤트 드리븐 아키텍처 (EDA) 심화",
+    "preview": "EDA 는 구축보다 운영이 더 중요합니다."
+  },
+  {
+    "term": "구축보다 운영이 더 중요",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "💡 엔지니어링 제언: PDCA 기반의 EDA 구축",
+    "preview": "EDA 는 구축보다 운영이 더 중요합니다."
+  },
+  {
+    "term": "Plan",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "💡 엔지니어링 제언: PDCA 기반의 EDA 구축",
+    "preview": "> 감사 로그와 성능 분석처럼 비동기 처리가 유리한 구간부터 작게 시작하세요."
+  },
+  {
+    "term": "감사 로그와 성능 분석",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "💡 엔지니어링 제언: PDCA 기반의 EDA 구축",
+    "preview": "> 감사 로그와 성능 분석처럼 비동기 처리가 유리한 구간부터 작게 시작하세요."
+  },
+  {
+    "term": "작게 시작",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "💡 엔지니어링 제언: PDCA 기반의 EDA 구축",
+    "preview": "> 감사 로그와 성능 분석처럼 비동기 처리가 유리한 구간부터 작게 시작하세요."
+  },
+  {
+    "term": "Do",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "💡 엔지니어링 제언: PDCA 기반의 EDA 구축",
+    "preview": "> 메시지 유실 방지를 위해 브로커의 복제 (Replication)를 인프라 수준에서 강화하세요."
+  },
+  {
+    "term": "Check",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "💡 엔지니어링 제언: PDCA 기반의 EDA 구축",
+    "preview": "> 이벤트 처리 지연 (Lag)을 실시간으로 모니터링하여 병목 구간을 찾으세요."
+  },
+  {
+    "term": "Act",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "💡 엔지니어링 제언: PDCA 기반의 EDA 구축",
+    "preview": "> 장애 발생 시 저장된 이벤트를 재처리 (Replay)하여 데이터 유실 없이 시스템을 복구하는 훈련을 수행하세요."
+  },
+  {
+    "term": "재처리",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "💡 엔지니어링 제언: PDCA 기반의 EDA 구축",
+    "preview": "> 장애 발생 시 저장된 이벤트를 재처리 (Replay)하여 데이터 유실 없이 시스템을 복구하는 훈련을 수행하세요."
+  },
+  {
+    "term": "📊 EDA vs 전통 아키텍처 비교",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "이벤트 드리븐 아키텍처 (EDA) 심화",
+    "preview": ""
+  },
+  {
+    "term": "결합도",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "📊 EDA vs 전통 아키텍처 비교",
+    "preview": "결합도 강한 결합 (Tight) 느슨한 결합 (Loose)"
+  },
+  {
+    "term": "응답성",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "📊 EDA vs 전통 아키텍처 비교",
+    "preview": "응답성 동기 블로킹 비동기 논블로킹"
+  },
+  {
+    "term": "장애 격리",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "📊 EDA vs 전통 아키텍처 비교",
+    "preview": "장애 격리 어려움 용이"
+  },
+  {
+    "term": "확장성",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "📊 EDA vs 전통 아키텍처 비교",
+    "preview": "확장성 제한적 수평적 확장 용이"
+  },
+  {
+    "term": "감사 로그",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "📊 EDA vs 전통 아키텍처 비교",
+    "preview": "감사 로그 사후 수집 이벤트 기반 자동 수집"
+  },
+  {
+    "term": "복잡도",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "📊 EDA vs 전통 아키텍처 비교",
+    "preview": "복잡도 낮음 높음"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "heading",
+    "context": "이벤트 드리븐 아키텍처 (EDA) 심화",
+    "preview": "정보시스템 감리 관점에서 EDA 도입 검토 시 고려사항:"
+  },
+  {
+    "term": "이벤트 불변성",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 이벤트 불변성: 감사 로그용 이벤트의 위변조 방지와 영구 보존 메커니즘"
+  },
+  {
+    "term": "최종 일관성 관리",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 최종 일관성 관리: 데이터 정합성 요구사항과 Eventual Consistency 허용 범위"
+  },
+  {
+    "term": "메시지 브로커 운영",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 메시지 브로커 운영: Kafka 등 브로커 클러스터의 가용성과 재해복구 계획"
+  },
+  {
+    "term": "분산 트레이싱",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 분산 트레이싱: 비동기 이벤트 흐름의 종단 간 추적성과 장애 원인 분석"
+  },
+  {
+    "term": "이벤트 스키마 관리",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 이벤트 스키마 관리: 이벤트 형식 버전 관리와 하위 호환성 정책"
+  },
+  {
+    "term": "재처리",
+    "section": "eda_deep_dive",
+    "label": "EDA 심화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 재처리 (Replay): 장애 시 이벤트 재처리를 통한 데이터 복구 절차"
   },
   {
     "term": "자주 묻는 질문 (FAQ)",

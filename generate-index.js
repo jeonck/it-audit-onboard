@@ -59,6 +59,7 @@ const SECTION_LABELS = {
     monolith_limitations:   '모놀리스 아키텍처 한계',
     msa_core_principles:    'MSA 핵심 원칙',
     sync_vs_async_communication: '동기 vs 비동기 통신',
+    eda_deep_dive:          'EDA 심화',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };

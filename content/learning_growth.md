@@ -92,6 +92,9 @@
 ### 동기 vs 비동기 통신
 - [자세히 보기](#sync_vs_async_communication) - REST 와 이벤트 기반 통신 비교
 
+### EDA 심화
+- [자세히 보기](#eda_deep_dive) - 이벤트 드리븐 아키텍처 심화 가이드
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례
