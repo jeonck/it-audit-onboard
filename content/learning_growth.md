@@ -97,6 +97,9 @@
 ### AI Latency 최적화 전략
 - [자세히 보기](#ai_latency_optimization) - 지연 시간 최적화 10 가지 전략
 
+### AI 비용 최적화 전략
+- [자세히 보기](#ai_cost_optimization) - 토큰 효율화, 모델 계층화, 캐싱
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례

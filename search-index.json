@@ -4656,6 +4656,14 @@
     "preview": "- [자세히 보기](#ai_latency_optimization) - 지연 시간 최적화 10 가지 전략"
   },
   {
+    "term": "AI 비용 최적화 전략",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#ai_cost_optimization) - 토큰 효율화, 모델 계층화, 캐싱"
+  },
+  {
     "term": "AI 기술 및 하드웨어",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -9974,6 +9982,438 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "6. 장애 대응: Caching 실패, Edge 장애 시 fallback 메커니즘 및 복구 절차"
+  },
+  {
+    "term": "AI 아키텍처 비용 최적화 전략",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "",
+    "preview": "AI 아키텍처 설계에서 비용 최적화는 단순히 저렴한 모델을 쓰는 것을 넘어, 토큰의 효율적 관리와 전략적 모델 배치가 핵심입니다."
+  },
+  {
+    "term": "비용 최적화",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "AI 아키텍처 비용 최적화 전략",
+    "preview": "AI 아키텍처 설계에서 비용 최적화는 단순히 저렴한 모델을 쓰는 것을 넘어, 토큰의 효율적 관리와 전략적 모델 배치가 핵심입니다."
+  },
+  {
+    "term": "토큰의 효율적 관리와 전략적 모델 배치",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "AI 아키텍처 비용 최적화 전략",
+    "preview": "AI 아키텍처 설계에서 비용 최적화는 단순히 저렴한 모델을 쓰는 것을 넘어, 토큰의 효율적 관리와 전략적 모델 배치가 핵심입니다."
+  },
+  {
+    "term": "입력 (Input) 대비 출력 (Output) 토큰 비용이 높은 구조",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "AI 아키텍처 비용 최적화 전략",
+    "preview": "특히 입력 (Input) 대비 출력 (Output) 토큰 비용이 높은 구조를 고려할 때, 다음과 같은 설계 원칙이 유효합니다."
+  },
+  {
+    "term": "1. 출력 토큰 최소화 전략 (Output Token Optimization)",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "AI 아키텍처 비용 최적화 전략",
+    "preview": "모델이 불필요한 말을 하지 않게 만드는 것이 비용 절감의 첫걸음입니다."
+  },
+  {
+    "term": "구조화된 출력 강제 (Structured Output)",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "1. 출력 토큰 최소화 전략 (Output Token Optimization)",
+    "preview": "- JSON mode 나 Pydantic 등을 사용하여 모델이 장황한 설명 없이 필요한 데이터만 출력하도록 제한합니다."
+  },
+  {
+    "term": "JSON mode 나 Pydantic",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "1. 출력 토큰 최소화 전략 (Output Token Optimization)",
+    "preview": "- JSON mode 나 Pydantic 등을 사용하여 모델이 장황한 설명 없이 필요한 데이터만 출력하도록 제한합니다."
+  },
+  {
+    "term": "필요한 데이터만 출력",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "1. 출력 토큰 최소화 전략 (Output Token Optimization)",
+    "preview": "- JSON mode 나 Pydantic 등을 사용하여 모델이 장황한 설명 없이 필요한 데이터만 출력하도록 제한합니다."
+  },
+  {
+    "term": "System Prompt 최적화",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "1. 출력 토큰 최소화 전략 (Output Token Optimization)",
+    "preview": "- \"생각 과정 (Chain of Thought) 을 생략하고 결과만 말해줘\"와 같은 지침을 명시"
+  },
+  {
+    "term": "응답 길이를 사전에 제한",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "1. 출력 토큰 최소화 전략 (Output Token Optimization)",
+    "preview": "- 응답 길이를 사전에 제한 (Max Tokens 설정) 하여 비용 폭주를 방지합니다."
+  },
+  {
+    "term": "분리형 아키텍처",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "1. 출력 토큰 최소화 전략 (Output Token Optimization)",
+    "preview": "- 복잡한 추론이 필요한 부분과 단순 요약이 필요한 부분을 분리"
+  },
+  {
+    "term": "최종 사용자에게는 핵심 결과만 전달",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "1. 출력 토큰 최소화 전략 (Output Token Optimization)",
+    "preview": "- 추론 과정은 내부적으로 처리하고, 최종 사용자에게는 핵심 결과만 전달하여 출력량을 줄입니다."
+  },
+  {
+    "term": "2. 입력 토큰의 고효율 관리 (Input Efficiency)",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "AI 아키텍처 비용 최적화 전략",
+    "preview": "입력 토큰은 출력보다 저렴하지만, RAG(검색 증강 생성) 환경에서는 그 양이 방대해질 수 있어 관리가 필요합니다."
+  },
+  {
+    "term": "Context Pruning (컨텍스트 가지치기)",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "2. 입력 토큰의 고효율 관리 (Input Efficiency)",
+    "preview": "- 검색된 문서 중 질문과 관련성이 낮은 부분은 과감히 삭제"
+  },
+  {
+    "term": "Ranker 모델을 도입",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "2. 입력 토큰의 고효율 관리 (Input Efficiency)",
+    "preview": "- Ranker 모델을 도입하여 상위 K 개의 핵심 문맥만 전달하는 것이 효율적입니다."
+  },
+  {
+    "term": "Prompt Caching",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "2. 입력 토큰의 고효율 관리 (Input Efficiency)",
+    "preview": "- 자주 반복되는 시스템 프롬프트나 대규모 지식 베이스 (Instruction) 는 캐싱 기능을 지원하는 모델 (Claude, Gemini 등) 을 사용하여 입력…"
+  },
+  {
+    "term": "캐싱 기능을 지원하는 모델",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "2. 입력 토큰의 고효율 관리 (Input Efficiency)",
+    "preview": "- 자주 반복되는 시스템 프롬프트나 대규모 지식 베이스 (Instruction) 는 캐싱 기능을 지원하는 모델 (Claude, Gemini 등) 을 사용하여 입력…"
+  },
+  {
+    "term": "입력 비용을 최대 90% 까지 절감",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "2. 입력 토큰의 고효율 관리 (Input Efficiency)",
+    "preview": "- 자주 반복되는 시스템 프롬프트나 대규모 지식 베이스 (Instruction) 는 캐싱 기능을 지원하는 모델 (Claude, Gemini 등) 을 사용하여 입력…"
+  },
+  {
+    "term": "요약 레이어 도입",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "2. 입력 토큰의 고효율 관리 (Input Efficiency)",
+    "preview": "- 긴 대화 기록을 그대로 넘기지 않고, 주기적으로 요약 (Summarization)하여 컨텍스트 크기를 일정하게 유지합니다."
+  },
+  {
+    "term": "주기적으로 요약",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "2. 입력 토큰의 고효율 관리 (Input Efficiency)",
+    "preview": "- 긴 대화 기록을 그대로 넘기지 않고, 주기적으로 요약 (Summarization)하여 컨텍스트 크기를 일정하게 유지합니다."
+  },
+  {
+    "term": "3. 계층적 모델 포트폴리오 구축 (Model Cascading)",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "AI 아키텍처 비용 최적화 전략",
+    "preview": "모든 태스크에 최상급 모델 (GPT-4o, Claude 3.5 Sonnet 등) 을 사용할 필요는 없습니다. 작업의 난이도에 따라 모델을 다르게 배치하는 '모델 …"
+  },
+  {
+    "term": "'모델 카스케이딩'",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "3. 계층적 모델 포트폴리오 구축 (Model Cascading)",
+    "preview": "모든 태스크에 최상급 모델 (GPT-4o, Claude 3.5 Sonnet 등) 을 사용할 필요는 없습니다. 작업의 난이도에 따라 모델을 다르게 배치하는 '모델 …"
+  },
+  {
+    "term": "Routing Layer",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "3. 계층적 모델 포트폴리오 구축 (Model Cascading)",
+    "preview": "Routing Layer 유저 질문의 난이도를 판별하여 적절한 모델로 배분 소형 모델 (Llama 3 8B, Gemini Flash)"
+  },
+  {
+    "term": "Simple Task",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "3. 계층적 모델 포트폴리오 구축 (Model Cascading)",
+    "preview": "Simple Task 단순 분류, 개체명 인식 (NER), 포맷 변환 소형/경량 모델 (GPT-4o mini, Haiku)"
+  },
+  {
+    "term": "Complex Task",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "3. 계층적 모델 포트폴리오 구축 (Model Cascading)",
+    "preview": "Complex Task 복잡한 추론, 코드 생성, 다단계 논리 대형 모델 (Sonnet, GPT-4o, Pro)"
+  },
+  {
+    "term": "4. 데이터 중심 아키텍처 (Data-Centric Approach)",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "AI 아키텍처 비용 최적화 전략",
+    "preview": "모델의 파라미터 크기에 의존하기보다, 데이터 구조화를 통해 모델의 부담을 덜어주는 방식입니다."
+  },
+  {
+    "term": "Semantic Cache",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "4. 데이터 중심 아키텍처 (Data-Centric Approach)",
+    "preview": "- 동일하거나 유사한 질문이 들어오면 LLM 을 호출하지 않고 벡터 DB 나 Redis 에서 기존 응답을 즉시 반환하여 토큰 소모를 0 으로 만듭니다."
+  },
+  {
+    "term": "GraphRAG 활용",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "4. 데이터 중심 아키텍처 (Data-Centric Approach)",
+    "preview": "- 단순 텍스트 검색 대신 지식 그래프를 활용하면, 모델에게 전달해야 할 컨텍스트의 양은 줄이면서도 정보의 밀도는 높일 수 있어 훨씬 경제적입니다."
+  },
+  {
+    "term": "지식 그래프",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "4. 데이터 중심 아키텍처 (Data-Centric Approach)",
+    "preview": "- 단순 텍스트 검색 대신 지식 그래프를 활용하면, 모델에게 전달해야 할 컨텍스트의 양은 줄이면서도 정보의 밀도는 높일 수 있어 훨씬 경제적입니다."
+  },
+  {
+    "term": "5. PDCA 기반 비용 모니터링",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "AI 아키텍처 비용 최적화 전략",
+    "preview": "비용 최적화는 고정된 상태가 아니라 지속적인 관리가 필요합니다."
+  },
+  {
+    "term": "토큰 가성비 (Efficiency Score) 측정",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "5. PDCA 기반 비용 모니터링",
+    "preview": "- 성능 / 비용 지표를 설정하여, 특정 작업에서 모델을 하향 조정했을 때 성능 하락 폭이 적다면 과감히 경량 모델로 교체합니다."
+  },
+  {
+    "term": "성능 / 비용 지표",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "5. PDCA 기반 비용 모니터링",
+    "preview": "- 성능 / 비용 지표를 설정하여, 특정 작업에서 모델을 하향 조정했을 때 성능 하락 폭이 적다면 과감히 경량 모델로 교체합니다."
+  },
+  {
+    "term": "Batch Processing",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "5. PDCA 기반 비용 모니터링",
+    "preview": "- 실시간 응답이 필요 없는 작업 (데이터 분석, 대량 문서 요약) 은 Batch API 를 사용하여 비용을 50% 절감합니다."
+  },
+  {
+    "term": "Batch API 를 사용하여 비용을 50% 절감",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "5. PDCA 기반 비용 모니터링",
+    "preview": "- 실시간 응답이 필요 없는 작업 (데이터 분석, 대량 문서 요약) 은 Batch API 를 사용하여 비용을 50% 절감합니다."
+  },
+  {
+    "term": "4 대 핵심 기여 요소 요약",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "AI 아키텍처 비용 최적화 전략",
+    "preview": ""
+  },
+  {
+    "term": "모델 계층화",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "4 대 핵심 기여 요소 요약",
+    "preview": "모델 계층화 (Model Cascading) 난이도별 모델 분산 배치 전체 API 비용 60% 이상 절감"
+  },
+  {
+    "term": "프롬프트 최적화",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "4 대 핵심 기여 요소 요약",
+    "preview": "프롬프트 최적화 출력 토큰 낭비 방지 출력 토큰 30~50% 감소"
+  },
+  {
+    "term": "시맨틱 캐싱",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "4 대 핵심 기여 요소 요약",
+    "preview": "시맨틱 캐싱 유사 질문 기존 응답 재사용 동일 패턴 질문 비용 0 원"
+  },
+  {
+    "term": "배치 처리",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "4 대 핵심 기여 요소 요약",
+    "preview": "배치 처리 비실시간 작업 일괄 처리 단가 자체를 50% 할인"
+  },
+  {
+    "term": "아키텍처 설계 시 고려할 우선순위",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "AI 아키텍처 비용 최적화 전략",
+    "preview": ""
+  },
+  {
+    "term": "즉각적 절감",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "아키텍처 설계 시 고려할 우선순위",
+    "preview": "즉각적 절감 프롬프트 최적화 출력 토큰 30~50% 감소 가장 구현이 쉬움"
+  },
+  {
+    "term": "구조적 최적화",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "아키텍처 설계 시 고려할 우선순위",
+    "preview": "구조적 최적화 모델 계층화 전체 API 비용 60% 이상 절감 라우팅 로직 설계 필요"
+  },
+  {
+    "term": "반복 요청 대응",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "아키텍처 설계 시 고려할 우선순위",
+    "preview": "반복 요청 대응 시맨틱 캐싱 동일 패턴 질문 비용 0 원 캐시 정합성 관리 필요"
+  },
+  {
+    "term": "비실시간 작업",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "아키텍처 설계 시 고려할 우선순위",
+    "preview": "비실시간 작업 배치 처리 단가 자체를 50% 할인 24 시간 이내 처리 조건"
+  },
+  {
+    "term": "요약",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "AI 아키텍처 비용 최적화 전략",
+    "preview": "> 이러한 설계 원리들은 PDCA(Plan-Do-Check-Act)를 통해 실제 운영 환경에서의 토큰 소모량을 모니터링하며 지속적으로 튜닝해야 합니다."
+  },
+  {
+    "term": "PDCA",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "요약",
+    "preview": "> 이러한 설계 원리들은 PDCA(Plan-Do-Check-Act)를 통해 실제 운영 환경에서의 토큰 소모량을 모니터링하며 지속적으로 튜닝해야 합니다."
+  },
+  {
+    "term": "After Action Report",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "요약",
+    "preview": "> After Action Report(AAR) 형식으로 주기적으로 검토하며 아키텍처를 고도화하신다면, 기술적 우위와 비용 효율성을 동시에 잡으실 수 있을 것입니…"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "heading",
+    "context": "AI 아키텍처 비용 최적화 전략",
+    "preview": "정보시스템 감리 관점에서 AI 비용 최적화 도입 시 고려사항:"
+  },
+  {
+    "term": "비용 모니터링 체계",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 비용 모니터링 체계: 토큰 사용량, 비용 per API 호출, 작업별 비용 배분 추적 가능성"
+  },
+  {
+    "term": "품질 -비용 트레이드오프",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 품질 -비용 트레이드오프: 경량 모델 교체 시 성능 하락 폭 측정 및 허용 기준 명확화"
+  },
+  {
+    "term": "캐시 무결성",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 캐시 무결성: Semantic Cache 의 응답 정확도와 최신성 유지 메커니즘 검증"
+  },
+  {
+    "term": "라우팅 투명성",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 라우팅 투명성: 모델 선택 기준과 라우팅 로직의 문서화 및 감사 추적성"
+  },
+  {
+    "term": "Batch 처리 SLA",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. Batch 처리 SLA: 비실시간 작업의 처리 지연 시간과 사용자 기대치 관리"
+  },
+  {
+    "term": "지속적 최적화",
+    "section": "ai_cost_optimization",
+    "label": "AI 비용 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 지속적 최적화: PDCA 사이클 운영, 정기적 AAR 검토 프로세스 수립 여부"
   },
   {
     "term": "자주 묻는 질문 (FAQ)",

@@ -47,6 +47,7 @@ const SECTION_LABELS = {
     ai_native_architecture: 'AI 네이티브 아키텍처',
     ai_architecture_tradeoffs: 'AI 아키텍처 설계 원리',
     ai_latency_optimization: 'AI Latency 최적화',
+    ai_cost_optimization:   'AI 비용 최적화',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };
