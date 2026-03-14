@@ -84,7 +84,7 @@ async function loadMarkdownContent(section) {
 
         // Set up click handlers for internal links in the audit checkpoints section
         if (section === 'audit_checkpoints' || section === 'learning_growth') {
-            setupAuditCheckpointsLinks();
+            setupInternalLinks();
         }
 
         // Set external links to open in a new tab
@@ -95,8 +95,8 @@ async function loadMarkdownContent(section) {
     }
 }
 
-// Function to set up click handlers for links in the audit checkpoints section
-function setupAuditCheckpointsLinks() {
+// Function to set up click handlers for internal links
+function setupInternalLinks() {
     // Wait for the content to be rendered
     setTimeout(() => {
         const links = document.querySelectorAll('#content-container a');
