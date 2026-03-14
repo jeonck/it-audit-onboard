@@ -61,6 +61,7 @@ const SECTION_LABELS = {
     sync_vs_async_communication: '동기 vs 비동기 통신',
     eda_deep_dive:          'EDA 심화',
     bounded_context_msa:    'Bounded Context 설계',
+    ddd_core_concepts:      'DDD 핵심 개념',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };

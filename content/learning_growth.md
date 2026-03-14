@@ -98,6 +98,9 @@
 ### Bounded Context 설계
 - [자세히 보기](#bounded_context_msa) - MSA 서비스 경계 설계 가이드
 
+### DDD 핵심 개념
+- [자세히 보기](#ddd_core_concepts) - 도메인 주도 설계 핵심 개념
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례
