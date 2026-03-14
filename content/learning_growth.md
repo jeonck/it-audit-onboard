@@ -104,6 +104,11 @@
 ### MSA 핵심 패턴
 - [자세히 보기](#msa_core_patterns) - API GW/서비스디스커버리/서킷브레이커
 
+## AI 실습 자료
+
+### AI 소프트웨어 아키텍처 실습
+- [GitHub 저장소](https://github.com/frentis-ai-study/ai-sw-architecture) - AI SW 아키텍처 실습 자료
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례
