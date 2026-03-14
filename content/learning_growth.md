@@ -94,6 +94,9 @@
 ### AI 아키텍처 설계 원리
 - [자세히 보기](#ai_architecture_tradeoffs) - Cost·Latency·Quality 트레이드오프 균형
 
+### AI Latency 최적화 전략
+- [자세히 보기](#ai_latency_optimization) - 지연 시간 최적화 10 가지 전략
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례

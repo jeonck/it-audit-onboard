@@ -4648,6 +4648,14 @@
     "preview": "- [자세히 보기](#ai_architecture_tradeoffs) - Cost·Latency·Quality 트레이드오프 균형"
   },
   {
+    "term": "AI Latency 최적화 전략",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#ai_latency_optimization) - 지연 시간 최적화 10 가지 전략"
+  },
+  {
     "term": "AI 기술 및 하드웨어",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -9726,6 +9734,246 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "6. FinOps 내재화: AI 비용 할당, 과금, 최적화를 위한 조직·프로세스·도구 구축 여부"
+  },
+  {
+    "term": "AI 아키텍처 Latency 최적화 전략",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "heading",
+    "context": "",
+    "preview": "AI 아키텍처 설계 원리에서 Latency(지연 시간) 최적화 전략은 2026 년 실무에서 가장 중요한 트레이드오프 영역 중 하나입니다."
+  },
+  {
+    "term": "Latency(지연 시간) 최적화 전략",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "AI 아키텍처 Latency 최적화 전략",
+    "preview": "AI 아키텍처 설계 원리에서 Latency(지연 시간) 최적화 전략은 2026 년 실무에서 가장 중요한 트레이드오프 영역 중 하나입니다."
+  },
+  {
+    "term": "실시간 사용자 경험",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "AI 아키텍처 Latency 최적화 전략",
+    "preview": "특히 실시간 사용자 경험(채팅, 보이스 에이전트, 코파일럿, Agentic workflow)이 핵심인 서비스에서 p95/p99 latency < 1~2 초를 목표…"
+  },
+  {
+    "term": "p95/p99 latency < 1~2 초",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "AI 아키텍처 Latency 최적화 전략",
+    "preview": "특히 실시간 사용자 경험(채팅, 보이스 에이전트, 코파일럿, Agentic workflow)이 핵심인 서비스에서 p95/p99 latency < 1~2 초를 목표…"
+  },
+  {
+    "term": "TTFT",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "AI 아키텍처 Latency 최적화 전략",
+    "preview": "Latency 는 TTFT(Time-to-First-Token) + TPOT(Time-Per-Output-Token) + 전체 end-to-end 지연으로 나뉘며…"
+  },
+  {
+    "term": "TPOT",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "AI 아키텍처 Latency 최적화 전략",
+    "preview": "Latency 는 TTFT(Time-to-First-Token) + TPOT(Time-Per-Output-Token) + 전체 end-to-end 지연으로 나뉘며…"
+  },
+  {
+    "term": "전체 end-to-end 지연",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "AI 아키텍처 Latency 최적화 전략",
+    "preview": "Latency 는 TTFT(Time-to-First-Token) + TPOT(Time-Per-Output-Token) + 전체 end-to-end 지연으로 나뉘며…"
+  },
+  {
+    "term": "2026 년 실무에서 가장 효과적인 Latency 최적화 전략 (순위별·효과 순)",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "heading",
+    "context": "AI 아키텍처 Latency 최적화 전략",
+    "preview": ""
+  },
+  {
+    "term": "Latency 최적화 전략 선택 가이드 (2026 년 실무 패턴)",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "heading",
+    "context": "AI 아키텍처 Latency 최적화 전략",
+    "preview": ""
+  },
+  {
+    "term": "실시간 보이스 / 채팅 / 코파일럿",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "Latency 최적화 전략 선택 가이드 (2026 년 실무 패턴)",
+    "preview": "실시간 보이스 / 채팅 / 코파일럿 1+2+4+8 조합 TTFT <500ms 목표"
+  },
+  {
+    "term": "TTFT <500ms",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "Latency 최적화 전략 선택 가이드 (2026 년 실무 패턴)",
+    "preview": "실시간 보이스 / 채팅 / 코파일럿 1+2+4+8 조합 TTFT <500ms 목표"
+  },
+  {
+    "term": "Agentic / Multi-step 워크플로우",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "Latency 최적화 전략 선택 가이드 (2026 년 실무 패턴)",
+    "preview": "Agentic / Multi-step 워크플로우 2+3+9+10 prefix/tool 결과 재사용 극대화"
+  },
+  {
+    "term": "고트래픽 백엔드 서비스",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "Latency 최적화 전략 선택 가이드 (2026 년 실무 패턴)",
+    "preview": "고트래픽 백엔드 서비스 5+6+4 throughput 극대화하며 latency 안정화"
+  },
+  {
+    "term": "글로벌 / 저지연 요구",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "Latency 최적화 전략 선택 가이드 (2026 년 실무 패턴)",
+    "preview": "글로벌 / 저지연 요구 7 + 분산 에지 RTT 자체 제거"
+  },
+  {
+    "term": "요약: 2026 년 Latency 최적화 핵심 마인드셋",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "heading",
+    "context": "AI 아키텍처 Latency 최적화 전략",
+    "preview": "> p99 < 2 초 미만이 표준 SLA"
+  },
+  {
+    "term": "Latency = 사용자 경험의 1 차 지표",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "heading",
+    "context": "요약: 2026 년 Latency 최적화 핵심 마인드셋",
+    "preview": "> p99 < 2 초 미만이 표준 SLA"
+  },
+  {
+    "term": "p99 < 2 초 미만이 표준 SLA",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "요약: 2026 년 Latency 최적화 핵심 마인드셋",
+    "preview": "> p99 < 2 초 미만이 표준 SLA"
+  },
+  {
+    "term": "단일 기법으로는 부족",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "heading",
+    "context": "요약: 2026 년 Latency 최적화 핵심 마인드셋",
+    "preview": "> Compound 방식으로 여러 레이어 stacking (예: Prompt caching + Speculative + Routing)"
+  },
+  {
+    "term": "Compound 방식",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "요약: 2026 년 Latency 최적화 핵심 마인드셋",
+    "preview": "> Compound 방식으로 여러 레이어 stacking (예: Prompt caching + Speculative + Routing)"
+  },
+  {
+    "term": "측정 → 반복 → Observability 필수",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "heading",
+    "context": "요약: 2026 년 Latency 최적화 핵심 마인드셋",
+    "preview": "> Prometheus + Grafana + Langfuse 등으로 A/B 테스트, 실제 사용자 latency 측정"
+  },
+  {
+    "term": "Prometheus + Grafana + Langfuse",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "요약: 2026 년 Latency 최적화 핵심 마인드셋",
+    "preview": "> Prometheus + Grafana + Langfuse 등으로 A/B 테스트, 실제 사용자 latency 측정"
+  },
+  {
+    "term": "Inference-native 인프라",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "heading",
+    "context": "요약: 2026 년 Latency 최적화 핵심 마인드셋",
+    "preview": "> 2026 년은 training 보다 inference 가 비용·지연 주범 → inference 전용 최적화 (Edge, speculative, caching)…"
+  },
+  {
+    "term": "2026 년은 training 보다 inference 가 비용·지연 주범",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "요약: 2026 년 Latency 최적화 핵심 마인드셋",
+    "preview": "> 2026 년은 training 보다 inference 가 비용·지연 주범 → inference 전용 최적화 (Edge, speculative, caching)…"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "heading",
+    "context": "AI 아키텍처 Latency 최적화 전략",
+    "preview": "정보시스템 감리 관점에서 Latency 최적화 도입 시 고려사항:"
+  },
+  {
+    "term": "SLA 준수 검증",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. SLA 준수 검증: p95/p99 latency 목표치 (예: <2 초) 달성 여부 지속적 모니터링"
+  },
+  {
+    "term": "사용자 경험 측정",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 사용자 경험 측정: 실제 사용자 체감 latency (TTFT, streaming 시작 시간) 측정 체계"
+  },
+  {
+    "term": "트레이드오프 관리",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 트레이드오프 관리: Latency 최적화로 인한 Quality 저하 (hallucination 등) 영향도 분석"
+  },
+  {
+    "term": "비용 효율성",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 비용 효율성: Caching, Routing 등 최적화 기법의 비용 절감 효과 정량화"
+  },
+  {
+    "term": "관측 가능성",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 관측 가능성: 전 계층 Latency 측정 (모델 추론, 네트워크, 캐시 히트율 등)"
+  },
+  {
+    "term": "장애 대응",
+    "section": "ai_latency_optimization",
+    "label": "AI Latency 최적화",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 장애 대응: Caching 실패, Edge 장애 시 fallback 메커니즘 및 복구 절차"
   },
   {
     "term": "자주 묻는 질문 (FAQ)",

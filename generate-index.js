@@ -46,6 +46,7 @@ const SECTION_LABELS = {
     coderabbit_guide:       'CodeRabbit 활용 가이드',
     ai_native_architecture: 'AI 네이티브 아키텍처',
     ai_architecture_tradeoffs: 'AI 아키텍처 설계 원리',
+    ai_latency_optimization: 'AI Latency 최적화',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };
