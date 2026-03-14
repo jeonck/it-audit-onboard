@@ -77,6 +77,9 @@
 ### 챗봇 vs AI 파이프라인
 - [자세히 보기](#chatbot_vs_pipeline) - 단순 챗봇과 Compound AI 시스템 비교
 
+### 도메인별 AI 파이프라인
+- [자세히 보기](#domain_specific_ai) - 금융/기업/의료 도메인 적용 비교
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례
