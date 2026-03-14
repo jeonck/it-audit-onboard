@@ -4640,6 +4640,14 @@
     "preview": "- [자세히 보기](#ai_native_architecture) - AI-Native/Agentic 아키텍처 5 계층"
   },
   {
+    "term": "AI 아키텍처 설계 원리",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#ai_architecture_tradeoffs) - Cost·Latency·Quality 트레이드오프 균형"
+  },
+  {
     "term": "AI 기술 및 하드웨어",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -9366,6 +9374,358 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "7. Human-in-the-loop: 중요 의사결정 시 인간 개입 포인트와 승인 프로세스 명확성 확인"
+  },
+  {
+    "term": "AI 아키텍처 설계 원리: Cost · Latency · Quality 트레이드오프",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "heading",
+    "context": "",
+    "preview": "AI 아키텍처 설계 원리에서 cost(비용), latency(지연 시간), quality(품질)는 2025~2026 년 실무에서 가장 중요한 3 대 트레이드오프 …"
+  },
+  {
+    "term": "cost(비용)",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "AI 아키텍처 설계 원리: Cost · Latency · Quality 트레이드오프",
+    "preview": "AI 아키텍처 설계 원리에서 cost(비용), latency(지연 시간), quality(품질)는 2025~2026 년 실무에서 가장 중요한 3 대 트레이드오프 …"
+  },
+  {
+    "term": "latency(지연 시간)",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "AI 아키텍처 설계 원리: Cost · Latency · Quality 트레이드오프",
+    "preview": "AI 아키텍처 설계 원리에서 cost(비용), latency(지연 시간), quality(품질)는 2025~2026 년 실무에서 가장 중요한 3 대 트레이드오프 …"
+  },
+  {
+    "term": "quality(품질)",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "AI 아키텍처 설계 원리: Cost · Latency · Quality 트레이드오프",
+    "preview": "AI 아키텍처 설계 원리에서 cost(비용), latency(지연 시간), quality(품질)는 2025~2026 년 실무에서 가장 중요한 3 대 트레이드오프 …"
+  },
+  {
+    "term": "3 대 트레이드오프 (Iron Triangle of AI)",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "AI 아키텍처 설계 원리: Cost · Latency · Quality 트레이드오프",
+    "preview": "AI 아키텍처 설계 원리에서 cost(비용), latency(지연 시간), quality(품질)는 2025~2026 년 실무에서 가장 중요한 3 대 트레이드오프 …"
+  },
+  {
+    "term": "의도적으로 균형 잡는 설계 결정의 연속",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "AI 아키텍처 설계 원리: Cost · Latency · Quality 트레이드오프",
+    "preview": "이 세 가지는 서로 상충되기 때문에 (하나를 극대화하면 다른 하나가 희생됨), 좋은 아키텍처는 이 셋을 의도적으로 균형 잡는 설계 결정의 연속입니다."
+  },
+  {
+    "term": "시스템 전체가 이 3 가지를 어떻게 관리하느냐가 경쟁력",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "AI 아키텍처 설계 원리: Cost · Latency · Quality 트레이드오프",
+    "preview": "단순히 \"좋은 모델\"을 쓰는 시대는 끝났고, 시스템 전체가 이 3 가지를 어떻게 관리하느냐가 경쟁력을 결정합니다."
+  },
+  {
+    "term": "1. Cost · Latency · Quality 의 기본 트레이드오프 관계",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "heading",
+    "context": "AI 아키텍처 설계 원리: Cost · Latency · Quality 트레이드오프",
+    "preview": ""
+  },
+  {
+    "term": "최고 품질 우선",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "1. Cost · Latency · Quality 의 기본 트레이드오프 관계",
+    "preview": "최고 품질 우선 ↑↑ ↑↑ ↑↑↑ 대형 모델 + 긴 CoT + 대용량 컨텍스트 → 비용·지연 폭발"
+  },
+  {
+    "term": "최저 지연 우선",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "1. Cost · Latency · Quality 의 기본 트레이드오프 관계",
+    "preview": "최저 지연 우선 ↑ ↓↓ ↓ 작은 모델 + quantization + 캐싱 → 품질 저하 위험"
+  },
+  {
+    "term": "최저 비용 우선",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "1. Cost · Latency · Quality 의 기본 트레이드오프 관계",
+    "preview": "최저 비용 우선 ↓↓ ↓ ↑↓~중 저가 모델 라우팅 + 최소 컨텍스트 → hallucination·느린 추론 가능성"
+  },
+  {
+    "term": "현실 목표",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "1. Cost · Latency · Quality 의 기본 트레이드오프 관계",
+    "preview": "> → 현실 목표: \"주어진 예산·지연 SLA 안에서 최대 품질\" 또는 \"주어진 품질 목표에서 최소 비용·지연\""
+  },
+  {
+    "term": "2. 2026 년 실무에서 가장 많이 쓰이는 설계 원리 & 패턴",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "heading",
+    "context": "AI 아키텍처 설계 원리: Cost · Latency · Quality 트레이드오프",
+    "preview": ""
+  },
+  {
+    "term": "Tiered / Cascading Model Routing",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "2. 2026 년 실무에서 가장 많이 쓰이는 설계 원리 & 패턴",
+    "preview": "Tiered / Cascading Model Routing ↓↓ (60~90% 절감 가능) ↓~중 (복잡 쿼리만 큰 모델) ↑ (필요 시 고품질 투자) 대부분의 …"
+  },
+  {
+    "term": "Quantization + Pruning + Distillation",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "2. 2026 년 실무에서 가장 많이 쓰이는 설계 원리 & 패턴",
+    "preview": "Quantization + Pruning + Distillation ↓↓ ↓↓ ↓↓~중 (최근 거의 lossless) 비용 압박 심한 서비스 AWQ / GPTQ …"
+  },
+  {
+    "term": "Caching + Semantic Cache",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "2. 2026 년 실무에서 가장 많이 쓰이는 설계 원리 & 패턴",
+    "preview": "Caching + Semantic Cache ↓↓ ↓↓ 유지 or ↑ 반복 쿼리 많은 앱 Redis + vector cache, GPTCache"
+  },
+  {
+    "term": "Agentic / Compound Architecture",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "2. 2026 년 실무에서 가장 많이 쓰이는 설계 원리 & 패턴",
+    "preview": "Agentic / Compound Architecture 중~↑ (초기) → ↓ (최적화 후) 중~↑ ↑↑ 복잡 multi-step 작업 ReAct + RAG +…"
+  },
+  {
+    "term": "Edge / Hybrid Inference",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "2. 2026 년 실무에서 가장 많이 쓰이는 설계 원리 & 패턴",
+    "preview": "Edge / Hybrid Inference ↓ (egress 비용↓) ↓↓ 중~↑ 실시간·프라이버시 민감 On-device + cloud fallback"
+  },
+  {
+    "term": "Batching + Continuous Batching",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "2. 2026 년 실무에서 가장 많이 쓰이는 설계 원리 & 패턴",
+    "preview": "Batching + Continuous Batching ↓↓ ↓ (throughput↑) 유지 고트래픽 서비스 vLLM, TensorRT-LLM, Triton"
+  },
+  {
+    "term": "3. 2026 년 핵심 설계 마인드셋 변화 (실무 보고서·패턴 기반)",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "heading",
+    "context": "AI 아키텍처 설계 원리: Cost · Latency · Quality 트레이드오프",
+    "preview": "> \"비용을 아키텍처의 제약 조건으로 삼는다\" (FinOps 내장, cost-per-token KPI 필수)"
+  },
+  {
+    "term": "Cost-first 설계",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "heading",
+    "context": "3. 2026 년 핵심 설계 마인드셋 변화 (실무 보고서·패턴 기반)",
+    "preview": "> \"비용을 아키텍처의 제약 조건으로 삼는다\" (FinOps 내장, cost-per-token KPI 필수)"
+  },
+  {
+    "term": "\"비용을 아키텍처의 제약 조건으로 삼는다\"",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "3. 2026 년 핵심 설계 마인드셋 변화 (실무 보고서·패턴 기반)",
+    "preview": "> \"비용을 아키텍처의 제약 조건으로 삼는다\" (FinOps 내장, cost-per-token KPI 필수)"
+  },
+  {
+    "term": "Latency is the new king",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "heading",
+    "context": "3. 2026 년 핵심 설계 마인드셋 변화 (실무 보고서·패턴 기반)",
+    "preview": "> 사용자 경험의 1 차 지표 (sub-1 초 목표, p95/p99 latency SLA)"
+  },
+  {
+    "term": "사용자 경험의 1 차 지표",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "3. 2026 년 핵심 설계 마인드셋 변화 (실무 보고서·패턴 기반)",
+    "preview": "> 사용자 경험의 1 차 지표 (sub-1 초 목표, p95/p99 latency SLA)"
+  },
+  {
+    "term": "Quality = Grounding + Verification",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "heading",
+    "context": "3. 2026 년 핵심 설계 마인드셋 변화 (실무 보고서·패턴 기반)",
+    "preview": "> hallucination 을 시스템으로 막음 (RAG + self-reflection + human-in-loop gate)"
+  },
+  {
+    "term": "hallucination 을 시스템으로 막음",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "3. 2026 년 핵심 설계 마인드셋 변화 (실무 보고서·패턴 기반)",
+    "preview": "> hallucination 을 시스템으로 막음 (RAG + self-reflection + human-in-loop gate)"
+  },
+  {
+    "term": "Router 가 새로운 bottleneck",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "heading",
+    "context": "3. 2026 년 핵심 설계 마인드셋 변화 (실무 보고서·패턴 기반)",
+    "preview": "> 라우팅 로직 자체가 품질·비용·지연의 70% 를 결정"
+  },
+  {
+    "term": "라우팅 로직 자체가 품질·비용·지연의 70% 를 결정",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "3. 2026 년 핵심 설계 마인드셋 변화 (실무 보고서·패턴 기반)",
+    "preview": "> 라우팅 로직 자체가 품질·비용·지연의 70% 를 결정"
+  },
+  {
+    "term": "March of Nines",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "heading",
+    "context": "3. 2026 년 핵심 설계 마인드셋 변화 (실무 보고서·패턴 기반)",
+    "preview": "> 90% → 99% → 99.9% 품질로 가는 비용이 기하급수적 → verifier·reflection 필수"
+  },
+  {
+    "term": "90% → 99% → 99.9% 품질로 가는 비용이 기하급수적",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "3. 2026 년 핵심 설계 마인드셋 변화 (실무 보고서·패턴 기반)",
+    "preview": "> 90% → 99% → 99.9% 품질로 가는 비용이 기하급수적 → verifier·reflection 필수"
+  },
+  {
+    "term": "Inference > Training",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "heading",
+    "context": "3. 2026 년 핵심 설계 마인드셋 변화 (실무 보고서·패턴 기반)",
+    "preview": "> 2026 년 대부분 예산이 inference 에 집중 → training 은 거의 commodity"
+  },
+  {
+    "term": "2026 년 대부분 예산이 inference 에 집중",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "3. 2026 년 핵심 설계 마인드셋 변화 (실무 보고서·패턴 기반)",
+    "preview": "> 2026 년 대부분 예산이 inference 에 집중 → training 은 거의 commodity"
+  },
+  {
+    "term": "4. 실무에서 자주 쓰이는 \"3 대 목표 균형 공식\" 예시",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "heading",
+    "context": "AI 아키텍처 설계 원리: Cost · Latency · Quality 트레이드오프",
+    "preview": "→ cheap/fast 모델 기본 + confidence 낮으면 big model cascade + verifier"
+  },
+  {
+    "term": "대부분 사용자 앱 (챗봇·코파일럿)",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "heading",
+    "context": "4. 실무에서 자주 쓰이는 \"3 대 목표 균형 공식\" 예시",
+    "preview": "→ cheap/fast 모델 기본 + confidence 낮으면 big model cascade + verifier"
+  },
+  {
+    "term": "고위험·고가치 작업 (금융·의료·법률)",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "heading",
+    "context": "4. 실무에서 자주 쓰이는 \"3 대 목표 균형 공식\" 예시",
+    "preview": "→ multi-agent + RAG + reflection loop + human gate"
+  },
+  {
+    "term": "고트래픽 실시간 서비스 (보이스·검색)",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "heading",
+    "context": "4. 실무에서 자주 쓰이는 \"3 대 목표 균형 공식\" 예시",
+    "preview": "→ speculative decoding + edge inference + semantic cache"
+  },
+  {
+    "term": "요약 한 줄",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "heading",
+    "context": "AI 아키텍처 설계 원리: Cost · Latency · Quality 트레이드오프",
+    "preview": "> 2026 년 AI 아키텍처의 본질 = \"cost-latency-quality 트레이드오프를 의식적으로 설계하는 것\""
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "heading",
+    "context": "AI 아키텍처 설계 원리: Cost · Latency · Quality 트레이드오프",
+    "preview": "정보시스템 감리 관점에서 AI 아키텍처 설계 시 고려사항:"
+  },
+  {
+    "term": "비용 통제 메커니즘",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 비용 통제 메커니즘: cost-per-token 모니터링, 예산 초과 시 알림/차단 장치 마련 여부"
+  },
+  {
+    "term": "지연 시간 SLA 준수",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 지연 시간 SLA 준수: p95/p99 latency 측정 및 목표치 (예: sub-1 초) 달성 여부 검증"
+  },
+  {
+    "term": "품질 검증 프로세스",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 품질 검증 프로세스: hallucination 감소율, grounding 정확도, verifier 효과성 측정"
+  },
+  {
+    "term": "라우팅 로직 투명성",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 라우팅 로직 투명성: 모델 선택 기준, confidence threshold, escalation 경로 문서화 확인"
+  },
+  {
+    "term": "트레이드오프 의사결정 기록",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 트레이드오프 의사결정 기록: 비용·지연·품질 우선순위 결정 근거와 변경 이력 추적성"
+  },
+  {
+    "term": "FinOps 내재화",
+    "section": "ai_architecture_tradeoffs",
+    "label": "AI 아키텍처 설계 원리",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. FinOps 내재화: AI 비용 할당, 과금, 최적화를 위한 조직·프로세스·도구 구축 여부"
   },
   {
     "term": "자주 묻는 질문 (FAQ)",

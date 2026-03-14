@@ -91,6 +91,9 @@
 ### AI 네이티브 아키텍처
 - [자세히 보기](#ai_native_architecture) - AI-Native/Agentic 아키텍처 5 계층
 
+### AI 아키텍처 설계 원리
+- [자세히 보기](#ai_architecture_tradeoffs) - Cost·Latency·Quality 트레이드오프 균형
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례

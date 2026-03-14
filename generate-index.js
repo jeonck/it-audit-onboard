@@ -45,6 +45,7 @@ const SECTION_LABELS = {
     react_pattern:          'ReAct 패턴',
     coderabbit_guide:       'CodeRabbit 활용 가이드',
     ai_native_architecture: 'AI 네이티브 아키텍처',
+    ai_architecture_tradeoffs: 'AI 아키텍처 설계 원리',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };
