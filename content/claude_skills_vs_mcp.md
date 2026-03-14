@@ -155,7 +155,141 @@ context:
 
 ---
 
-## 3. MCP vs Skills 비교표
+## 3. Skills 생태계: skills.sh 플랫폼
+
+**Skills 는 AI 에이전트를 위한 재사용 가능한 능력 **(reusable capabilities)입니다.
+
+[**https://skills.sh/**](https://skills.sh/) 는 이러한 Skills 를 검색하고 설치할 수 있는 중앙 허브 역할을 합니다.
+
+### Skills 플랫폼 특징
+
+| 특징 | 설명 |
+|------|------|
+| **원클릭 설치** | `skills install <skill-name>` 명령어로 즉시 설치 |
+| **절차적 지식 **(Procedural Knowledge) | 단순 도구가 아닌 '작업 수행 방법'을 인코딩 |
+| **커뮤니티 기반** | 88,378+ 개 Skills, 전 세계 개발자 기여 |
+| **재사용성** | 한 번 만든 Skills 를 여러 프로젝트에서 공유 |
+
+---
+
+### 인기 Skills 예시 (Top 15)
+
+| 순위 | Skill 이름 | 설치수 | 제공자 |
+|------|-----------|--------|--------|
+| 1 | **svg logo designer** | 1.2K | rknall/claude-skills |
+| 2 | **remotion** | 8.0K | google-labs-code/stitch-skills |
+| 3 | **baoyu-markdown-to-html** | 7.9K | jimliu/baoyu-skills |
+| 4 | **neon-postgres** | 7.8K | neondatabase/agent-skills |
+| 5 | **baoyu-format-markdown** | 7.8K | jimliu/baoyu-skills |
+| 6 | **chrome-devtools** | 7.7K | github/awesome-copilot |
+| 7 | **github-issues** | 7.7K | github/awesome-copilot |
+| 8 | **frontend-design-system** | 7.7K | supercent-io/skills-template |
+| 9 | **code-review-excellence** | 7.7K | wshobson/agents |
+| 10 | **humanizer-zh** | 7.6K | op7418/humanizer-zh |
+| 11 | **proactive-agent** | 7.6K | halthelobster/proactive-agent |
+| 12 | **image-generation-mcp** | 7.6K | supercent-io/skills-template |
+| 13 | **agentic-principles** | 7.6K | supercent-io/skills-template |
+| 14 | **vercel-react-best-practices** | 7.5K | supercent-io/skills-template |
+| 15 | **web-design-reviewer** | 7.5K | github/awesome-copilot |
+
+---
+
+### Skills 카테고리별 예시
+
+#### 인프라/DevOps
+
+```bash
+# AWS 인프라 제어
+skills install aws-control
+skills install neon-postgres
+
+# 데이터베이스
+skills install duckdb-query
+```
+
+#### 코드 품질
+
+```bash
+# 코드 리뷰
+skills install code-review-excellence
+
+# 테스트 생성
+skills install playwright-generate-test
+```
+
+#### 프론트엔드
+
+```bash
+# React 모범 사례
+skills install vercel-react-best-practices
+
+# 디자인 시스템
+skills install frontend-design-system
+```
+
+#### 에이전트 원칙
+
+```bash
+# 에이전트 행동 원칙
+skills install agentic-principles
+
+# 사전 대응 에이전트
+skills install proactive-agent
+```
+
+---
+
+### Skills 설치 및 사용
+
+```bash
+# Skills 검색
+skills search logo
+
+# Skills 설치
+skills install svg-logo-designer
+
+# Skills 목록 확인
+skills list
+
+# Skills 업데이트
+skills update
+```
+
+---
+
+### skills.sh 의 전략적 의미
+
+| 관점 | 설명 |
+|------|------|
+| **생태계 확장** | 단일 조직이 아닌 커뮤니티 기반 Skills 진화 |
+| **지식 축적** | 절차적 지식 (Procedural Knowledge) 의 표준화 및 공유 |
+| **생산성 향상** | 매번 새로 만들지 않고 검증된 Skills 재사용 |
+| **표준화** | 암묵적 노하우가 형식적 Skills 로 문서화 |
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  skills.sh 생태계                                       │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│  ┌─────────────┐                                        │
+│  │  skills.sh  │  ← 중앙 허브                          │
+│  │  (88,378+)  │                                        │
+│  └──────┬──────┘                                        │
+│         │                                               │
+│    ┌────┴────┐                                          │
+│    ↓         ↓                                          │
+│  ┌──────┐  ┌──────┐                                     │
+│  │개인  │  │기업  │                                     │
+│  │Skills│  │Skills│                                     │
+│  └──────┘  └──────┘                                     │
+│                                                         │
+│  → 전 세계 개발자의 노하우 공유 및 재사용              │
+└─────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 4. MCP vs Skills 비교표
 
 | 항목 | MCP (Model Context Protocol) | Claude Skills |
 |------|-----------------------------|---------------|
@@ -170,7 +304,7 @@ context:
 
 ---
 
-## 4. 인프라 엔지니어링 리더를 위한 실무 인사이트
+## 5. 인프라 엔지니어링 리더를 위한 실무 인사이트
 
 ### 결론
 
