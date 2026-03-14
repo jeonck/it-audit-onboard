@@ -86,6 +86,9 @@
 ### 모놀리스 아키텍처 한계
 - [자세히 보기](#monolith_limitations) - 장애전파/기술종속/스케일링 비효율
 
+### MSA 핵심 원칙
+- [자세히 보기](#msa_core_principles) - 독립배포/장애격리/독립스케일링
+
 ## AI 기술 및 하드웨어
 
 ### Cerebras AI 서비스 사례

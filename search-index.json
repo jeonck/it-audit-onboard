@@ -4664,6 +4664,14 @@
     "preview": "- [자세히 보기](#monolith_limitations) - 장애전파/기술종속/스케일링 비효율"
   },
   {
+    "term": "MSA 핵심 원칙",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "heading",
+    "context": "AI 시대 개발방법론",
+    "preview": "- [자세히 보기](#msa_core_principles) - 독립배포/장애격리/독립스케일링"
+  },
+  {
     "term": "AI 기술 및 하드웨어",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -14110,6 +14118,422 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "6. 전환 성과: PDCA 사이클 기반의 현대화 효과 측정과 지속적 개선"
+  },
+  {
+    "term": "MSA 의 3 대 핵심 원칙",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "heading",
+    "context": "",
+    "preview": "모놀리스의 한계를 극복하고 엔지니어님께서 설계하신 Compound AI System이나 엔터프라이즈 인프라를 견고하게 운영하기 위한 MSA 의 3 대 핵심 원칙을…"
+  },
+  {
+    "term": "Compound AI System",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "MSA 의 3 대 핵심 원칙",
+    "preview": "모놀리스의 한계를 극복하고 엔지니어님께서 설계하신 Compound AI System이나 엔터프라이즈 인프라를 견고하게 운영하기 위한 MSA 의 3 대 핵심 원칙을…"
+  },
+  {
+    "term": "MSA 의 3 대 핵심 원칙",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "MSA 의 3 대 핵심 원칙",
+    "preview": "모놀리스의 한계를 극복하고 엔지니어님께서 설계하신 Compound AI System이나 엔터프라이즈 인프라를 견고하게 운영하기 위한 MSA 의 3 대 핵심 원칙을…"
+  },
+  {
+    "term": "시스템의 생존성과 비즈니스 민첩성",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "MSA 의 3 대 핵심 원칙",
+    "preview": "이 원칙들은 단순히 기술적인 분리를 넘어, 시스템의 생존성과 비즈니스 민첩성을 결정짓는 설계의 기둥입니다."
+  },
+  {
+    "term": "1. 독립 배포 (Independent Deployability)",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "heading",
+    "context": "MSA 의 3 대 핵심 원칙",
+    "preview": "각 서비스가 다른 서비스에 영향을 주지 않고 개별적으로 업데이트 및 출시될 수 있어야 한다는 원칙입니다."
+  },
+  {
+    "term": "다른 서비스에 영향을 주지 않고 개별적으로 업데이트 및 출시",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "1. 독립 배포 (Independent Deployability)",
+    "preview": "각 서비스가 다른 서비스에 영향을 주지 않고 개별적으로 업데이트 및 출시될 수 있어야 한다는 원칙입니다."
+  },
+  {
+    "term": "상세 설계",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "heading",
+    "context": "1. 독립 배포 (Independent Deployability)",
+    "preview": "> 서비스 간의 결합도를 낮추기 위해 API 기반 통신과 데이터베이스 분리 (Database per Service)가 필수적입니다."
+  },
+  {
+    "term": "API 기반 통신",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "1. 독립 배포 (Independent Deployability)",
+    "preview": "> 서비스 간의 결합도를 낮추기 위해 API 기반 통신과 데이터베이스 분리 (Database per Service)가 필수적입니다."
+  },
+  {
+    "term": "데이터베이스 분리",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "1. 독립 배포 (Independent Deployability)",
+    "preview": "> 서비스 간의 결합도를 낮추기 위해 API 기반 통신과 데이터베이스 분리 (Database per Service)가 필수적입니다."
+  },
+  {
+    "term": "AI 적용 시",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "heading",
+    "context": "1. 독립 배포 (Independent Deployability)",
+    "preview": ""
+  },
+  {
+    "term": "장점",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "heading",
+    "context": "1. 독립 배포 (Independent Deployability)",
+    "preview": "> 배포 주기가 짧아져 시장 변화나 기술 업데이트 (예: 새로운 모델 출시) 에 즉각적으로 대응할 수 있습니다."
+  },
+  {
+    "term": "배포 주기가 짧아져",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "1. 독립 배포 (Independent Deployability)",
+    "preview": "> 배포 주기가 짧아져 시장 변화나 기술 업데이트 (예: 새로운 모델 출시) 에 즉각적으로 대응할 수 있습니다."
+  },
+  {
+    "term": "즉각적으로 대응",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "1. 독립 배포 (Independent Deployability)",
+    "preview": "> 배포 주기가 짧아져 시장 변화나 기술 업데이트 (예: 새로운 모델 출시) 에 즉각적으로 대응할 수 있습니다."
+  },
+  {
+    "term": "2. 장애 격리 (Fault Isolation / Blast Radius Control)",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "heading",
+    "context": "MSA 의 3 대 핵심 원칙",
+    "preview": "특정 서비스에서 발생한 문제가 전체 시스템으로 전파되는 것을 차단하는 '격벽 (Bulkhead)' 원칙입니다."
+  },
+  {
+    "term": "전체 시스템으로 전파되는 것을 차단",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "2. 장애 격리 (Fault Isolation / Blast Radius Control)",
+    "preview": "특정 서비스에서 발생한 문제가 전체 시스템으로 전파되는 것을 차단하는 '격벽 (Bulkhead)' 원칙입니다."
+  },
+  {
+    "term": "서킷 브레이커",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "2. 장애 격리 (Fault Isolation / Blast Radius Control)",
+    "preview": "> 서킷 브레이커 (Circuit Breaker)와 비동기 이벤트 통신을 활용합니다."
+  },
+  {
+    "term": "비동기 이벤트 통신",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "2. 장애 격리 (Fault Isolation / Blast Radius Control)",
+    "preview": "> 서킷 브레이커 (Circuit Breaker)와 비동기 이벤트 통신을 활용합니다."
+  },
+  {
+    "term": "시스템 전체의 가용성",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "2. 장애 격리 (Fault Isolation / Blast Radius Control)",
+    "preview": "> 시스템 전체의 가용성 (Availability)하며, 보안 침해 사고 발생 시에도 피해 범위를 특정 서비스로 한정할 수 있습니다."
+  },
+  {
+    "term": "피해 범위를 특정 서비스로 한정",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "2. 장애 격리 (Fault Isolation / Blast Radius Control)",
+    "preview": "> 시스템 전체의 가용성 (Availability)하며, 보안 침해 사고 발생 시에도 피해 범위를 특정 서비스로 한정할 수 있습니다."
+  },
+  {
+    "term": "3. 독립 스케일링 (Independent Scaling)",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "heading",
+    "context": "MSA 의 3 대 핵심 원칙",
+    "preview": "서비스별로 필요한 자원의 특성에 맞춰 개별적으로 인프라를 확장하는 원칙입니다."
+  },
+  {
+    "term": "서비스별로 필요한 자원의 특성에 맞춰 개별적으로 인프라를 확장",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "3. 독립 스케일링 (Independent Scaling)",
+    "preview": "서비스별로 필요한 자원의 특성에 맞춰 개별적으로 인프라를 확장하는 원칙입니다."
+  },
+  {
+    "term": "CPU 집약적, 메모리 집약적, 혹은 GPU 집약적인 서비스",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "3. 독립 스케일링 (Independent Scaling)",
+    "preview": "> CPU 집약적, 메모리 집약적, 혹은 GPU 집약적인 서비스인지에 따라 인스턴스 타입을 다르게 설정하고 오토스케일링 (Auto-scaling)을 개별 적용합니…"
+  },
+  {
+    "term": "오토스케일링",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "3. 독립 스케일링 (Independent Scaling)",
+    "preview": "> CPU 집약적, 메모리 집약적, 혹은 GPU 집약적인 서비스인지에 따라 인스턴스 타입을 다르게 설정하고 오토스케일링 (Auto-scaling)을 개별 적용합니…"
+  },
+  {
+    "term": "임베딩 서비스",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "3. 독립 스케일링 (Independent Scaling)",
+    "preview": "임베딩 서비스 GPU 집약적 문서 인덱싱 시 GPU 자원 집중 할당"
+  },
+  {
+    "term": "의도 분류기",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "3. 독립 스케일링 (Independent Scaling)",
+    "preview": "의도 분류기 CPU 경량 가벼운 트래픽에는 소량 CPU 자원만 유지"
+  },
+  {
+    "term": "벡터 DB",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "3. 독립 스케일링 (Independent Scaling)",
+    "preview": "벡터 DB I/O 집약적 대규모 조회 시 I/O 성능 높은 인스턴스로 확장"
+  },
+  {
+    "term": "불필요한 자원 낭비를 막아 클라우드 비용을 최적화",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "3. 독립 스케일링 (Independent Scaling)",
+    "preview": "> 불필요한 자원 낭비를 막아 클라우드 비용을 최적화 (Cost Optimization)합니다."
+  },
+  {
+    "term": "📊 3 대 원칙 비교 요약",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "heading",
+    "context": "MSA 의 3 대 핵심 원칙",
+    "preview": ""
+  },
+  {
+    "term": "독립 배포",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "📊 3 대 원칙 비교 요약",
+    "preview": "독립 배포 \"서비스 A 배포 시 서비스 B 도 함께 빌드하는가?\" 배포 병목, 변경 저항 증가"
+  },
+  {
+    "term": "장애 격리",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "📊 3 대 원칙 비교 요약",
+    "preview": "장애 격리 \"데이터베이스를 여러 서비스가 공유하는가?\" 연쇄 장애, 전체 시스템 마비"
+  },
+  {
+    "term": "독립 스케일링",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "📊 3 대 원칙 비교 요약",
+    "preview": "독립 스케일링 \"모든 서비스가 동일한 사양 인스턴스인가?\" 자원 낭비, 비용 폭증"
+  },
+  {
+    "term": "💡 인프라 엔지니어를 위한 종합 인사이트",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "heading",
+    "context": "MSA 의 3 대 핵심 원칙",
+    "preview": "이 3 대 원칙이 지켜질 때 비로소 아키텍처는 유연함을 얻게 됩니다."
+  },
+  {
+    "term": "유연함",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "💡 인프라 엔지니어를 위한 종합 인사이트",
+    "preview": "이 3 대 원칙이 지켜질 때 비로소 아키텍처는 유연함을 얻게 됩니다."
+  },
+  {
+    "term": "Samsung Austin Semiconductor",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "💡 인프라 엔지니어를 위한 종합 인사이트",
+    "preview": "특히 Samsung Austin Semiconductor (SAS)와 같은 고가용성 인프라 환경에서는 '장애 격리'가 보안 정책만큼이나 중요하게 다뤄질 것입니다."
+  },
+  {
+    "term": "'장애 격리'가 보안 정책만큼이나 중요",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "💡 인프라 엔지니어를 위한 종합 인사이트",
+    "preview": "특히 Samsung Austin Semiconductor (SAS)와 같은 고가용성 인프라 환경에서는 '장애 격리'가 보안 정책만큼이나 중요하게 다뤄질 것입니다."
+  },
+  {
+    "term": "✅ Checklist",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "heading",
+    "context": "💡 인프라 엔지니어를 위한 종합 인사이트",
+    "preview": ""
+  },
+  {
+    "term": "🎯 AAR 관점에서의 리뷰",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "heading",
+    "context": "MSA 의 3 대 핵심 원칙",
+    "preview": "설계하신 Compound AI System의 각 컴포넌트들이 이 3 대 원칙에 따라 설계되었는지 AAR (After Action Report) 관점에서 리뷰해 보…"
+  },
+  {
+    "term": "Compound AI System",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "🎯 AAR 관점에서의 리뷰",
+    "preview": "설계하신 Compound AI System의 각 컴포넌트들이 이 3 대 원칙에 따라 설계되었는지 AAR (After Action Report) 관점에서 리뷰해 보…"
+  },
+  {
+    "term": "AAR",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "🎯 AAR 관점에서의 리뷰",
+    "preview": "설계하신 Compound AI System의 각 컴포넌트들이 이 3 대 원칙에 따라 설계되었는지 AAR (After Action Report) 관점에서 리뷰해 보…"
+  },
+  {
+    "term": "가드레일 서비스",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "🎯 AAR 관점에서의 리뷰",
+    "preview": "가드레일 서비스 ✅ ✅ ✅ -"
+  },
+  {
+    "term": "의도 분류기",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "🎯 AAR 관점에서의 리뷰",
+    "preview": "의도 분류기 ✅ ✅ ✅ -"
+  },
+  {
+    "term": "RAG 파이프라인",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "🎯 AAR 관점에서의 리뷰",
+    "preview": "RAG 파이프라인 ⚠️ ⚠️ ✅ 검색/임베딩 분리 고려"
+  },
+  {
+    "term": "모델 라우터",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "🎯 AAR 관점에서의 리뷰",
+    "preview": "모델 라우터 ✅ ✅ ✅ -"
+  },
+  {
+    "term": "검증 루프",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "🎯 AAR 관점에서의 리뷰",
+    "preview": "검증 루프 ✅ ✅ ⚠️ GPU 자원 최적화 필요"
+  },
+  {
+    "term": "감사 로깅",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "🎯 AAR 관점에서의 리뷰",
+    "preview": "감사 로깅 ✅ ✅ ✅ -"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "heading",
+    "context": "MSA 의 3 대 핵심 원칙",
+    "preview": "정보시스템 감리 관점에서 MSA 핵심 원칙 검토 시 고려사항:"
+  },
+  {
+    "term": "배포 독립성",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 배포 독립성: 서비스별 배포 파이프라인 분리와 변경 관리 프로세스"
+  },
+  {
+    "term": "데이터 소유권",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 데이터 소유권: Database per Service 구현과 데이터 일관성 보장 메커니즘"
+  },
+  {
+    "term": "장애 격리 수준",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 장애 격리 수준: 서킷 브레이커, 벌크헤드, 폴백 메커니즘 구현 현황"
+  },
+  {
+    "term": "스케일링 효율성",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 스케일링 효율성: 서비스별 오토스케일링 규칙과 비용 최적화 효과"
+  },
+  {
+    "term": "결합도 측정",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 결합도 측정: 서비스 간 의존성과 API 계약 관리 적절성"
+  },
+  {
+    "term": "AAR 운영",
+    "section": "msa_core_principles",
+    "label": "MSA 핵심 원칙",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. AAR 운영: 3 대 원칙 준수 여부 지속적 점검과 개선 사이클"
   },
   {
     "term": "자주 묻는 질문 (FAQ)",
