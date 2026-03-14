@@ -55,6 +55,7 @@ const SECTION_LABELS = {
     ai_fallback_strategies: 'AI 폴백 전략',
     chatbot_vs_pipeline:    '챗봇 vs AI 파이프라인',
     domain_specific_ai:     '도메인별 AI 파이프라인',
+    ai_msa_eda:             'MSA & 이벤트 기반 아키텍처',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };
