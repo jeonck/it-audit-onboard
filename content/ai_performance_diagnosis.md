@@ -97,6 +97,5 @@
 > **참고**: 본 자료는 정보시스템 감리 업무 수행 시 AI 성능진단 검토를 위한 참고 자료입니다.
 >
 > **관련 문서**: 
-> - [정보시스템감리협회 AI 감리 수행가이드 개발 연구용역](https://kaisa.or.kr/bbs/board.php?bo_table=notice&wr_id=209)
 > - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 > - [EU AI Act](https://artificialintelligenceact.eu/)
