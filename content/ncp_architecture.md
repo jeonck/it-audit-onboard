@@ -173,4 +173,4 @@ API GW → NKS (Kubernetes) → DB
 
 > **참고**: 본 자료는 정보시스템 감리 업무 수행 시 NCP 아키텍처 검토를 위한 참고 자료입니다.
 >
-> **관련 문서**: [네이버 클라우드 플랫폼 보안 가이드](https://docs.ncloud.com/ko/security/)
+> **관련 문서**: [네이버 클라우드 플랫폼 보안 아키텍처](https://www.ncloud.com/v2/intro/securityArchitecture/architecture)
