@@ -77,6 +77,7 @@ const SECTION_LABELS = {
     ai_observability:       'AI Observability',
     ragas_evaluation:       'RAGAS 품질 평가',
     ncp_architecture:       'NCP 아키텍처',
+    ai_performance_diagnosis: 'AI 성능 진단',
     python_uv:              'Python uv 패키지매니저',
     faq:                    'FAQ',
     faq2:                   'FAQ',

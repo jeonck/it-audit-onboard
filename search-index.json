@@ -1752,12 +1752,20 @@
     "preview": "시스템 아키텍처와 보안에 대한 감리 체크포인트입니다."
   },
   {
+    "term": "AI 성능 진단",
+    "section": "audit_checkpoints",
+    "label": "감리 체크포인트",
+    "type": "keyword",
+    "context": "4. 시스템 아키텍처 및 보안",
+    "preview": "- AI 성능 진단 (비결정성, 데이터의존성, 편향, 모델열화, 설명가능성)"
+  },
+  {
     "term": "새로 추가",
     "section": "audit_checkpoints",
     "label": "감리 체크포인트",
     "type": "keyword",
     "context": "4. 시스템 아키텍처 및 보안",
-    "preview": "- [NCP 기반 외부 연계 아키텍처](#ncp_architecture) ← 새로 추가"
+    "preview": "- [AI 성능 진단 가이드](#ai_performance_diagnosis) ← 새로 추가"
   },
   {
     "term": "최신 사업별 감리 점검 포인트",
@@ -25117,7 +25125,423 @@
     "label": "NCP 아키텍처",
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
-    "preview": "> 관련 문서: [네이버 클라우드 플랫폼 보안 가이드](https://docs.ncloud.com/ko/security/)"
+    "preview": "> 관련 문서: [네이버 클라우드 플랫폼 보안 아키텍처](https://www.ncloud.com/v2/intro/securityArchitecture/archi…"
+  },
+  {
+    "term": "AI 성능 진단: 정보시스템 감리 관점",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "heading",
+    "context": "",
+    "preview": "정보시스템 감리 관점에서 AI 성능진단은 전통적인 정보시스템 감리 (기능·성능·보안·품질 중심) 와 달리 AI 고유의 특성을 반영해야 하는 새로운 영역입니다."
+  },
+  {
+    "term": "AI 성능진단",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "AI 성능 진단: 정보시스템 감리 관점",
+    "preview": "정보시스템 감리 관점에서 AI 성능진단은 전통적인 정보시스템 감리 (기능·성능·보안·품질 중심) 와 달리 AI 고유의 특성을 반영해야 하는 새로운 영역입니다."
+  },
+  {
+    "term": "AI 고유의 특성",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "AI 성능 진단: 정보시스템 감리 관점",
+    "preview": "정보시스템 감리 관점에서 AI 성능진단은 전통적인 정보시스템 감리 (기능·성능·보안·품질 중심) 와 달리 AI 고유의 특성을 반영해야 하는 새로운 영역입니다."
+  },
+  {
+    "term": "AI 고유의 특성",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "heading",
+    "context": "AI 성능 진단: 정보시스템 감리 관점",
+    "preview": ""
+  },
+  {
+    "term": "비결정성",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "AI 고유의 특성",
+    "preview": "비결정성 같은 입력도 다른 출력 가능 재현성 보장 어려움"
+  },
+  {
+    "term": "데이터 의존성",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "AI 고유의 특성",
+    "preview": "데이터 의존성 데이터 품질이 성능 결정 데이터 편향·오염 위험"
+  },
+  {
+    "term": "편향 가능성",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "AI 고유의 특성",
+    "preview": "편향 가능성 학습 데이터 편향 반영 공정성·차별 문제"
+  },
+  {
+    "term": "모델 열화",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "AI 고유의 특성",
+    "preview": "모델 열화 시간 경과에 따라 성능 저하 지속적 모니터링 필요"
+  },
+  {
+    "term": "설명 불가능성",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "AI 고유의 특성",
+    "preview": "설명 불가능성 Black-box 의사결정 XAI(설명가능 AI) 필요"
+  },
+  {
+    "term": "정보시스템감리협회",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "AI 고유의 특성",
+    "preview": "> 2025~2026 년 현재 한국의 공공·국가정보화 사업에서 AI 적용 시스템이 급증하면서, 정보시스템감리협회와 관련 연구·논문에서도 AI 특화 감리 기준 마련…"
+  },
+  {
+    "term": "AI 특화 감리 기준 마련",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "AI 고유의 특성",
+    "preview": "> 2025~2026 년 현재 한국의 공공·국가정보화 사업에서 AI 적용 시스템이 급증하면서, 정보시스템감리협회와 관련 연구·논문에서도 AI 특화 감리 기준 마련…"
+  },
+  {
+    "term": "AI 성능진단이 정보시스템 감리에서 중요한 이유",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "heading",
+    "context": "AI 성능 진단: 정보시스템 감리 관점",
+    "preview": ""
+  },
+  {
+    "term": "전통 성능진단의 한계",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "AI 성능진단이 정보시스템 감리에서 중요한 이유",
+    "preview": "전통 성능진단의 한계 응답시간, TPS, 자원사용률은 필요조건일 뿐 충분조건이 아님"
+  },
+  {
+    "term": "필요조건일 뿐 충분조건이 아님",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "AI 성능진단이 정보시스템 감리에서 중요한 이유",
+    "preview": "전통 성능진단의 한계 응답시간, TPS, 자원사용률은 필요조건일 뿐 충분조건이 아님"
+  },
+  {
+    "term": "AI 의 진짜 실패",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "AI 성능진단이 정보시스템 감리에서 중요한 이유",
+    "preview": "AI 의 진짜 실패 \"숫자상으로는 잘 나오는데 현실에서 엉뚱한 판단을 한다\"는 경우가 대부분"
+  },
+  {
+    "term": "공공사업 리스크",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "AI 성능진단이 정보시스템 감리에서 중요한 이유",
+    "preview": "공공사업 리스크 국민 안전·공정성·예산 낭비 직결 → 감리 미흡 시 중대 리스크"
+  },
+  {
+    "term": "감리 기준 현황",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "AI 성능진단이 정보시스템 감리에서 중요한 이유",
+    "preview": "감리 기준 현황 2026 년 기준 감리기준 본문에 AI 성능진단 항목 명시적 반영 미흡<br>신기술감리 및 별도 가이드 개발 진행 중 (감리협회 AI 감리 수행가…"
+  },
+  {
+    "term": "정보시스템 감리 관점 AI 성능진단 주요 점검 영역",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "heading",
+    "context": "AI 성능 진단: 정보시스템 감리 관점",
+    "preview": ""
+  },
+  {
+    "term": "2025~2026 년 실무 트렌드 기준",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "heading",
+    "context": "정보시스템 감리 관점 AI 성능진단 주요 점검 영역",
+    "preview": ""
+  },
+  {
+    "term": "기획·준비 단계",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "정보시스템 감리 관점 AI 성능진단 주요 점검 영역",
+    "preview": "기획·준비 단계 성능 목표 설정의 적정성 비즈니스 KPI 와 AI 성능 지표 간 연계성 부족 성능 목표 정의서, 성공 기준 (Success Criteria)"
+  },
+  {
+    "term": "데이터 단계",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "정보시스템 감리 관점 AI 성능진단 주요 점검 영역",
+    "preview": "데이터 단계 학습/검증/테스트 데이터 품질 및 대표성 편향·불균형·오염·최신성 부족 데이터 품질 보고서, 편향 진단 보고서"
+  },
+  {
+    "term": "모델 개발 단계",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "정보시스템 감리 관점 AI 성능진단 주요 점검 영역",
+    "preview": "모델 개발 단계 모델 선택·하이퍼파라미터·성능 지표 체계 단일 지표 (Acceptable Accuracy) 맹신, Trade-off 무시 모델 카드 (Model …"
+  },
+  {
+    "term": "성능 평가 단계",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "정보시스템 감리 관점 AI 성능진단 주요 점검 영역",
+    "preview": "성능 평가 단계 Hold-out / Cross-validation / Adversarial test 등 평가 방법 과적합·누출·현실 데이터와 분포 차이 성능평가 …"
+  },
+  {
+    "term": "Robustness",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "정보시스템 감리 관점 AI 성능진단 주요 점검 영역",
+    "preview": "Robustness 잡음·공격·분포이동에 대한 강건성 Clean Accuracy 95% → Noisy Accuracy 60% 급락 Adversarial / Out…"
+  },
+  {
+    "term": "Fairness & Bias 진단",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "정보시스템 감리 관점 AI 성능진단 주요 점검 영역",
+    "preview": "Fairness & Bias 진단 보호속성 (성별·연령·지역 등) 별 성능 격차 - Fairness Report, Demographic Parity 등 지표"
+  },
+  {
+    "term": "Explainability 수준",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "정보시스템 감리 관점 AI 성능진단 주요 점검 영역",
+    "preview": "Explainability 수준 Black-box 모델 + 설명 미제공 - SHAP/LIME/XAI 보고서 또는 Rule-based 근거 제시"
+  },
+  {
+    "term": "시험·검수 단계",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "정보시스템 감리 관점 AI 성능진단 주요 점검 영역",
+    "preview": "시험·검수 단계 실환경 시뮬레이션 성능 (Shadow test, Canary 배포 등) Lab 성능 92% → Production 71% A/B/n test 로그…"
+  },
+  {
+    "term": "운영·유지보수",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "정보시스템 감리 관점 AI 성능진단 주요 점검 영역",
+    "preview": "운영·유지보수 모델 드리프트·성능 열화 모니터링 체계 모니터링 미구축 또는 지표 설정 미흡 MLOps 파이프라인 설계서, 재학습 트리거 기준"
+  },
+  {
+    "term": "재학습·롤백·버전관리 체계",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "정보시스템 감리 관점 AI 성능진단 주요 점검 영역",
+    "preview": "재학습·롤백·버전관리 체계 재학습 주기·기준 불명확, 롤백 불가능 - 모델 레지스트리, CI/CD for ML 로그"
+  },
+  {
+    "term": "감리 실무에서 자주 나오는 위험 패턴 Top 5 (2025~2026 년 기준)",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "heading",
+    "context": "AI 성능 진단: 정보시스템 감리 관점",
+    "preview": ""
+  },
+  {
+    "term": "현재 (2026 년) 추천 감리 체크리스트 요약",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "heading",
+    "context": "AI 성능 진단: 정보시스템 감리 관점",
+    "preview": "- [ ] AI 성능 목표가 비즈니스 목표와 명확히 연계되어 있는가?"
+  },
+  {
+    "term": "✅ 필수 점검 항목",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "heading",
+    "context": "현재 (2026 년) 추천 감리 체크리스트 요약",
+    "preview": "- [ ] AI 성능 목표가 비즈니스 목표와 명확히 연계되어 있는가?"
+  },
+  {
+    "term": "AI 성능 목표가 비즈니스 목표와 명확히 연계",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "현재 (2026 년) 추천 감리 체크리스트 요약",
+    "preview": "- [ ] AI 성능 목표가 비즈니스 목표와 명확히 연계되어 있는가?"
+  },
+  {
+    "term": "다양한 성능 지표",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "현재 (2026 년) 추천 감리 체크리스트 요약",
+    "preview": "- [ ] 다양한 성능 지표 (Precision, Recall, F1, AUC, Robustness, Fairness 등) 를 종합적으로 정의·측정했는가?"
+  },
+  {
+    "term": "설명가능성 (XAI) 수준",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "현재 (2026 년) 추천 감리 체크리스트 요약",
+    "preview": "- [ ] 설명가능성 (XAI) 수준이 의사결정에 충분한가? (특히 고위험 영역)"
+  },
+  {
+    "term": "데이터 - 모델 - 운영 전 주기",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "현재 (2026 년) 추천 감리 체크리스트 요약",
+    "preview": "- [ ] 데이터 - 모델 - 운영 전 주기에 걸친 드리프트 감지 및 대응 체계가 있는가?"
+  },
+  {
+    "term": "모델 카드",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "현재 (2026 년) 추천 감리 체크리스트 요약",
+    "preview": "- [ ] 모델 카드 (Model Card) 또는 AI Fact Sheet 수준의 문서화가 완료되었는가?"
+  },
+  {
+    "term": "AI Fact Sheet",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "현재 (2026 년) 추천 감리 체크리스트 요약",
+    "preview": "- [ ] 모델 카드 (Model Card) 또는 AI Fact Sheet 수준의 문서화가 완료되었는가?"
+  },
+  {
+    "term": "AI 성능진단의 본질",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "heading",
+    "context": "AI 성능 진단: 정보시스템 감리 관점",
+    "preview": "> AI 성능진단은 단순히 \"숫자가 좋다/나쁘다\"가 아니라"
+  },
+  {
+    "term": "\"숫자가 좋다/나쁘다\"",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "AI 성능진단의 본질",
+    "preview": "> AI 성능진단은 단순히 \"숫자가 좋다/나쁘다\"가 아니라"
+  },
+  {
+    "term": "\"이 시스템이 국민/고객에게 믿고 맡길 수 있는 수준인가?\"",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "AI 성능진단의 본질",
+    "preview": "> \"이 시스템이 국민/고객에게 믿고 맡길 수 있는 수준인가?\"를 판단하는 과정입니다."
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "heading",
+    "context": "AI 성능 진단: 정보시스템 감리 관점",
+    "preview": "정보시스템 감리 관점에서 AI 성능진단 검토 시 고려사항:"
+  },
+  {
+    "term": "비즈니스 연계성",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 비즈니스 연계성: AI 성능 지표와 비즈니스 KPI 의 명확한 연계"
+  },
+  {
+    "term": "종합적 지표",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. 종합적 지표: 단일 Accuracy 의존하지 않고 Precision, Recall, F1, AUC 등 종합 평가"
+  },
+  {
+    "term": "데이터 품질",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. 데이터 품질: 학습/검증/테스트 데이터의 편향·오염·대표성 검증"
+  },
+  {
+    "term": "Robustness",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. Robustness: 잡음·공격·분포이동에 대한 강건성 테스트"
+  },
+  {
+    "term": "Fairness",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. Fairness: 보호속성별 성능 격차 진단 (성별·연령·지역 등)"
+  },
+  {
+    "term": "Explainability",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. Explainability: Black-box 모델의 의사결정 근거 제시 (SHAP/LIME/XAI)"
+  },
+  {
+    "term": "실환경 검증",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "7. 실환경 검증: Lab 성능과 Production 성능 괴리 확인 (A/B 테스트)"
+  },
+  {
+    "term": "지속적 모니터링",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "8. 지속적 모니터링: 드리프트 감지, 재학습 트리거, 롤백 체계"
+  },
+  {
+    "term": "문서화",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "9. 문서화: 모델 카드, AI Fact Sheet 수준의 완전한 문서화"
+  },
+  {
+    "term": "관련 문서",
+    "section": "ai_performance_diagnosis",
+    "label": "AI 성능 진단",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "> 관련 문서:"
   },
   {
     "term": "uv: 초고속 Python 패키지 매니저",
