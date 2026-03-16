@@ -1693,23 +1693,71 @@
     "label": "감리 체크포인트",
     "type": "heading",
     "context": "",
-    "preview": "다음은 최신 정보시스템 감리와 관련된 자료입니다. 각 항목을 클릭하여 자세한 내용을 확인할 수 있습니다."
+    "preview": "정보시스템 감리의 4 대 영역별 체크포인트입니다."
   },
   {
-    "term": "최신 감리 자료",
+    "term": "1. 사업관리 및 품질보증활동",
     "section": "audit_checkpoints",
     "label": "감리 체크포인트",
     "type": "heading",
     "context": "감리 체크포인트",
-    "preview": "다음은 최신 정보시스템 감리와 관련된 자료입니다. 각 항목을 클릭하여 자세한 내용을 확인할 수 있습니다."
+    "preview": "프로젝트 관리와 품질 보증 활동에 대한 감리 체크포인트입니다."
+  },
+  {
+    "term": "주요 체크 항목",
+    "section": "audit_checkpoints",
+    "label": "감리 체크포인트",
+    "type": "heading",
+    "context": "1. 사업관리 및 품질보증활동",
+    "preview": "- 프로젝트 계획 및 일정 관리"
+  },
+  {
+    "term": "관련 자료",
+    "section": "audit_checkpoints",
+    "label": "감리 체크포인트",
+    "type": "heading",
+    "context": "1. 사업관리 및 품질보증활동",
+    "preview": "- [전자정부 품질관리 매뉴얼](#gov_quality_manual)"
   },
   {
     "term": "[정보시스템 감리 산출물 가이드](https",
     "section": "audit_checkpoints",
     "label": "감리 체크포인트",
     "type": "keyword",
-    "context": "최신 감리 자료",
+    "context": "1. 사업관리 및 품질보증활동",
     "preview": "[정보시스템 감리 산출물 가이드](https://jeonck.github.io/deliverables-guide/#/)"
+  },
+  {
+    "term": "2. 응용시스템",
+    "section": "audit_checkpoints",
+    "label": "감리 체크포인트",
+    "type": "heading",
+    "context": "감리 체크포인트",
+    "preview": "애플리케이션 및 시스템 개발에 대한 감리 체크포인트입니다."
+  },
+  {
+    "term": "3. 데이터베이스",
+    "section": "audit_checkpoints",
+    "label": "감리 체크포인트",
+    "type": "heading",
+    "context": "감리 체크포인트",
+    "preview": "데이터베이스 설계 및 운영에 대한 감리 체크포인트입니다."
+  },
+  {
+    "term": "4. 시스템 아키텍처 및 보안",
+    "section": "audit_checkpoints",
+    "label": "감리 체크포인트",
+    "type": "heading",
+    "context": "감리 체크포인트",
+    "preview": "시스템 아키텍처와 보안에 대한 감리 체크포인트입니다."
+  },
+  {
+    "term": "새로 추가",
+    "section": "audit_checkpoints",
+    "label": "감리 체크포인트",
+    "type": "keyword",
+    "context": "4. 시스템 아키텍처 및 보안",
+    "preview": "- [NCP 기반 외부 연계 아키텍처](#ncp_architecture) ← 새로 추가"
   },
   {
     "term": "최신 사업별 감리 점검 포인트",
@@ -24702,6 +24750,374 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "> 관련 도구: Arize Phoenix, LangSmith, TruLens"
+  },
+  {
+    "term": "NCP 기반 외부 연계 아키텍처",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "heading",
+    "context": "",
+    "preview": "네이버 클라우드 플랫폼 (NCP) 환경에서 보안상 Public Subnet(외부 노출)과 Private Subnet(내부 망)을 엄격히 분리하는 것이 정석입니다."
+  },
+  {
+    "term": "Public Subnet",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "NCP 기반 외부 연계 아키텍처",
+    "preview": "네이버 클라우드 플랫폼 (NCP) 환경에서 보안상 Public Subnet(외부 노출)과 Private Subnet(내부 망)을 엄격히 분리하는 것이 정석입니다."
+  },
+  {
+    "term": "Private Subnet",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "NCP 기반 외부 연계 아키텍처",
+    "preview": "네이버 클라우드 플랫폼 (NCP) 환경에서 보안상 Public Subnet(외부 노출)과 Private Subnet(내부 망)을 엄격히 분리하는 것이 정석입니다."
+  },
+  {
+    "term": "NCP 기반 외부 연계 아키텍처 흐름",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "heading",
+    "context": "NCP 기반 외부 연계 아키텍처",
+    "preview": ""
+  },
+  {
+    "term": "1. 관문",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "NCP 기반 외부 연계 아키텍처 흐름",
+    "preview": "1. 관문 API Gateway 외부 호출 정문. 인증 (IAM/API Key), Throttling, 캐싱을 처리합니다."
+  },
+  {
+    "term": "API Gateway",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "NCP 기반 외부 연계 아키텍처 흐름",
+    "preview": "1. 관문 API Gateway 외부 호출 정문. 인증 (IAM/API Key), Throttling, 캐싱을 처리합니다."
+  },
+  {
+    "term": "2. 연결",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "NCP 기반 외부 연계 아키텍처 흐름",
+    "preview": "2. 연결 Private Domain/VPC API GW 에서 내부 VPC 로 진입하는 구간입니다. (Private 호스트 연결)"
+  },
+  {
+    "term": "Private Domain/VPC",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "NCP 기반 외부 연계 아키텍처 흐름",
+    "preview": "2. 연결 Private Domain/VPC API GW 에서 내부 VPC 로 진입하는 구간입니다. (Private 호스트 연결)"
+  },
+  {
+    "term": "3. 분산",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "NCP 기반 외부 연계 아키텍처 흐름",
+    "preview": "3. 분산 Load Balancer (Internal) Private Subnet 내부에 위치하며, 들어온 요청을 Nginx 서버들로 배분합니다."
+  },
+  {
+    "term": "Load Balancer",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "NCP 기반 외부 연계 아키텍처 흐름",
+    "preview": "3. 분산 Load Balancer (Internal) Private Subnet 내부에 위치하며, 들어온 요청을 Nginx 서버들로 배분합니다."
+  },
+  {
+    "term": "4. 웹",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "NCP 기반 외부 연계 아키텍처 흐름",
+    "preview": "4. 웹 Nginx (Server/ACG) Reverse Proxy 역할을 하며, 특정 포트 (예: 80, 443) 만 허용하도록 ACG(Access Contro…"
+  },
+  {
+    "term": "Nginx",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "NCP 기반 외부 연계 아키텍처 흐름",
+    "preview": "4. 웹 Nginx (Server/ACG) Reverse Proxy 역할을 하며, 특정 포트 (예: 80, 443) 만 허용하도록 ACG(Access Contro…"
+  },
+  {
+    "term": "5. 앱",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "NCP 기반 외부 연계 아키텍처 흐름",
+    "preview": "5. 앱 WAS (Server) 실제 비즈니스 로직 (Java, Python 등) 이 구동됩니다. Nginx 로부터 요청을 전달받습니다."
+  },
+  {
+    "term": "WAS",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "NCP 기반 외부 연계 아키텍처 흐름",
+    "preview": "5. 앱 WAS (Server) 실제 비즈니스 로직 (Java, Python 등) 이 구동됩니다. Nginx 로부터 요청을 전달받습니다."
+  },
+  {
+    "term": "6. 저장",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "NCP 기반 외부 연계 아키텍처 흐름",
+    "preview": "6. 저장 Cloud DB (MySQL/MSSQL 등) WAS 에서만 접근 가능한 별도 DB Subnet 에 위치하여 데이터를 관리합니다."
+  },
+  {
+    "term": "Cloud DB",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "NCP 기반 외부 연계 아키텍처 흐름",
+    "preview": "6. 저장 Cloud DB (MySQL/MSSQL 등) WAS 에서만 접근 가능한 별도 DB Subnet 에 위치하여 데이터를 관리합니다."
+  },
+  {
+    "term": "아키텍처 다이어그램",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "heading",
+    "context": "NCP 기반 외부 연계 아키텍처",
+    "preview": "┌─────────────────────────────────────────────────────────────────┐"
+  },
+  {
+    "term": "💡 NCP 환경에서의 핵심 체크포인트",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "heading",
+    "context": "NCP 기반 외부 연계 아키텍처",
+    "preview": ""
+  },
+  {
+    "term": "1. VPC & Subnet 설계",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "heading",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": ""
+  },
+  {
+    "term": "Public Subnet",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": "Public Subnet 외부와 통신 필요 API GW 접점, 외부 LB"
+  },
+  {
+    "term": "Private Subnet",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": "Private Subnet 내부 망 Nginx, WAS, DB 배치 (외부 직접 노출 차단)"
+  },
+  {
+    "term": "2. ACG (Access Control Group) 설정 (매우 중요)",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "heading",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": "NCP 의 핵심 보안 요소입니다. \"Chaining(연쇄 허용) 설정\"을 해야 안전합니다."
+  },
+  {
+    "term": "Chaining",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": "NCP 의 핵심 보안 요소입니다. \"Chaining(연쇄 허용) 설정\"을 해야 안전합니다."
+  },
+  {
+    "term": "Nginx ACG",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": "Nginx ACG Internal LB 의 IP 만 허용"
+  },
+  {
+    "term": "WAS ACG",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": "WAS ACG Nginx 의 IP 만 허용"
+  },
+  {
+    "term": "DB ACG",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": "DB ACG WAS 의 IP 만 허용"
+  },
+  {
+    "term": "3. API Gateway 연동 방식",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "heading",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": "> NCP API Gateway 는 Endpoint 를 공인 IP 로 잡을 수도 있지만, 보안을 위해 내부망 전용 Endpoint 를 생성하거나 특정 IP 대역만…"
+  },
+  {
+    "term": "공인 IP Endpoint",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": "공인 IP Endpoint 일반적인 방식이지만 보안 주의 필요"
+  },
+  {
+    "term": "내부망 전용 Endpoint",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": "내부망 전용 Endpoint 보안을 위해 권장 (특정 IP 대역만 허용)"
+  },
+  {
+    "term": "내부망 전용 Endpoint 를 생성",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": "> NCP API Gateway 는 Endpoint 를 공인 IP 로 잡을 수도 있지만, 보안을 위해 내부망 전용 Endpoint 를 생성하거나 특정 IP 대역만…"
+  },
+  {
+    "term": "특정 IP 대역만 허용",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": "> NCP API Gateway 는 Endpoint 를 공인 IP 로 잡을 수도 있지만, 보안을 위해 내부망 전용 Endpoint 를 생성하거나 특정 IP 대역만…"
+  },
+  {
+    "term": "4. 인프라 구성 시 제언",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "heading",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": "API GW → LB → Nginx → WAS → DB"
+  },
+  {
+    "term": "기존 구성 (Nginx + WAS 분리)",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "heading",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": "API GW → LB → Nginx → WAS → DB"
+  },
+  {
+    "term": "고도화 구성 (서버리스/컨테이너)",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "heading",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": "> 관리 포인트가 늘어나는 것이 부담스러우시다면 NCP 의 Cloud Functions나 Kubernetes Service(NKS)를 활용해 API Gateway…"
+  },
+  {
+    "term": "NCP 의 Cloud Functions",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": "> 관리 포인트가 늘어나는 것이 부담스러우시다면 NCP 의 Cloud Functions나 Kubernetes Service(NKS)를 활용해 API Gateway…"
+  },
+  {
+    "term": "Kubernetes Service",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "💡 NCP 환경에서의 핵심 체크포인트",
+    "preview": "> 관리 포인트가 늘어나는 것이 부담스러우시다면 NCP 의 Cloud Functions나 Kubernetes Service(NKS)를 활용해 API Gateway…"
+  },
+  {
+    "term": "서버리스 구성",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "heading",
+    "context": "",
+    "preview": "API GW → Cloud Functions → DB"
+  },
+  {
+    "term": "컨테이너 구성",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "heading",
+    "context": "",
+    "preview": "API GW → NKS (Kubernetes) → DB"
+  },
+  {
+    "term": "감리 관점에서의 시사점",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "heading",
+    "context": "컨테이너 구성",
+    "preview": "정보시스템 감리 관점에서 NCP 아키텍처 검토 시 고려사항:"
+  },
+  {
+    "term": "보안 구역 분리",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "1. 보안 구역 분리: Public/Private Subnet 엄격한 분리 여부"
+  },
+  {
+    "term": "ACG 설정 적정성",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "2. ACG 설정 적정성: 연쇄 허용 (Chaining) 설정으로 최소 권한 원칙 준수"
+  },
+  {
+    "term": "API Gateway 보안",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "3. API Gateway 보안: 인증/인가, Throttling, IP 제한 설정"
+  },
+  {
+    "term": "데이터 암호화",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "4. 데이터 암호화: 전송 중 (TLS/SSL) 및 저장 데이터 암호화"
+  },
+  {
+    "term": "로그 및 모니터링",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "5. 로그 및 모니터링: API GW, LB, WAS, DB 전 구간 로그 수집"
+  },
+  {
+    "term": "백업 및 복구",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "6. 백업 및 복구: DB 백업 정책 및 복구 절차 수립"
+  },
+  {
+    "term": "관련 문서",
+    "section": "ncp_architecture",
+    "label": "NCP 아키텍처",
+    "type": "keyword",
+    "context": "감리 관점에서의 시사점",
+    "preview": "> 관련 문서: [네이버 클라우드 플랫폼 보안 가이드](https://docs.ncloud.com/ko/security/)"
   },
   {
     "term": "uv: 초고속 Python 패키지 매니저",

@@ -76,6 +76,7 @@ const SECTION_LABELS = {
     a2a_collaboration_patterns: 'A2A 협업 패턴',
     ai_observability:       'AI Observability',
     ragas_evaluation:       'RAGAS 품질 평가',
+    ncp_architecture:       'NCP 아키텍처',
     python_uv:              'Python uv 패키지매니저',
     faq:                    'FAQ',
     faq2:                   'FAQ',
