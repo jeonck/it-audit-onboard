@@ -20,7 +20,7 @@ async function loadMarkdownContent(section) {
 
             // Concatenate both FAQ contents, removing duplicate headers
             markdownText = text1 + '\n\n' + removeHeaderFromMarkdown(text2);
-        } else if (section === 'audit_checkpoints' || section === 'latest_checkpoints' || section === 'latest_technical' || section === 'latest_additional' || section === 'security_iso27001' || section === 'gov_quality_manual' || section === 'data_quality_assessment' || section === 'proposal_management' || section === 'learning_growth' || section === 'social_identity_auth' || section === 'ai_development_methodology' || section === 'cerebras_ai' || section === 'diffusion_llm' || section === 'ai_dlc' || section === 'compound_ai' || section === 'rag' || section === 'ai_dlc_bolt_mob' || section === 'mcp_context' || section === 'react_pattern' || section === 'coderabbit_guide' || section === 'ai_native_architecture' || section === 'ai_architecture_tradeoffs' || section === 'ai_latency_optimization' || section === 'ai_cost_optimization' || section === 'ai_quality_assurance' || section === 'ai_architecture_decision_tree' || section === 'compound_ai_architecture' || section === 'ai_model_routing' || section === 'ai_fallback_strategies' || section === 'chatbot_vs_pipeline' || section === 'domain_specific_ai' || section === 'ai_msa_eda' || section === 'monolith_limitations' || section === 'msa_core_principles' || section === 'sync_vs_async_communication' || section === 'eda_deep_dive' || section === 'bounded_context_msa' || section === 'ddd_core_concepts' || section === 'msa_core_patterns' || section === 'ai_service_decomposition' || section === 'ai_infrastructure_challenges' || section === 'vllm_serving' || section === 'mcp_vs_rest' || section === 'mcp_fundamentals' || section === 'rest_vs_mcp_flexibility' || section === 'vercel_agent_browser' || section === 'mcp_vs_a2a' || section === 'agent_card' || section === 'claude_skills_vs_mcp' || section === 'a2a_collaboration_patterns' || section === 'ai_observability' || section === 'ragas_evaluation' || section === 'ncp_architecture' || section === 'ai_performance_diagnosis' || section === 'python_uv') {
+        } else if (section === 'audit_checkpoints' || section === 'latest_checkpoints' || section === 'latest_technical' || section === 'latest_additional' || section === 'security_iso27001' || section === 'gov_quality_manual' || section === 'data_quality_assessment' || section === 'proposal_management' || section === 'learning_growth' || section === 'social_identity_auth' || section === 'ai_development_methodology' || section === 'cerebras_ai' || section === 'diffusion_llm' || section === 'ai_dlc' || section === 'compound_ai' || section === 'rag' || section === 'ai_dlc_bolt_mob' || section === 'mcp_context' || section === 'react_pattern' || section === 'coderabbit_guide' || section === 'ai_native_architecture' || section === 'ai_architecture_tradeoffs' || section === 'ai_latency_optimization' || section === 'ai_cost_optimization' || section === 'ai_quality_assurance' || section === 'ai_architecture_decision_tree' || section === 'compound_ai_architecture' || section === 'ai_model_routing' || section === 'ai_fallback_strategies' || section === 'chatbot_vs_pipeline' || section === 'domain_specific_ai' || section === 'ai_msa_eda' || section === 'monolith_limitations' || section === 'msa_core_principles' || section === 'sync_vs_async_communication' || section === 'eda_deep_dive' || section === 'bounded_context_msa' || section === 'ddd_core_concepts' || section === 'msa_core_patterns' || section === 'ai_service_decomposition' || section === 'ai_infrastructure_challenges' || section === 'vllm_serving' || section === 'mcp_vs_rest' || section === 'mcp_fundamentals' || section === 'rest_vs_mcp_flexibility' || section === 'vercel_agent_browser' || section === 'mcp_vs_a2a' || section === 'agent_card' || section === 'claude_skills_vs_mcp' || section === 'a2a_collaboration_patterns' || section === 'ai_observability' || section === 'ragas_evaluation' || section === 'ncp_architecture' || section === 'ai_performance_diagnosis' || section === 'python_uv' || section === 'oda_certification' || section === 'pwa_deployment_strategy') {
             // Handle the audit checkpoints sections
             if (section === 'audit_checkpoints') {
                 // Load the main audit checkpoints page which links to sub-sections
@@ -82,297 +82,40 @@ async function loadMarkdownContent(section) {
             }
         }
 
-        // Set up click handlers for internal links in the audit checkpoints section
-        if (section === 'audit_checkpoints' || section === 'learning_growth') {
-            setupInternalLinks();
-        }
+        // Set up click handlers for all internal hash links in the loaded content
+        setupInternalLinks();
 
         // Set external links to open in a new tab
         setExternalLinksToNewTab();
 
         // Scroll to top after content loads
         window.scrollTo({ top: 0, behavior: 'smooth' });
+
+        // Update URL hash so the page can be bookmarked / shared
+        if (window.location.hash.slice(1) !== section) {
+            history.pushState({ section }, '', `#${section}`);
+        }
     } catch (error) {
         console.error('Error loading markdown content:', error);
         document.getElementById('content-container').innerHTML = `<p>콘텐츠를 불러오는 중 오류가 발생했습니다: ${error.message}</p>`;
     }
 }
 
-// Function to set up click handlers for internal links
+// Function to set up click handlers for all internal hash links in the loaded content.
+// Generic: any href starting with '#' is treated as a section name — no per-section if-else needed.
 function setupInternalLinks() {
-    // Wait for the content to be rendered
     setTimeout(() => {
         const links = document.querySelectorAll('#content-container a');
         links.forEach(link => {
             const href = link.getAttribute('href');
-            if (href === '#latest_checkpoints') {
+            if (href && href.startsWith('#') && href.length > 1) {
                 link.addEventListener('click', function(e) {
                     e.preventDefault();
-                    loadMarkdownContent('latest_checkpoints');
-                });
-            } else if (href === '#latest_technical') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('latest_technical');
-                });
-            } else if (href === '#latest_additional') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('latest_additional');
-                });
-            } else if (href === '#security_iso27001') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('security_iso27001');
-                });
-            } else if (href === '#gov_quality_manual') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('gov_quality_manual');
-                });
-            } else if (href === '#data_quality_assessment') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('data_quality_assessment');
-                });
-            } else if (href === '#proposal_management') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('proposal_management');
-                });
-            } else if (href === '#social_identity_auth') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('social_identity_auth');
-                });
-            } else if (href === '#ai_development_methodology') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ai_development_methodology');
-                });
-            } else if (href === '#cerebras_ai') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('cerebras_ai');
-                });
-            } else if (href === '#diffusion_llm') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('diffusion_llm');
-                });
-            } else if (href === '#ai_dlc') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ai_dlc');
-                });
-            } else if (href === '#compound_ai') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('compound_ai');
-                });
-            } else if (href === '#rag') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('rag');
-                });
-            } else if (href === '#ai_dlc_bolt_mob') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ai_dlc_bolt_mob');
-                });
-            } else if (href === '#mcp_context') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('mcp_context');
-                });
-            } else if (href === '#react_pattern') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('react_pattern');
-                });
-            } else if (href === '#coderabbit_guide') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('coderabbit_guide');
-                });
-            } else if (href === '#ai_native_architecture') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ai_native_architecture');
-                });
-            } else if (href === '#ai_architecture_tradeoffs') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ai_architecture_tradeoffs');
-                });
-            } else if (href === '#ai_latency_optimization') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ai_latency_optimization');
-                });
-            } else if (href === '#ai_cost_optimization') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ai_cost_optimization');
-                });
-            } else if (href === '#ai_quality_assurance') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ai_quality_assurance');
-                });
-            } else if (href === '#ai_architecture_decision_tree') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ai_architecture_decision_tree');
-                });
-            } else if (href === '#compound_ai_architecture') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('compound_ai_architecture');
-                });
-            } else if (href === '#ai_model_routing') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ai_model_routing');
-                });
-            } else if (href === '#ai_fallback_strategies') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ai_fallback_strategies');
-                });
-            } else if (href === '#chatbot_vs_pipeline') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('chatbot_vs_pipeline');
-                });
-            } else if (href === '#domain_specific_ai') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('domain_specific_ai');
-                });
-            } else if (href === '#ai_msa_eda') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ai_msa_eda');
-                });
-            } else if (href === '#monolith_limitations') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('monolith_limitations');
-                });
-            } else if (href === '#msa_core_principles') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('msa_core_principles');
-                });
-            } else if (href === '#sync_vs_async_communication') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('sync_vs_async_communication');
-                });
-            } else if (href === '#eda_deep_dive') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('eda_deep_dive');
-                });
-            } else if (href === '#bounded_context_msa') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('bounded_context_msa');
-                });
-            } else if (href === '#ddd_core_concepts') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ddd_core_concepts');
-                });
-            } else if (href === '#msa_core_patterns') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('msa_core_patterns');
-                });
-            } else if (href === '#ai_service_decomposition') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ai_service_decomposition');
-                });
-            } else if (href === '#ai_infrastructure_challenges') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ai_infrastructure_challenges');
-                });
-            } else if (href === '#vllm_serving') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('vllm_serving');
-                });
-            } else if (href === '#mcp_vs_rest') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('mcp_vs_rest');
-                });
-            } else if (href === '#mcp_fundamentals') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('mcp_fundamentals');
-                });
-            } else if (href === '#rest_vs_mcp_flexibility') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('rest_vs_mcp_flexibility');
-                });
-            } else if (href === '#vercel_agent_browser') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('vercel_agent_browser');
-                });
-            } else if (href === '#mcp_vs_a2a') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('mcp_vs_a2a');
-                });
-            } else if (href === '#agent_card') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('agent_card');
-                });
-            } else if (href === '#claude_skills_vs_mcp') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('claude_skills_vs_mcp');
-                });
-            } else if (href === '#a2a_collaboration_patterns') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('a2a_collaboration_patterns');
-                });
-            } else if (href === '#ai_observability') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ai_observability');
-                });
-            } else if (href === '#ragas_evaluation') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ragas_evaluation');
-                });
-            } else if (href === '#ncp_architecture') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ncp_architecture');
-                });
-            } else if (href === '#ai_performance_diagnosis') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('ai_performance_diagnosis');
-                });
-            } else if (href === '#python_uv') {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    loadMarkdownContent('python_uv');
+                    loadMarkdownContent(href.slice(1));
                 });
             }
         });
-    }, 200); // Wait a bit for content to render
+    }, 200);
 }
 
 // Function to add separators between FAQ items
@@ -401,6 +144,12 @@ function removeHeaderFromMarkdown(text) {
     return text.replace(/^#[^\n]*\n/, '');
 }
 
+
+// Browser back / forward — restore the section stored in history state
+window.addEventListener('popstate', (e) => {
+    const section = (e.state && e.state.section) || window.location.hash.slice(1) || 'introduction';
+    loadMarkdownContent(section);
+});
 
 // Direct jump scrolling for navigation links (no smooth scrolling)
 document.querySelectorAll('.nav-link, .dropdown-menu a').forEach(anchor => {
@@ -555,8 +304,9 @@ document.addEventListener('DOMContentLoaded', async function() {
     // 색인 미리 로드
     loadSearchIndex();
 
-    // 기본 섹션 로드
-    await loadMarkdownContent('introduction');
+    // URL 해시가 있으면 해당 섹션 로드, 없으면 기본 소개 페이지
+    const initialSection = window.location.hash.slice(1) || 'introduction';
+    await loadMarkdownContent(initialSection);
 
     // 실시간 입력 → 색인 드롭다운 (300ms 디바운스)
     searchInput.addEventListener('input', () => {

@@ -79,6 +79,9 @@ const SECTION_LABELS = {
     ncp_architecture:       'NCP 아키텍처',
     ai_performance_diagnosis: 'AI 성능 진단',
     python_uv:              'Python uv 패키지매니저',
+    oda_certification:      'ODA 자격증 (글로벌 감리)',
+    pwa_deployment_strategy: '모바일 PWA 배포 전략',
+    harness_engineering:    '하네스 엔지니어링',
     faq:                    'FAQ',
     faq2:                   'FAQ',
 };

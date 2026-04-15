@@ -4512,6 +4512,14 @@
     "preview": ""
   },
   {
+    "term": "💡 링크를 클릭하면 각 주제별 상세 콘텐츠를 바로 확인할 수 있습니다.",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "keyword",
+    "context": "📊 빠른 링크 (Quick Links)",
+    "preview": "> 💡 링크를 클릭하면 각 주제별 상세 콘텐츠를 바로 확인할 수 있습니다."
+  },
+  {
     "term": "감리 역량 강화",
     "section": "learning_growth",
     "label": "학습과성장",
@@ -4520,7 +4528,7 @@
     "preview": ""
   },
   {
-    "term": "전문 자격증",
+    "term": "분야별 전문 자격증 매핑",
     "section": "learning_growth",
     "label": "학습과성장",
     "type": "heading",
@@ -4528,36 +4536,116 @@
     "preview": ""
   },
   {
-    "term": "정보시스템감리사",
+    "term": "ODA 해외감리",
     "section": "learning_growth",
     "label": "학습과성장",
     "type": "keyword",
     "context": "감리 역량 강화",
-    "preview": "정보시스템감리사 국내 공인 감리 전문 자격"
+    "preview": "ODA 해외감리 [ODA 자격증](#oda_certification) - KOICA/EDCF 글로벌 공공사업 감리 전문가"
   },
   {
-    "term": "CISSP",
+    "term": "기술진단",
     "section": "learning_growth",
     "label": "학습과성장",
     "type": "keyword",
     "context": "감리 역량 강화",
-    "preview": "CISSP 국제 보안 전문가 인증"
+    "preview": "기술진단 정보처리기사/기술사, TOGAF, AWS/Azure/GCP 아키텍트, CSTS"
   },
   {
-    "term": "PMP",
+    "term": "SW 보안약점 진단",
     "section": "learning_growth",
     "label": "학습과성장",
     "type": "keyword",
     "context": "감리 역량 강화",
-    "preview": "PMP 프로젝트 관리 전문가"
+    "preview": "SW 보안약점 진단 SW보안약점진단원, CISSP, CISA, OSCP, 정보보호최고책임관리사(CISO), 정보보안기사"
   },
   {
-    "term": "AWS/Azure",
+    "term": "개인정보 진단",
     "section": "learning_growth",
     "label": "학습과성장",
     "type": "keyword",
     "context": "감리 역량 강화",
-    "preview": "AWS/Azure 클라우드 플랫폼 자격증"
+    "preview": "개인정보 진단 PIA(개인정보영향평가), ISMS-P인증심사원, CIPP, CIPM, CIPT, KISA 개인정보보호전문가"
+  },
+  {
+    "term": "웹 접근성 진단",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "keyword",
+    "context": "감리 역량 강화",
+    "preview": "웹 접근성 진단 WA(Web Accessibility) 전문가, 정보처리기사"
+  },
+  {
+    "term": "데이터 품질점검",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "keyword",
+    "context": "감리 역량 강화",
+    "preview": "데이터 품질점검 DAP(Data Analyst Professional), 공공데이터품질심사원, DAsP, CDMP(국제데이터전문가), ADSP(데이터분석준전문가)"
+  },
+  {
+    "term": "성능 진단",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "keyword",
+    "context": "감리 역량 강화",
+    "preview": "성능 진단 정보처리기술사, AWS/Azure 성능최적화 자격"
+  },
+  {
+    "term": "기능점수 측정",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "keyword",
+    "context": "감리 역량 강화",
+    "preview": "기능점수 측정 IFPUG-CFPP, IFPUG-CFPS, CFPS(Certified Function Point Specialist), OKFSP"
+  },
+  {
+    "term": "기능 테스트",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "keyword",
+    "context": "감리 역량 강화",
+    "preview": "기능 테스트 ISTQB(국제소프트웨어테스팅자격), 정보처리산업기사"
+  },
+  {
+    "term": "연계 점검",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "keyword",
+    "context": "감리 역량 강화",
+    "preview": "연계 점검 정보처리기사, ITIL Foundation"
+  },
+  {
+    "term": "웹 취약점 점검",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "keyword",
+    "context": "감리 역량 강화",
+    "preview": "웹 취약점 점검 CEH, OSCP, 정보보안기사, FSEC"
+  },
+  {
+    "term": "UI/UX",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "keyword",
+    "context": "감리 역량 강화",
+    "preview": "UI/UX UXQ(Certified User Experience Professional), HCI 관련 자격"
+  },
+  {
+    "term": "K8s 클라우드 네이티브",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "keyword",
+    "context": "감리 역량 강화",
+    "preview": "K8s 클라우드 네이티브 CKA(Admin), CKAD(Developer), CKS(Security), 클라우드마스터"
+  },
+  {
+    "term": "AI 점검",
+    "section": "learning_growth",
+    "label": "학습과성장",
+    "type": "keyword",
+    "context": "감리 역량 강화",
+    "preview": "AI 점검 Google Cloud ML Engineer, AWS ML Specialty, AI 관련 국가기술자격"
   },
   {
     "term": "추천 학습 자료",
@@ -4566,78 +4654,6 @@
     "type": "heading",
     "context": "감리 역량 강화",
     "preview": "- 정보시스템 감리기준 (행정안전부 고시)"
-  },
-  {
-    "term": "인증 기술 자료",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "학습과성장",
-    "preview": "- [자세히 보기](#social_identity_auth) - 소셜 로그인과 본인인증의 비교 및 아키텍처 설계 가이드"
-  },
-  {
-    "term": "소셜 인증 vs 본인 인증",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "인증 기술 자료",
-    "preview": "- [자세히 보기](#social_identity_auth) - 소셜 로그인과 본인인증의 비교 및 아키텍처 설계 가이드"
-  },
-  {
-    "term": "AI 시대 개발방법론",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "학습과성장",
-    "preview": ""
-  },
-  {
-    "term": "MSA & 아키텍처",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "학습과성장",
-    "preview": ""
-  },
-  {
-    "term": "MCP & A2A 프로토콜",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "학습과성장",
-    "preview": ""
-  },
-  {
-    "term": "설계 & 최적화",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "학습과성장",
-    "preview": ""
-  },
-  {
-    "term": "품질 & 보안",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "학습과성장",
-    "preview": ""
-  },
-  {
-    "term": "AI 실습 자료",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "학습과성장",
-    "preview": ""
-  },
-  {
-    "term": "AI 기술 및 하드웨어",
-    "section": "learning_growth",
-    "label": "학습과성장",
-    "type": "heading",
-    "context": "학습과성장",
-    "preview": ""
   },
   {
     "term": "소셜 인증 vs 본인 인증",
@@ -26222,6 +26238,782 @@
     "type": "keyword",
     "context": "감리 관점에서의 시사점",
     "preview": "> 공식 문서: [https://docs.astral.sh/uv/](https://docs.astral.sh/uv/)"
+  },
+  {
+    "term": "ODA 자격증 (글로벌 감리 전문가)",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "heading",
+    "context": "",
+    "preview": "> ODA(Official Development Assistance, 공적개발원조) 자격증은 최근 한국 IT 기업들의 해외 진출, 특히 개발도상국 대상 국가 정보…"
+  },
+  {
+    "term": "감리원에게 ODA 자격증이 필요한 이유",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "heading",
+    "context": "ODA 자격증 (글로벌 감리 전문가)",
+    "preview": ""
+  },
+  {
+    "term": "글로벌 공공사업 입찰 필수",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "감리원에게 ODA 자격증이 필요한 이유",
+    "preview": "글로벌 공공사업 입찰 필수 KOICA, EDCF 해외 정보화 사업 감리 제안서 제출 시 ODA 자격 보유자를 필수/우대 인력으로 지정. 제안서 평가 기술 점수 가…"
+  },
+  {
+    "term": "ODA 사업 절차 및 체계 이해",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "감리원에게 ODA 자격증이 필요한 이유",
+    "preview": "ODA 사업 절차 및 체계 이해 PCP(Project Concept Paper) 분석, PDM(Project Design Matrix) 기반 성과 관리 등 ODA…"
+  },
+  {
+    "term": "수원국 환경 최적화 감리",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "감리원에게 ODA 자격증이 필요한 이유",
+    "preview": "수원국 환경 최적화 감리 수원국의 통신 인프라, 전력 상황, 유지보수 역량을 고려한 \"적정 기술\" 감리. 기술적으로 우수하지만 수원국이 운영할 수 없는 시스템 사…"
+  },
+  {
+    "term": "적정 기술",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "감리원에게 ODA 자격증이 필요한 이유",
+    "preview": "수원국 환경 최적화 감리 수원국의 통신 인프라, 전력 상황, 유지보수 역량을 고려한 \"적정 기술\" 감리. 기술적으로 우수하지만 수원국이 운영할 수 없는 시스템 사…"
+  },
+  {
+    "term": "글로벌 컨설턴트 커리어 확장",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "감리원에게 ODA 자격증이 필요한 이유",
+    "preview": "글로벌 컨설턴트 커리어 확장 국내 공공사업 중심 감리원에서 해외 전문 감리원 또는 PMO(사업관리단) 전문가로 커리어 확장. 국내 시장 포화 돌파구"
+  },
+  {
+    "term": "핵심 요약",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "heading",
+    "context": "ODA 자격증 (글로벌 감리 전문가)",
+    "preview": "> \"단순한 기술 감리를 넘어, 개발협력 사업의 특수성과 글로벌 표준 프로세스를 이해하고 있음을 증명하는 도구\""
+  },
+  {
+    "term": "기출 중심 효율 학습 전략",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "heading",
+    "context": "ODA 자격증 (글로벌 감리 전문가)",
+    "preview": "ODA 전문가 자격시험은 이론의 양이 방대하기 때문에, 기출 데이터와 출제 비중을 분석한 효율적인 접근이 필수적입니다. 특히 실무 경험이 많은 전문가들에게는 익숙…"
+  },
+  {
+    "term": "'선택과 집중'",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "ODA 전문가 자격시험은 이론의 양이 방대하기 때문에, 기출 데이터와 출제 비중을 분석한 효율적인 접근이 필수적입니다. 특히 실무 경험이 많은 전문가들에게는 익숙…"
+  },
+  {
+    "term": "1. 과목별 출제 비중 및 핵심 타겟",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "heading",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "시험은 크게 기본과정과 심화과정으로 나뉘며, 감리원에게는 보통 두 영역 모두의 지식이 요구됩니다."
+  },
+  {
+    "term": "기본 (국제개발협력의 이해)",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "기본 (국제개발협력의 이해) 역사, 이론, 최근 동향(SDGs) '연도별 주요 선언'과 '기구별 특징'을 암기 (예: 마샬 플랜 → MDGs → SDGs 흐름)"
+  },
+  {
+    "term": "심화 (사업 형성 및 관리)",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "심화 (사업 형성 및 관리) PDM 작성과 평가(OECD DAC 5대/6대 기준) PDM 논리 구조를 이해하면 암기량을 70% 감소. 감리 실무와 가장 밀접"
+  },
+  {
+    "term": "70% 감소",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "심화 (사업 형성 및 관리) PDM 작성과 평가(OECD DAC 5대/6대 기준) PDM 논리 구조를 이해하면 암기량을 70% 감소. 감리 실무와 가장 밀접"
+  },
+  {
+    "term": "2. 기출문제 기반 '빈출 키워드' 공략",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "heading",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "기출문제를 풀다 보면 반복해서 등장하는 \"정답 단골 손님\"들이 있습니다."
+  },
+  {
+    "term": "정답 단골 손님",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "기출문제를 풀다 보면 반복해서 등장하는 \"정답 단골 손님\"들이 있습니다."
+  },
+  {
+    "term": "역사/이론",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "역사/이론 파리선언 5대 원칙(소유권, 정렬 등), 아크라 행동계획, 부산 세계개발원조총회(HLF-4)"
+  },
+  {
+    "term": "국제기구",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "국제기구 OECD DAC(개발원조위원회) 가입 조건 및 역할, UN 산하기구별 특징"
+  },
+  {
+    "term": "전략/이슈",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "전략/이슈 SDGs 17개 목표, 성주류화(Gender Mainstreaming), 적정기술"
+  },
+  {
+    "term": "실무/평가",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "실무/평가 PDM 구성 요소, OECD DAC 평가 6대 기준 (효율성, 효과성, 영향력 등)"
+  },
+  {
+    "term": "3. 단계별 학습 로드맵",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "heading",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "① 1단계: PDM(사업설계도) 논리 구조 파악 (가장 중요)"
+  },
+  {
+    "term": "① 1단계: PDM(사업설계도) 논리 구조 파악 (가장 중요)",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "① 1단계: PDM(사업설계도) 논리 구조 파악 (가장 중요)"
+  },
+  {
+    "term": "수직적 논리",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "- 수직적 논리: \"투입\" → \"활동\" → \"산출\" → \"결과\" → \"상위목표\""
+  },
+  {
+    "term": "상위목표",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "- 수직적 논리: \"투입\" → \"활동\" → \"산출\" → \"결과\" → \"상위목표\""
+  },
+  {
+    "term": "수평적 논리",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "- 수평적 논리: \"지표\" → \"확인수단\" → \"가정\""
+  },
+  {
+    "term": "확인수단",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "- 수평적 논리: \"지표\" → \"확인수단\" → \"가정\""
+  },
+  {
+    "term": "② 2단계: '틀린 보기' 분석법",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "② 2단계: '틀린 보기' 분석법"
+  },
+  {
+    "term": "오답 선지가 왜 틀렸는지",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "ODA 시험은 개념이 모호한 보기가 많습니다. 기출문제를 풀 때 맞고 틀림에 집중하기보다, 오답 선지가 왜 틀렸는지를 기본서(KOICA 발간 교재)에서 찾아 표시…"
+  },
+  {
+    "term": "OECD DAC 가입국이 아니어도 ODA를 제공할 수 있다.",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "> 예: \"OECD DAC 가입국이 아니어도 ODA를 제공할 수 있다.\" (O/X 퀴즈 형태의 오답 유도 지문이 많음)"
+  },
+  {
+    "term": "③ 3단계: 최근 3개년 '국제 트렌드' 업데이트",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "③ 3단계: 최근 3개년 '국제 트렌드' 업데이트"
+  },
+  {
+    "term": "4. 실전 팁",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "heading",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "- \"KOICA ODA 교육원 교재가 성경\": 시중 문제집보다 KOICA에서 발행한 공식 기본서(입문편/심화편)의 문장이 그대로 출제됩니다. 기출문제를 풀고 해당…"
+  },
+  {
+    "term": "KOICA ODA 교육원 교재가 성경",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "- \"KOICA ODA 교육원 교재가 성경\": 시중 문제집보다 KOICA에서 발행한 공식 기본서(입문편/심화편)의 문장이 그대로 출제됩니다. 기출문제를 풀고 해당…"
+  },
+  {
+    "term": "역추적",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "- \"KOICA ODA 교육원 교재가 성경\": 시중 문제집보다 KOICA에서 발행한 공식 기본서(입문편/심화편)의 문장이 그대로 출제됩니다. 기출문제를 풀고 해당…"
+  },
+  {
+    "term": "\"KOICA ODA 교육원 교재가 성경\"",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "\"KOICA ODA 교육원 교재가 성경\": 시중 문제집보다 KOICA에서 발행한 공식 기본서(입문편/심화편)의 문장이 그대로 출제됩니다. 기출문제를 풀고 해당 부"
+  },
+  {
+    "term": "숫자와 고유명사",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "- \"숫자와 고유명사\": ODA/GNI 비율 목표(0.7%), 한국의 DAC 가입 연도(2010년) 등 상징적인 숫자들은 단답형이나 객관식 함정으로 자주 나옵니다…"
+  },
+  {
+    "term": "\"숫자와 고유명사\"",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "기출 중심 효율 학습 전략",
+    "preview": "\"숫자와 고유명사\": ODA/GNI 비율 목표(0.7%), 한국의 DAC 가입 연도(2010년) 등 상징적인 숫자들은 단답형이나 객관식 함정으로 자주 나옵니다."
+  },
+  {
+    "term": "2026년도 시험 요강",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "heading",
+    "context": "ODA 자격증 (글로벌 감리 전문가)",
+    "preview": "2026년에는 총 2회의 시험이 예정되어 있습니다."
+  },
+  {
+    "term": "1. 시험 일정",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "heading",
+    "context": "2026년도 시험 요강",
+    "preview": "2026년에는 총 2회의 시험이 예정되어 있습니다."
+  },
+  {
+    "term": "제17회",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "제17회 2026.05.27(수) ~ 06.12(금) 2026년 7월 초 예상 추후 공지"
+  },
+  {
+    "term": "제18회",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "제18회 2026.09.14(월) ~ 09.30(수) 2026년 11월 초 예상 추후 공지"
+  },
+  {
+    "term": "접수 방법",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "- 접수 방법: KOICA ODA 교육원 홈페이지를 통한 온라인 접수"
+  },
+  {
+    "term": "응시료",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "- 응시료: 20,000원 (변동 가능)"
+  },
+  {
+    "term": "2. 시험 과목 및 문항 구성",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "heading",
+    "context": "2026년도 시험 요강",
+    "preview": "총 80문항, 객관식 4지 선다형입니다."
+  },
+  {
+    "term": "80문항",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "총 80문항, 객관식 4지 선다형입니다."
+  },
+  {
+    "term": "1과목: 국제개발협력의 이해",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "1과목: 국제개발협력의 이해 역사, 이론, 최근 동향, 한국의 국제개발협력 등 40문항"
+  },
+  {
+    "term": "2과목: 국제개발협력의 이슈",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "2과목: 국제개발협력의 이슈 분야별 이슈(교육, 보건, DX 등), 범분야 이슈(성평등, 환경 등), 사업 형성 및 관리 40문항"
+  },
+  {
+    "term": "시험 시간",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "- 시험 시간: 총 100분 (10:20 ~ 12:00)"
+  },
+  {
+    "term": "준비물",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "- 준비물: 신분증, 수험표, 컴퓨터용 싸인펜, 수정테이프"
+  },
+  {
+    "term": "3. 합격 기준 및 유효기간",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "heading",
+    "context": "2026년도 시험 요강",
+    "preview": ""
+  },
+  {
+    "term": "합격 기준",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "합격 기준 과목별 60점 이상, 전 과목 평균 70점 이상 (100점 만점 기준)"
+  },
+  {
+    "term": "자격 유효기간",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "자격 유효기간 합격자 발표일로부터 3년"
+  },
+  {
+    "term": "보수교육",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "보수교육 유효기간 만료 전 지정된 보수교육 이수 시 3년씩 갱신"
+  },
+  {
+    "term": "4. 자격증 우대사항 (취업/진학 가점)",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "heading",
+    "context": "2026년도 시험 요강",
+    "preview": "ODA 자격증 취득 시 국제개발협력 분야 취업 및 진학에 유리합니다."
+  },
+  {
+    "term": "KOICA 직원 채용",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "KOICA 직원 채용 서류전형 10~20점, 필기전형 5~10점 가점"
+  },
+  {
+    "term": "World Friends Korea 해외봉사단원 선발",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "World Friends Korea 해외봉사단원 선발 서류전형 5~10점 가점"
+  },
+  {
+    "term": "입찰 제안요청서(RFP) 평가",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "입찰 제안요청서(RFP) 평가 핵심투입 인력에 대해 10~15점 가점"
+  },
+  {
+    "term": "해외사무소 및 ODA 사업수행기관 YP(인턴) 선발",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "해외사무소 및 ODA 사업수행기관 YP(인턴) 선발 서류전형 5~10점 가점"
+  },
+  {
+    "term": "글로벌협력의료진 선발",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "글로벌협력의료진 선발 서류전형 5~10점 가점"
+  },
+  {
+    "term": "5. 응시자 혜택",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "heading",
+    "context": "2026년도 시험 요강",
+    "preview": ""
+  },
+  {
+    "term": "해외 사업 가점",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "해외 사업 가점 KOICA ODA 사업수행기관(파트너사) 선정 시, 참여 인력의 자격증 보유 여부에 따라 기술 평가 가점 부여"
+  },
+  {
+    "term": "전문가 풀 등록",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "2026년도 시험 요강",
+    "preview": "전문가 풀 등록 자격 취득 후 KOICA 전문가 DB 등록 시 증빙 자료로 활용"
+  },
+  {
+    "term": "준비 교재 및 강의",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "heading",
+    "context": "ODA 자격증 (글로벌 감리 전문가)",
+    "preview": ""
+  },
+  {
+    "term": "공식 기본서",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "준비 교재 및 강의",
+    "preview": "공식 기본서 시공미디어 발행 \"국제개발협력 입문편\", \"국제개발협력 심화편\""
+  },
+  {
+    "term": "국제개발협력 입문편",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "준비 교재 및 강의",
+    "preview": "공식 기본서 시공미디어 발행 \"국제개발협력 입문편\", \"국제개발협력 심화편\""
+  },
+  {
+    "term": "국제개발협력 심화편",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "준비 교재 및 강의",
+    "preview": "공식 기본서 시공미디어 발행 \"국제개발협력 입문편\", \"국제개발협력 심화편\""
+  },
+  {
+    "term": "기출문제집",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "준비 교재 및 강의",
+    "preview": "기출문제집 ODA교육원 발행 \"ODA 자격증 시험 대비 기출문제집\""
+  },
+  {
+    "term": "ODA 자격증 시험 대비 기출문제집",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "준비 교재 및 강의",
+    "preview": "기출문제집 ODA교육원 발행 \"ODA 자격증 시험 대비 기출문제집\""
+  },
+  {
+    "term": "요약집",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "준비 교재 및 강의",
+    "preview": "요약집 ODA교육원 발행 \"ODA 자격증 시험 대비 요약집\""
+  },
+  {
+    "term": "ODA 자격증 시험 대비 요약집",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "준비 교재 및 강의",
+    "preview": "요약집 ODA교육원 발행 \"ODA 자격증 시험 대비 요약집\""
+  },
+  {
+    "term": "2회독",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "준비 교재 및 강의",
+    "preview": "- 시중의 요약집보다는 공식 교재를 최소 2회독 하시는 것을 권장합니다"
+  },
+  {
+    "term": "시험 접수 방법",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "heading",
+    "context": "ODA 자격증 (글로벌 감리 전문가)",
+    "preview": "1. ODA교육원 홈페이지 접속"
+  },
+  {
+    "term": "ODA교육원 홈페이지",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "시험 접수 방법",
+    "preview": "1. ODA교육원 홈페이지 접속"
+  },
+  {
+    "term": "회원가입",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "시험 접수 방법",
+    "preview": "2. 오른쪽 상단 \"회원가입\" 버튼 클릭"
+  },
+  {
+    "term": "KOICA 통합회원가입",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "시험 접수 방법",
+    "preview": "3. KOICA 통합회원가입 페이지로 이동"
+  },
+  {
+    "term": "마이페이지",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "시험 접수 방법",
+    "preview": "5. 회원가입 완료 후, 마이페이지에서 \"자격시험접수\" 클릭"
+  },
+  {
+    "term": "자격시험접수",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "시험 접수 방법",
+    "preview": "5. 회원가입 완료 후, 마이페이지에서 \"자격시험접수\" 클릭"
+  },
+  {
+    "term": "응시료 결제",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "시험 접수 방법",
+    "preview": "6. 접수기간 내 응시료 결제 완료"
+  },
+  {
+    "term": "접수 기간",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "시험 접수 방법",
+    "preview": "> 접수 기간은 매년 2월경 ODA교육원 홈페이지에서 공지됩니다."
+  },
+  {
+    "term": "2월경",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "시험 접수 방법",
+    "preview": "> 접수 기간은 매년 2월경 ODA교육원 홈페이지에서 공지됩니다."
+  },
+  {
+    "term": "응시료 미결제 시 자동 취소",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "시험 접수 방법",
+    "preview": "> 접수 완료 후 응시료 미결제 시 자동 취소되므로 주의하세요."
+  },
+  {
+    "term": "응시료",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "시험 접수 방법",
+    "preview": "- 응시료: 20,000원 (변동 가능)"
+  },
+  {
+    "term": "관련 링크",
+    "section": "oda_certification",
+    "label": "ODA 자격증 (글로벌 감리)",
+    "type": "keyword",
+    "context": "시험 접수 방법",
+    "preview": "- 관련 링크: [ODA교육원 자격시험 안내](https://oda.koica.go.kr/qualification/FourthCertiIntro.do), [경기도…"
+  },
+  {
+    "term": "모바일 PWA 배포 전략",
+    "section": "pwa_deployment_strategy",
+    "label": "모바일 PWA 배포 전략",
+    "type": "heading",
+    "context": "",
+    "preview": "> \"Progressive Web App\" - 웹 기술로 모바일 앱을 배포하는 전략"
+  },
+  {
+    "term": "Progressive Web App",
+    "section": "pwa_deployment_strategy",
+    "label": "모바일 PWA 배포 전략",
+    "type": "keyword",
+    "context": "모바일 PWA 배포 전략",
+    "preview": "> \"Progressive Web App\" - 웹 기술로 모바일 앱을 배포하는 전략"
+  },
+  {
+    "term": "스토어 없는 배포 (브라우저 기반)",
+    "section": "pwa_deployment_strategy",
+    "label": "모바일 PWA 배포 전략",
+    "type": "heading",
+    "context": "모바일 PWA 배포 전략",
+    "preview": "PWA는 웹사이트처럼 URL(주소)만 있으면 어디서든 접근할 수 있습니다. 사용자가 브라우저(Chrome, Safari 등)로 접속한 뒤, 메뉴의 '홈 화면에 추…"
+  },
+  {
+    "term": "심사 과정 생략",
+    "section": "pwa_deployment_strategy",
+    "label": "모바일 PWA 배포 전략",
+    "type": "keyword",
+    "context": "스토어 없는 배포 (브라우저 기반)",
+    "preview": "- 심사 과정 생략: 스토어의 까다로운 심사 가이드라인을 지킬 필요가 없으며, 승인을 기다릴 필요도 없습니다."
+  },
+  {
+    "term": "즉시 업데이트",
+    "section": "pwa_deployment_strategy",
+    "label": "모바일 PWA 배포 전략",
+    "type": "keyword",
+    "context": "스토어 없는 배포 (브라우저 기반)",
+    "preview": "- 즉시 업데이트: 개발자가 서버에 코드를 올리는 즉시 모든 사용자에게 최신 버전이 반영됩니다. 사용자가 스토어에서 일일이 '업데이트' 버튼을 누르지 않아도 됩니…"
+  },
+  {
+    "term": "스토어 배포도 가능 (선택 사항)",
+    "section": "pwa_deployment_strategy",
+    "label": "모바일 PWA 배포 전략",
+    "type": "heading",
+    "context": "모바일 PWA 배포 전략",
+    "preview": "스토어 배포가 필수는 아니지만, 필요하다면 TWA(Trusted Web Activity) 기술 등을 이용해 스토어에 등록할 수도 있습니다."
+  },
+  {
+    "term": "신뢰도 향상",
+    "section": "pwa_deployment_strategy",
+    "label": "모바일 PWA 배포 전략",
+    "type": "keyword",
+    "context": "스토어 배포도 가능 (선택 사항)",
+    "preview": "- 신뢰도 향상: 사용자들이 앱을 찾을 때 습관적으로 스토어를 검색하기 때문에 마케팅 측면에서 유리할 수 있습니다."
+  },
+  {
+    "term": "수수료 우회",
+    "section": "pwa_deployment_strategy",
+    "label": "모바일 PWA 배포 전략",
+    "type": "keyword",
+    "context": "스토어 배포도 가능 (선택 사항)",
+    "preview": "- 수수료 우회: 스토어를 거치지 않고 직접 배포하면 인앱 결제 시 발생하는 15~30%의 플랫폼 수수료를 낼 필요가 없습니다."
+  },
+  {
+    "term": "PWA 배포 시 고려할 점",
+    "section": "pwa_deployment_strategy",
+    "label": "모바일 PWA 배포 전략",
+    "type": "heading",
+    "context": "모바일 PWA 배포 전략",
+    "preview": "스토어 배포를 하지 않을 경우 다음과 같은 기술적/운영적 차이가 발생합니다."
+  },
+  {
+    "term": "푸시 알림 제약",
+    "section": "pwa_deployment_strategy",
+    "label": "모바일 PWA 배포 전략",
+    "type": "keyword",
+    "context": "PWA 배포 시 고려할 점",
+    "preview": "- 푸시 알림 제약: 안드로이드는 문제없지만, iOS(아이폰)의 경우 비교적 최근 버전부터 PWA 푸시 알림을 지원하기 시작했으므로 OS 버전을 체크해야 합니다."
+  },
+  {
+    "term": "설치 유도 UI",
+    "section": "pwa_deployment_strategy",
+    "label": "모바일 PWA 배포 전략",
+    "type": "keyword",
+    "context": "PWA 배포 시 고려할 점",
+    "preview": "- \"설치 유도 UI\": 스토어라는 \"신뢰된 설치 경로\"가 없기 때문에, 웹사이트 내에서 사용자에게 \"앱으로 설치해서 사용해 보세요\"라는 안내 팝업이나 배너를 직…"
+  },
+  {
+    "term": "신뢰된 설치 경로",
+    "section": "pwa_deployment_strategy",
+    "label": "모바일 PWA 배포 전략",
+    "type": "keyword",
+    "context": "PWA 배포 시 고려할 점",
+    "preview": "- \"설치 유도 UI\": 스토어라는 \"신뢰된 설치 경로\"가 없기 때문에, 웹사이트 내에서 사용자에게 \"앱으로 설치해서 사용해 보세요\"라는 안내 팝업이나 배너를 직…"
+  },
+  {
+    "term": "앱으로 설치해서 사용해 보세요",
+    "section": "pwa_deployment_strategy",
+    "label": "모바일 PWA 배포 전략",
+    "type": "keyword",
+    "context": "PWA 배포 시 고려할 점",
+    "preview": "- \"설치 유도 UI\": 스토어라는 \"신뢰된 설치 경로\"가 없기 때문에, 웹사이트 내에서 사용자에게 \"앱으로 설치해서 사용해 보세요\"라는 안내 팝업이나 배너를 직…"
+  },
+  {
+    "term": "\"설치 유도 UI\"",
+    "section": "pwa_deployment_strategy",
+    "label": "모바일 PWA 배포 전략",
+    "type": "keyword",
+    "context": "PWA 배포 시 고려할 점",
+    "preview": "\"설치 유도 UI\": 스토어라는 \"신뢰된 설치 경로\"가 없기 때문에, 웹사이트 내에서 사용자에게 \"앱으로 설치해서 사용해 보세요\"라는 안내 팝업이나 배너를 직접 "
+  },
+  {
+    "term": "하드웨어 접근",
+    "section": "pwa_deployment_strategy",
+    "label": "모바일 PWA 배포 전략",
+    "type": "keyword",
+    "context": "PWA 배포 시 고려할 점",
+    "preview": "- 하드웨어 접근: 블루투스나 고도화된 센서 제어 등 일부 네이티브 기능은 웹 브라우저 보안 정책상 제한될 수 있습니다."
   },
   {
     "term": "자주 묻는 질문 (FAQ)",
