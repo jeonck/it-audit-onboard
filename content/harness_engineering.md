@@ -31,6 +31,8 @@ flowchart LR
     style HE fill:#d4edda,stroke:#28a745,color:#333
 ```
 
+![하네스 엔지니어링 전체 구조도](harness_eng.png)
+
 ---
 
 ## 3. 왜 지금 주목해야 하나?
@@ -45,7 +47,47 @@ flowchart LR
 
 ## 4. 하네스의 전체 구조
 
-![하네스 엔지니어링 전체 구조도](harness_eng.png)
+```mermaid
+flowchart TD
+    ROOT["🏗️ 하네스(Harness)란?\n에이전트 실행 환경 전체를 제어하는 구조"]
+
+    ROOT --> C1 & C2 & C3 & C4
+
+    C1["📄 컨텍스트 문서화\n─────────────\nAGENTS.md\nCLAUDE.md\n프로젝트 규칙 문서"]
+    C2["🏛️ 아키텍처 제약\n─────────────\n의존성 레이어링\n모듈 경계 규칙\n코드 변경 범위 한정"]
+    C3["🔄 피드백 루프\n─────────────\n린터 · 타입체커\n테스트 스위트\npre-commit hook"]
+    C4["⚙️ 생명주기 관리\n─────────────\nCI/CD 파이프라인\nPR 검증 자동화\n변경 관문 설치"]
+
+    C1 & C2 & C3 & C4 --> OPENAI
+
+    subgraph OPENAI["4대 핵심 도구 (OpenAI 문서) — OpenAI 공식 분류"]
+        direction LR
+        T1["📋 지침\nInstructions\nAGENTS.md 행동 규칙"]
+        T2["🔧 도구\nTools\n외부 시스템 접근 제어"]
+        T3["🗂️ 컨텍스트\nContext\n코드 · 문서 · 메모리"]
+        T4["🛡️ 가드레일\nGuardrails\n품질 게이트 · 제약"]
+    end
+
+    OPENAI --> CASES
+
+    subgraph CASES["실무 적용 사례"]
+        direction LR
+        OAI["🤖 OpenAI 코딩 에이전트\n─────────────────\n▪ bash · edit 도구\n▪ 파일 읽기 · 쓰기\n▪ 웹 검색 연동\n▪ 테스트 자동 실행"]
+        LC["🦜 LangChain 하네스 전략\n─────────────────\n▪ 체크포인팅\n▪ 메모리 레이어\n▪ 에러 복구 전략\n▪ 툴 권한 분리"]
+    end
+
+    style ROOT fill:#e8f4f8,stroke:#2196F3,color:#333
+    style C1 fill:#fff9e6,stroke:#ffc107,color:#333
+    style C2 fill:#fff9e6,stroke:#ffc107,color:#333
+    style C3 fill:#fff9e6,stroke:#ffc107,color:#333
+    style C4 fill:#fff9e6,stroke:#ffc107,color:#333
+    style T1 fill:#e8f5e9,stroke:#4caf50,color:#333
+    style T2 fill:#e8f5e9,stroke:#4caf50,color:#333
+    style T3 fill:#e8f5e9,stroke:#4caf50,color:#333
+    style T4 fill:#e8f5e9,stroke:#4caf50,color:#333
+    style OAI fill:#fce4ec,stroke:#e91e63,color:#333
+    style LC fill:#fce4ec,stroke:#e91e63,color:#333
+```
 
 > **핵심 공식**: 하네스 엔지니어링 = AI 에이전트에게 일관된 고품질 성과를 이끌어내는 실행 환경 설계
 
