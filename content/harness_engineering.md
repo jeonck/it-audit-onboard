@@ -47,7 +47,7 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    ROOT["🏗️ 하네스 Harness\n에이전트 실행 환경 전체를 제어하는 구조"]
+    ROOT["🏗️ 하네스(Harness)란?\n에이전트 실행 환경 전체를 제어하는 구조"]
 
     ROOT --> C1 & C2 & C3 & C4
 
@@ -58,7 +58,7 @@ flowchart TD
 
     C1 & C2 & C3 & C4 --> OPENAI
 
-    subgraph OPENAI["4대 핵심 도구 — OpenAI 공식 분류"]
+    subgraph OPENAI["4대 핵심 도구 (OpenAI 문서) — OpenAI 공식 분류"]
         direction LR
         T1["📋 지침\nInstructions\nAGENTS.md 행동 규칙"]
         T2["🔧 도구\nTools\n외부 시스템 접근 제어"]
